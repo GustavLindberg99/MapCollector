@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<place boxpos="bl">
+    <stations>
+        <station name="Reboleira" x="350" y="50"/>
+        <station name="Amadora Este" x="400" y="100"/>
+        <station name="Alfornelos" x="450" y="150"/>
+        <station name="Pontinha" x="500" y="200"/>
+        <station name="Carnide" x="550" y="250"/>
+        <station name="Colégio Militar/Luz" x="600" y="300"/>
+        <station name="Alto dos Moinhos" x="650" y="350"/>
+        <station name="Laranjeiras" x="700" y="400"/>
+        <station name="Jardim &#10;Zoológico" x="750" y="450" a="left"/>
+        <station name="Praça &#10;de Espanha" x="800" y="500" a="left"/>
+        <station name="São &#10;Sebastião" x="850" y="550" a="left" w="1" h="1"/>
+        <station name="Parque" x="900" y="600" a="left"/>
+        <station name="Marquês de &#10;Pombal" x="950" y="650" a="bottom" w="1" h="1"/>
+        <station name="Avenida" x="1000" y="700" a="l"/>
+        <station name="Restauradores" x="1050" y="750" a="left"/>
+        <station name="Baixa-Chiado" x="1100" y="800" a="left" w="1" h="1"/>
+        <station name="Terreiro do Paço" x="1230" y="860" a="top"/>
+        <station name="Santa Apolónia" x="1320" y="860"/>
+
+        <station name="Odivelas" x="950" y="100"/>
+        <station name="Senhor Roubado" x="950" y="150"/>
+        <station name="Ameixoeira" x="950" y="200"/>
+        <station name="Lumiar" x="950" y="250"/>
+        <station name="Quinta das Conchas" x="950" y="300"/>
+        <station name="Campo Grande" x="950" y="350" w="1" h="1"/>
+        <station name="Cidade &#10;Universitária" x="950" y="400" a="left"/>
+        <station name="Entre Campos" x="950" y="450" a="left"/>
+        <station name="Campo &#10;Pequeno" x="950" y="500" a="left"/>
+        <station name="Saldanha" x="950" y="550" w="1" h="1"/>
+        <station name="Picoas" x="950" y="600"/>
+        <station name="Rato" x="800" y="620" a="top"/>
+
+        <station name="Telheiras" x="900" y="350" a="left"/>
+        <station name="Alvalade" x="1000" y="400" a="bottom"/>
+        <station name="Roma" x="1050" y="400"/>
+        <station name="Areeiro" x="1100" y="450"/>
+        <station name="&#10;Alameda" x="1100" y="500" a="left" w="1" h="1"/>
+        <station name="Arroios" x="1100" y="550" a="left"/>
+        <station name="Anjos" x="1100" y="600" a="left"/>
+        <station name="Intendente" x="1100" y="650" a="left"/>
+        <station name="Martim Moniz" x="1100" y="700" a="l"/>
+        <station name="Rossio" x="1100" y="750"/>
+        <station name="Cais do &#10;Sodré" x="1100" y="950" a="bottom"/>
+
+        <station name="Aeroporto" x="1210" y="200" a="left"/>
+        <station name="Encarnação" x="1280" y="200" a="top"/>
+        <station name="Moscavide" x="1350" y="200"/>
+        <station name="Oriente" x="1400" y="250"/>
+        <station name="Cabo Ruivo" x="1400" y="300"/>
+        <station name="Olivais" x="1350" y="350"/>
+        <station name="Chelas" x="1300" y="400"/>
+        <station name="Bela Vista" x="1250" y="450"/>
+        <station name="Olaias" x="1200" y="500"/>
+    </stations>
+    <lines>
+        <trainLine name="Az" color="#4e84c4">
+            <stationRef name="Reboleira"/><stationRef name="Amadora Este"/><label/><stationRef name="Alfornelos"/><stationRef name="Pontinha"/><stationRef name="Carnide"/><label/><stationRef name="Colégio Militar/Luz"/><stationRef name="Alto dos Moinhos"/><stationRef name="Laranjeiras"/><label/><stationRef name="Jardim Zoológico"/><stationRef name="Praça de Espanha"/><stationRef name="São Sebastião"/><label/><stationRef name="Parque"/><stationRef name="Marquês de Pombal"/><stationRef name="Avenida"/><label/><stationRef name="Restauradores"/><stationRef name="Baixa-Chiado"/><point x="1160" y="860"/><label/><stationRef name="Terreiro do Paço"/><stationRef name="Santa Apolónia"/>
+        </trainLine>
+        <trainLine name="Am" color="#fdb913">
+            <stationRef name="Odivelas"/><stationRef name="Senhor Roubado"/><label/><stationRef name="Ameixoeira"/><stationRef name="Lumiar"/><stationRef name="Quinta das Conchas"/><label/><stationRef name="Campo Grande"/><stationRef name="Cidade Universitária"/><stationRef name="Entre Campos"/><label/><stationRef name="Campo Pequeno"/><stationRef name="Saldanha"/><label/><stationRef name="Picoas"/><stationRef name="Marquês de Pombal"/><point x="870" y="650"/><label/><point x="840" y="620"/><stationRef name="Rato" mr="1"/>
+        </trainLine>
+        <trainLine name="Vm" color="#ee2b74">
+            <stationRef name="Aeroporto"/><stationRef name="Encarnação"/><label/><stationRef name="Moscavide"/><stationRef name="Oriente"/><label/><stationRef name="Cabo Ruivo"/><stationRef name="Olivais"/><stationRef name="Chelas"/><label/><stationRef name="Bela Vista"/><stationRef name="Olaias"/><stationRef name="Alameda"/><label/><point x="1000" y="500"/><stationRef name="Saldanha"/><label/><stationRef name="São Sebastião"/>
+        </trainLine>
+        <trainLine name="Vd" color="#00aaa6">
+            <stationRef name="Telheiras"/><stationRef name="Campo Grande"/><label/><stationRef name="Alvalade"/><stationRef name="Roma"/><label/><stationRef name="Areeiro"/><stationRef name="Alameda"/><stationRef name="Arroios"/><label/><stationRef name="Anjos"/><stationRef name="Intendente"/><stationRef name="Martim Moniz"/><stationRef name="Rossio"/><label/><stationRef name="Baixa-Chiado"/><stationRef name="Cais do Sodré" mu="2"/>
+        </trainLine>
+    </lines>
+    <background width="1900" height="1070">
+        <sea points="l 970, 1100 970, 1170 900, 1300 900, 1450 750, 1450 t, r t, r b, l b"/>
+        <zone name="1" color="2" points="l t, l b, r b, r t"/>
+        <zone name="L" color="1" points="r b, r 125, 550 125, 450 225, 100 225, 50 275, 50 b"/>
+    </background>
+    <extra id="tram">
+        <stations>
+            <station name="Socorro" x="1170" y="700" a="top"/>
+            <station name="Lg. &#10;Terreirinho" x="1240" y="700" a="top"/>
+            <station name="R. Lagares" x="1290" y="700"/>
+            <station name="São Tomé" x="1320" y="730" a="left"/>
+
+            <station name="R. Palma" x="1150" y="650"/>
+            <station name="Ingreja &#10;Anjos" x="1150" y="600"/>
+            <station name="Maria Andrade" x="1200" y="550" a="top"/>
+            <station name="Maria &#10;Fonte" x="1250" y="550" a="bottom"/>
+            <station name="Angelina &#10;Vidal" x="1300" y="550" a="top"/>
+            <station name="Sapadores" x="1350" y="550"/>
+            <station name="Rua Graça" x="1390" y="590"/>
+            <station name="Graça" x="1430" y="630"/>
+            <station name="Voz Operário" x="1430" y="680"/>
+            <station name="Calçada São Vicente" x="1390" y="720"/>
+            <station name="Largo Portas Sol" x="1350" y="760"/>
+            <station name="Miradouro Santa Luzia" x="1320" y="790"/>
+            <station name="Limoeiro" x="1290" y="820"/>
+            <station name="Sé" x="1230" y="820" a="top"/>
+            <station name="Ingreja &#10;Magdalena" x="1170" y="820" a="top"/>
+            <station name="R. Conceição" x="1050" y="820" a="bottom"/>
+            <station name="Lg. Belas &#10;Artes" x="960" y="820" a="bottom"/>
+            <station name="Pç. Luis &#10;Camões" x="880" y="820" a="bottom"/>
+            <station name="Calhariz" x="820" y="820" a="left"/>
+            <station name="Santa &#10;Catarina" x="770" y="770" a="left"/>
+            <station name="Calçada &#10;Combro" x="720" y="720" a="left"/>
+            <station name="Torre Tombo" x="630" y="690" a="left"/>
+            <station name="Calçada Estrela/Rua &#10;Borges Carneiro" x="555" y="615" a="left"/>
+            <station name="&#10;Calçada Estrela/&#10;R. Teófilo Braga" x="470" y="530" a="left"/>
+
+            <station name="Rua da Alfândega" x="1300" y="890"/>
+            <station name="Praça &#10;Comércio" x="1220" y="890" a="bottom"/>
+            <station name="Corpo &#10;Santo" x="1160" y="890" a="bottom"/>
+            <station name="Rua São Paulo" x="1080" y="890" a="top"/>
+            <station name="Conde &#10;Barão" x="1010" y="890" a="bottom"/>
+            <station name="Lg. Vitorino &#10;Damásio" x="930" y="890" a="bottom"/>
+            <station name="Santos" x="850" y="890" a="bottom"/>
+            <station name="Santos-O-&#10;Velho" x="790" y="890" a="top"/>
+            <station name="R. São &#10;João Mata" x="590" y="780" a="top"/>
+            <station name="Rua Garcia Orta" x="520" y="780" a="left"/>
+            <station name="Rua São Domingos à Lapa" x="470" y="730" a="left"/>
+            <station name="Rua Santana à Lapa" x="420" y="680" a="left"/>
+            <station name="Rua Buenos Aires" x="370" y="630" a="left"/>
+            <station name="Rua João Deus" x="320" y="580" a="left"/>
+            <station name="Estrela" x="270" y="530" a="left"/>
+            <station name="Rua Domingos Sequeira" x="220" y="480" a="left"/>
+            <station name="Rua Saraiva Carvalho" x="170" y="430"/>
+            <station name="Ingreja de Santo Condestável" x="100" y="360"/>
+            <station name="Cemitério Prazeres" x="100" y="300"/>
+
+            <station name="Lg. Trindade Coelho" x="840" y="780"/>
+            <station name="Ascensor &#10;da Glória" x="840" y="730"/>
+            <station name="Príncipe Real" x="840" y="695" a="left"/>
+            <station name="R. Escola Politécnica" x="840" y="660" a="left"/>
+            <station name="Jardim das &#10;Amoreiras" x="740" y="620" a="left"/>
+            <station name="Rua das Amoreiras" x="690" y="570" a="left"/>
+            <station name="Av. Conselheiro &#10;F. de Sousa" x="640" y="520" a="left"/>
+            <station name="Campolide" x="590" y="470" a="left"/>
+
+            <station name="Av. 24 &#10;Julho" x="1040" y="950" a="bottom"/>
+            <station name="Santos &#10;Estação" x="980" y="950" a="bottom"/>
+            <station name="Cais &#10;Rocha" x="920" y="950" a="bottom"/>
+            <station name="Infante &#10;Santo" x="860" y="950" a="bottom"/>
+            <station name="Alcâantara/&#10;Av. 24 &#10;Julho" x="790" y="950" a="bottom"/>
+            <station name="Calvário" x="710" y="950" a="bottom"/>
+            <station name="Estação &#10;Sto. &#10;Amaro" x="630" y="950" a="bottom"/>
+            <station name="Rua &#10;Junqueira" x="550" y="950" a="bottom"/>
+            <station name="Hostpital &#10;Egas &#10;Moniz" x="470" y="950" a="bottom"/>
+            <station name="R. Pinto &#10;Ferreira" x="390" y="950" a="bottom"/>
+            <station name="Altinho" x="310" y="950" a="bottom"/>
+            <station name="Belém" x="230" y="950" a="bottom"/>
+            <station name="Mosteiro &#10;dos &#10;Jerónimos" x="150" y="950" a="bottom"/>
+            <station name="Algés &#10;Jardim" x="30" y="950" a="bottom"/>
+
+            <station name="Cç. da Tapada" x="660" y="900"/>
+            <station name="Pavilhâo &#10;da Ajuda" x="590" y="900" a="top"/>
+            <station name="R. João Barros" x="520" y="900" a="bottom"/>
+            <station name="Alto Sto. Amaro" x="450" y="900" a="top"/>
+            <station name="Rico Seco" x="380" y="900" a="bottom"/>
+            <station name="Calçada &#10;Boa Hora" x="310" y="900" a="top"/>
+            <station name="R. D. Vasco" x="240" y="900" a="bottom"/>
+            <station name="Rua Bica &#10;Marquês" x="170" y="900" a="top"/>
+            <station name="Cemitério &#10;Ajuda" x="100" y="900" a="left"/>
+        </stations>
+        <lines>
+            <trainLine name="12" color="#80dd58">
+                <stationRef name="Martim Moniz" mr="2"/><stationRef name="Socorro"/><stationRef name="Lg. Terreirinho"/><label/><stationRef name="R. Lagares"/><stationRef name="São Tomé"/><stationRef name="Largo Portas Sol" mul="1"/><stationRef name="Miradouro Santa Luzia" mul="1"/><stationRef name="Limoeiro" ml="0.4" mu="1"/><stationRef name="Sé" mu="1"/><label/><stationRef name="Ingreja Magdalena" mu="1"/><stationRef name="Rossio" mr="1"/><stationRef name="Martim Moniz" mr="1"/>
+            </trainLine>
+            <trainLine name="15" color="#b0b0b0">
+                <stationRef name="Rossio" mr="1" md="1.4"/><point x="1160" y="810" ml="1" mu="0.6"/><label/><stationRef name="Corpo Santo" ml="1" mu="1"/><point station="Corpo Santo" ml="1" md="1"/><stationRef name="Cais do Sodré"/><stationRef name="Av. 24 Julho"/><stationRef name="Santos Estação"/><label/><stationRef name="Cais Rocha"/><stationRef name="Infante Santo"/><stationRef name="Alcâantara/Av. 24 Julho"/><stationRef name="Calvário"/><label/><stationRef name="Estação Sto. Amaro"/><stationRef name="Rua Junqueira"/><stationRef name="Hostpital Egas Moniz"/><label/><stationRef name="R. Pinto Ferreira"/><stationRef name="Altinho"/><stationRef name="Belém"/><label/><stationRef name="Mosteiro dos Jerónimos"/><stationRef name="Algés Jardim"/>
+            </trainLine>
+            <trainLine name="18" color="#67009b">
+                <stationRef name="Rua da Alfândega" md="1"/><label offset="1"/><stationRef name="Praça Comércio" md="1"/><stationRef name="Corpo Santo" md="1"/><point station="Corpo Santo" ml="2.4" md="1"/><stationRef name="Cais do Sodré" ml="0.4" mu="1"/><stationRef name="Av. 24 Julho" mu="1"/><label/><stationRef name="Santos Estação" mu="1"/><stationRef name="Cais Rocha" mu="1"/><stationRef name="Infante Santo" mu="1"/><stationRef name="Alcâantara/Av. 24 Julho" mu="1"/><stationRef name="Calvário" mu="1"/><label/><stationRef name="Cç. da Tapada" mr="1"/><stationRef name="Pavilhâo da Ajuda"/><stationRef name="R. João Barros"/><label/><stationRef name="Alto Sto. Amaro"/><stationRef name="Rico Seco"/><stationRef name="Calçada Boa Hora"/><stationRef name="R. D. Vasco"/><label/><stationRef name="Rua Bica Marquês"/><stationRef name="Cemitério Ajuda"/>
+            </trainLine>
+            <trainLine name="24" color="#0ccbff">
+                <stationRef name="Pç. Luis Camões" mul="1"/><stationRef name="Lg. Trindade Coelho"/><label/><stationRef name="Ascensor da Glória"/><stationRef name="Príncipe Real"/><stationRef name="R. Escola Politécnica"/><stationRef name="Rato"/><stationRef name="Jardim das Amoreiras"/><stationRef name="Rua das Amoreiras"/><label/><stationRef name="Av. Conselheiro F. de Sousa"/><stationRef name="Campolide"/>
+            </trainLine>
+            <trainLine name="25" color="#eaa800">
+                <stationRef name="Rua da Alfândega"/><label offset="-1"/><stationRef name="Praça Comércio"/><stationRef name="Corpo Santo"/><stationRef name="Rua São Paulo"/><stationRef name="Conde Barão"/><label/><stationRef name="Lg. Vitorino Damásio"/><stationRef name="Santos"/><stationRef name="Santos-O-Velho"/><point x="770" y="890"/><label/><point x="660" y="780"/><stationRef name="R. São João Mata"/><stationRef name="Rua Garcia Orta"/><label/><stationRef name="Rua São Domingos à Lapa"/><stationRef name="Rua Santana à Lapa"/><stationRef name="Rua Buenos Aires"/><label/><stationRef name="Rua João Deus"/><stationRef name="Estrela"/><stationRef name="Rua Domingos Sequeira"/><stationRef name="Rua Saraiva Carvalho"/><label offset="1"/><stationRef name="Ingreja de Santo Condestável"/><stationRef name="Cemitério Prazeres"/>
+            </trainLine>
+            <trainLine name="28" color="#ee2c12">
+                <stationRef name="Martim Moniz" mr="1" mu="1"/><label/><stationRef name="R. Palma"/><stationRef name="Ingreja Anjos"/><stationRef name="Maria Andrade"/><stationRef name="Maria Fonte"/><stationRef name="Angelina Vidal"/><label/><stationRef name="Sapadores"/><stationRef name="Rua Graça"/><stationRef name="Graça"/><stationRef name="Voz Operário"/><label/><stationRef name="Calçada São Vicente"/><stationRef name="Largo Portas Sol"/><stationRef name="Miradouro Santa Luzia"/><stationRef name="Limoeiro"/><label/><stationRef name="Sé"/><stationRef name="Ingreja Magdalena"/><stationRef name="R. Conceição"/><label/><stationRef name="Lg. Belas Artes"/><stationRef name="Pç. Luis Camões"/><stationRef name="Calhariz"/><label/><stationRef name="Santa Catarina"/><stationRef name="Calçada Combro"/><point x="690" y="690"/><stationRef name="Torre Tombo"/><label/><stationRef name="Calçada Estrela/Rua Borges Carneiro"/><stationRef name="Calçada Estrela/R. Teófilo Braga" mul="1"/><label/><stationRef name="Estrela" mur="1"/><stationRef name="Rua Domingos Sequeira" mur="1"/><stationRef name="Rua Saraiva Carvalho" mur="1"/><label offset="-1"/><stationRef name="Ingreja de Santo Condestável" mr="1" mu="0.4"/><stationRef name="Cemitério Prazeres" mr="1"/>
+            </trainLine>
+
+            <walkingLine>
+                <stationRef name="R. Conceição"/>
+                <stationRef name="Baixa-Chiado"/>
+            </walkingLine>
+            <walkingLine>
+                <stationRef name="Terreiro do Paço"/>
+                <stationRef name="Rua da Alfândega"/>
+            </walkingLine>
+            <walkingLine>
+                <stationRef name="Santos"/>
+                <stationRef name="Santos Estação"/>
+            </walkingLine>
+        </lines>
+    </extra>
+</place>

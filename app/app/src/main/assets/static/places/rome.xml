@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<place>
+  <stations similarLines="color">
+    <station name="Battistini" x="10" y="200" a="l"/>
+    <station name="Flaminio" x="500" y="200"/>
+    <station name="Termini" x="700" y="400" a="l" w="1" h="1"/>
+    <station name="San Giovanni" x="850" y="550" a="l" w="1" h="1"/>
+    <station name="Anagnina" x="1450" y="1150" a="l"/>
+
+    <station name="Cristoforo Colombo" x="600" y="1620"/>
+    <station name="Laurentina" x="750" y="1070"/>
+    <station name="Eur Magliana" x="600" y="920"/>
+    <station name="Basilica San Paulo" x="600" y="780"/>
+    <station name="Piramide" x="600" y="640"/>
+    <station name="Porta San Paulo" x="580" y="640" a="l"/>
+    <station name="Colosseo" x="600" y="500"/>
+    <station name="Bologna" x="850" y="250" a="l"/>
+    <station name="Rebibbia" x="1340" y="250"/>
+    <station name="Jonio" x="850" y="-30"/>
+
+    <station name="Alessi" x="1260" y="400"/>
+    <station name="Alessandrino" x="1410" y="550" a="b"/>
+    <station name="Torre &#10;Spaccata" x="1480" y="550" a="t"/>
+    <station name="Torre Maura" x="1550" y="550" a="b"/>
+    <station name="Tobagi" x="1620" y="550" a="t"/>
+    <station name="Giardinetti" x="1690" y="550" a="b"/>
+    <station name="Monte Comptatri/Pantano" x="2390" y="550"/>
+
+    <station name="Euclide" x="500" y="130"/>
+    <station name="Acqua Acetosa" x="500" y="60"/>
+    <station name="Saxa Rubra" x="500" y="-360"/>
+    <station name="Montebello" x="500" y="-780"/>
+    <station name="Viterbo" x="500" y="-2180"/>
+  </stations>
+  <lines>
+    <trainLine name="A" color="#F26D1B">
+      <stationRef name="Battistini"/><autoStation name="Cornelia" a="t"/><label/><autoStation name="Baldo &#10;degli &#10;Ubaldi" a="b"/><autoStation name="Valle Aurelia" a="t"/><autoStation name="Cipro" a="b"/><autoStation name="Ottaviano &#10;S. Pietro" a="t"/><autoStation name="Lepanto" a="b"/><stationRef name="Flaminio"/><label/><autoStation name="Spagna"/><autoStation name="Barberini" a="l"/><autoStation name="Repubblica" a="l"/><stationRef name="Termini"/><autoStation name="Vittorio Emanuele"/><label/><autoStation name="Manzoni" a="l"/><stationRef name="San Giovanni"/><autoStation name="Re di Roma" a="l"/><autoStation name="Ponte Lungo" a="l"/><label/><autoStation name="Furio Camillo" a="l"/><autoStation name="Colli Albani" a="l"/><autoStation name="Arco di Travertino" a="l"/><autoStation name="Porta Furba-Quadraro" a="l"/><autoStation name="Numidio Quadrato" a="l"/><autoStation name="Lucio Sestio" a="l"/><autoStation name="Giulio Agricola" a="l"/><label/><autoStation name="Subaugusta" a="l"/><autoStation name="Cincecittà" a="l"/><stationRef name="Anagnina"/>
+    </trainLine>
+    <trainLine name="B" color="#0071BA">
+      <stationRef name="Laurentina"/><autoStation name="Eur Fermi"/><label/><autoStation name="Eur Palasport"/><stationRef name="Eur Magliana"/><autoStation name="Marconi"/><stationRef name="Basilica San Paulo"/><label offset="-1"/><autoStation name="Garbatella"/><stationRef name="Piramide"/><autoStation name="Circo Massimo"/><label/><stationRef name="Colosseo"/><autoStation name="Cavour" a="l"/><stationRef name="Termini"/><autoStation name="Castro Pretorio"/><label/><autoStation name="Policlinico"/><stationRef name="Bologna"/>
+      <branch>
+        <autoStation name="Tiburtina" a="b"/><autoStation name="Quintiliani" a="t"/><label/><autoStation name="Monti &#10;Tiburtini" a="b"/><autoStation name="Pietralata" a="t"/><autoStation name="Santa Maria &#10;del Soccorso" a="b"/><autoStation name="Ponte &#10;Mammolo" a="t"/><stationRef name="Rebibbia"/>
+      </branch>
+      <branch>
+        <autoStation name="S. Agnese Annibaliano"/><autoStation name="Libia"/><label/><autoStation name="Conca d'Oro"/><stationRef name="Jonio"/>
+      </branch>
+    </trainLine>
+    <trainLine name="C" color="#008751">
+      <stationRef name="San Giovanni"/><autoStation name="Lodi" a="t"/><label/><autoStation name="Pigneto" a="b"/><autoStation name="Malatesta" a="t"/><autoStation name="Teano" a="b"/><autoStation name="Gardenie" a="t"/><autoStation name="Mirti" a="b"/><autoStation name="Parco di &#10;Centocelle" a="t"/><stationRef name="Alessandrino"/><stationRef name="Torre Spaccata"/><stationRef name="Torre Maura"/><label offset="-2"/><stationRef name="Giardinetti"/><autoStation name="Torrenova" a="t"/><autoStation name="Torre Angela" a="b"/><autoStation name="Torre Gaia" a="t"/><autoStation name="Grotte &#10;Celoni" a="b"/><autoStation name="Due Leoni/&#10;Fontana &#10;Candida" a="t"/><autoStation name="Borghensiana" a="b"/><autoStation name="Bolognetta" a="t"/><label/><autoStation name="Finocchio" a="b"/><autoStation name="Graniti" a="t"/><stationRef name="Monte Comptatri/Pantano"/>
+    </trainLine>
+
+    <trainLine color="#26BFF0">
+      <stationRef name="Porta San Paulo" ml="1"/><point x="600" y="660" ml="1"/><label offset="1"/><stationRef name="Basilica San Paulo" ml="1"/><stationRef name="Eur Magliana" ml="1"/><autoStation name="Tor di Valle" ml="1"/><autoStation name="Vitinia" ml="1"/><label/><autoStation name="Casal Bernocchi Centro Giano" ml="1"/><autoStation name="Acilia" ml="1"/><autoStation name="Ostia Antica" ml="1"/><autoStation name="Lido Nord" ml="1"/><autoStation name="Lido Centro" ml="1"/><label/><autoStation name="Stella Polare" ml="1"/><autoStation name="Castel Fusano" ml="1"/><stationRef name="Cristoforo Colombo" ml="1"/>
+    </trainLine>
+    <trainLine color="#42B649">
+      <stationRef name="Flaminio" mu="1" mr="1"/><stationRef name="Euclide" mr="1"/><label offset="1"/><stationRef name="Acqua Acetosa" mr="1"/><autoStation name="Campi Sportivi" mr="1"/><autoStation name="Monte Antenne" mr="1"/><autoStation name="Tor di Quinto" mr="1"/><label offset="1"/><autoStation name="Due Ponti" mr="1"/><autoStation name="Grottarossa" mr="1"/><stationRef name="Saxa Rubra" mr="1"/><autoStation name="Centro RAI" mr="1"/><autoStation name="Labaro" mr="1"/><autoStation name="La Celsa" mr="1"/><label offset="1"/><autoStation name="Prima Porta" mr="1"/><autoStation name="La Giustiniana" mr="1"/><stationRef name="Montebello" mr="1"/>
+    </trainLine>
+    <trainLine color="#42B649">
+      <stationRef name="Flaminio" mu="1"/><stationRef name="Euclide"/><label offset="-1"/><stationRef name="Acqua Acetosa"/><label offset="2"/><stationRef name="Saxa Rubra"/><label offset="2"/><stationRef name="Montebello"/><autoStation name="Sacrofano"/><autoStation name="Riano"/><label/><autoStation name="Castelnuovo di Porto"/><autoStation name="Morlupo"/><autoStation name="Magliano Romano"/><autoStation name="Rignano Flaminio"/><autoStation name="Sant'Oreste"/><autoStation name="Pian Paradiso"/><autoStation name="Civita Castellana"/><label/><autoStation name="Catalano"/><autoStation name="Faleri"/><autoStation name="Fabrica di Roma"/><autoStation name="Corchiano"/><autoStation name="Vignanello"/><autoStation name="Vallerano"/><autoStation name="Soriano nel Cimino"/><autoStation name="La Fornacchia"/><label/><autoStation name="Vitorchiano"/><autoStation name="Bagnaia"/><stationRef name="Viterbo"/>
+    </trainLine>
+    <trainLine color="#FBB416">
+      <stationRef name="Termini"/><autoStation name="S. Bibiana" a="t" mr="1"/><autoStation name="Porta &#10;Maggiore" a="b" mr="1"/><autoStation name="Ponte &#10;Casilino" a="t" mr="1"/><label/><autoStation name="S. Elena" a="b" mr="1"/><autoStation name="Villini" a="t" mr="1"/><stationRef name="Alessi" mr="1"/><autoStation name="Filarete" mu="1"/><autoStation name="Tor Pignattara" mu="1"/><autoStation name="Berardi" mu="1"/><autoStation name="Balzani" mu="1"/><autoStation name="Centocelle" mu="1"/><autoStation name="Togliatti" mu="1"/><autoStation name="Grano" mu="1"/><stationRef name="Alessandrino" mu="1"/><stationRef name="Torre Spaccata" mu="1"/><stationRef name="Torre Maura" mu="1"/><label offset="-1"/><stationRef name="Tobagi" mu="1"/><stationRef name="Giardinetti" mu="1"/>
+    </trainLine>
+
+    <walkingLine>
+      <stationRef name="Porta San Paulo" ml="1"/>
+      <stationRef name="Piramide"/>
+    </walkingLine>
+  </lines>
+  <background>
+    <zone name="1" color="1" points="l t, l b, r b, r t"/>
+    <zone name="2" color="2" points="l t, l -800, r -800, r t"/>
+    <river points="550 t, 550 -180, 450 -80, 450 b"/>
+    <sea points="l -300, -300 750, 700 1750, 700 b, l b"/>
+  </background>
+</place>

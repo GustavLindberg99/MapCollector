@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Map Collector</string>
+    <string name="exitGame">Quitter la partie</string>
+    <string name="pause">Pause</string>
+    <string name="fastForward">Avancer jusqu\'à la destination</string>
+    <string name="help">Aide</string>
+    <string name="about">À propos de Map Collector</string>
+    <string name="myAccount">Mon compte</string>
+    <string name="email">Email</string>
+    <string name="password">Mot de passe</string>
+    <string name="logIn">Se connecter</string>
+    <string name="invalidEmail">Veuillez entrer une addresse e-mail valide.</string>
+    <string name="passwordMissing">Veuillez entrer votre mot de passe.</string>
+    <string name="noInternet">Impossible de contacter le serveur. Vérifiez votre connexion internet et réessayez.</string>
+    <string name="error">Une erreur est survenue: %s</string>
+    <string name="loginSucceeded">Vous êtes maintenant connecté.</string>
+    <string name="profilePicture">Image de profil</string>
+    <string name="statistics">Statistiques</string>
+    <string name="account">Compte</string>
+    <string name="editProfile">Changer votre profil</string>
+    <string name="deleteAccount">Supprimer votre compte</string>
+    <string name="logOut">Se déconnecter</string>
+    <string name="logOutConfirmation">Voulez-vous vraiment vous déconnecter?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="score">Score: %d</string>
+    <string name="numberOfMaps">Nombre de maps collectionnés: %d</string>
+    <string name="winningRate">Taux de gain: %d</string>
+    <string name="completedChallenges">Défis complétés:</string>
+    <string name="easyChallenges">Défis faciles</string>
+    <string name="mediumChallenges">Défis moyens</string>
+    <string name="difficultChallenges">Défis difficiles</string>
+    <string name="viewDetails">Voir les détails</string>
+    <string name="ok">OK</string>
+    <string name="aboutString"><![CDATA[Version %1$s<br/><br/><a href="%2$s">%2$s</a><br/><br/>Les icônes faites par %5$s et %6$s pour %3$s sont sous license de %4$s. Certaines icônes ont été modifiées.<br/><br/>%7$s et %8$s sont sous license de %9$s.<br/><br/>La carte du monde vient de %10$s.]]></string>
+    <string name="signUp"><![CDATA[Vous n\'avez pas de compte? <a href="%s">Inscriviez-vous gratuitement.</a>]]></string>
+    <string name="logoutSucceeded">Vous êtes maintenant déconnecté.</string>
+</resources>

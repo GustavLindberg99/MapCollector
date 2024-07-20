@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<place>
+  <stations>
+    <station name="Vörösmarty tér" x="390" y="900" a="l"/>
+    <station name="Deák Ferenc tér" x="440" y="850" w="1" h="1"/>
+    <station name="Mexikói út" x="890" y="400"/>
+
+    <station name="Déli pályaudvar" x="200" y="950" a="l"/>
+    <station name="Batthyány tér" x="300" y="850" a="l" w="1" h="1"/>
+    <station name="Astoria" x="510" y="920" a="b"/>
+    <station name="Keleti &#10;pályaudvar" x="670" y="920" a="t" w="1" h="1"/>
+    <station name="Örs vezér&#10; tere" x="880" y="920" a="b" w="1" h="2"/>
+
+    <station name="Újpest-központ" x="640" y="290"/>
+    <station name="Göncz Árpád városközpont" x="440" y="490"/>
+    <station name="Kálvin tér" x="440" y="990" a="l" w="1" h="1"/>
+    <station name="Kőbánya-Kispest" x="840" y="1390"/>
+
+    <station name="II. János Pál pápa tér" x="600" y="990"/>
+    <station name="Fővám tér" x="390" y="1040" a="l" w="1" h="1"/>
+    <station name="Kelenföld &#10;vasútállomás" x="140" y="1290" a="l"/>
+
+    <station name="Szentendre" x="300" y="50" a="l"/>
+
+    <station name="Boráros tér" x="390" y="1090" w="1" h="1"/>
+    <station name="Müpa &#10;Nemzeti &#10;Színház" x="390" y="1160" a="l" w="1" h="1"/>
+    <station name="Csepel" x="390" y="1440" a="l"/>
+
+    <station name="Közvágóhíd" x="410" y="1180" w="1" h="1"/>
+    <station name="Kén utca" x="450" y="1220"/>
+    <station name="Dunaharaszti külső" x="450" y="1640"/>
+    <station name="Szigetszentmiklós" x="390" y="1700"/>
+    <station name="Ráckeve" x="390" y="2300"/>
+
+    <station name="Rákosfalva" x="950" y="920" a="t"/>
+    <station name="Nagyicce" x="1020" y="920" a="b"/>
+    <station name="Sashalom" x="1090" y="920" a="t"/>
+    <station name="Mátyásföld &#10;repülőtér" x="1160" y="920" a="b"/>
+    <station name="Mátyásföld Imre utca" x="1210" y="870"/>
+    <station name="Mátyásföld alsó" x="1260" y="820"/>
+    <station name="Cinkota" x="1310" y="770" a="l"/>
+    <station name="Gödöllő" x="2150" y="770"/>
+
+    <station name="Árpádföld" x="1310" y="630" a="l"/>
+    <station name="Szabadságtelep" x="1360" y="580" a="l"/>
+    <station name="Csömör" x="1430" y="580"/>
+  </stations>
+  <lines>
+    <trainLine name="1" color="#FED304">
+      <stationRef name="Vörösmarty tér"/><label/><stationRef name="Deák Ferenc tér"/><autoStation name="Bajcsy-Zsilinszky út"/><autoStation name="Opera"/><label/><autoStation name="Oktogon"/><autoStation name="Vörösmarty utca"/><autoStation name="Kodály körönd"/><autoStation name="Bajza utca"/><label/><autoStation name="Hősök tere"/><autoStation name="Széchenyi fürdő"/><stationRef name="Mexikói út"/>
+    </trainLine>
+    <trainLine name="2" color="#EE2D28">
+      <stationRef name="Déli pályaudvar"/><autoStation name="Széll Kálmán tér" a="l"/><label/><stationRef name="Batthyány tér"/><autoStation name="Kossuth &#10;Lajos tér" a="t"/><stationRef name="Deák Ferenc tér"/><label/><stationRef name="Astoria"/><autoStation name="Blaha &#10;Lujza tér" a="t"/><stationRef name="Keleti pályaudvar"/><autoStation name="Puskás Ferenc &#10;Stadion" a="b"/><label/><autoStation name="Pillangó &#10;utca" a="t"/><stationRef name="Örs vezér tere"/>
+    </trainLine>
+    <trainLine name="3" color="#0067AF">
+      <stationRef name="Újpest-központ"/><autoStation name="Újpest-városkapu"/><label/><autoStation name="Gyöngyösi utca"/><autoStation name="Forgách utca"/><stationRef name="Göncz Árpád városközpont"/><autoStation name="Dósza György út"/><autoStation name="Lehel tér"/><autoStation name="Nyugati &#10;pályaudvar" a="l"/><label/><autoStation name="Arany János &#10;utca" a="l"/><stationRef name="Deák Ferenc tér"/><autoStation name="Ferenciek &#10;tere" a="l"/><label/><stationRef name="Kálvin tér"/><autoStation name="Corvin-negyed"/><label/><autoStation name="Semmelweis Klinikák"/><autoStation name="Nagyvárad tér"/><autoStation name="Népliget"/><autoStation name="Ecseri út"/><label/><autoStation name="Pöttyös utca"/><autoStation name="Határ út"/><stationRef name="Kőbánya-Kispest"/>
+    </trainLine>
+    <trainLine name="4" color="#43A842">
+      <stationRef name="Keleti pályaudvar"/><stationRef name="II. János Pál pápa tér"/><label/><autoStation name="Rákóczi tér" a="t"/><stationRef name="Kálvin tér"/><label/><stationRef name="Fővám tér"/><autoStation name="Szent Gellért tér-Műegyetem" a="l"/><autoStation name="Móricz Zsigmond körtér" a="l"/><label/><autoStation name="Újbuda-központ" a="l"/><autoStation name="Bikás park" a="l"/><stationRef name="Kelenföld vasútállomás"/>
+    </trainLine>
+
+    <trainLine name="5" color="#820C71">
+      <stationRef name="Szentendre"/><autoStation name="Pannóniatelep" a="l"/><autoStation name="Pomáz" a="l"/><autoStation name="Szentistvántelep" a="l"/><autoStation name="Budakalász-Lenfonó" a="l"/><autoStation name="Budakalász" a="l"/><label/><autoStation name="Békásmegyer" a="l"/><autoStation name="Csillaghegy" a="l"/><autoStation name="Rómaifürdő" a="l"/><autoStation name="Aquincum" a="l"/><autoStation name="Kaszásdűlő" a="l"/><autoStation name="Filatorigát" a="l"/><autoStation name="Szentlélek tér" a="l"/><autoStation name="Tímár utca" a="l"/><label/><autoStation name="Szépvölgyi út" a="l"/><autoStation name="Margit híd budai hídfő" a="l"/><stationRef name="Batthyány tér"/>
+    </trainLine>
+    <trainLine name="6" color="#7C4400">
+      <stationRef name="Közvágóhíd"/><stationRef name="Kén utca"/><autoStation name="Pesterzsébet felső"/><autoStation name="Torontál utca"/><label/><autoStation name="Soroksár felső"/><autoStation name="Soroksár Hősök tere"/><autoStation name="Szent István utca"/><autoStation name="Millenniumtelep"/><autoStation name="Dunaharaszti felső"/><stationRef name="Dunaharaszti külső"/><stationRef name="Szigetszentmiklós"/><autoStation name="Jószef Attila-telep"/><label/><autoStation name="Szigetszentmiklós alsó"/><autoStation name="Szigetszentmiklós-Gyártelep"/><autoStation name="Szigethalom"/><autoStation name="Szigethalom alsó"/><autoStation name="Tököl"/><autoStation name="Szigetcsép"/><label/><autoStation name="Szigetszentmárton-Szigetújfalu"/><autoStation name="Horgásztanyák"/><autoStation name="Angyalisziget"/><stationRef name="Ráckeve"/>
+    </trainLine>
+    <trainLine name="7" color="#F47921">
+      <stationRef name="Boráros tér"/><stationRef name="Müpa Nemzeti Színház"/><autoStation name="Szabadkikötő" a="l"/><label/><autoStation name="Szent Imre tér" a="l"/><autoStation name="Karácsony Sándor utca" a="l"/><stationRef name="Csepel"/>
+    </trainLine>
+    <trainLine name="8" color="#ED6E86">
+      <stationRef name="Örs vezér tere" md="0.5"/><stationRef name="Rákosfalva" md="0.5"/><label offset="-1.5"/><stationRef name="Nagyicce" md="0.5"/><stationRef name="Sashalom" md="0.5"/><stationRef name="Mátyásföld repülőtér" ml="0.5" md="0.5"/><stationRef name="Mátyásföld Imre utca"/><label offset="-1"/><stationRef name="Mátyásföld alsó"/><stationRef name="Cinkota"/><autoStation name="Ilonatelep" a="b"/><autoStation name="Kistarcsa &#10;kórház" a="t"/><label/><autoStation name="Kistarcsa" a="b"/><autoStation name="Zsófialiget" a="t"/><autoStation name="Kerepes" a="b"/><autoStation name="Szilasliget" a="t"/><autoStation name="Mogyoród" a="b"/><autoStation name="Szentjakab" a="t"/><label/><autoStation name="Gödöllő &#10;Erzsébet &#10;park" a="b"/><autoStation name="Gödöllő &#10;Szabadság &#10;tér" a="t"/><autoStation name="Gödöllő &#10;Palotakert" a="b"/><stationRef name="Gödöllő"/>
+    </trainLine>
+    <trainLine name="9" color="#ED6E86">
+      <stationRef name="Örs vezér tere" mu="0.5"/><stationRef name="Rákosfalva" mu="0.5"/><label offset="1.5"/><stationRef name="Nagyicce" mu="0.5"/><stationRef name="Sashalom" mu="0.5"/><stationRef name="Mátyásföld repülőtér" ml="0.9" mu="0.5"/><stationRef name="Mátyásföld Imre utca" mul="1"/><label offset="1"/><stationRef name="Mátyásföld alsó" mul="1"/><stationRef name="Cinkota" mul="1"/><autoStation name="Cinkota alsó" a="l" mul="1"/><label/><stationRef name="Árpádföld" mul="1"/><stationRef name="Szabadságtelep" mul="1"/><stationRef name="Csömör" mul="1"/>
+    </trainLine>
+
+    <walkingLine>
+      <stationRef name="Fővám tér"/>
+      <stationRef name="Boráros tér"/>
+    </walkingLine>
+    <walkingLine>
+      <stationRef name="Müpa Nemzeti Színház"/>
+      <stationRef name="Közvágóhíd"/>
+    </walkingLine>
+  </lines>
+  <background>
+    <zone name="30km" color="2" points="l t, l b, r b, r t"/>
+    <zone name="25km" color="1" points="l t, r t, r 2220, l 2220"/>
+    <zone name="20km" color="2" points="l t, r t, r 2105, l 2105"/>
+    <zone name="15km" color="1" points="l t, 2110 t, 2110 1490, 1550 2050, l 2050"/>
+    <zone name="10km" color="2" points="l t, 1900 t, 1900 1490, 1500 1890, l 1890"/>
+    <zone name="Budapest" color="1" points="0 625, 400 225, 1200 225, 1400 425, 1400 1250, 1100 1550, 200 1550, 0 1350"/>
+    <river points="355 t, 355 b"/>
+    <river points="355 1170, 430 1245, 430 b"/>
+  </background>
+</place>

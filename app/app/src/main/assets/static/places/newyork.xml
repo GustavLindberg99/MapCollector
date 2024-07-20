@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="utf-8"?>
+<place similarLines="color">
+  <stations>
+    <station name="Van Cortlandt Park/242 St" x="200" y="50"/>
+    <station name="238 St" x="200" y="120"/>
+    <station name="231 St" x="200" y="190"/>
+    <station name="Marble Hill/225 St" x="200" y="260"/>
+    <station name="215 St" x="200" y="330"/>
+    <station name="207 St" x="200" y="400"/>
+    <station name="Dyckman St" id="Dyckman St (red line)" x="200" y="470"/>
+    <station name="191 St" x="200" y="540"/>
+    <station name="181 St" id="181 St (red line)" x="200" y="610"/>
+    <station name="157 St" x="200" y="750" a="l"/>
+    <station name="145 St" id="145 St (1 line)" x="200" y="820" a="l"/>
+    <station name="137 St/City College" x="200" y="890" a="l"/>
+    <station name="125 St" id="125 St (1 line)" x="200" y="960" a="l"/>
+    <station name="116 St/&#10;Columbia University" x="200" y="1030" a="l"/>
+    <station name="Cathedral Pkwy/110 St" x="200" y="1100" a="l"/>
+    <station name="103 St" id="103 St (red line)" x="200" y="1170" a="l"/>
+    <station name="96 St" id="96 St (red line)" x="200" y="1240" a="l"/>
+    <station name="86 St" id="86 St (red line)" x="200" y="1310" a="l"/>
+    <station name="79 St" id="79 St (red line)" x="200" y="1380" a="l"/>
+    <station name="72 St" id="72 St (red line)" x="200" y="1450" a="l"/>
+    <station name="66 St/Lincoln Center" x="250" y="1500" a="l"/>
+
+    <station name="Inwood/207 St" x="150" y="350" a="l"/>
+    <station name="Dyckman St" id="Dyckman St (blue line)" x="150" y="420" a="l"/>
+    <station name="190 St" x="150" y="490" a="l"/>
+    <station name="181 St" id="181 St (blue line)" x="150" y="560" a="l"/>
+    <station name="175 St" x="150" y="630" a="l"/>
+    <station name="168 St" x="200" y="680"/>
+    <station name="163 St/Amsterdam Av" x="250" y="730"/>
+    <station name="155 St" id="155 St (blue line)" x="250" y="800"/>
+
+    <station name="Wakefield/241 St" x="730" y="30"/>
+    <station name="Nereid Av" x="730" y="80"/>
+    <station name="233 St" x="730" y="130"/>
+    <station name="225 St" x="770" y="170"/>
+    <station name="219 St" x="810" y="210"/>
+    <station name="Gun Hill Rd" id="Gun Hill Rd (red line)" x="850" y="250"/>
+    <station name="Burke Av" x="890" y="290"/>
+    <station name="Allerton Av" x="930" y="330" a="l"/>
+    <station name="Pelham Pkwy" id="Pelham Pkwy (red line)" x="970" y="370" a="l"/>
+    <station name="Bronx Park East" x="1010" y="410" a="l"/>
+
+    <station name="Eastchester Dyre Av" x="1050" y="100"/>
+    <station name="Baychester Av" x="1050" y="170"/>
+    <station name="Gun Hill Rd" id="Gun Hill Rd (green line)" x="1050" y="240"/>
+    <station name="Pelham Pkwy" id="Pelham Pkwy (green line)" x="1050" y="310"/>
+    <station name="Morris Park" x="1050" y="380"/>
+    <station name="E 180 St" x="1050" y="450"/>
+    <station name="West Farms Sq/E Tremont Av" x="1050" y="520"/>
+    <station name="174 St" x="1050" y="590"/>
+    <station name="Freeman St" x="1000" y="640"/>
+    <station name="Simpson St" x="950" y="690"/>
+    <station name="Intervale Av" x="900" y="740"/>
+    <station name="Prospect Av" id="Prospect Av Bronx" x="850" y="790"/>
+    <station name="Jackson Av" x="800" y="840"/>
+    <station name="3 Av/149 St" x="700" y="840" a="t"/>
+
+    <station name="Woodlawn" x="600" y="30" a="l"/>
+    <station name="Mosholu Pkwy" x="600" y="100" a="l"/>
+    <station name="Bedford Pk Blvd/Lehman College" x="600" y="170" a="l"/>
+    <station name="Kingsbridge Rd" id="Kingsbridge Rd (green line)" x="600" y="240" a="l"/>
+    <station name="Fordham Rd" id="Fordham Rd (green line)" x="600" y="310" a="l"/>
+    <station name="183 St" x="600" y="380" a="l"/>
+    <station name="Burnside Av" x="600" y="450" a="l"/>
+    <station name="176 St" x="600" y="520" a="l"/>
+    <station name="Mt Eden Av" x="600" y="590" a="l"/>
+    <station name="170 St" id="170 St (green line)" x="600" y="660" a="l"/>
+    <station name="167 St" id="167 St (green line)" x="600" y="730" a="l"/>
+    <station name="149 St/Grand Concourse" x="600" y="870"/>
+    <station name="138 St/&#10;Grand Concourse" x="600" y="940"/>
+
+    <station name="Pelham Bay Park" x="1700" y="230"/>
+    <station name="Buhre Av" x="1650" y="280"/>
+    <station name="Middletown Rd" x="1600" y="330"/>
+    <station name="Westchester Sq/East Tremont Av" x="1550" y="380"/>
+    <station name="Zerega Av" x="1500" y="430"/>
+    <station name="Castle Hill Av" x="1450" y="480"/>
+    <station name="Parkchester" x="1400" y="530"/>
+    <station name="St Lawrence Av" x="1350" y="580"/>
+    <station name="Morrison Av/Soundview" x="1300" y="630"/>
+    <station name="Elder Av" x="1250" y="680"/>
+    <station name="Whitlock Av" x="1200" y="730"/>
+    <station name="Hunts Point Av" x="1150" y="780"/>
+    <station name="Longwood Av" x="1100" y="830"/>
+    <station name="E 149 St" x="1050" y="880"/>
+    <station name="E 143 St/St Mary's St" x="1000" y="930"/>
+    <station name="Cypress Av" x="950" y="980"/>
+    <station name="Brook Av" x="850" y="980" a="b"/>
+    <station name="3 Av/&#10;138 St" x="750" y="980" a="b"/>
+
+    <station name="125 St" id="125 St (green line)" x="600" y="1010"/>
+    <station name="86 St" id="86 St (green line)" x="600" y="1345"/>
+    <station name="&#10;59 St" x="600" y="1540"/>
+    <station name="&#10;51 St" x="600" y="1605"/>
+    <station name="33 St" x="600" y="1740"/>
+    <station name="28 St" id="28 St (green line)" x="600" y="1810"/>
+    <station name="23 St" id="23 St (green line)" x="640" y="1850"/>
+    <station name="14 St/Union Sq" x="640" y="1980"/>
+    <station name="Astor Pl" x="690" y="2030"/>
+    <station name="Bleecker St" x="690" y="2090"/>
+    <station name="Spring St" id="Spring St (green line)" x="690" y="2160"/>
+    <station name="Brooklyn Bridge/&#10;City Hall" x="690" y="2265"/>
+    <station name="Fulton St" x="690" y="2330"/>
+    <station name="Broad St" x="690" y="2380" a="b"/>
+    <station name="Wall St" id="Wall St (green line)" x="640" y="2430"/>
+    <station name="Bowling &#10;Green" x="730" y="2520" a="b"/>
+    <station name="&#10;Borough &#10;Hall" x="880" y="2520" a="l"/>
+    <station name="Hoyt St" x="950" y="2520" a="b"/>
+    <station name="Nevins St" x="1020" y="2520" a="t"/>
+    <station name="&#10;Atlantic Av/&#10;Barclays Ctr" x="1150" y="2520" a="l"/>
+    <station name="Bergen St" id="Bergen St (red line)" x="1200" y="2520" a="b"/>
+    <station name="Grand &#10;Army &#10;Plaza" x="1270" y="2520" a="b"/>
+    <station name="Eastern &#10;Pkwy/&#10;Brooklyn &#10;Museum" x="1340" y="2520" a="t"/>
+    <station name="Franklin Av Medgar Evers College" x="1390" y="2520"/>
+    <station name="Botanic Garden" x="1390" y="2590" a="l"/>
+
+    <station name="Crown Hts Utica Av" x="1480" y="2430" a="l"/>
+    <station name="Junius St" x="1580" y="2330"/>
+    <station name="Pennsylvania Av" x="1630" y="2280" a="t"/>
+    <station name="New Lots Av" id="New Lots Av (red line)" x="1770" y="2280"/>
+
+    <station name="President St" x="1440" y="2570"/>
+    <station name="Sterling St" x="1490" y="2620" a="l"/>
+    <station name="Winthrop St" x="1560" y="2620"/>
+    <station name="Church Av" id="Church Av (red/green line)" x="1610" y="2670"/>
+    <station name="Beverly Rd" x="1660" y="2720"/>
+    <station name="Newkirk Av" x="1710" y="2770"/>
+    <station name="Flatbush Av Brooklyn College" x="1760" y="2820"/>
+
+    <station name="5 Av/59 St" x="540" y="1540" a="b"/>
+
+    <station name="96 St" id="96 St (yellow line)" x="730" y="1280"/>
+    <station name="86 St" id="86 St (yellow line)" x="730" y="1345"/>
+    <station name="72 St" id="72 St (yellow line)" x="730" y="1410"/>
+    <station name="&#10;Lexington Av/63 St" x="640" y="1500"/>
+    <station name="57 St/7 Av" x="420" y="1560" a="l"/>
+    <station name="49 St" x="420" y="1620"/>
+    <station name="28 St" id="28 St (yellow line)" x="545" y="1885"/>
+    <station name="23 St" id="23 St (yellow line)" x="590" y="1930" a="l"/>
+    <station name="8 St/NYU" x="640" y="2030" a="l"/>
+    <station name="Prince St" x="640" y="2150" a="l"/>
+    <station name="Canal St" x="690" y="2200"/>
+    <station name="City Hall" x="600" y="2290"/>
+    <station name="Cortlandt St" x="600" y="2380" a="l"/>
+    <station name="Rector St" id="Rector St (yellow line)" x="600" y="2450" a="l"/>
+    <station name="Whitehall St/South Ferry" x="650" y="2500" a="l"/>
+    <station name="Court St" x="900" y="2500"/>
+    <station name="DeKalb &#10;Av" id="DeKalb Av (orange/yellow line)" x="1080" y="2380" a="t"/>
+    <station name="7 Av" id="7 Av Brooklyn" x="1200" y="2650" a="b"/>
+    <station name="Prospect Park" x="1390" y="2650"/>
+    <station name="Church Av" id="Church Av (B/Q line)" x="1470" y="2730"/>
+    <station name="Newkirk Plaza" x="1470" y="2900"/>
+    <station name="Kings Hwy" id="Kings Hwy (B/Q line)" x="1470" y="3140"/>
+    <station name="Sheepshead Bay" x="1470" y="3310"/>
+    <station name="Brighton Beach" x="1470" y="3380"/>
+    <station name="West 8 St/NY Aquarium" x="1320" y="3530"/>
+
+    <station name="Union St" x="1150" y="2651" a="l"/>
+    <station name="36 St" id="36 St Brooklyn" x="1150" y="2930" a="l"/>
+    <station name="9 Av" x="1200" y="2980"/>
+    <station name="Fort Hamilton &#10;Pkwy" id="Fort Hamilton Pkwy (orange line)" x="1200" y="3050"/>
+    <station name="50 St" id="50 St (D line)" x="1200" y="3120"/>
+    <station name="55 St" x="1200" y="3190"/>
+    <station name="62 St" x="1200" y="3260"/>
+    <station name="71 St" x="1150" y="3310" a="l"/>
+    <station name="79 St" id="79 St (D line)" x="1100" y="3360" a="l"/>
+    <station name="18 Av" id="18 Av (D line)" x="1050" y="3410" a="l"/>
+    <station name="20 Av" id="20 Av (D line)" x="1050" y="3470" a="l"/>
+    <station name="Bay Pkwy" id="Bay Pkwy (D line)" x="1050" y="3530" a="l"/>
+    <station name="25 Av" x="1100" y="3580" a="l"/>
+    <station name="Bay 50 St" x="1150" y="3630" a="l"/>
+    <station name="Coney Island Stillwell Av" x="1320" y="3630"/>
+
+    <station name="59 St" id="59 St Brooklyn" x="1150" y="3140" a="l"/>
+    <station name="Bay Ridge 95 St" x="950" y="3340" a="l"/>
+
+    <station name="Fort Hamilton &#10;Pkwy" id="Fort Hamilton Pkwy (yellow line)" x="1150" y="3270" a="l"/>
+    <station name="New Utrecht &#10;Av" x="1200" y="3320"/>
+    <station name="18 Av" id="18 Av (N line)" x="1200" y="3380"/>
+    <station name="20 Av" id="20 Av (N line)" x="1150" y="3430"/>
+    <station name="Bay Pkwy" id="Bay Pkwy (N line)" x="1100" y="3480"/>
+    <station name="Kings Hwy" id="Kings Hwy (N line)" x="1100" y="3550"/>
+    <station name="Avenue U" id="Avenue U (N line)" x="1150" y="3600"/>
+    <station name="86 St" id="86 St (N line)" x="1200" y="3650" a="b"/>
+
+    <station name="Norwood/&#10;205 St" x="650" y="190"/>
+    <station name="Bedford Pk Blvd" x="650" y="260"/>
+    <station name="Kingsbridge Rd" id="Kingsbridge Rd (orange line)" x="650" y="330"/>
+    <station name="Fordham Rd" id="Fordham Rd (orange line)" x="650" y="400"/>
+    <station name="182-183 Streets" x="650" y="470"/>
+    <station name="Tremont Av" x="650" y="540"/>
+    <station name="174-175 Streets" x="650" y="610"/>
+    <station name="170 St" id="170 St (orange line)" x="650" y="680"/>
+    <station name="167 St" id="167 St (orange line)" x="650" y="750"/>
+    <station name="161 St/Yankee Stadium" x="600" y="800"/>
+    <station name="155 St" id="155 St (orange line)" x="390" y="800" a="t"/>
+
+    <station name="Harlem/&#10;148 St" x="470" y="860"/>
+    <station name="145 St" id="145 St (3 line)" x="470" y="930" a="l"/>
+    <station name="135 St" id="135 St (red line)" x="470" y="1000" a="l"/>
+    <station name="125 St" id="125 St (red line)" x="470" y="1070" a="l"/>
+    <station name="116 St" id="116 St (red line)" x="470" y="1140" a="l"/>
+    <station name="Central Park North" x="420" y="1190"/>
+
+    <station name="145 St" x="320" y="870"/>
+    <station name="135 St" id="135 St (blue/orange line)" x="320" y="940" a="l"/>
+    <station name="125 St" id="125 St (blue/orange line)" x="320" y="1010" a="l"/>
+    <station name="116 St" id="116 St (blue/orange line)" x="320" y="1080" a="l"/>
+    <station name="Cathedral &#10;Pkwy" x="320" y="1150" a="l"/>
+    <station name="103 St" id="103 St (blue/orange line)" x="320" y="1220"/>
+    <station name="96 St" id="96 St (blue/orange line)" x="320" y="1290"/>
+    <station name="86 St" id="86 St (blue/orange line)" x="320" y="1360"/>
+    <station name="81 St/Museum of &#10;Natural History" x="320" y="1430"/>
+    <station name="72 St" id="72 St (blue/orange line)" x="320" y="1500"/>
+    <station name="59 St/Columbus Circle" x="320" y="1570" a="l"/>
+
+    <station name="57 St" x="500" y="1580" a="l"/>
+    <station name="7 Av" x="390" y="1605" a="t"/>
+    <station name="5 Av/&#10;53 St" x="545" y="1605" a="t"/>
+    <station name="47-50 Sts" x="500" y="1650"/>
+    <station name="42 St/&#10;Bryant Pk" x="500" y="1770"/>
+    <station name="34 St/&#10;Herald Sq" x="500" y="1840" a="l"/>
+    <station name="23 St" id="23 St (orange line)" x="500" y="1910"/>
+    <station name="&#10;6 Av/14 St" x="500" y="1980"/>
+    <station name="&#10;B'way/Lafayette St" x="710" y="2120"/>
+    <station name="Grand St" id="Grand St Manhattan" x="810" y="2220" a="l"/>
+    <station name="2 Av" x="830" y="2120"/>
+    <station name="&#10;Delancey St/&#10;Essex St" x="880" y="2170"/>
+    <station name="East Broadway" x="880" y="2240"/>
+    <station name="York St" x="930" y="2260"/>
+
+    <station name="50 &#10;St" id="50 St (red line)" x="370" y="1620" a="b"/>
+    <station name="&#10;Times Sq/&#10;42 St" x="420" y="1670" a="l"/>
+    <station name="34 St" x="420" y="1770" a="l"/>
+    <station name="28 St" id="28 St (red line)" x="420" y="1840" a="l"/>
+    <station name="23 St" id="23 St (red line)" x="420" y="1890" a="l"/>
+    <station name="18 St" x="420" y="1940" a="l"/>
+    <station name="14 St" x="420" y="2010" a="l"/>
+    <station name="Chambers St" id="Chambers St (red line)" x="420" y="2280" a="l"/>
+    <station name="WTC Cortlandt" x="420" y="2370" a="l"/>
+    <station name="Rector St" id="Rector St (red line)" x="420" y="2440" a="l"/>
+    <station name="South Ferry" x="630" y="2520" a="b"/>
+
+    <station name="Park &#10;Place" x="520" y="2330" a="b"/>
+    <station name="Wall St" id="Wall St (red line)" x="760" y="2400"/>
+    <station name="Clark St" x="830" y="2470" a="l"/>
+
+    <station name="34 St/Hudson Yards" x="270" y="1670" a="l"/>
+    <station name="5 Av" x="550" y="1720" a="b"/>
+    <station name="&#10;Grand Central/&#10;42 St" x="600" y="1670"/>
+    <station name="Vernon Blvd/&#10;Jackson Av" x="800" y="1670" a="t"/>
+    <station name="Hunters &#10;Point Av" x="900" y="1670" a="b"/>
+    <station name="&#10;Court Sq" x="965" y="1605"/>
+    <station name="Queensboro &#10;Plaza" x="1030" y="1540" a="b"/>
+    <station name="33 St/&#10;Rawson St" x="1200" y="1540" a="b"/>
+    <station name="40 St/&#10;Lowery St" x="1290" y="1540" a="b"/>
+    <station name="46 St/&#10;Bliss St" x="1380" y="1540" a="b"/>
+    <station name="52 St" x="1470" y="1540" a="b"/>
+    <station name="61 St/&#10;Woodside" x="1560" y="1540" a="b"/>
+    <station name="69 St" x="1650" y="1540" a="b"/>
+    <station name="74 St/Broadway" x="1740" y="1540"/>
+    <station name="82 St/Jackson Hts" x="1790" y="1490"/>
+    <station name="90 St/Elmhurst Av" x="1840" y="1440"/>
+    <station name="Junction Blvd" x="1840" y="1370"/>
+    <station name="103 St/Corona Plaza" x="1840" y="1300"/>
+    <station name="111 St" id="111 St (purple line)" x="1840" y="1230"/>
+    <station name="Mets-Willets Point" x="1840" y="1160"/>
+    <station name="Flushing Main St" x="1840" y="1090"/>
+
+    <station name="Astoria Ditmars Blvd" x="1100" y="1120"/>
+    <station name="Astoria Blvd" x="1100" y="1190"/>
+    <station name="30 Av" x="1100" y="1260"/>
+    <station name="Broadway Queens" x="1100" y="1330"/>
+    <station name="36 Av" x="1100" y="1400"/>
+    <station name="39 Av" x="1100" y="1470"/>
+
+    <station name="Queens &#10;Plaza" x="1080" y="1605" a="b"/>
+    <station name="36 St" id="36 St Queens" x="1157" y="1605" a="b"/>
+    <station name="Steinway St" x="1243" y="1605" a="b"/>
+    <station name="46 St" x="1329" y="1605" a="b"/>
+    <station name="Northern Blvd" x="1415" y="1605" a="b"/>
+    <station name="65 St" x="1502" y="1605" a="b"/>
+    <station name="Jackson Hts/&#10;Roosevelt Av" x="1588" y="1605" a="b"/>
+    <station name="Elmhurst Av" x="1684" y="1605" a="b"/>
+    <station name="Grand Av/&#10;Newtown" x="1771" y="1605" a="b"/>
+    <station name="Woodhaven &#10;Blvd" id="Woodhaven Blvd (M/R line)" x="1857" y="1605" a="b"/>
+    <station name="63 Dr/&#10;Rego Park" x="1943" y="1605" a="b"/>
+    <station name="67 Av" x="2030" y="1605" a="b"/>
+    <station name="Forest Hills/&#10;71 Av" x="2116" y="1605" a="t"/>
+    <station name="75 Av" x="2202" y="1605" a="b"/>
+    <station name="Kew Gardens &#10;Union Tpke" x="2289" y="1605" a="t"/>
+    <station name="Briarwood" x="2375" y="1605"/>
+    <station name="Jamaica Van Wyck" x="2425" y="1655"/>
+    <station name="Sutphin Blvd" x="2425" y="1555" a="t"/>
+    <station name="Parsons Blvd" x="2495" y="1555" a="b"/>
+    <station name="169 St" x="2565" y="1555" a="t"/>
+    <station name="Jamaica/179 St" x="2635" y="1555"/>
+
+    <station name="50 St" id="50 St (blue line)" x="320" y="1640" a="l"/>
+    <station name="42 St/Port Authority Bus Terminal" x="320" y="1730" a="l"/>
+    <station name="34 St/Penn Station" x="320" y="1840" a="l"/>
+    <station name="23 St" id="23 St (blue line)" x="320" y="1910" a="l"/>
+    <station name="8 Av/14 St" x="320" y="1980" a="l"/>
+    <station name="W 4 St/&#10;Wash Sq" x="500" y="2050" a="l"/>
+    <station name="Spring &#10;St" id="Spring St (blue line)" x="500" y="2120" a="l"/>
+    <station name="Canal St" id="Canal St (blue line)" x="500" y="2190"/>
+    <station name="World &#10;Trade &#10;Center" x="480" y="2350" a="l"/>
+    <station name="Chambers St" id="Chambers St (blue line)" x="500" y="2260"/>
+    <station name="High St" x="850" y="2330" a="t"/>
+    <station name="Jay St/Metro Tech" x="960" y="2440" a="l"/>
+    <station name="Lafayette Av" x="1080" y="2460" a="t"/>
+    <station name="Clinton &#10;Av" x="1120" y="2460" a="b"/>
+    <station name="Franklin Av" x="1200" y="2460" a="t"/>
+    <station name="Park Pl" x="1240" y="2500" a="l"/>
+    <station name="Nostrand &#10;Av" id="Nostrand Av (blue line)" x="1250" y="2460"/>
+    <station name="Kingston Throop Avs" x="1310" y="2400" a="l"/>
+    <station name="Utica Av" x="1360" y="2350" a="l"/>
+    <station name="Ralph Av" x="1410" y="2300" a="l"/>
+    <station name="Rockaway Av" id="Rockaway Av (blue line)" x="1470" y="2240" a="l"/>
+    <station name="Liberty Av" x="1640" y="2170" a="b"/>
+    <station name="Van Siclen &#10;Av" id="Van Siclen Av (blue line)" x="1740" y="2170" a="b"/>
+    <station name="Shepherd Av" x="1840" y="2170" a="b"/>
+    <station name="Euclid Av" x="1940" y="2170" a="b"/>
+    <station name="Grant Av" x="2040" y="2170" a="t"/>
+    <station name="80 St" x="2140" y="2170" a="b"/>
+    <station name="88 St" x="2240" y="2170" a="t"/>
+    <station name="Rockaway Blvd" x="2340" y="2170"/>
+    <station name="104 St" id="104 St (blue line)" x="2390" y="2120" a="l"/>
+    <station name="111 St" id="111 St (blue line)" x="2440" y="2070" a="l"/>
+    <station name="Ozone Park Lefferts Blvd" x="2490" y="2020" a="l"/>
+
+    <station name="Aqueduct Racetrack" x="2390" y="2220" a="l"/>
+    <station name="Aqueduct North Conduit Av" x="2440" y="2270" a="l"/>
+    <station name="Howard Beach/JFK Airport" x="2490" y="2320" a="l"/>
+    <station name="Broad Channel" x="2590" y="2420" a="l"/>
+    <station name="Beach 67 St" x="2660" y="2420"/>
+    <station name="Beach 60 St" x="2710" y="2370"/>
+    <station name="Beach 44 St" x="2760" y="2320"/>
+    <station name="Beach 36 St" x="2810" y="2270"/>
+    <station name="Beach 25 St" x="2860" y="2220"/>
+    <station name="Far Rockaway Mott Av" x="2910" y="2170"/>
+
+    <station name="Beach 90 St" x="2590" y="2490"/>
+    <station name="Beach 98 St" x="2540" y="2540"/>
+    <station name="Beach 105 St" x="2490" y="2590"/>
+    <station name="Rockaway Park Beach 116 St" x="2440" y="2640"/>
+
+    <station name="JFK Airport Lefferts Blvd" x="2640" y="2170"/>
+    <station name="JFK Airport Federal Circle" x="2790" y="2020" a="l"/>
+    <station name="JFK Airport &#10;Terminal 1" x="2890" y="2080" a="l"/>
+    <station name="JFK Airport Terminal 2" x="2970" y="2080"/>
+    <station name="JFK Airport Terminal 4" x="3010" y="2040"/>
+    <station name="JFK Airport Terminal 5" x="3010" y="2000"/>
+    <station name="JFK Airport Terminal 7" x="2970" y="1960"/>
+    <station name="JFK Airport &#10;Terminal 8" x="2890" y="1960" a="t"/>
+
+    <station name="3 Av" x="690" y="1930" a="t"/>
+    <station name="1 Av" x="760" y="1930" a="t"/>
+    <station name="Bedford Av" x="870" y="1930" a="t"/>
+    <station name="Jefferson St" x="1300" y="1930" a="t"/>
+    <station name="DeKalb Av" id="DeKalb Av (L line)" x="1345" y="1975" a="l"/>
+    <station name="Halsey St" id="Halsey St (L line)" x="1427" y="2057"/>
+    <station name="Wilson Av" x="1465" y="2095"/>
+    <station name="Bushwick Av/&#10;Aberdeen St" x="1502" y="2132" a="l"/>
+    <station name="&#10;Broadway &#10;Junction" x="1540" y="2170"/>
+    <station name="Atlantic Av" x="1540" y="2240"/>
+    <station name="Sutter Av" x="1540" y="2310" a="l"/>
+    <station name="Livonia Av" x="1590" y="2360"/>
+    <station name="New Lots Av" id="New Lots Av (L line)" x="1640" y="2410"/>
+    <station name="East 105 St" x="1690" y="2460"/>
+    <station name="Canarsie Rockaway Pkwy" x="1740" y="2510"/>
+
+    <station name="21 St/&#10;Queensbridge" x="900" y="1500" a="t"/>
+    <station name="Roosevelt &#10;Island" x="800" y="1500" a="t"/>
+
+    <station name="21 St" x="965" y="1680"/>
+    <station name="Greenpoint Av" x="965" y="1760"/>
+    <station name="Nassau Av" x="965" y="1840"/>
+    <station name="&#10;Metropolitan Av" x="965" y="1930" a="l"/>
+    <station name="Broadway" id="Broadway Brooklyn" x="965" y="1980"/>
+    <station name="Flushing Av" id="Flushing Av (G line)" x="965" y="2020"/>
+    <station name="Bedford Nostrand Avs" x="1070" y="2125"/>
+    <station name="Classon Av" x="1070" y="2260"/>
+    <station name="Washington &#10;Av" x="1020" y="2310" a="l"/>
+    <station name="Fulton St" id="Fulton St Brooklyn" x="1020" y="2410"/>
+    <station name="Hoyt Schermerhorn" x="1020" y="2460" a="b"/>
+    <station name="Bergen St" id="Bergen St (F/G line)" x="1000" y="2620" a="l"/>
+    <station name="Carroll St" x="1000" y="2690" a="l"/>
+    <station name="Smith St/9 St" x="1050" y="2740" a="l"/>
+    <station name="&#10;4 Av/9 St" x="1150" y="2740" a="l"/>
+    <station name="7 Av &#10;Park Slope" x="1200" y="2740" a="b"/>
+    <station name="15 St &#10;Prospect &#10;Park" x="1270" y="2740" a="b"/>
+    <station name="Fort &#10;Hamilton &#10;Pkwy" id="Fort Hamilton Pkwy (F/G line)" x="1340" y="2740" a="t"/>
+    <station name="Church Av" id="Church Av (F/G line)" x="1390" y="2790" a="l"/>
+    <station name="Ditmas Av" x="1390" y="2866" a="l"/>
+    <station name="18 Av" id="18 Av (F line)" x="1320" y="2936"/>
+    <station name="Avenue I" x="1320" y="3002"/>
+    <station name="Bay Pkwy" id="Bay Pkwy (F line)" x="1320" y="3068"/>
+    <station name="Avenue N" x="1320" y="3134"/>
+    <station name="Avenue P" x="1320" y="3200"/>
+    <station name="Kings Hwy" id="Kings Hwy (F line)" x="1320" y="3266"/>
+    <station name="Avenue U" id="Avenue U (F line)" x="1320" y="3332"/>
+    <station name="Avenue X" x="1320" y="3398"/>
+    <station name="Neptune Av" x="1320" y="3464" a="l"/>
+
+    <station name="Bowery" x="800" y="2170" a="b"/>
+    <station name="Marcy Av" x="960" y="2170" a="t"/>
+    <station name="Hewes St" x="1030" y="2170" a="b"/>
+    <station name="Lorimer St" x="1100" y="2170" a="b"/>
+    <station name="Flushing Av" id="Flushing Av (J/M line)" x="1170" y="2170" a="b"/>
+    <station name="Myrtle &#10;Av" x="1240" y="2170" a="t"/>
+    <station name="Myrtle/Wyckoff Avs" x="1390" y="2020" a="l"/>
+    <station name="Middle Village Metropolitan Av" x="1590" y="1820"/>
+
+    <station name="Kosciuszko &#10;St" x="1290" y="2170" a="b"/>
+    <station name="Gates &#10;Av" x="1360" y="2170" a="b"/>
+    <station name="Halsey &#10;St" id="Halsey St (brown line)" x="1420" y="2170" a="b"/>
+    <station name="Chauncey &#10;St" x="1490" y="2170" a="b"/>
+    <station name="Alabama Av" x="1590" y="2120"/>
+    <station name="Van Siclen Av" id="Van Siclen Av (brown line)" x="1640" y="2070"/>
+    <station name="Cleveland St" x="1690" y="2020"/>
+    <station name="Norwood Av" x="1740" y="1970" a="l"/>
+    <station name="Crescent St" x="1790" y="1920" a="l"/>
+    <station name="Cypress Hills" x="1904" y="1920" a="b"/>
+    <station name="75 St/Elderts Ln" x="2018" y="1920" a="b"/>
+    <station name="85 St/Forest Pkwy" x="2132" y="1920" a="b"/>
+    <station name="Woodhaven Blvd" id="Woodhaven Blvd (brown line)" x="2260" y="1920"/>
+    <station name="104 St" id="104 St (brown line)" x="2315" y="1865"/>
+    <station name="111 St" id="111 St (brown line)" x="2370" y="1810"/>
+    <station name="121 St" x="2425" y="1755"/>
+    <station name="Sutphin Blvd/Archer Av/JFK Airport" x="2475" y="1705" a="l"/>
+    <station name="Jamaica Center Parsons/Archer" x="2530" y="1705"/>
+  </stations>
+  <lines>
+    <trainLine name="0" color="#808183">
+      <stationRef name="Times Sq/42 St" mr="3"/><label offset="2"/><stationRef name="Grand Central/42 St" ml="2"/>
+    </trainLine>
+    <trainLine name="1" color="#ee352e">
+      <stationRef name="Van Cortlandt Park/242 St"/><stationRef name="238 St"/><label/><stationRef name="231 St"/><stationRef name="Marble Hill/225 St"/><stationRef name="215 St"/><label/><stationRef name="207 St"/><stationRef name="Dyckman St (red line)"/><stationRef name="191 St"/><label/><stationRef name="181 St (red line)"/><stationRef name="168 St" md="1"/><stationRef name="157 St"/><label/><stationRef name="145 St (1 line)"/><stationRef name="137 St/City College"/><stationRef name="125 St (1 line)"/><label/><stationRef name="116 St/Columbia University"/><stationRef name="Cathedral Pkwy/110 St"/><stationRef name="103 St (red line)"/><label/><stationRef name="96 St (red line)"/><stationRef name="86 St (red line)"/><label offset="-1.5"/><stationRef name="79 St (red line)"/><stationRef name="72 St (red line)" md="4.8"/><stationRef name="66 St/Lincoln Center" ml="1.4" md="3.4"/><stationRef name="59 St/Columbus Circle" ml="3.4" md="1.4"/><stationRef name="50 St (red line)" ml="3.4" md="1.4"/><stationRef name="Times Sq/42 St" ml="4" md="0.8"/><stationRef name="34 St" ml="4"/><label offset="-2"/><stationRef name="28 St (red line)" ml="4"/><stationRef name="23 St (red line)" ml="4"/><stationRef name="18 St" ml="4"/><stationRef name="14 St" ml="4"/><autoStation name="Christopher St/Sheridan Sq" a="l" ml="4"/><autoStation name="Houston St" a="l" ml="4"/><label offset="-1"/><autoStation name="Canal St" id="Canal St (red line)" a="l" ml="4"/><autoStation name="Franklin St" a="l" ml="4"/><stationRef name="Chambers St (red line)" ml="4"/><label/><stationRef name="WTC Cortlandt" ml="4"/><stationRef name="Rector St (red line)" ml="4"/><point x="500" y="2520" ml="4"/><label/><stationRef name="South Ferry"/>
+    </trainLine>
+    <trainLine name="2" color="#ee352e">
+      <stationRef name="Wakefield/241 St" ml="1"/><stationRef name="Nereid Av" ml="1"/><label/><stationRef name="233 St" ml="1"/><stationRef name="225 St" ml="1"/><stationRef name="219 St" ml="1"/><label/><stationRef name="Gun Hill Rd (red line)" ml="1"/><stationRef name="Burke Av" ml="1"/><stationRef name="Allerton Av" ml="1"/><label/><stationRef name="Pelham Pkwy (red line)" ml="1"/><stationRef name="Bronx Park East" ml="1"/><stationRef name="E 180 St" ml="1"/><label offset="-1"/><stationRef name="West Farms Sq/E Tremont Av" ml="1"/><stationRef name="174 St" ml="1" mu="0.4"/><stationRef name="Freeman St" mul="1"/><label offset="1"/><stationRef name="Simpson St" mul="1"/><stationRef name="Intervale Av" mul="1"/><stationRef name="Prospect Av Bronx" mul="1"/><label offset="1"/><stationRef name="Jackson Av" ml="0.4" mu="1"/><stationRef name="3 Av/149 St" mu="1"/><label offset="3"/><point x="630" y="840" mr="2.4" mu="1"/><stationRef name="149 St/Grand Concourse" mdr="1"/><label/><stationRef name="135 St (red line)"/><stationRef name="125 St (red line)"/><label offset="-1"/><stationRef name="116 St (red line)"/><stationRef name="Central Park North"/><label/><point x="250" y="1190" mr="2"/><stationRef name="96 St (red line)" mr="2"/><label offset="2"/><stationRef name="72 St (red line)" mr="2" md="4"/><stationRef name="59 St/Columbus Circle" ml="2"/><stationRef name="Times Sq/42 St" ml="2"/><stationRef name="34 St" ml="2"/><label offset="-6"/><stationRef name="14 St" ml="2"/><label offset="3"/><stationRef name="Chambers St (red line)" ml="2"/><point x="470" y="2330" ml="2"/><stationRef name="Park Place"/><label offset="-1"/><stationRef name="Fulton St" mr="1"/><stationRef name="Wall St (red line)" mr="1"/><label offset="-1"/><stationRef name="Clark St" mr="1"/><stationRef name="Borough Hall" mr="3" md="2"/><stationRef name="Hoyt St" md="2"/><stationRef name="Nevins St" md="2"/><label offset="-4"/><stationRef name="Atlantic Av/Barclays Ctr" ml="3" md="2"/><stationRef name="Bergen St (red line)" md="2"/><label offset="-4"/><stationRef name="Grand Army Plaza" md="2"/><stationRef name="Eastern Pkwy/Brooklyn Museum" md="2"/><stationRef name="Franklin Av Medgar Evers College" ml="0.4" md="2"/><label offset="-1"/><stationRef name="President St" ml="1.7" md="0.7"/><stationRef name="Sterling St" ml="1.4" md="1"/><stationRef name="Winthrop St" ml="0.4" md="1"/><label offset="-1"/><stationRef name="Church Av (red/green line)" mdl="1"/><stationRef name="Beverly Rd" mdl="1"/><stationRef name="Newkirk Av" mdl="1"/><label offset="-1"/><stationRef name="Flatbush Av Brooklyn College" mdl="1"/>
+    </trainLine>
+    <trainLine name="3" color="#ee352e">
+      <stationRef name="Harlem/148 St" ml="1"/><label/><stationRef name="145 St (3 line)" ml="1"/><stationRef name="135 St (red line)" ml="1"/><stationRef name="125 St (red line)" ml="1"/><label offset="1"/><stationRef name="116 St (red line)" ml="1" mu="0.4"/><stationRef name="Central Park North" ml="0.4" mu="1"/><label offset="-3"/><point x="250" y="1190" mr="1.6" mu="1"/><point station="96 St (red line)" mr="1" mu="0.4"/><stationRef name="96 St (red line)" mr="1"/><label/><stationRef name="72 St (red line)" mr="1" md="4.4"/><stationRef name="59 St/Columbus Circle" ml="2.7" md="0.7"/><stationRef name="Times Sq/42 St" ml="3" md="0.4"/><stationRef name="34 St" ml="3"/><label offset="-8"/><stationRef name="14 St" ml="3"/><label offset="1"/><stationRef name="Chambers St (red line)" ml="3"/><point station="Chambers St (red line)" ml="3" md="0.4"/><point x="470" y="2330" ml="2.4" md="1"/><stationRef name="Park Place" md="1"/><label offset="1"/><stationRef name="Fulton St" mr="1" md="1"/><point station="Fulton St" mr="3.4" md="1"/><stationRef name="Wall St (red line)" mr="1.7" mu="0.7"/><label offset="1"/><stationRef name="Clark St" mr="1.7" mu="0.7"/><point station="Borough Hall" mr="1.4" mu="1"/><stationRef name="Borough Hall" mr="3" mu="1"/><stationRef name="Hoyt St" mu="1"/><stationRef name="Nevins St" mu="1"/><label offset="4"/><stationRef name="Atlantic Av/Barclays Ctr" ml="3" mu="1"/><stationRef name="Bergen St (red line)" mu="1"/><label offset="4"/><stationRef name="Grand Army Plaza" mu="1"/><stationRef name="Eastern Pkwy/Brooklyn Museum" mu="1"/><stationRef name="Franklin Av Medgar Evers College" ml="0.4" mu="1"/><autoStation name="Nostrand Av" id="Nostrand Av (red line)" mul="1"/><label offset="-1"/><autoStation name="Kingston Av" a="l" mul="1"/><stationRef name="Crown Hts Utica Av" mul="1"/><label/><autoStation name="Sutter Av/Rutland Rd" a="l" mul="1"/><autoStation name="Saratoga Av" a="l" mul="1"/><autoStation name="Rockaway Av" id="Rockaway Av (red line)" a="l" mul="1"/><stationRef name="Junius St" mul="1"/><label/><stationRef name="Pennsylvania Av"/><autoStation name="Van &#10;Siclen Av" id="Van Siclen Av (red line)" a="b"/><label/><stationRef name="New Lots Av (red line)"/>
+    </trainLine>
+    <trainLine name="4" color="#00933c">
+      <stationRef name="Woodlawn" ml="1"/><label/><stationRef name="Mosholu Pkwy" ml="1"/><stationRef name="Bedford Pk Blvd/Lehman College" ml="1"/><stationRef name="Kingsbridge Rd (green line)" ml="1"/><label/><stationRef name="Fordham Rd (green line)" ml="1"/><stationRef name="183 St" ml="1"/><stationRef name="Burnside Av" ml="1"/><label/><stationRef name="176 St" ml="1"/><stationRef name="Mt Eden Av" ml="1"/><stationRef name="170 St (green line)" ml="1"/><label/><stationRef name="167 St (green line)" ml="1"/><stationRef name="161 St/Yankee Stadium" ml="1" md="1"/><stationRef name="149 St/Grand Concourse" ml="1"/><label offset="-1"/><stationRef name="138 St/Grand Concourse" ml="1"/><stationRef name="125 St (green line)" ml="1"/><label offset="-2"/><stationRef name="86 St (green line)" ml="1"/><label offset="-2"/><stationRef name="59 St" ml="1" md="1"/><stationRef name="Grand Central/42 St" ml="1"/><label offset="1"/><point station="28 St (green line)" ml="1" md="0.4"/><point station="23 St (green line)" ml="1" md="0.4"/><label offset="-2"/><stationRef name="14 St/Union Sq" ml="1" mu="5.2"/><point station="Astor Pl" ml="1" mu="5.2"/><stationRef name="Canal St" ml="1"/><label offset="-2"/><stationRef name="Brooklyn Bridge/City Hall" ml="1"/><stationRef name="Fulton St" ml="1" mu="1"/><point station="Fulton St" ml="1" mu="0.4"/><point x="640" y="2380" mr="1" mu="2.4"/><label/><stationRef name="Wall St (green line)" mr="1" mu="0.4"/><stationRef name="Bowling Green" mr="1.4"/><label offset="-1"/><stationRef name="Borough Hall" mr="3"/><stationRef name="Nevins St"/><label offset="1.5"/><stationRef name="Atlantic Av/Barclays Ctr" ml="3"/><label offset="-3"/><stationRef name="Franklin Av Medgar Evers College" ml="0.4"/><point station="Franklin Av Medgar Evers College"/><label offset="1"/><stationRef name="Crown Hts Utica Av"/>
+    </trainLine>
+    <trainLine name="5" color="#00933c">
+      <stationRef name="Eastchester Dyre Av"/><label/><stationRef name="Baychester Av"/><stationRef name="Gun Hill Rd (green line)"/><stationRef name="Pelham Pkwy (green line)"/><label/><stationRef name="Morris Park"/><stationRef name="E 180 St"/><label offset="1"/><stationRef name="West Farms Sq/E Tremont Av"/><stationRef name="174 St"/><stationRef name="Freeman St"/><label offset="-1"/><stationRef name="Simpson St"/><stationRef name="Intervale Av"/><stationRef name="Prospect Av Bronx"/><label offset="-1"/><stationRef name="Jackson Av"/><stationRef name="3 Av/149 St"/><label offset="-1"/><point x="630" y="840"/><stationRef name="149 St/Grand Concourse"/><label offset="1"/><stationRef name="138 St/Grand Concourse"/><stationRef name="125 St (green line)"/><label/><stationRef name="86 St (green line)"/><label/><stationRef name="59 St" md="1"/><point x="600" y="1610"/><stationRef name="Grand Central/42 St"/><label offset="3"/><point station="28 St (green line)"/><point station="23 St (green line)"/><label/><stationRef name="14 St/Union Sq" mu="5.6"/><point station="Astor Pl" mu="5.6"/><stationRef name="Canal St"/><label/><stationRef name="Brooklyn Bridge/City Hall"/><stationRef name="Fulton St" mu="1"/><point station="Fulton St"/><point x="640" y="2380"/><label offset="1"/><stationRef name="Wall St (green line)"/><stationRef name="Bowling Green" mr="1" md="1"/><label offset="2"/><stationRef name="Borough Hall" mr="3" md="1"/><stationRef name="Nevins St" md="1"/><label offset="-1.5"/><stationRef name="Atlantic Av/Barclays Ctr" ml="3" md="1"/><label offset="-6"/><stationRef name="Franklin Av Medgar Evers College" ml="0.4" md="1"/><point station="Franklin Av Medgar Evers College" md="1"/><label offset="1"/><stationRef name="President St" ml="1"/><stationRef name="Sterling St" ml="1"/><stationRef name="Winthrop St"/><label offset="1"/><stationRef name="Church Av (red/green line)"/><stationRef name="Beverly Rd"/><stationRef name="Newkirk Av"/><label offset="1"/><stationRef name="Flatbush Av Brooklyn College"/>
+    </trainLine>
+    <trainLine name="6" color="#00933c">
+      <stationRef name="Pelham Bay Park" mr="1"/><stationRef name="Buhre Av" mr="1"/><label/><stationRef name="Middletown Rd" mr="1"/><stationRef name="Westchester Sq/East Tremont Av" mr="1"/><stationRef name="Zerega Av" mr="1"/><label/><stationRef name="Castle Hill Av" mr="1"/><stationRef name="Parkchester" mr="1"/><stationRef name="St Lawrence Av" mr="1"/><label/><stationRef name="Morrison Av/Soundview" mr="1"/><stationRef name="Elder Av" mr="1"/><stationRef name="Whitlock Av" mr="1"/><label/><stationRef name="Hunts Point Av" mr="1"/><stationRef name="Longwood Av" mr="1"/><stationRef name="E 149 St" mr="1"/><label/><stationRef name="E 143 St/St Mary's St" mr="1"/><stationRef name="Cypress Av" mr="1"/><stationRef name="Brook Av" mr="1"/><label/><stationRef name="3 Av/138 St" mr="1"/><point x="630" y="980" mr="1"/><stationRef name="125 St (green line)" mr="1"/><autoStation name="116 St" id="116 St (green line)" mr="1"/><autoStation name="110 St" id="110 St (green line)" mr="1"/><label offset="2"/><autoStation name="103 St" id="103 St (green line)" mr="1"/><autoStation name="96 St" id="96 St (green line)" mr="1"/><stationRef name="86 St (green line)" mr="1"/><autoStation name="77 St" id="77 St (green line)" mr="1"/><label offset="2"/><autoStation name="68 St/Hunter College" mr="1"/><stationRef name="59 St" mr="1" md="1"/><stationRef name="51 St" mr="1"/><stationRef name="Grand Central/42 St" mr="1"/><stationRef name="33 St" mr="1"/><label offset="1.5"/><stationRef name="28 St (green line)" mr="1" mu="0.4"/><stationRef name="23 St (green line)" mr="1" mu="0.4"/><label offset="2"/><stationRef name="14 St/Union Sq" mr="1" mu="6"/><stationRef name="Astor Pl" mr="1" mu="6"/><stationRef name="Bleecker St" mr="1"/><stationRef name="Spring St (green line)" mr="1"/><stationRef name="Canal St" mr="1"/><label offset="2"/><stationRef name="Brooklyn Bridge/City Hall" mr="1"/>
+    </trainLine>
+    <trainLine name="7" color="#b933ad">
+      <stationRef name="34 St/Hudson Yards" mu="1"/><label offset="-2"/><stationRef name="Times Sq/42 St" mr="3" mu="1"/><point x="470" y="1720" mr="4"/><stationRef name="5 Av" ml="3"/><label/><stationRef name="Grand Central/42 St" ml="2" mu="1"/><label/><stationRef name="Vernon Blvd/Jackson Av" ml="1" mu="1"/><stationRef name="Hunters Point Av" mr="1" mu="1"/><label/><stationRef name="Court Sq"/><stationRef name="Queensboro Plaza"/><stationRef name="33 St/Rawson St"/><label/><stationRef name="40 St/Lowery St"/><stationRef name="46 St/Bliss St"/><stationRef name="52 St"/><label/><stationRef name="61 St/Woodside"/><stationRef name="69 St"/><label/><stationRef name="74 St/Broadway"/><stationRef name="82 St/Jackson Hts"/><stationRef name="90 St/Elmhurst Av"/><label/><stationRef name="Junction Blvd"/><stationRef name="103 St/Corona Plaza"/><stationRef name="111 St (purple line)"/><label/><stationRef name="Mets-Willets Point"/><stationRef name="Flushing Main St"/>
+    </trainLine>
+
+    <trainLine name="A" color="#2850ad">
+      <stationRef name="Inwood/207 St"/><stationRef name="Dyckman St (blue line)"/><label/><stationRef name="190 St"/><stationRef name="181 St (blue line)"/><stationRef name="175 St"/><label/><stationRef name="168 St" mr="1" md="1"/><label offset="1"/><point station="163 St/Amsterdam Av"/><point station="155 St (blue line)"/><label offset="1"/><point station="145 St"/><stationRef name="145 St" md="0.4"/><label offset="3"/><stationRef name="125 St (blue/orange line)"/><label offset="3"/><stationRef name="59 St/Columbus Circle"/><label offset="-5.5"/><stationRef name="42 St/Port Authority Bus Terminal"/><label/><stationRef name="34 St/Penn Station"/><stationRef name="8 Av/14 St"/><point x="370" y="2030"/><label offset="3"/><point x="480" y="2030" ml="4.2"/><stationRef name="W 4 St/Wash Sq" ml="3" md="1.2"/><stationRef name="Canal St (blue line)" ml="3"/><stationRef name="Chambers St (blue line)" ml="3"/><point x="570" y="2330" ml="6" mu="3"/><label offset="1"/><stationRef name="Fulton St" mr="1" mu="3"/><stationRef name="High St" mr="1.8" mu="3"/><label offset="-1"/><stationRef name="Jay St/Metro Tech" mr="1.7" mu="3.1"/><point x="980" y="2460" mr="4.8"/><stationRef name="Hoyt Schermerhorn"/><stationRef name="Nostrand Av (blue line)" mr="1.4"/><label offset="-5.5"/><stationRef name="Utica Av" mr="1.4"/><label offset="-1.5"/><stationRef name="Broadway Junction" mr="0.4" md="1"/><label offset="-9"/><stationRef name="Euclid Av" md="1"/><label offset="-1"/><stationRef name="Grant Av" md="1"/><stationRef name="80 St" md="1"/><stationRef name="88 St" md="1"/><label offset="-1"/><stationRef name="Rockaway Blvd" mr="1" md="1"/>
+      <branch>
+        <stationRef name="104 St (blue line)" mr="1" md="1"/><label/><stationRef name="111 St (blue line)" mr="1" md="1"/><stationRef name="Ozone Park Lefferts Blvd" mr="1" md="1"/>
+      </branch>
+      <branch>
+        <oneWay><stationRef name="Aqueduct Racetrack"/><point station="Aqueduct Racetrack"/></oneWay><label/><stationRef name="Aqueduct North Conduit Av"/><stationRef name="Howard Beach/JFK Airport"/><label/><stationRef name="Broad Channel"/><stationRef name="Beach 67 St"/><label/><stationRef name="Beach 60 St"/><stationRef name="Beach 44 St"/><stationRef name="Beach 36 St"/><label/><stationRef name="Beach 25 St"/><stationRef name="Far Rockaway Mott Av"/>
+      </branch>
+    </trainLine>
+    <trainLine name="B" color="#ff6319">
+      <stationRef name="145 St" mr="2" md="0.4"/><stationRef name="135 St (blue/orange line)" mr="2"/><label offset="-2"/><stationRef name="125 St (blue/orange line)" mr="2"/><stationRef name="116 St (blue/orange line)" mr="2"/><stationRef name="Cathedral Pkwy" mr="2"/><stationRef name="103 St (blue/orange line)" mr="2"/><stationRef name="96 St (blue/orange line)" mr="2"/><label offset="-2"/><stationRef name="86 St (blue/orange line)" mr="2"/><stationRef name="81 St/Museum of Natural History" mr="2"/><stationRef name="72 St (blue/orange line)" mr="2"/><stationRef name="59 St/Columbus Circle" mr="2"/><label offset="1"/><point x="355" y="1605" mr="1" mu="1"/><stationRef name="7 Av" mu="1"/><point x="455" y="1605" ml="0.6" mu="1"/><point station="47-50 Sts" mu="0.4"/><stationRef name="47-50 Sts"/><label offset="-1"/><stationRef name="42 St/Bryant Pk"/><stationRef name="34 St/Herald Sq" md="4.4"/><stationRef name="W 4 St/Wash Sq"/><label offset="1"/><point x="570" y="2120"/><stationRef name="B'way/Lafayette St"/><stationRef name="Grand St Manhattan"/><label offset="-3"/><point x="970" y="2380" ml="2" mu="2"/><stationRef name="DeKalb Av (orange/yellow line)" mr="0.8" mu="2"/><label offset="-4"/><point x="1150" y="2450" mr="1" mu="1.8"/><stationRef name="Atlantic Av/Barclays Ctr" mr="1" mu="2"/><point x="1150" y="2600" mr="1" md="2.4"/><stationRef name="7 Av Brooklyn" ml="0.4" md="1"/><label offset="-1"/><stationRef name="Prospect Park" ml="0.4" md="1"/><stationRef name="Church Av (B/Q line)" ml="1" md="0.4"/><label offset="-1"/><stationRef name="Newkirk Plaza" ml="1"/><label offset="1.5"/><stationRef name="Kings Hwy (B/Q line)" ml="1"/><label offset="-1"/><stationRef name="Sheepshead Bay" ml="1"/><stationRef name="Brighton Beach" ml="1"/>
+    </trainLine>
+    <trainLine name="C" color="#2850ad">
+      <stationRef name="168 St" mr="1" md="2.4"/><label offset="-1"/><stationRef name="163 St/Amsterdam Av" ml="1" md="0.4"/><stationRef name="155 St (blue line)" ml="1" md="0.4"/><label offset="-1"/><stationRef name="145 St" ml="1" md="0.4"/><stationRef name="135 St (blue/orange line)" ml="1"/><label offset="-2"/><stationRef name="125 St (blue/orange line)" ml="1"/><stationRef name="116 St (blue/orange line)" ml="1"/><stationRef name="Cathedral Pkwy" ml="1"/><stationRef name="103 St (blue/orange line)" ml="1"/><stationRef name="96 St (blue/orange line)" ml="1"/><label offset="-2"/><stationRef name="86 St (blue/orange line)" ml="1"/><stationRef name="81 St/Museum of Natural History" ml="1"/><stationRef name="72 St (blue/orange line)" ml="1"/><stationRef name="59 St/Columbus Circle" ml="1"/><label offset="1"/><stationRef name="50 St (blue line)" ml="1"/><stationRef name="42 St/Port Authority Bus Terminal" ml="1"/><label offset="-2"/><stationRef name="34 St/Penn Station" ml="1"/><stationRef name="23 St (blue line)" ml="1"/><stationRef name="8 Av/14 St" ml="1" md="0.4"/><point x="370" y="2030" ml="0.4" md="1"/><label offset="1"/><point x="480" y="2030" ml="4.6" md="1"/><stationRef name="W 4 St/Wash Sq" ml="4" md="1.6"/><stationRef name="Spring St (blue line)" ml="4"/><stationRef name="Canal St (blue line)" ml="4"/><stationRef name="Chambers St (blue line)" ml="4" md="0.4"/><point x="570" y="2330" ml="6.4" mu="2"/><label offset="3"/><stationRef name="Fulton St" mr="1" mu="2"/><stationRef name="High St" mr="1.4" mu="2"/><label offset="1"/><stationRef name="Jay St/Metro Tech" mr="1" mu="2.4"/><point x="980" y="2460" mr="4.4" md="1"/><stationRef name="Hoyt Schermerhorn" md="1"/><stationRef name="Lafayette Av" md="1"/><stationRef name="Clinton Av" md="1"/><stationRef name="Franklin Av" md="1"/><stationRef name="Nostrand Av (blue line)" mr="1.8" md="1"/><label offset="1"/><stationRef name="Kingston Throop Avs" mr="2.1" md="0.7"/><stationRef name="Utica Av" mr="2.1" md="0.7"/><stationRef name="Ralph Av" mr="2.1" md="0.7"/><label offset="1"/><stationRef name="Rockaway Av (blue line)" mr="2.1" md="0.7"/><stationRef name="Broadway Junction" mr="0.8" md="2"/><stationRef name="Liberty Av" md="2"/><label offset="1"/><stationRef name="Van Siclen Av (blue line)" md="2"/><stationRef name="Shepherd Av" md="2"/><stationRef name="Euclid Av" md="2"/>
+    </trainLine>
+    <trainLine name="D" color="#ff6319">
+      <stationRef name="Norwood/205 St"/><stationRef name="Bedford Pk Blvd"/><label/><stationRef name="Kingsbridge Rd (orange line)"/><stationRef name="Fordham Rd (orange line)"/><stationRef name="182-183 Streets"/><label/><stationRef name="Tremont Av"/><stationRef name="174-175 Streets"/><stationRef name="170 St (orange line)"/><label/><stationRef name="167 St (orange line)" mu="1"/><stationRef name="161 St/Yankee Stadium" ml="2" md="1"/><stationRef name="155 St (orange line)" md="1"/><label/><point station="145 St" mr="1"/><stationRef name="145 St" mr="1" md="0.4"/><label offset="5"/><stationRef name="125 St (blue/orange line)" mr="1"/><label offset="5"/><stationRef name="59 St/Columbus Circle" mr="1"/><point station="59 St/Columbus Circle" mr="1" md="0.4"/><label offset="-1"/><point x="355" y="1605" mr="0.6"/><stationRef name="7 Av"/><point x="455" y="1605" ml="1"/><stationRef name="47-50 Sts" ml="1"/><label offset="-3"/><stationRef name="42 St/Bryant Pk" ml="1"/><stationRef name="34 St/Herald Sq" ml="1" md="4.4"/><stationRef name="W 4 St/Wash Sq" ml="1" md="0.4"/><label offset="3"/><point x="570" y="2120" ml="0.4" md="1"/><stationRef name="B'way/Lafayette St" ml="0.4" md="1"/><stationRef name="Grand St Manhattan" mdl="1"/><label offset="-1"/><point x="970" y="2380" ml="2.4" mu="1"/><point station="DeKalb Av (orange/yellow line)" mr="0.4" mu="1"/><label offset="-2"/><point x="1150" y="2450" mu="1.4"/><stationRef name="Atlantic Av/Barclays Ctr" mu="2"/><label offset="-5"/><label offset="9"/><stationRef name="36 St Brooklyn"/><stationRef name="9 Av"/><label/><stationRef name="Fort Hamilton Pkwy (orange line)"/><stationRef name="50 St (D line)"/><stationRef name="55 St"/><label/><stationRef name="62 St"/><stationRef name="71 St"/><label/><stationRef name="79 St (D line)"/><stationRef name="18 Av (D line)"/><stationRef name="20 Av (D line)"/><label/><stationRef name="Bay Pkwy (D line)"/><stationRef name="25 Av"/><stationRef name="Bay 50 St"/><label/><stationRef name="Coney Island Stillwell Av" ml="1"/>
+    </trainLine>
+    <trainLine name="E" color="#2850ad">
+      <stationRef name="Jamaica Center Parsons/Archer" mu="1"/><stationRef name="Sutphin Blvd/Archer Av/JFK Airport" mu="1"/><point station="Sutphin Blvd/Archer Av/JFK Airport" ml="1" mu="1"/><label/><stationRef name="Jamaica Van Wyck"/><stationRef name="Briarwood" mr="1" md="1"/><stationRef name="Kew Gardens Union Tpke" md="1"/><label offset="1"/><stationRef name="75 Av" md="1"/><stationRef name="Forest Hills/71 Av" md="1"/><label offset="-16.5"/><stationRef name="Jackson Hts/Roosevelt Av" md="1"/><label offset="-15.5"/><label offset="30"/><stationRef name="Queens Plaza" md="1"/><stationRef name="Court Sq" md="1"/><label offset="1"/><stationRef name="51 St" mr="2" md="1"/><stationRef name="5 Av/53 St" md="1"/><stationRef name="7 Av" md="1"/><point x="355" y="1605" md="1"/><label/><stationRef name="50 St (blue line)" mr="1"/><stationRef name="42 St/Port Authority Bus Terminal" mr="1"/><label offset="2"/><stationRef name="34 St/Penn Station" mr="1"/><stationRef name="23 St (blue line)" mr="1"/><stationRef name="8 Av/14 St" mr="1" mu="0.4"/><point x="370" y="2030" mr="0.4" mu="1"/><label offset="5"/><point x="480" y="2030" ml="3.8" mu="1"/><stationRef name="W 4 St/Wash Sq" ml="2" md="0.8"/><stationRef name="Spring St (blue line)" ml="2"/><stationRef name="Canal St (blue line)" ml="2"/><point x="480" y="2210" ml="2"/><label/><stationRef name="World Trade Center" ml="2"/>
+    </trainLine>
+    <trainLine name="F" color="#ff6319">
+      <stationRef name="Jamaica/179 St"/><stationRef name="169 St"/><label/><stationRef name="Parsons Blvd"/><stationRef name="Sutphin Blvd" mr="1"/><stationRef name="Briarwood" mr="1"/><stationRef name="Kew Gardens Union Tpke"/><label offset="-1"/><stationRef name="75 Av"/><stationRef name="Forest Hills/71 Av"/><label offset="-15"/><stationRef name="Jackson Hts/Roosevelt Av"/><label offset="-8.5"/><point x="1155" y="1605"/><label/><point x="1050" y="1500"/><label/><stationRef name="21 St/Queensbridge"/><stationRef name="Roosevelt Island"/><label/><stationRef name="Lexington Av/63 St"/><point x="540" y="1500" mr="1"/><label/><point x="500" y="1540" mr="1"/><stationRef name="57 St" mr="1"/><stationRef name="47-50 Sts" mr="1"/><label offset="1"/><stationRef name="42 St/Bryant Pk" mr="1"/><stationRef name="34 St/Herald Sq" mr="1" md="4.4"/><stationRef name="23 St (orange line)" mr="1"/><stationRef name="6 Av/14 St" mr="1"/><stationRef name="W 4 St/Wash Sq" mr="1" mu="0.4"/><label offset="-1"/><point x="570" y="2120" mr="0.4" mu="1"/><stationRef name="B'way/Lafayette St" mu="1"/><label offset="-1"/><stationRef name="2 Av" ml="0.4" mu="1"/><stationRef name="Delancey St/Essex St" ml="1.4" mu="2"/><label/><stationRef name="East Broadway" ml="1.4"/><point x="900" y="2260" ml="1.4"/><stationRef name="York St"/><point x="960" y="2290"/><label offset="-2"/><stationRef name="Jay St/Metro Tech" mu="2"/><point x="960" y="2460"/><point x="1000" y="2500" ml="1" mu="1"/><stationRef name="Bergen St (F/G line)" ml="1"/><label offset="-1"/><stationRef name="Carroll St" ml="1" md="0.4"/><stationRef name="Smith St/9 St" ml="0.4" md="1"/><stationRef name="4 Av/9 St" ml="3" md="1"/><stationRef name="7 Av Park Slope" md="1"/><label offset="-1"/><stationRef name="15 St Prospect Park" md="1"/><stationRef name="Fort Hamilton Pkwy (F/G line)" mr="1" md="1"/><stationRef name="Church Av (F/G line)"/><stationRef name="Ditmas Av"/><label/><stationRef name="18 Av (F line)"/><stationRef name="Avenue I"/><stationRef name="Bay Pkwy (F line)"/><label/><stationRef name="Avenue N"/><stationRef name="Avenue P"/><stationRef name="Kings Hwy (F line)"/><label/><stationRef name="Avenue U (F line)"/><stationRef name="Avenue X"/><stationRef name="Neptune Av"/><label/><stationRef name="West 8 St/NY Aquarium"/><label offset="-1"/><stationRef name="Coney Island Stillwell Av"/>
+    </trainLine>
+    <trainLine name="G" color="#6cbe45">
+      <stationRef name="Court Sq" md="3"/><label/><stationRef name="21 St"/><stationRef name="Greenpoint Av"/><stationRef name="Nassau Av"/><label/><stationRef name="Metropolitan Av" md="1"/><stationRef name="Broadway Brooklyn"/><stationRef name="Flushing Av (G line)"/><label/><autoStation name="Myrtle Willoughby Avs"/><stationRef name="Bedford Nostrand Avs"/><stationRef name="Classon Av"/><stationRef name="Washington Av"/><label offset="-1"/><stationRef name="Fulton St Brooklyn"/><stationRef name="Hoyt Schermerhorn" mu="1"/><point x="1000" y="2480" mu="1"/><stationRef name="Bergen St (F/G line)"/><label offset="1"/><stationRef name="Carroll St"/><stationRef name="Smith St/9 St"/><stationRef name="4 Av/9 St" ml="3"/><stationRef name="7 Av Park Slope"/><label offset="1"/><stationRef name="15 St Prospect Park"/><stationRef name="Fort Hamilton Pkwy (F/G line)" mr="1.4"/><stationRef name="Church Av (F/G line)" mur="1"/>
+    </trainLine>
+    <trainLine name="H" color="#808183">
+      <stationRef name="Broad Channel" md="1"/><label/><stationRef name="Beach 90 St"/><stationRef name="Beach 98 St"/><stationRef name="Beach 105 St"/><label/><stationRef name="Rockaway Park Beach 116 St"/>
+    </trainLine>
+    <trainLine name="J" color="#996633">
+      <stationRef name="Broad St" ml="2"/><stationRef name="Fulton St" ml="2" mu="1"/><stationRef name="Brooklyn Bridge/City Hall" ml="2"/><label offset="-2"/><stationRef name="Canal St" ml="2"/><point x="720" y="2170" ml="2"/><stationRef name="Bowery"/><label offset="-1.5"/><stationRef name="Delancey St/Essex St"/><label offset="2.5"/><stationRef name="Marcy Av"/><stationRef name="Hewes St"/><stationRef name="Lorimer St"/><label offset="2.5"/><stationRef name="Flushing Av (J/M line)"/><stationRef name="Myrtle Av"/><stationRef name="Kosciuszko St"/><label offset="-1"/><stationRef name="Gates Av"/><stationRef name="Halsey St (brown line)"/><stationRef name="Chauncey St"/><stationRef name="Broadway Junction"/><label offset="-1"/><stationRef name="Alabama Av"/><stationRef name="Van Siclen Av (brown line)"/><stationRef name="Cleveland St"/><stationRef name="Norwood Av"/><stationRef name="Crescent St"/><label offset="-1"/><stationRef name="Cypress Hills"/><stationRef name="75 St/Elderts Ln"/><stationRef name="85 St/Forest Pkwy"/><label offset="-1"/><stationRef name="Woodhaven Blvd (brown line)"/><stationRef name="104 St (brown line)"/><stationRef name="111 St (brown line)"/><label offset="-1"/><stationRef name="121 St"/><point station="Sutphin Blvd/Archer Av/JFK Airport" ml="1" md="1"/><stationRef name="Sutphin Blvd/Archer Av/JFK Airport" md="1"/><stationRef name="Jamaica Center Parsons/Archer" md="1"/>
+    </trainLine>
+    <trainLine name="L" color="#a7a9ac">
+      <stationRef name="8 Av/14 St" mr="2" mu="1"/><label offset="-5"/><stationRef name="6 Av/14 St" mr="3" mu="1"/><label/><point station="14 St/Union Sq" ml="3.4" mu="1"/><stationRef name="14 St/Union Sq" mr="2" mu="6.4"/><stationRef name="3 Av" ml="4.4"/><label/><stationRef name="1 Av"/><stationRef name="Bedford Av"/><stationRef name="Metropolitan Av" ml="1"/><label/><autoStation name="Graham Av" a="t"/><autoStation name="Grand St" id="Grand St Brooklyn" a="b"/><autoStation name="Montrose Av" a="t"/><label/><autoStation name="Morgan Av" a="b"/><stationRef name="Jefferson St"/><stationRef name="DeKalb Av (L line)"/><label/><stationRef name="Myrtle/Wyckoff Avs" ml="0.3" mu="0.3"/><stationRef name="Halsey St (L line)"/><stationRef name="Wilson Av"/><label/><stationRef name="Bushwick Av/Aberdeen St"/><stationRef name="Broadway Junction" ml="0.8" mu="2"/><stationRef name="Atlantic Av" ml="0.8"/><label/><stationRef name="Sutter Av" ml="0.8" mu="0.8"/><stationRef name="Livonia Av"/><stationRef name="New Lots Av (L line)"/><label/><stationRef name="East 105 St"/><stationRef name="Canarsie Rockaway Pkwy"/>
+    </trainLine>
+    <trainLine name="M" color="#ff6319">
+      <stationRef name="Forest Hills/71 Av" md="2"/><stationRef name="67 Av" md="2"/><label offset="-1"/><stationRef name="63 Dr/Rego Park" md="2"/><stationRef name="Woodhaven Blvd (M/R line)" md="2"/><stationRef name="Grand Av/Newtown" md="2"/><stationRef name="Elmhurst Av" md="2"/><stationRef name="Jackson Hts/Roosevelt Av" md="2"/><stationRef name="65 St" md="2"/><label offset="-1"/><stationRef name="Northern Blvd" md="2"/><stationRef name="46 St" md="2"/><stationRef name="Steinway St" md="2"/><stationRef name="36 St Queens" md="2"/><label/><stationRef name="Queens Plaza" md="2"/><stationRef name="Court Sq" md="2"/><label offset="-1"/><stationRef name="51 St" mr="2" md="2"/><stationRef name="5 Av/53 St" md="2"/><stationRef name="47-50 Sts" mr="2"/><label offset="3"/><stationRef name="42 St/Bryant Pk" mr="2"/><stationRef name="34 St/Herald Sq" mr="2" md="4.4"/><stationRef name="23 St (orange line)" mr="2"/><stationRef name="6 Av/14 St" mr="2"/><stationRef name="W 4 St/Wash Sq" mr="2" mu="0.8"/><label offset="-3"/><point x="570" y="2120" mr="0.8" mu="2"/><stationRef name="B'way/Lafayette St" mu="2"/><label offset="2"/><point station="2 Av" mu="2"/><stationRef name="Delancey St/Essex St" mu="2"/><label offset="-2"/><stationRef name="Marcy Av" mu="2"/><stationRef name="Hewes St" mu="2"/><stationRef name="Lorimer St" mu="2"/><label offset="-2"/><stationRef name="Flushing Av (J/M line)" mu="2"/><stationRef name="Myrtle Av" mu="2"/><autoStation name="Central Av" ml="1" mu="1"/><label/><autoStation name="Knickerbocker Av" ml="1" mu="1"/><stationRef name="Myrtle/Wyckoff Avs" ml="1.7" mu="0.3"/><autoStation name="Seneca Av" ml="1" mu="1"/><autoStation name="Forest Av" ml="1" mu="1"/><label/><autoStation name="Fresh Pond Rd" ml="1" mu="1"/><stationRef name="Middle Village Metropolitan Av" ml="1" mu="1"/>
+    </trainLine>
+    <trainLine name="N" color="#fccc0a">
+      <stationRef name="Astoria Ditmars Blvd"/><label offset="-1"/><stationRef name="Astoria Blvd"/><stationRef name="30 Av"/><stationRef name="Broadway Queens"/><stationRef name="36 Av"/><label offset="-1"/><stationRef name="39 Av" mu="1"/><stationRef name="Queensboro Plaza" mu="1"/><label offset="1.5"/><stationRef name="59 St" mr="2" mu="1"/><stationRef name="5 Av/59 St" mu="1"/><label offset="1"/><point x="440" y="1540" mr="1.6" mu="1"/><point station="57 St/7 Av" mr="1" mu="0.4"/><stationRef name="57 St/7 Av" mr="1"/><stationRef name="49 St" mr="1"/><stationRef name="Times Sq/42 St" mr="1"/><point x="420" y="1760" mr="1" mu="0.4"/><label offset="-1"/><stationRef name="34 St/Herald Sq" mr="4.4" md="3"/><stationRef name="14 St/Union Sq" ml="3" mu="4.4"/><label offset="2"/><point station="Prince St" ml="3" mu="0.4"/><point station="Canal St" ml="5" mu="2.4"/><stationRef name="Canal St" ml="5"/><point station="Canal St" ml="5" md="4"/><point x="740" y="2250" ml="9"/><point x="840" y="2250" ml="2.8"/><label/><point x="970" y="2380" ml="2.8"/><point station="DeKalb Av (orange/yellow line)"/><label/><point x="1150" y="2450" ml="1" mu="1"/><stationRef name="Atlantic Av/Barclays Ctr" ml="1" mu="2"/><label offset="-3"/><label offset="11"/><stationRef name="36 St Brooklyn" ml="1"/><label offset="-1"/><stationRef name="59 St Brooklyn" ml="1"/><label/><autoStation name="8 Av" a="l" ml="1"/><stationRef name="Fort Hamilton Pkwy (yellow line)" ml="1" mu="1"/><point x="1180" y="3300"/><stationRef name="New Utrecht Av"/><stationRef name="18 Av (N line)"/><label/><stationRef name="20 Av (N line)"/><stationRef name="Bay Pkwy (N line)"/><label/><stationRef name="Kings Hwy (N line)"/><stationRef name="Avenue U (N line)"/><stationRef name="86 St (N line)"/><label/><point x="1300" y="3650"/><stationRef name="Coney Island Stillwell Av" ml="1" md="1"/>
+    </trainLine>
+    <trainLine name="Q" color="#fccc0a">
+      <stationRef name="96 St (yellow line)"/><stationRef name="86 St (yellow line)"/><label/><stationRef name="72 St (yellow line)" mu="1"/><stationRef name="Lexington Av/63 St" mu="1"/><label offset="5"/><point x="460" y="1500" mu="1"/><point x="420" y="1540" ml="1"/><stationRef name="57 St/7 Av" ml="1"/><stationRef name="Times Sq/42 St" ml="1"/><point x="420" y="1760" ml="1" md="0.4"/><label offset="3"/><stationRef name="34 St/Herald Sq" mr="3" md="4.4"/><stationRef name="14 St/Union Sq" ml="5" mu="3.6"/><label offset="6"/><point station="Prince St" ml="5" md="0.4"/><point station="Canal St" ml="7" mu="1.6"/><stationRef name="Canal St" ml="7"/><point station="Canal St" ml="7" md="3.4"/><point x="740" y="2250" ml="9.4" md="1"/><point x="840" y="2250" ml="3.2" md="1"/><label offset="2"/><point x="970" y="2380" ml="3.2" md="1"/><stationRef name="DeKalb Av (orange/yellow line)" ml="0.4" md="1"/><label offset="1"/><point x="1150" y="2450" mr="2" md="3.4"/><stationRef name="Atlantic Av/Barclays Ctr" mr="2" mu="2"/><point x="1150" y="2600" mr="2" md="2"/><stationRef name="7 Av Brooklyn"/><label offset="1"/><stationRef name="Prospect Park"/><autoStation name="Parkside Av"/><stationRef name="Church Av (B/Q line)"/><autoStation name="Beverley Rd" id="Beverley Rd (yellow line)"/><label offset="1"/><autoStation name="Cortelyou Rd"/><stationRef name="Newkirk Plaza"/><autoStation name="Avenue H"/><autoStation name="Avenue J"/><label offset="1"/><autoStation name="Avenue M"/><stationRef name="Kings Hwy (B/Q line)"/><autoStation name="Avenue U" id="Avenue U (B/Q line)"/><label offset="1"/><autoStation name="Neck Rd"/><stationRef name="Sheepshead Bay"/><stationRef name="Brighton Beach"/><point station="Brighton Beach" md="1"/><label/><autoStation name="Ocean Pkwy" mr="0.5" md="0.5"/><stationRef name="West 8 St/NY Aquarium" mr="1"/><label offset="1"/><stationRef name="Coney Island Stillwell Av" mr="1"/>
+    </trainLine>
+    <trainLine name="R" color="#fccc0a">
+      <stationRef name="Forest Hills/71 Av" md="3"/><stationRef name="67 Av" md="3"/><label offset="-3.5"/><stationRef name="63 Dr/Rego Park" md="3"/><stationRef name="Woodhaven Blvd (M/R line)" md="3"/><stationRef name="Grand Av/Newtown" md="3"/><stationRef name="Elmhurst Av" md="3"/><stationRef name="Jackson Hts/Roosevelt Av" md="3"/><stationRef name="65 St" md="3"/><label offset="-3.5"/><stationRef name="Northern Blvd" md="3"/><stationRef name="46 St" md="3"/><stationRef name="Steinway St" md="3"/><stationRef name="36 St Queens" md="3"/><label offset="-2"/><stationRef name="Queens Plaza" md="3"/><point x="1005" y="1605" mr="3" md="3"/><label/><point x="940" y="1540"/><label offset="-2"/><stationRef name="59 St" mr="2"/><stationRef name="5 Av/59 St"/><label offset="3"/><point x="440" y="1540" mr="2"/><stationRef name="57 St/7 Av" mr="2"/><stationRef name="49 St" mr="2"/><stationRef name="Times Sq/42 St" mr="2"/><point x="420" y="1760" mr="2" mu="0.8"/><label offset="-3"/><stationRef name="34 St/Herald Sq" mr="5.1" md="2.3"/><stationRef name="28 St (yellow line)" mur="2"/><stationRef name="23 St (yellow line)" mur="2"/><stationRef name="14 St/Union Sq" ml="2" mu="4.8"/><stationRef name="8 St/NYU" ml="2"/><label offset="-4"/><stationRef name="Prince St" ml="2" mu="0.8"/><point station="Canal St" ml="4" mu="2.8"/><stationRef name="Canal St" ml="4"/><point station="Canal St" ml="4" md="4"/><label offset="2"/><stationRef name="City Hall"/><stationRef name="Cortlandt St"/><label offset="-1"/><stationRef name="Rector St (yellow line)"/><stationRef name="Whitehall St/South Ferry"/><label/><stationRef name="Court St"/><stationRef name="Jay St/Metro Tech" mur="2"/><label/><point x="1020" y="2380" ml="2" md="2"/><stationRef name="DeKalb Av (orange/yellow line)" ml="0.8" md="2"/><label offset="4"/><point x="1150" y="2450" ml="2" md="0.8"/><stationRef name="Atlantic Av/Barclays Ctr" ml="2" mu="2"/><stationRef name="Union St" ml="2"/><label offset="1"/><stationRef name="4 Av/9 St" ml="2" md="2"/><autoStation name="Prospect Av" id="Prospect Av Brooklyn" a="l" ml="2"/><label offset="1.5"/><autoStation name="25 St" a="l" ml="2"/><stationRef name="36 St Brooklyn" ml="2"/><autoStation name="45 St" a="l" ml="2"/><label offset="1"/><autoStation name="53 St" a="l" ml="2"/><stationRef name="59 St Brooklyn" ml="2"/><label/><autoStation name="Bay Ridge Av" a="l" ml="2"/><autoStation name="77 St" id="77 St (yellow line)" a="l" ml="2"/><autoStation name="86 St" id="86 St (R line)" a="l" ml="2"/><label/><stationRef name="Bay Ridge 95 St" ml="2"/>
+    </trainLine>
+    <trainLine name="S" color="#808183">
+      <stationRef name="Franklin Av" md="2"/><stationRef name="Park Pl" ml="2"/><label/><point x="1300" y="2500"/><stationRef name="Botanic Garden"/><label/><stationRef name="Prospect Park" mu="1"/>
+    </trainLine>
+    <trainLine name="W" color="#fccc0a">
+      <stationRef name="Astoria Ditmars Blvd" ml="1"/><label offset="1"/><stationRef name="Astoria Blvd" ml="1"/><stationRef name="30 Av" ml="1"/><stationRef name="Broadway Queens" ml="1"/><stationRef name="36 Av" ml="1"/><label offset="1"/><stationRef name="39 Av" ml="1" mu="1.4"/><stationRef name="Queensboro Plaza" ml="0.4" mu="2"/><label offset="-1"/><stationRef name="59 St" mr="2" mu="2"/><stationRef name="5 Av/59 St" mu="2"/><label offset="-1"/><point x="440" y="1540" mr="1.2" mu="2"/><point station="57 St/7 Av" mu="0.8"/><stationRef name="57 St/7 Av"/><stationRef name="49 St"/><stationRef name="Times Sq/42 St"/><point x="420" y="1760"/><label offset="1"/><stationRef name="34 St/Herald Sq" mr="3.7" md="3.7"/><stationRef name="28 St (yellow line)"/><stationRef name="23 St (yellow line)"/><stationRef name="14 St/Union Sq" ml="4" mu="4"/><stationRef name="8 St/NYU" ml="4"/><label/><stationRef name="Prince St" ml="4"/><point station="Canal St" ml="6" mu="2"/><stationRef name="Canal St" ml="6"/><point station="Canal St" ml="6" md="4.6"/><label offset="-1"/><stationRef name="City Hall" ml="1" mu="0.4"/><stationRef name="Cortlandt St" ml="1"/><label offset="1"/><stationRef name="Rector St (yellow line)" ml="1" md="0.4"/><stationRef name="Whitehall St/South Ferry" mdl="1"/>
+    </trainLine>
+    <trainLine name="Z" color="#996633">
+      <stationRef name="Broad St" ml="3"/><stationRef name="Fulton St" ml="3" mu="1"/><stationRef name="Brooklyn Bridge/City Hall" ml="3"/><label/><stationRef name="Canal St" ml="3"/><point station="Canal St" ml="3" mu="0.4"/><point x="720" y="2170" ml="2.4" mu="1"/><stationRef name="Bowery" mu="1"/><label offset="1"/><stationRef name="Delancey St/Essex St" mu="1"/><label/><stationRef name="Marcy Av" mu="1"/><label offset="5"/><stationRef name="Myrtle Av" mu="1"/><label offset="6"/><stationRef name="Gates Av" mu="1"/><stationRef name="Chauncey St" mu="1"/><stationRef name="Broadway Junction" ml="0.4" mu="1"/><label offset="1"/><stationRef name="Alabama Av" mul="1"/><stationRef name="Van Siclen Av (brown line)" mul="1"/><stationRef name="Norwood Av" mul="1"/><stationRef name="Crescent St" ml="0.4" mu="1"/><label offset="-7"/><stationRef name="75 St/Elderts Ln" mu="1"/><label offset="11.5"/><stationRef name="Woodhaven Blvd (brown line)" ml="0.4" mu="1"/><stationRef name="104 St (brown line)" mul="1"/><label offset="5"/><stationRef name="121 St" mul="1"/><point station="Sutphin Blvd/Archer Av/JFK Airport" ml="1.4"/><stationRef name="Sutphin Blvd/Archer Av/JFK Airport"/><stationRef name="Jamaica Center Parsons/Archer"/>
+    </trainLine>
+    <trainLine name="JFK" color="#fff200">
+      <stationRef name="Howard Beach/JFK Airport" mur="1"/><label/><stationRef name="JFK Airport Lefferts Blvd"/><stationRef name="JFK Airport Federal Circle" ml="1.5" md="1.5"/><point x="2830" y="2020" ml="0.5" md="1.5"/><stationRef name="JFK Airport Terminal 1" ml="1" md="1"/><label/><stationRef name="JFK Airport Terminal 2" ml="1" md="1"/><stationRef name="JFK Airport Terminal 4" ml="1" md="1"/><stationRef name="JFK Airport Terminal 5" ml="1" md="1"/><stationRef name="JFK Airport Terminal 7" ml="1" md="1"/><label/><stationRef name="JFK Airport Terminal 8" ml="1" md="1"/><point x="2830" y="2020" ml="1" md="0.5"/><stationRef name="JFK Airport Federal Circle" ml="1.5" md="0.5"/><label/><stationRef name="Sutphin Blvd/Archer Av/JFK Airport" md="2"/>
+    </trainLine>
+
+    <walkingLine>
+      <stationRef name="207 St"/>
+      <stationRef name="Inwood/207 St"/>
+    </walkingLine>
+    <walkingLine>
+      <stationRef name="Times Sq/42 St"/>
+      <stationRef name="42 St/Port Authority Bus Terminal"/>
+    </walkingLine>
+    <walkingLine>
+      <stationRef name="Lexington Av/63 St"/>
+      <stationRef name="59 St" mr="2" mu="2"/>
+    </walkingLine>
+    <walkingLine>
+      <stationRef name="5 Av" ml="3"/>
+      <stationRef name="42 St/Bryant Pk"/>
+    </walkingLine>
+    <walkingLine>
+      <stationRef name="14 St" ml="2"/>
+      <stationRef name="6 Av/14 St"/>
+    </walkingLine>
+    <walkingLine>
+      <stationRef name="Bleecker St" mr="1"/>
+      <stationRef name="B'way/Lafayette St" mu="2"/>
+    </walkingLine>
+    <walkingLine>
+      <stationRef name="Chambers St (blue line)" ml="3"/>
+      <stationRef name="Park Place"/>
+      <stationRef name="World Trade Center" ml="2"/>
+      <stationRef name="Cortlandt St"/>
+    </walkingLine>
+    <walkingLine>
+      <stationRef name="Whitehall St/South Ferry"/>
+      <stationRef name="South Ferry"/>
+    </walkingLine>
+    <walkingLine>
+      <stationRef name="74 St/Broadway"/>
+      <stationRef name="Jackson Hts/Roosevelt Av"/>
+    </walkingLine>
+    <walkingLine>
+      <stationRef name="Court St"/>
+      <stationRef name="Borough Hall" mr="3"/>
+    </walkingLine>
+    <walkingLine>
+      <stationRef name="62 St"/>
+      <stationRef name="New Utrecht Av"/>
+    </walkingLine>
+    <walkingLine>
+      <stationRef name="Junius St" mul="1"/>
+      <stationRef name="Livonia Av"/>
+    </walkingLine>
+    <walkingLine>
+      <stationRef name="Franklin Av Medgar Evers College" ml="0.4"/>
+      <stationRef name="Botanic Garden"/>
+    </walkingLine>
+  </lines>
+  <background height="3750">
+    <sea points="r b, l b, l t, 130 t, 130 1850, 380 2100, 380 2450, 480 2550, 730 2550, 780 2500, 900 2620, 900 3400, 1200 3700, 1300 3700, 1800 3200, 1800 2500, 1950 2350, 2550 2350, 2800 2100, 3000 2100, 3015 2115, 3015 2135, 3000 2150, 2900 2150, 2000 3050, 2000 3070, 2020 3090, 2040 3090, 2840 2290, r 2290"/>
+    <sea points="r t, 2000 t, 2000 0, 950 1050, 750 1050, 750 1350, 1000 1100, 1800 1100, 2000 900, 2000 800, 1700 500, 1700 400, 1800 300, r 300"/>
+    <river points="760 1060, 725 1025, 575 1025, 550 1000, 550 550, 275 275, 100 275"/>
+    <river points="752 1340, 752 1872, 900 2020, 900 2250, 780 2370, 780 2510"/>
+    <river points="830 1260, 830 1580, 752 1658"/>
+    <river points="752 1720, 1100 1720"/>
+    <island points="2610 2400, 2610 2420, 2590 2440, 2570 2440, 2540 2410, 2540 2390, 2560 2370, 2580 2370"/>
+  </background>
+</place>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<place>
+    <stations>
+        <station name="Göteborg" x="250" y="50"/>
+        <station name="Halmstad" x="250" y="400" a="l"/>
+        <station name="Laholm" x="250" y="470" a="l"/>
+        <station name="Båstad" x="250" y="540" a="l"/>
+        <station name="Ängelholm" x="250" y="720" a="l"/>
+        <station name="Helsingborg C" x="250" y="1030" a="l"/>
+        <station name="Ramlösa" x="250" y="1100" a="l"/>
+        <station name="Rydebäck" x="250" y="1190" a="l"/>
+        <station name="Landskrona" x="380" y="1320" a="l"/>
+        <station name="Kävlinge" x="570" y="1510" a="l"/>
+        <station name="Gunnesbo" x="630" y="1570"/>
+        <station name="Lomma" x="570" y="1670" a="l"/>
+        <station name="&#10;Lund C" x="690" y="1630"/>
+        <station name="&#10;Klostergården" x="660" y="1660"/>
+        <station name="&#10;Hjärup" x="630" y="1690"/>
+        <station name="&#10;Åkarp" x="600" y="1720"/>
+        <station name="&#10;Burlöv" x="570" y="1750"/>
+        <station name="Malmö C" x="490" y="1750" a="l"/>
+        <station name="Triangeln" x="450" y="1790" a="l"/>
+        <station name="Hyllie" x="450" y="1850" a="l"/>
+        <station name="CPH Flygplats" x="290" y="1870" a="b"/>
+        <station name="Tårnby" x="230" y="1870" a="t"/>
+        <station name="Ørestad" x="170" y="1870" a="b"/>
+        <station name="København H" x="110" y="1810"/>
+        <station name="Nørreport" x="110" y="1716"/>
+        <station name="Østerport" x="110" y="1621"/>
+
+        <station name="Åstorp" x="570" y="950" a="t"/>
+
+        <station name="Marieholm" x="700" y="1370" a="t"/>
+        <station name="Teckomatorp" x="570" y="1370" a="l"/>
+
+        <station name="Stångby" x="750" y="1570"/>
+        <station name="Örtofta" x="750" y="1495"/>
+        <station name="Eslöv" x="750" y="1420"/>
+        <station name="Stehag" x="844" y="1326"/>
+        <station name="Höör" x="938" y="1232"/>
+        <station name="Hässleholm" x="1220" y="950" a="b"/>
+        <station name="Vinslöv" x="1380" y="950"/>
+        <station name="Önnestad" x="1475" y="1045"/>
+        <station name="Kristianstad" x="1570" y="1140" a="l"/>
+        <station name="Fjälkinge" x="1660" y="1140" a="b"/>
+        <station name="Bromölla" x="1730" y="1140" a="t"/>
+        <station name="Sölvesborg" x="1810" y="1140" a="b"/>
+        <station name="Mörrum" x="1890" y="1140" a="t"/>
+        <station name="Karlshamn" x="1970" y="1140" a="b"/>
+        <station name="Karlskrona" x="2290" y="1140"/>
+
+        <station name="Osby" x="1520" y="650" a="l"/>
+        <station name="Älmhult" x="1520" y="340" a="l"/>
+        <station name="Alvesta" x="1570" y="290" a="t"/>
+        <station name="Kalmar" x="2340" y="290"/>
+
+        <station name="Bjärnum" x="1220" y="730"/>
+        <station name="Markaryd" x="890" y="400"/>
+
+        <station name="Östervärn" x="560" y="1790"/>
+        <station name="Rosengård" x="560" y="1860"/>
+        <station name="Persborg" x="530" y="1890"/>
+
+        <station name="Svågertorp" x="490" y="1890" a="l"/>
+        <station name="Västra Ingelstad" x="620" y="2020"/>
+        <station name="Trelleborg" x="620" y="2180"/>
+
+        <station name="Oxie" x="600" y="1940" a="t"/>
+        <station name="Svedala" x="740" y="1940" a="b"/>
+        <station name="Skurup" x="880" y="1940" a="t"/>
+        <station name="Rydsgård" x="1020" y="1940"/>
+        <station name="Svarte" x="1170" y="2090" a="b"/>
+        <station name="Ystad" x="1240" y="2090" a="b"/>
+        <station name="Tomelilla" x="1420" y="1910" a="l"/>
+        <station name="Simrishamn" x="1720" y="1910"/>
+    </stations>
+    <lines>
+        <trainLine name="2" color="#8e9091">
+            <stationRef name="Østerport" mr="1"/><stationRef name="Nørreport" mr="1"/><label offset="-2"/><stationRef name="København H" murr="1"/><stationRef name="Ørestad" muur="1"/><stationRef name="Tårnby" mu="1"/><stationRef name="CPH Flygplats" mu="1"/><label offset="-3"/><point x="430" y="1870" mu="1" mr="1.2"/><point station="Hyllie" ml="2" md="2.2"/><stationRef name="Hyllie" ml="2"/><stationRef name="Triangeln" mull="2"/><stationRef name="Malmö C" muul="2"/><label offset="-2"/><point station="Burlöv" muul="2"/><stationRef name="Lund C" mull="2"/><point station="Lund C" ml="2" mu="3.4"/><label offset="-10"/><label/><stationRef name="Landskrona" mur="1"/><label offset="3"/><point station="Rydebäck" murr="1"/><stationRef name="Ramlösa" mr="1"/><stationRef name="Helsingborg C" mr="1"/><label offset="5"/><stationRef name="Ängelholm" mr="1"/><label offset="1"/><stationRef name="Båstad" mr="1"/><stationRef name="Laholm" mr="1"/><label offset="1"/><stationRef name="Halmstad" mr="1"/><autoStation name="Falkenberg" mr="1"/><autoStation name="Varberg" mr="1"/><autoStation name="Kungsbacka" mr="1"/><label/><autoStation name="Mölndal" mr="1"/><stationRef name="Göteborg" mr="1"/>
+        </trainLine>
+        <trainLine name="4A" color="#8e9091">
+            <stationRef name="Østerport"/><stationRef name="Nørreport"/><label/><stationRef name="København H"/><stationRef name="Ørestad"/><stationRef name="Tårnby"/><stationRef name="CPH Flygplats"/><label/><point x="430" y="1870" mr="1.6"/><point station="Hyllie" mr="1" md="0.6"/><stationRef name="Hyllie" mr="1"/><stationRef name="Triangeln" mdrr="1"/><stationRef name="Malmö C" mddr="1"/><label offset="2"/><point station="Burlöv" mddr="1"/><stationRef name="Lund C" mdrr="1"/><point station="Stångby" mdrr="1"/><label offset="-3"/><stationRef name="Eslöv" mr="1"/><point station="Eslöv" mu="2" mr="2" mull="1"/><label offset="2"/><stationRef name="Höör" mul="1"/><label offset="-2"/><stationRef name="Hässleholm" mull="1"/><label/><stationRef name="Osby" mu="1.4"/><stationRef name="Älmhult"/><stationRef name="Alvesta"/><label/><autoStation name="Växjö" a="b"/><autoStation name="Hovmantorp" a="t"/><autoStation name="Lessebo" a="b"/><autoStation name="Emmaboda" a="t"/><label/><autoStation name="Nybro" a="b"/><stationRef name="Kalmar"/>
+        </trainLine>
+        <trainLine name="4B" color="#8e9091">
+            <stationRef name="Østerport" ml="1"/><stationRef name="Nørreport" ml="1"/><label offset="2"/><stationRef name="København H" mdll="1"/><stationRef name="Ørestad" mddl="1"/><stationRef name="Tårnby" md="1"/><stationRef name="CPH Flygplats" md="1"/><label offset="2"/><point x="430" y="1870" md="1" mr="2"/><stationRef name="Hyllie" mr="3"/><stationRef name="Triangeln" mdrr="3"/><stationRef name="Malmö C" mddr="3"/><label offset="-1"/><stationRef name="Burlöv" mddr="3"/><stationRef name="Lund C" mdrr="3"/><point station="Stångby" mdrr="3"/><label offset="-7"/><point station="Eslöv" mu="2" mr="2" mdrr="1"/><label offset="-10"/><label offset="12"/><stationRef name="Hässleholm" mddr="1"/><point station="Vinslöv" mddl="1"/><label offset="-2.5"/><stationRef name="Kristianstad" ml="1.4"/><label offset="-1"/><stationRef name="Bromölla"/><stationRef name="Sölvesborg"/><stationRef name="Mörrum"/><label offset="-1"/><stationRef name="Karlshamn"/><autoStation name="Bräkne-Hoby" a="t"/><autoStation name="Ronneby" a="b"/><label/><autoStation name="Bergåsa" a="t"/><stationRef name="Karlskrona"/>
+        </trainLine>
+
+        <trainLine name="2B" color="#5060ac">
+            <stationRef name="Helsingborg C" mu="0.5"/><autoStation name="Maria" a="l"/><autoStation name="Ödåkra" a="l"/><label offset="-1"/><autoStation name="Kattarp" a="l"/><stationRef name="Ängelholm"/><autoStation name="Barkåkra" a="l"/><label offset="-1"/><autoStation name="Förslöv" a="l"/><stationRef name="Båstad"/><stationRef name="Laholm"/><label offset="-1"/><stationRef name="Halmstad"/>
+        </trainLine>
+        <trainLine name="3" color="#5060ac" via="Teckomatorp">
+            <stationRef name="Ystad" md="1"/><label offset="1"/><stationRef name="Svarte" mddl="1"/><stationRef name="Rydsgård" mddl="1"/><stationRef name="Skurup" md="1"/><stationRef name="Svedala" md="1"/><label offset="1"/><stationRef name="Oxie" md="1"/><point x="540" y="1940" ml="0.6" md="1"/><point station="Hyllie" md="1.6"/><stationRef name="Hyllie"/><stationRef name="Triangeln"/><stationRef name="Malmö C"/><label offset="2"/><stationRef name="Burlöv"/><stationRef name="Lund C"/><point station="Stångby"/><label offset="-1"/><stationRef name="Eslöv"/><label/><stationRef name="Marieholm"/><stationRef name="Teckomatorp"/><label/><autoStation name="Billeberga" a="l"/><autoStation name="Tågarp"/><autoStation name="Vallåkra"/><label/><autoStation name="Gantofta"/><point x="350" y="1150"/><point x="300" y="1150"/><point station="Ramlösa" mr="2" md="2"/><stationRef name="Ramlösa" mr="2"/><stationRef name="Helsingborg C" mr="2"/>
+        </trainLine>
+        <trainLine name="4" color="#5060ac">
+            <stationRef name="Hyllie" mr="2"/><stationRef name="Triangeln" mdrr="2"/><stationRef name="Malmö C" mddr="2"/><label offset="-4.2"/><stationRef name="Burlöv" mddr="2"/><stationRef name="Åkarp" mdr="2"/><stationRef name="Hjärup" mdr="2"/><stationRef name="Klostergården" mdr="2"/><stationRef name="Lund C" mdrr="2"/><stationRef name="Stångby" mdrr="2"/><label offset="-1"/><stationRef name="Örtofta" mr="2"/><stationRef name="Eslöv" mr="2"/><point station="Eslöv" mu="2" mr="2"/><stationRef name="Stehag"/><label offset="-1.5"/><stationRef name="Höör"/><autoStation name="Tjörnarp"/><label/><autoStation name="Sösdala"/><stationRef name="Hässleholm"/><stationRef name="Vinslöv"/><label offset="1"/><stationRef name="Önnestad"/><stationRef name="Kristianstad" ml="1.4" mur="1"/>
+        </trainLine>
+        <trainLine name="4C" color="#5060ac">
+            <stationRef name="Kristianstad" ml="1.4" md="1"/><label offset="-1"/><stationRef name="Fjälkinge" md="1"/><stationRef name="Bromölla" md="1"/><stationRef name="Sölvesborg" md="1"/><stationRef name="Mörrum" md="1"/><label offset="1"/><stationRef name="Karlshamn" md="1"/>
+        </trainLine>
+        <trainLine name="5" color="#5060ac">
+            <stationRef name="Kristianstad" ml="1.4" mur="2"/><stationRef name="Önnestad" mur="1"/><label offset="1"/><stationRef name="Vinslöv" muur="1"/><stationRef name="Hässleholm" muur="1"/><label/><autoStation name="Tyringe" a="t" mu="1"/><autoStation name="Perstorp" a="b" mu="1"/><label/><autoStation name="Klippan" a="t" mu="1"/><autoStation name="Kvidinge" a="b" mu="1"/><stationRef name="Åstorp" mu="1"/><label/><autoStation name="Bjuv" mu="1"/><autoStation name="Mörarp" mu="1"/><autoStation name="Påarp" mu="1"/><label/><point x="370" y="1150" mu="1"/><point x="300" y="1150" muur="1"/><point station="Ramlösa" mr="2" md="2" murr="1"/><stationRef name="Ramlösa" mr="3"/><stationRef name="Helsingborg C" mr="3"/>
+        </trainLine>
+        <trainLine name="6A" color="#5060ac">
+            <stationRef name="Ystad"/><label offset="-1"/><stationRef name="Svarte"/><stationRef name="Rydsgård"/><stationRef name="Skurup"/><stationRef name="Svedala"/><label offset="-1"/><stationRef name="Oxie"/><point x="540" y="1940" ml="0.2"/><point station="Hyllie" mr="4" md="4.2"/><stationRef name="Hyllie" mr="4"/><stationRef name="Triangeln" mdrr="4"/><stationRef name="Malmö C" mddr="4"/><label offset="0.7"/><stationRef name="Burlöv" mddr="4"/><stationRef name="Åkarp" mdr="4"/><stationRef name="Hjärup" mdr="4"/><stationRef name="Klostergården" mdr="4"/><stationRef name="Lund C" mdrr="4"/><stationRef name="Stångby" mdrr="4"/><label offset="3"/><stationRef name="Örtofta" mr="4"/><stationRef name="Eslöv" mr="4"/><point station="Eslöv" mu="2" mr="2" mdrr="2"/><stationRef name="Stehag" mdr="2"/><label offset="2.5"/><stationRef name="Höör" mdr="2"/>
+        </trainLine>
+        <trainLine name="6B" color="#5060ac">
+            <stationRef name="Simrishamn"/><autoStation name="Gärsnäs" a="b"/><label/><autoStation name="Smedstorp" a="t"/><autoStation name="Lunnarp" a="b"/><stationRef name="Tomelilla"/><autoStation name="Köpingebro"/><label/><stationRef name="Ystad" mur="1"/>
+        </trainLine>
+        <trainLine name="7" color="#5060ac">
+            <stationRef name="Hässleholm" mu="2" ml="1"/><label/><stationRef name="Bjärnum" mu="1" ml="1"/><autoStation name="Vittsjö"/><label/><stationRef name="Markaryd"/>
+        </trainLine>
+        <trainLine name="8" color="#5060ac">
+            <stationRef name="Hyllie" ml="1"/><stationRef name="Triangeln" mull="1"/><stationRef name="Malmö C" muul="1"/><label/><stationRef name="Burlöv" muul="1"/><stationRef name="Lund C" mull="1"/><point station="Lund C" ml="1" mu="3.8"/><stationRef name="Gunnesbo" mur="2"/><label offset="-2"/><stationRef name="Kävlinge" mur="2" mul="1"/><label/><stationRef name="Teckomatorp" mdr="1"/><autoStation name="Svalöv" mdr="1"/><label/><autoStation name="Kågeröd" mdr="1"/><autoStation name="Billesholm" mdr="1"/><stationRef name="Åstorp" mdr="1" mu="1"/>
+        </trainLine>
+        <trainLine name="9" color="#5060ac" via="Landskrona">
+            <stationRef name="Trelleborg" ml="3"/><label/><autoStation name="Östra Grevie" ml="3"/><stationRef name="Västra Ingelstad" ml="3"/><label/><stationRef name="Svågertorp" ml="3"/><stationRef name="Hyllie" ml="3"/><stationRef name="Triangeln" mull="3"/><stationRef name="Malmö C" muul="3"/><label offset="-4"/><stationRef name="Burlöv" muul="3"/><stationRef name="Åkarp" mul="3"/><stationRef name="Hjärup" mul="3"/><stationRef name="Klostergården" mul="3"/><stationRef name="Lund C" mull="3"/><point station="Lund C" ml="3" mu="3"/><stationRef name="Gunnesbo"/><label offset="2"/><stationRef name="Kävlinge"/><label offset="-1"/><autoStation name="Dösjebro" a="l"/><autoStation name="Häljarp" a="l"/><stationRef name="Landskrona"/><autoStation name="Glumslöv" a="l"/><label offset="1"/><stationRef name="Rydebäck"/><stationRef name="Ramlösa"/><stationRef name="Helsingborg C" md="0.5"/>
+        </trainLine>
+        <trainLine name="11" color="#5060ac" via="Persborg &amp; Lomma">
+            <stationRef name="Malmö C" mddr="5"/><point x="520" y="1750" md="5" mr="5"/><stationRef name="Östervärn"/><label/><stationRef name="Rosengård"/><stationRef name="Persborg" mdl="1"/><stationRef name="Svågertorp" ml="3" mdl="1"/><point station="Hyllie" ml="4" md="0.4"/><stationRef name="Hyllie" ml="4"/><stationRef name="Triangeln" mull="4"/><stationRef name="Malmö C" muul="4"/><label/><stationRef name="Lomma" mu="5.6"/><autoStation name="Furulund" a="l" mu="2.3"/><label/><stationRef name="Kävlinge" md="1"/>
+        </trainLine>
+    </lines>
+    <background>
+        <sea points="r b, l b, l 1950, 250 1950, 300 1900, 300 1800, 150 1650, 150 1150, 220 1080, 220 1000, 100 880, l 880, l t, 240 t, 240 500, 140 500, 140 600, 240 700, 240 750, 140 650, 40 650, 240 850, 240 1200, 540 1500, 540 1660, 420 1780, 420 2110, 390 2110, 340 2060, 340 2190, 390 2140, 440 2140, 490 2190, 900 2190, 990 2100, 1650 2100, 1750 2000, 1750 1200, 1800 1150, 2350 1150, 2350 t, r t"/>
+        <river points="100 1950, 100 1850, 300 1650"/>
+        <boundary points="l 500, 1680 500, 1780 600, 1780 b, 320 b, 320 1500, 230 1500, 230 900, 180 850, l 850"/>
+        <zone name="F" color="1" points="800 t, 800 b, 1370 b, 1370 t"/><!--Ystad-->
+        <zone name="E" color="2" points="l 980, r 980, r 1470, l 1470"/><!--Eslöv/Höör-->
+        <zone name="J" color="3" points="1370 t, 1370 b, r b, r t"/><!--Kristianstad/Simrishamn-->
+        <zone name="B" color="3" points="l 1470, 800 1470, 800 1850, l 1850"/><!--Lund-->
+        <zone name="D" color="1" points="l 900, 650 900, 650 1470, l 1470"/><!--Landskrona-->
+        <zone name="G" color="2" points="l 400, 610 400, 610 1070, 510 1170, 510 1290, 480 1320, 450 1320, 370 1240, l 1240"/><!--Helsingborg-->
+        <zone name="H" color="3" points="980 t, 980 980, 490 980, l 490, l t"/><!--Ängelholm/Åstorp-->
+        <zone name="I" color="1" points="980 t, 980 980, r 980, r t"/><!--Hässleholm-->
+        <zone name="C" color="2" points="l 1850, 800 1850, 800 b, l b"/><!--Trelleborg-->
+        <zone name="A" color="1" points="l 1680, 600 1680, 650 1730, 650 1950, 600 2000, l 2000"/><!--Malmö-->
+    </background>
+</place>

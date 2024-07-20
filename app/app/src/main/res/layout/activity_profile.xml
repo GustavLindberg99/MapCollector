@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogInActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_margin="8dp">
+
+        <ImageView
+            android:id="@+id/profilePicture"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/profilePicture"/>
+
+        <TextView
+            android:text="@string/statistics"
+            android:textSize="24sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12sp"/>
+
+        <TextView
+            android:id="@+id/errorLabel"
+            android:visibility="gone"
+            android:text="@string/noInternet"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/scoreLabel"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/numberOfMapsLabel"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/winningRateLabel"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:id="@+id/challengesLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="@string/completedChallenges"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/easyChallengesImage"
+                android:src="@drawable/easybadge"
+                android:layout_width="18sp"
+                android:layout_height="18sp"
+                android:layout_marginStart="8sp"
+                android:contentDescription="@string/profilePicture"/>
+            <TextView
+                android:id="@+id/easyChallengesLabel"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/mediumChallengesImage"
+                android:src="@drawable/mediumbadge"
+                android:layout_width="18sp"
+                android:layout_height="18sp"
+                android:layout_marginStart="8sp"
+                android:contentDescription="@string/profilePicture"/>
+            <TextView
+                android:id="@+id/mediumChallengesLabel"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/difficultChallengesImage"
+                android:src="@drawable/difficultbadge"
+                android:layout_width="18sp"
+                android:layout_height="18sp"
+                android:layout_marginStart="8sp"
+                android:contentDescription="@string/profilePicture"/>
+            <TextView
+                android:id="@+id/difficultChallengesLabel"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/challengeDetailsLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/account"
+            android:textSize="24sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12sp"/>
+
+        <Button
+            android:id="@+id/editProfileButton"
+            android:text="@string/editProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/deleteAccountButton"
+            android:text="@string/deleteAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/logOutButton"
+            android:text="@string/logOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

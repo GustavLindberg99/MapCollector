@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<place boxpos="br">
+  <stations>
+    <station name="Strömstad" x="150" y="70"/>
+    <station name="Skee" x="150" y="140"/>
+    <station name="Överby" x="150" y="210"/>
+    <station name="Tanum" x="150" y="280"/>
+    <station name="Rabbalshede" x="150" y="350"/>
+    <station name="Hällevadsholm" x="150" y="420"/>
+    <station name="Dingle" x="150" y="490"/>
+    <station name="Munkedal" x="150" y="560" a="l"/>
+    <station name="Uddevalla C" x="150" y="630" a="l"/>
+    <station name="Uddevalla Ö" x="150" y="700" a="l"/>
+    <station name="Ljungskile" x="150" y="770" a="l"/>
+    <station name="Svenshögen" x="150" y="840" a="l"/>
+    <station name="Stenungsund" x="150" y="910" a="l"/>
+    <station name="Stora Höga" x="150" y="980" a="l"/>
+    <station name="Kode" x="150" y="1050" a="l"/>
+    <station name="Ytterby" x="150" y="1120" a="l"/>
+
+    <station name="Säffle" x="270" y="30"/>
+    <station name="Åmål" x="270" y="230"/>
+    <station name="Mellerud" x="270" y="430"/>
+    <station name="Ed" x="220" y="550" a="t"/>
+    <station name="&#10;Öxnered" x="270" y="630"/>
+    <station name="Trollhättan" x="200" y="700"/>
+    <station name="Lödöse södra" x="200" y="770"/>
+    <station name="Älvängen" x="200" y="840"/>
+    <station name="Nol" x="200" y="890"/>
+    <station name="Nödinge" x="200" y="950"/>
+    <station name="Bohus" x="200" y="1000"/>
+    <station name="Surte" x="200" y="1050"/>
+    <station name="Gamle&#xad;staden" x="200" y="1100"/>
+
+    <station name="Göteborg C" x="200" y="1170" a="l"/>
+    <station name="Liseberg" x="200" y="1240"/>
+    <station name="Mölndal" x="200" y="1310" a="l"/>
+    <station name="Kållered" x="200" y="1380"/>
+    <station name="Lindome" x="200" y="1450"/>
+    <station name="Anneberg" x="200" y="1520"/>
+    <station name="Hede" x="200" y="1590"/>
+    <station name="Kungsbacka" x="200" y="1660"/>
+    <station name="Åsa" x="200" y="1730" a="l"/>
+    <station name="Varberg" x="200" y="1800" a="l"/>
+
+    <station name="Mölnlycke" x="265" y="1305" a="b"/>
+    <station name="Hindås" x="370" y="1305" a="t"/>
+    <station name="Rävlanda" x="475" y="1305" a="b"/>
+    <station name="Bollebygd" x="580" y="1305" a="t"/>
+    <station name="Sandared" x="685" y="1305" a="b"/>
+    <station name="Borås" x="790" y="1305"/>
+
+    <station name="Viskafors" x="790" y="1350"/>
+    <station name="Fritsla" x="740" y="1400"/>
+    <station name="Kinna" x="690" y="1450"/>
+    <station name="Assberg" x="640" y="1500"/>
+    <station name="Skene" x="590" y="1550"/>
+    <station name="Berghem" x="540" y="1600"/>
+    <station name="Björketorp" x="490" y="1650"/>
+    <station name="Horred" x="440" y="1700"/>
+    <station name="Veddige" x="390" y="1750"/>
+    <station name="Derome" x="340" y="1800"/>
+    <station name="Tofta" x="270" y="1800" a="b"/>
+
+    <station name="Alingsås" x="710" y="660" a="l"/>
+    <station name="Vårgårda" x="750" y="620" a="l"/>
+    <station name="Herrljunga" x="790" y="580" a="l"/>
+
+    <station name="Floby" x="840" y="530"/>
+    <station name="Falköping" x="890" y="480" a="l"/>
+    <station name="Stenstorp" x="995" y="375" a="l"/>
+    <station name="Skövde" x="1100" y="270" a="l"/>
+    <station name="Töreboda" x="1205" y="165" a="l"/>
+
+    <station name="Sandhem" x="940" y="530"/>
+    <station name="Mullsjö" x="990" y="580"/>
+    <station name="Habo" x="1040" y="630"/>
+    <station name="Bankeryd" x="1090" y="680"/>
+    <station name="Jönköping" x="1140" y="730"/>
+    <station name="Huskvarna" x="1190" y="780"/>
+    <station name="Tenhult" x="1240" y="830"/>
+    <station name="Forserum" x="1290" y="880"/>
+    <station name="Nässjö" x="1340" y="930"/>
+
+    <station name="Vänersborg" x="330" y="630" a="t"/>
+    <station name="Vargön" x="450" y="630" a="b"/>
+    <station name="Grästorp" x="570" y="630" a="b"/>
+    <station name="Vara" x="670" y="530" a="l"/>
+    <station name="Vedum" x="740" y="530" a="t"/>
+
+    <station name="Håkantorp" x="620" y="480" a="l"/>
+    <station name="Järpås" x="620" y="410" a="l"/>
+    <station name="Mariestad" x="970" y="60" a="l"/>
+    <station name="Laxå" x="1310" y="60" a="t"/>
+    <station name="Hallsberg" x="1380" y="60" a="b"/>
+    <station name="Kumla" x="1450" y="60" a="t"/>
+    <station name="Örebro Södra" x="1500" y="110"/>
+    <station name="Örebro C" x="1550" y="160"/>
+
+    <station name="Ljung" x="890" y="680"/>
+    <station name="Torpåkra" x="890" y="785"/>
+    <station name="Mollaryd" x="890" y="890"/>
+    <station name="Borgstena" x="890" y="995"/>
+    <station name="Fristad" x="890" y="1100"/>
+    <station name="Knalleland" x="890" y="1205"/>
+  </stations>
+  <lines>
+    <trainLine color="#00a261">
+      <stationRef name="Göteborg C" ml="2"/><label/><stationRef name="Ytterby" md="2"/><stationRef name="Kode"/><stationRef name="Stora Höga"/><label/><stationRef name="Stenungsund"/><stationRef name="Svenshögen"/><stationRef name="Ljungskile"/><label/><stationRef name="Uddevalla Ö"/><stationRef name="Uddevalla C"/><label/><stationRef name="Munkedal"/><stationRef name="Dingle"/><stationRef name="Hällevadsholm"/><label/><stationRef name="Rabbalshede"/><stationRef name="Tanum"/><stationRef name="Överby"/><label/><stationRef name="Skee"/><stationRef name="Strömstad"/>
+    </trainLine>
+    <trainLine color="#6fcef4">
+      <stationRef name="Göteborg C" ml="1"/><stationRef name="Gamlestaden" ml="1"/><label offset="3.5"/><stationRef name="Bohus" ml="1"/><label offset="1"/><stationRef name="Älvängen" ml="1"/><stationRef name="Lödöse södra" ml="1"/><label/><stationRef name="Trollhättan" ml="1"/><stationRef name="Öxnered" mu="1"/>
+      <branch>
+        <label offset="-1"/><stationRef name="Vänersborg" mu="1"/>
+      </branch>
+      <branch>
+        <stationRef name="Mellerud"/><label/><stationRef name="Åmål"/><stationRef name="Säffle"/>
+      </branch>
+    </trainLine>
+    <trainLine color="#FDCC99">
+      <stationRef name="Trollhättan" ml="1.7" mu="0.7"/><stationRef name="Öxnered" ml="1" mu="1.4"/><point x="270" y="600" ml="1"/><label/><stationRef name="Ed" md="1"/>
+    </trainLine>
+    <trainLine color="#a54499">
+      <stationRef name="Uddevalla C" mr="1"/><stationRef name="Öxnered"/><label offset="1"/><stationRef name="Vänersborg"/><stationRef name="Vargön"/><stationRef name="Grästorp"/><label/><stationRef name="Vara"/><stationRef name="Vedum"/><label offset="-2.5"/><stationRef name="Herrljunga" mdr="2"/><label/><stationRef name="Ljung"/><stationRef name="Torpåkra"/><stationRef name="Mollaryd"/><label/><stationRef name="Borgstena"/><stationRef name="Fristad"/><stationRef name="Knalleland"/><label/><stationRef name="Borås" mur="1"/>
+    </trainLine>
+    <trainLine color="#0079c2">
+      <stationRef name="Göteborg C" mr="1" mu="1"/><label offset="-4"/><stationRef name="Alingsås"/><stationRef name="Vårgårda"/><stationRef name="Herrljunga" mdl="1"/><label offset="-1"/><stationRef name="Floby"/><stationRef name="Falköping" mr="0.35" mu="0.35"/><stationRef name="Stenstorp"/><label offset="-1"/><stationRef name="Skövde"/><stationRef name="Töreboda"/>
+    </trainLine>
+    <trainLine color="#ee3a41">
+      <stationRef name="Göteborg C" mr="1" md="0.4"/><label offset="-6"/><stationRef name="Alingsås" mdr="1"/><stationRef name="Vårgårda" mdr="1"/><stationRef name="Herrljunga" md="1.4"/><label offset="1"/><stationRef name="Floby" mdr="1"/><stationRef name="Falköping" mdr="1"/><stationRef name="Sandhem"/><label offset="-1"/><stationRef name="Mullsjö"/><stationRef name="Habo"/><stationRef name="Bankeryd"/><label offset="-1"/><stationRef name="Jönköping"/><stationRef name="Huskvarna"/><stationRef name="Tenhult"/><label offset="-1"/><stationRef name="Forserum"/><stationRef name="Nässjö"/>
+    </trainLine>
+    <trainLine color="#c7df8e">
+      <stationRef name="Örebro C" mdl="1"/><stationRef name="Örebro Södra" mdl="1"/><label offset="1"/><stationRef name="Kumla" ml="0.4" md="1"/><stationRef name="Hallsberg" md="1"/><stationRef name="Laxå" mr="0.4" md="1"/><stationRef name="Töreboda" mdr="1"/><stationRef name="Skövde" mdr="1"/><label offset="-1"/><stationRef name="Stenstorp" mdr="1"/><stationRef name="Falköping" mr="1.4"/><stationRef name="Sandhem" mur="1"/><label offset="1"/><stationRef name="Mullsjö" mur="1"/><stationRef name="Habo" mur="1"/><stationRef name="Bankeryd" mur="1"/><label offset="1"/><stationRef name="Jönköping" mur="1"/><stationRef name="Huskvarna" mur="1"/><stationRef name="Tenhult" mur="1"/><label offset="1"/><stationRef name="Forserum" mur="1"/><stationRef name="Nässjö" mur="1"/>
+    </trainLine>
+    <trainLine color="#f79727">
+      <stationRef name="Göteborg C" mr="1" mu="2.4"/><label offset="-2"/><stationRef name="Alingsås" mul="1"/><stationRef name="Herrljunga" ml="1.4"/><point station="Herrljunga" ml="1.4" mu="2.8"/><label offset="-1"/><stationRef name="Vedum" mr="0.4" mu="1"/><stationRef name="Vara" mu="1"/><label/><stationRef name="Håkantorp" mu="1"/><autoStation name="Stora Levene" a="l"/><stationRef name="Järpås"/><label/><autoStation name="Lovene" a="l"/><autoStation name="Framnäs City" a="l"/><autoStation name="Lidköping" a="l"/><label/><autoStation name="Filsbäck" a="l"/><autoStation name="Källby" a="l"/><autoStation name="Blomberg" a="l"/><label/><autoStation name="Trolmen" a="l"/><autoStation name="Råbäck" a="l"/><autoStation name="Hällekis" a="l"/><autoStation name="Forshem" a="l"/><label/><autoStation name="Österäng" a="l"/><autoStation name="Äskekärr" a="l"/><autoStation name="Lugnås" a="l"/><stationRef name="Mariestad"/><label/><autoStation name="Hasslerör" a="t"/><autoStation name="Lyrestad" a="b"/><autoStation name="Torved" a="t"/><autoStation name="Hova" a="b"/><label/><autoStation name="Gårdsjö" a="t"/><stationRef name="Laxå" mr="0.4"/><stationRef name="Hallsberg"/><stationRef name="Kumla"/><label offset="1"/><stationRef name="Örebro Södra"/><stationRef name="Örebro C"/>
+    </trainLine>
+    <trainLine color="#9c5506">
+      <stationRef name="Göteborg C" md="1"/><stationRef name="Liseberg"/><label/><stationRef name="Mölnlycke"/><stationRef name="Hindås"/><label/><stationRef name="Rävlanda"/><stationRef name="Bollebygd"/><stationRef name="Sandared"/><label/><stationRef name="Borås" ml="1"/>
+    </trainLine>
+    <trainLine color="#ffdc01">
+      <stationRef name="Borås"/><stationRef name="Viskafors"/><label/><stationRef name="Fritsla"/><stationRef name="Kinna"/><stationRef name="Assberg"/><label/><stationRef name="Skene"/><stationRef name="Berghem"/><stationRef name="Björketorp"/><label/><stationRef name="Horred"/><stationRef name="Veddige"/><stationRef name="Derome"/><label/><stationRef name="Tofta"/><stationRef name="Varberg" ml="1"/>
+    </trainLine>
+    <trainLine color="#e896c1">
+      <stationRef name="Göteborg C" ml="2" md="1"/><label offset="2"/><stationRef name="Mölndal" ml="2"/><label offset="-1"/><stationRef name="Kungsbacka" ml="2"/><label/><stationRef name="Åsa" ml="2"/><stationRef name="Varberg" ml="2"/>
+    </trainLine>
+    <trainLine color="#A6A7A9">
+      <stationRef name="Göteborg C" ml="1" md="1"/><stationRef name="Liseberg" ml="1"/><label offset="1"/><stationRef name="Mölndal" ml="1"/><stationRef name="Kållered" ml="1"/><stationRef name="Lindome" ml="1"/><label offset="1"/><stationRef name="Anneberg" ml="1"/><stationRef name="Hede" ml="1"/><stationRef name="Kungsbacka" ml="1"/>
+    </trainLine>
+    <trainLine color="#231f20">
+      <stationRef name="Göteborg C" mr="1" md="1.8"/><autoStation name="Sävenäs" mdr="2"/><autoStation name="Partille" mdr="2"/><autoStation name="Jonsered" mdr="2"/><autoStation name="Aspen" mdr="2"/><label offset="-1.5"/><autoStation name="Aspedalen" mdr="2"/><autoStation name="Lerum" mdr="2"/><autoStation name="Stenkullen" mdr="2"/><autoStation name="Floda" mdr="2"/><autoStation name="Norsesund" mdr="2"/><autoStation name="Västra Bodarna" mdr="2"/><stationRef name="Alingsås" mdr="2"/>
+    </trainLine>
+    <trainLine color="#4e575c">
+      <stationRef name="Göteborg C"/><stationRef name="Gamlestaden"/><stationRef name="Surte"/><label offset="-1"/><stationRef name="Bohus"/><stationRef name="Nödinge"/><label offset="-1"/><stationRef name="Nol"/><stationRef name="Älvängen"/>
+    </trainLine>
+  </lines>
+  <background>
+    <sea points="l t, 130 t, 130 b, l b"/>
+    <sea points="600 0, 350 250, 350 600, 400 600, 950 50, 950 0"/>
+    <sea points="1150 700, 1180 730, 1220 730, 1250 700, 1250 300, 1220 270, 1180 270, 1150 300"/>
+    <boundary points="l 50, 1280 50, 1280 150, 1200 230, 1200 480, 940 480, 920 500, 920 1560, 740 1740, l 1740"/>
+    <zone name="C" color="1" points="l t, l b, r b, r t"/>
+    <zone name="B" color="2" points="l b, l 940, 0 940, 240 700, 550 700, 650 600, 700 600, 800 700, 800 1020, 300 1520, 300 b"/>
+    <zone name="A" color="1" points="l 1150, 150 1150, 175 1125, 175 1095, 200 1070, 240 1070, 290 1020, 380 1020, 430 1070, 430 1120, 250 1300, 250 1420, 170 1500, l 1500"/>
+  </background>
+</place>

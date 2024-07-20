@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<place daylength="10000" salary="15" level="difficult">
+  <stations>
+    <station name="Le Tréport-Mers" x="150" y="1650"/>
+    <station name="Abancourt" x="400" y="1900"/>
+    <station name="Beauvais" x="600" y="2100"/>
+    <station name="Villers-St-Sépulcre" x="730" y="2230" a="l"/>
+    <station name="Montataire" x="730" y="2410" a="l"/>
+    <station name="St-Sulpice-Auteuil" x="550" y="2150" a="l"/>
+    <station name="Esches" x="550" y="2380" a="l"/>
+
+    <station name="Achiet" x="900" y="1470"/>
+    <station name="Albert" x="834" y="1536" a="l"/>
+    <station name="Corbie" x="736" y="1634" a="l"/>
+
+    <station name="Longueau" x="720" y="1750"/>
+    <station name="Boves" x="770" y="1800"/>
+    <station name="Thézy-Glimont" x="930" y="1960"/>
+    <station name="Ailly-sur-Noye" x="770" y="1900"/>
+    <station name="Breteuil-&#10;Embranchement" x="770" y="2000"/>
+    <station name="St-Just-en-Chaussée" x="770" y="2100"/>
+    <station name="Clermont-&#10;de-l'Oise" x="770" y="2250"/>
+    <station name="Liancourt-&#10;Rantigny" x="770" y="2300"/>
+    <station name="Laigneville" x="770" y="2350"/>
+    <station name="Creil" x="770" y="2450"/>
+    <station name="Chantilly-Gouvieux" x="770" y="2500"/>
+    <station name="Orry-la-Ville Coye-la-Forêt" x="770" y="2550"/>
+    <station name="Paris Nord" x="770" y="2600" a="l"/>
+
+    <station name="Crépy-en-Valois" x="1065" y="2600"/>
+    <station name="Villers-Cotterêts" x="1152" y="2513"/>
+    <station name="Soissons" x="1325" y="2340"/>
+    <station name="Anizy-Pinon" x="1498" y="2167"/>
+    <station name="Laon" x="1585" y="2080"/>
+    <station name="Hirson" x="1860" y="1805"/>
+    <station name="Charleville-Mézières" x="2010" y="1955"/>
+    <station name="Hirson Écoles" x="1860" y="1752"/>
+    <station name="Anor" x="1860" y="1700"/>
+    <station name="Fourmies" x="1860" y="1647"/>
+    <station name="Sains-du-Nord" x="1860" y="1595"/>
+    <station name="Avesnelles" x="1860" y="1542"/>
+    <station name="Avesnes-sur-Helpe" x="1860" y="1490"/>
+    <station name="St-Hilaire" x="1860" y="1440"/>
+    <station name="Dompierre" x="1860" y="1390"/>
+    <station name="Leval" x="1860" y="1340"/>
+
+    <station name="&#10;Amiens" x="670" y="1700" a="l"/>
+    <station name="St-Roch" x="600" y="1700" a="l"/>
+    <station name="Poix-de-Picardie" x="500" y="1800"/>
+    <station name="Serqueux" x="300" y="2000"/>
+    <station name="Montérolier-Buchy" x="200" y="2100"/>
+    <station name="Morgny" x="100" y="2200"/>
+    <station name="Rouen Rive Droite" x="50" y="2250"/>
+
+    <station name="Abbeville" x="250" y="1350" a="l"/>
+    <station name="Noyelles-sur-Mer" x="200" y="1300"/>
+    <station name="Rue" x="150" y="1250"/>
+    <station name="Rang-du-Fliers Verton Berck" x="100" y="1200" a="l"/>
+    <station name="Étaples-Le Touquet" x="100" y="1100" a="l"/>
+    <station name="Maresquel" x="200" y="1200" a="b"/>
+    <station name="Boulogne-Ville" x="100" y="750" a="l"/>
+    <station name="Boulogne-Tintelleries" x="100" y="680" a="l"/>
+    <station name="Marquise-Rinxent" x="100" y="540" a="l"/>
+    <station name="Calais Fréthun" x="100" y="260" a="l"/>
+    <station name="Les Fontinettes" x="100" y="140" a="l"/>
+    <station name="Calais Ville" x="100" y="70" a="l"/>
+
+    <station name="Grande&#10; Synthe" x="510" y="190" a="b"/>
+    <station name="Pont-d'Ardres" x="210" y="250"/>
+    <station name="Audruicq" x="300" y="340"/>
+    <station name="Watten - Eperlecques" x="390" y="430"/>
+    <station name="St-Omer" x="435" y="475"/>
+    <station name="Hazebrouck" x="570" y="610" a="l"/>
+
+    <station name="Strazeele" x="640" y="680" a="b"/>
+    <station name="Bailleul" x="730" y="680" a="b"/>
+    <station name="Armentières" x="880" y="530"/>
+    <station name="La Madeleine" x="1030" y="380" a="l"/>
+
+    <station name="Isbergues" x="570" y="760" a="l"/>
+    <station name="Ham-en-Artois" x="570" y="810" a="l"/>
+    <station name="Lillers" x="570" y="860" a="l"/>
+    <station name="Béthune" x="570" y="1010" a="l"/>
+    <station name="Nœux-les-Mines" x="600" y="1040"/>
+    <station name="Bully-Grenay" x="660" y="1100" a="l"/>
+    <station name="Liévin" x="690" y="1130" a="l"/>
+    <station name="Lens" x="750" y="1190" a="l"/>
+    <station name="Avion" x="780" y="1220" a="l"/>
+    <station name="Vimy" x="810" y="1250" a="l"/>
+    <station name="Arras" x="900" y="1340"/>
+    <station name="Douai" x="1200" y="1040" a="l"/>
+
+    <station name="Montigny-en-&#10;Ostrevent" x="1300" y="1140" a="b"/>
+    <station name="Somain" x="1530" y="1140"/>
+    <station name="Raismes" x="1630" y="1040" a="t"/>
+
+    <station name="Sin-&#10;le-Noble" x="1200" y="1120"/>
+    <station name="Cantin" x="1200" y="1200" a="l"/>
+    <station name="Arleux" x="1260" y="1260" a="l"/>
+    <station name="Brunémont" x="1320" y="1320" a="l"/>
+    <station name="Aubigny-au-Bac" x="1380" y="1380" a="l"/>
+    <station name="Cambrai" x="1450" y="1450" a="l"/>
+    <station name="Caudry" x="1450" y="1570" a="l"/>
+    <station name="Le Cateau" x="1532" y="1608"/>
+    <station name="Busigny" x="1450" y="1690" a="l"/>
+    <station name="Bohain" x="1450" y="1730"/>
+    <station name="Fresnoy-le-Grand" x="1450" y="1770"/>
+    <station name="Saint-Quentin" x="1450" y="1810"/>
+
+    <station name="Mennessis" x="1450" y="1910"/>
+    <station name="Tergnier" x="1450" y="1945"/>
+    <station name="Viry-Noureuil" x="1450" y="1980" a="l"/>
+    <station name="Chauny" x="1414" y="2016" a="l"/>
+    <station name="Noyon" x="1336" y="2094" a="l"/>
+    <station name="Compiègne" x="1200" y="2230"/>
+    <station name="Pont-&#10;Ste-Maxence" x="1020" y="2410" a="b"/>
+    <station name="Rieux-&#10;Angicourt" x="960" y="2410" a="t"/>
+    <station name="Villers-&#10;St-Paul" x="860" y="2410" a="t"/>
+
+    <station name="Villers-&#10;Bretonneux" x="863" y="1700" a="b"/>
+    <station name="Nesle" x="1240" y="1700" a="t"/>
+    <station name="Ham" x="1350" y="1810" a="l"/>
+
+    <station name="Ostricourt" x="1200" y="830"/>
+    <station name="Libercourt" x="1200" y="760" a="l"/>
+    <station name="Seclin" x="1200" y="608"/>
+    <station name="Lille Flandres" x="1200" y="380" a="b"/>
+    <station name="Lille Europe" x="1230" y="350"/>
+
+    <station name="Orchies" x="1620" y="800"/>
+    <station name="St-Amand-les-Eaux" x="1800" y="980"/>
+    <station name="Valenciennes" x="1860" y="1040"/>
+
+    <station name="Le Poirier Université" x="1860" y="1100"/>
+    <station name="Le Quesnoy" x="1860" y="1160"/>
+    <station name="Aulnoye-Aymeries" x="1860" y="1280" a="l"/>
+    <station name="Hautmont" x="1900" y="1320" a="t"/>
+    <station name="Maubeuge" x="2140" y="1320" a="b"/>
+    <station name="Jeumont" x="2350" y="1320"/>
+    <station name="Namur" x="2440" y="1020"/>
+
+    <station name="Marquette" x="1120" y="300" a="l"/>
+    <station name="Comines" x="1000" y="180" a="l"/>
+
+    <station name="Croix-Wasquehal" x="1200" y="300"/>
+    <station name="Roubaix" x="1200" y="200"/>
+    <station name="Tourcoing" x="1200" y="150"/>
+    <station name="Courtrai" x="1200" y="50"/>
+
+    <station name="Lezennes" x="1340" y="380" a="t"/>
+    <station name="Ascq" x="1620" y="380" a="t"/>
+    <station name="Tournai" x="1830" y="380"/>
+
+    <station name="Lille Porte de Douai" x="1144" y="436" a="l"/>
+    <station name="Lille CHR" x="1088" y="492" a="l"/>
+    <station name="Loos-lez-Lille" x="1032" y="548"/>
+    <station name="Haubourdin" x="975" y="605"/>
+    <station name="Santes" x="919" y="661"/>
+    <station name="Wavrin" x="863" y="717"/>
+    <station name="La Fontaine" x="806" y="774"/>
+    <station name="Don-Sainghin" x="750" y="830"/>
+    <station name="La Bassée" x="660" y="920"/>
+    <station name="Bauvin-Provin" x="750" y="890"/>
+    <station name="Pont-à-Vendin" x="750" y="1010"/>
+
+    <station name="Dourges" x="1145" y="795" a="l"/>
+    <station name="Hénin-Beaumont" x="1066" y="874" a="l"/>
+    <station name="Billy-Montigny" x="987" y="953" a="l"/>
+    <station name="Corons-de-Méricourt" x="908" y="1032"/>
+
+    <station name="Vis-à-Marles" x="530" y="1050" a="l"/>
+    <station name="Calonne-Ricouart" x="530" y="1100" a="l"/>
+    <station name="Pernes-Camblain" x="530" y="1150" a="l"/>
+    <station name="St-Pol-sur-Ternoise" x="530" y="1200"/>
+    <station name="Aubigny-en-Artois" x="670" y="1340" a="l"/>
+
+    <station name="Cassel" x="570" y="520"/>
+    <station name="Arnèke" x="570" y="430"/>
+    <station name="Esquelbecq" x="570" y="340"/>
+    <station name="Bergues" x="570" y="270" a="l"/>
+    <station name="Coudekerque-Branche" x="570" y="160" a="l"/>
+    <station name="Dunkerque" x="570" y="70"/>
+  </stations>
+  <lines>
+    <trainLine name="K90+" color="#641873">
+      <stationRef name="Amiens" mr="6.2" mu="2"/><label offset="-2"/><point station="Achiet" mr="3" md="1.2"/><stationRef name="Arras" mr="3"/><tgv/><point x="900" y="1210" mr="3" mu="4.4"/><tgv/><point x="1110" y="1000" ml="1" mu="0.4"/><tgv/><label offset="2"/><point x="1110" y="890" ml="1" mu="0.4"/><tgv/><point x="1350" y="650" ml="1" mu="0.4"/><tgv/><label offset="1"/><point x="1350" y="470" ml="1" md="0.4"/><tgv/><stationRef name="Lille Europe" mdl="1"/><tgv/><point x="1200" y="320" ml="0.4" md="1"/><tgv/><label/><point x="650" y="320" mr="1" md="1"/><label/><point x="570" y="240" mr="3" md="3"/><stationRef name="Dunkerque" mr="3"/>
+    </trainLine>
+    <trainLine name="K92+" color="#641873">
+      <stationRef name="Arras" mr="5" mu="0.5"/><tgv/><point x="900" y="1210" mr="5" mu="3.6"/><tgv/><point x="1110" y="1000" mr="1" md="0.4"/><tgv/><label offset="-2"/><point x="1110" y="890" mr="1" md="0.4"/><tgv/><point x="1350" y="650" mr="1" md="0.4"/><tgv/><label offset="-3"/><point x="1350" y="470" mr="1" mu="0.4"/><tgv/><stationRef name="Lille Europe" mur="1"/><tgv/><point x="1200" y="320" mr="0.4" mu="1"/><tgv/><label offset="-12"/><label offset="12"/><point x="250" y="320" mr="0.4" mu="1"/><tgv/><point x="160" y="230" mr="0.4" mu="1"/><point x="130" y="230" ml="0.4" mu="1"/><point station="Calais Fréthun" mr="4" mu="5.4"/><stationRef name="Calais Fréthun" mr="4"/>
+    </trainLine>
+    <trainLine name="K94+" color="#641873">
+      <stationRef name="Paris Nord" mr="6"/><tgv/><label/><point x="900" y="2470" mr="4" md="2"/><tgv/><label/><stationRef name="Arras" mr="4"/><tgv/><point x="900" y="1210" mr="4" mu="4"/><tgv/><point x="1110" y="1000"/><tgv/><label/><point x="1110" y="890"/><tgv/><point x="1350" y="650"/><tgv/><label offset="-1"/><point x="1350" y="470"/><tgv/><stationRef name="Lille Europe"/><tgv/><point x="1200" y="320"/><tgv/><label offset="-10"/><label offset="10"/><point x="250" y="320"/><tgv/><point x="160" y="230"/><point x="130" y="230"/><point station="Calais Fréthun" mr="3" mu="3"/><stationRef name="Calais Fréthun" mr="3"/><label offset="-10"/><stationRef name="Boulogne-Ville" mr="3"/><label offset="4"/><stationRef name="Étaples-Le Touquet" mr="3"/><stationRef name="Rang-du-Fliers Verton Berck" mr="3" mu="1"/>
+    </trainLine>
+    <trainLine name="K10" color="#ed0e58">
+      <stationRef name="Paris Nord" ml="3"/><label offset="1"/><stationRef name="Creil" ml="3"/><stationRef name="Clermont-de-l'Oise" ml="3"/><label offset="3"/><stationRef name="St-Just-en-Chaussée" ml="3"/><point station="Boves" ml="3" md="2.6"/><stationRef name="Longueau" mdl="4"/><stationRef name="Amiens" mr="1" md="6.6"/>
+    </trainLine>
+    <trainLine name="K11" color="#ed0e58">
+      <stationRef name="Paris Nord" ml="4"/><label offset="-28"/><label offset="8"/><point station="Boves" ml="4" md="3"/><stationRef name="Longueau" mdl="5"/><stationRef name="Amiens" mr="1" md="8"/>
+    </trainLine>
+    <trainLine name="K12" color="#ed0e58">
+      <stationRef name="Paris Nord" ml="5"/><label offset="6"/><stationRef name="Creil" ml="5"/><label/><point station="Boves" ml="5" mu="6.4"/><stationRef name="Longueau" mur="1"/><label/><point x="720" y="1650" mr="0.7" md="4.9"/><label offset="-1"/><point station="Achiet" mr="2" md="3.6"/><stationRef name="Arras" mr="2"/><point station="Arras" mr="2" mu="0.6"/><label offset="-2"/><point station="Douai" md="1.4"/><stationRef name="Douai"/><label offset="-20"/><label offset="16"/><stationRef name="Lille Flandres"/>
+    </trainLine>
+    <trainLine name="K13" color="#ed0e58">
+      <stationRef name="Paris Nord" mr="5"/><label offset="-4"/><point station="Creil" mr="5"/><point x="810" y="2410" mr="4" md="1"/><point station="Pont-Ste-Maxence" mr="0.4" md="1"/><label offset="4"/><stationRef name="Compiègne" mdr="1"/><label offset="5"/><point station="Viry-Noureuil" mr="1" md="0.4"/><label offset="2"/><stationRef name="Saint-Quentin" mr="1"/><stationRef name="Busigny" mr="1"/><point station="Busigny" mr="1" mu="1"/>
+      <branch>
+        <stationRef name="Le Cateau"/><label offset="-4"/><point station="Aulnoye-Aymeries" ml="2" md="2"/><stationRef name="Aulnoye-Aymeries" md="2"/><point station="Hautmont" md="2"/><label offset="1"/><stationRef name="Maubeuge" md="2"/>
+      </branch>
+      <branch>
+        <label/><stationRef name="Caudry" mr="1"/><stationRef name="Cambrai" mr="1"/>
+      </branch>
+    </trainLine>
+    <trainLine name="K14" color="#ed0e58">
+      <stationRef name="Paris Nord" mr="4"/><label offset="-1"/><stationRef name="Creil" mr="4"/><point station="Creil" mr="4" mu="0.4"/><point x="810" y="2410" mr="3.6"/><stationRef name="Pont-Ste-Maxence"/><label offset="2.5"/><stationRef name="Compiègne"/><stationRef name="Noyon"/><label offset="-0.8"/><stationRef name="Chauny"/><point station="Viry-Noureuil"/><stationRef name="Tergnier"/><label offset="3.5"/><stationRef name="Saint-Quentin" md="0.5"/>
+    </trainLine>
+    <trainLine name="K15" color="#ed0e58">
+      <stationRef name="Paris Nord" mr="7"/><autoStation name="Dammartin&#10;Juilly&#10;Saint-Mard" a="b"/><label/><stationRef name="Crépy-en-Valois"/><stationRef name="Villers-Cotterêts"/><label offset="-2.5"/><stationRef name="Soissons"/><label offset="1"/><stationRef name="Anizy-Pinon"/><stationRef name="Laon"/>
+    </trainLine>
+    <trainLine name="K16" color="#ed0e58">
+      <stationRef name="Paris Nord" ml="1"/><label offset="-36"/><label offset="2"/><point station="Boves" ml="1" md="1.8"/><stationRef name="Longueau" mdl="2"/><stationRef name="Amiens" mr="1" md="3.8"/><point station="Amiens" ml="5.8" mu="3"/><point station="St-Roch" ml="0.2" mu="3"/><label offset="1"/><stationRef name="Abbeville" mur="2"/><stationRef name="Noyelles-sur-Mer" mur="2"/><label offset="-1"/><stationRef name="Rue" mur="2"/><point station="Rang-du-Fliers Verton Berck" mr="2" mu="0.8"/><stationRef name="Rang-du-Fliers Verton Berck" mr="2" mu="1"/><stationRef name="Étaples-Le Touquet" mr="2"/><label offset="-2"/><stationRef name="Boulogne-Ville" mr="2"/><label offset="2.5"/><stationRef name="Calais Ville" mr="2"/>
+    </trainLine>
+    <trainLine name="K20" color="#ed0e58">
+      <stationRef name="Amiens" mr="2" mu="1"/><label offset="1"/><point station="Nesle" mr="2.4" mu="1"/><stationRef name="Ham" mr="3.4"/><label/><stationRef name="Saint-Quentin" ml="2"/>
+    </trainLine>
+    <trainLine name="K21" color="#ed0e58">
+      <stationRef name="Amiens" ml="0.4" mu="2"/><stationRef name="St-Roch" mr="0.8" mu="2"/><point station="St-Roch" ml="0.6" mu="2"/><label offset="-1"/><stationRef name="Abbeville" mur="1"/><stationRef name="Noyelles-sur-Mer" mur="1"/><label offset="1"/><stationRef name="Rue" mur="1"/><point station="Rang-du-Fliers Verton Berck" mr="1" mu="0.4"/><stationRef name="Rang-du-Fliers Verton Berck" mr="1" mu="1"/><stationRef name="Étaples-Le Touquet" mr="1"/><label/><stationRef name="Boulogne-Ville" mr="1"/><stationRef name="Boulogne-Tintelleries" mr="1"/><stationRef name="Marquise-Rinxent" mr="1"/><label offset="-6"/><stationRef name="Calais Ville" mr="1"/>
+    </trainLine>
+    <trainLine name="K40" color="#ed0e58">
+      <stationRef name="Saint-Quentin" mu="0.5"/><stationRef name="Busigny"/><label offset="4"/><stationRef name="Caudry"/><stationRef name="Cambrai"/><point station="Cambrai" mu="1.4"/><point x="1604" y="1296" mu="1.4"/><label/><point x="1604" y="1214"/><stationRef name="Somain"/><label offset="-2"/><stationRef name="Montigny-en-Ostrevent"/><point station="Douai" mr="1" md="1"/><stationRef name="Douai" mr="1"/><label offset="-22"/><label offset="14"/><stationRef name="Lille Flandres" mr="1"/>
+    </trainLine>
+    <trainLine name="K43" color="#ed0e58">
+      <stationRef name="Arras" mr="6"/><point station="Arras" mr="6" mu="3.2"/><label/><stationRef name="Douai" mr="0.8" md="2"/><point station="Douai" mr="4.8" md="2"/><point station="Montigny-en-Ostrevent" mr="0.8" mu="2"/><label offset="-2"/><point station="Somain" mr="0.6" mu="2"/><point station="Raismes" ml="1.4"/><label offset="-2"/><stationRef name="Valenciennes" ml="2"/>
+    </trainLine>
+    <trainLine name="K44" color="#ed0e58">
+      <stationRef name="Amiens" mr="3.4" mu="2"/><stationRef name="Corbie" mdr="1"/><label offset="1"/><stationRef name="Albert" mdr="1"/><point station="Achiet" mr="1" md="0.4"/><stationRef name="Arras" mr="1"/><point station="Arras" mr="1" mu="1"/><label offset="-4"/><point station="Douai" ml="1" md="1"/><stationRef name="Douai" ml="1"/><label offset="-18"/><label offset="18"/><stationRef name="Lille Flandres" ml="1"/>
+    </trainLine>
+    <trainLine name="K45" color="#ed0e58">
+      <stationRef name="Rouen Rive Droite"/><stationRef name="Morgny"/><label offset="1"/><stationRef name="Montérolier-Buchy"/><label offset="1"/><stationRef name="Serqueux"/><stationRef name="Abancourt" mur="1"/><label/><stationRef name="Poix-de-Picardie"/><point station="St-Roch"/><stationRef name="St-Roch" mr="0.8"/><stationRef name="Amiens"/><stationRef name="Corbie"/><label offset="-1"/><stationRef name="Albert"/><point station="Achiet"/><stationRef name="Arras"/><point station="Arras" mu="1.4"/><label offset="-6"/><point station="Douai" ml="2" md="0.6"/><stationRef name="Douai" ml="2"/><label offset="-16"/><label offset="20"/><stationRef name="Lille Flandres" ml="2"/>
+    </trainLine>
+    <trainLine name="K50" color="#ed0e58">
+      <stationRef name="Lille Flandres" ml="7"/><point station="Lille Flandres" ml="7" md="4.2"/><stationRef name="Lille CHR" mul="2"/><label offset="-1"/><stationRef name="La Bassée" mul="2"/><label offset="-2.5"/><stationRef name="Béthune" ml="2.7" mu="0.1"/><stationRef name="Vis-à-Marles" mu="2.8"/><label offset="-1"/><stationRef name="Calonne-Ricouart" mu="2.2"/><stationRef name="Pernes-Camblain" mu="1.6"/><stationRef name="St-Pol-sur-Ternoise" mu="1"/>
+    </trainLine>
+    <trainLine name="K51" color="#ed0e58" via="Don-Sainghin">
+      <stationRef name="Lille Flandres" ml="5"/><point station="Lille Flandres" ml="5" md="5"/><stationRef name="Lille Porte de Douai"/><stationRef name="Lille CHR"/><label offset="-1.5"/><stationRef name="Don-Sainghin"/><stationRef name="Bauvin-Provin"/><stationRef name="Pont-à-Vendin"/><label offset="-6.2"/><stationRef name="Lens" mu="2.4"/>
+    </trainLine>
+    <trainLine name="K52" color="#ed0e58">
+      <stationRef name="Dunkerque" mr="1"/><stationRef name="Coudekerque-Branche" mr="1"/><stationRef name="Bergues" mr="1"/><stationRef name="Esquelbecq" mr="1"/><label/><stationRef name="Arnèke" mr="1"/><stationRef name="Cassel" mr="1"/><stationRef name="Hazebrouck" mr="1"/><stationRef name="Isbergues" mr="1"/><label offset="2"/><stationRef name="Lillers" mr="1"/><stationRef name="Béthune" mr="1" mu="0.4"/><stationRef name="Nœux-les-Mines" mur="1"/><stationRef name="Bully-Grenay" mur="1"/><stationRef name="Lens" mur="1"/><label/><stationRef name="Avion" mur="1"/><stationRef name="Arras" ml="1" mu="2.4"/>
+    </trainLine>
+    <trainLine name="K60" color="#ed0e58">
+      <stationRef name="Lille Flandres" mr="4"/><point station="Lille Flandres" mr="4" md="4"/><label offset="-1"/><stationRef name="Orchies"/><label/><stationRef name="St-Amand-les-Eaux"/><stationRef name="Valenciennes"/><stationRef name="Le Poirier Université"/><label offset="1"/><stationRef name="Le Quesnoy"/><stationRef name="Aulnoye-Aymeries" md="0.6"/><point station="Hautmont" mr="0.4" md="1"/><label offset="-1"/><stationRef name="Maubeuge" md="1"/><label/><stationRef name="Jeumont" md="1"/>
+    </trainLine>
+    <trainLine name="K61" color="#ed0e58">
+      <stationRef name="Lille Flandres" mr="3"/><point station="Lille Flandres" mr="3" md="4.4"/><label offset="0.3"/><stationRef name="Orchies" mdl="1"/><label offset="1.3"/><stationRef name="St-Amand-les-Eaux" mdl="1"/><stationRef name="Valenciennes" ml="1" md="0.4"/><stationRef name="Le Poirier Université" ml="1"/><label offset="-1"/><stationRef name="Le Quesnoy" ml="1"/><stationRef name="Aulnoye-Aymeries" ml="1" md="0.6"/><stationRef name="Avesnes-sur-Helpe" ml="1"/><label offset="-1.7"/><stationRef name="Sains-du-Nord" ml="1"/><stationRef name="Fourmies" ml="1"/><stationRef name="Anor" ml="1"/><stationRef name="Hirson" ml="1"/><point station="Hirson" ml="1" md="2"/><autoStation name="Liart" ml="1" md="2"/><label/><stationRef name="Charleville-Mézières" ml="1" md="2"/>
+    </trainLine>
+    <trainLine name="K70" color="#ed0e58">
+      <stationRef name="Lille Flandres" ml="8" mu="1"/><point station="La Madeleine" ml="0.4" mu="1"/><stationRef name="Armentières" mul="1"/><label offset="1"/><stationRef name="Bailleul" ml="0.4" mu="1"/><point station="Strazeele" mr="0.4" mu="1"/><point station="Hazebrouck" mr="2" md="0.6"/><stationRef name="Hazebrouck" mr="2"/><stationRef name="Cassel" mr="2"/><stationRef name="Arnèke" mr="2"/><label offset="-2"/><stationRef name="Esquelbecq" mr="2"/><stationRef name="Bergues" mr="2"/><stationRef name="Dunkerque" mr="2"/>
+    </trainLine>
+    <trainLine name="K71" color="#ed0e58">
+      <stationRef name="Lille Flandres" ml="8"/><point station="La Madeleine"/><stationRef name="Armentières"/><label offset="-1"/><stationRef name="Bailleul"/><point station="Strazeele"/><stationRef name="Hazebrouck"/><stationRef name="St-Omer"/><stationRef name="Watten - Eperlecques"/><label offset="-2"/><stationRef name="Audruicq"/><point station="Les Fontinettes" mr="4" md="4"/><stationRef name="Calais Ville" mr="4"/>
+    </trainLine>
+    <trainLine name="K80" color="#ed0e58">
+      <stationRef name="Lille Flandres" mu="1"/><label offset="1"/><stationRef name="Roubaix"/><stationRef name="Tourcoing"/><autoStation name="Mouscron"/><label/><stationRef name="Courtrai"/>
+    </trainLine>
+    <trainLine name="K82" color="#ed0e58">
+      <stationRef name="Maubeuge" mu="1"/><label/><autoStation name="Charleroi Sud" mu="1"/><stationRef name="Namur" mu="1"/>
+    </trainLine>
+    <trainLine name="C10" color="#3f89d0">
+      <stationRef name="Paris Nord" ml="2"/><stationRef name="Orry-la-Ville Coye-la-Forêt" ml="2"/><label offset="-1"/><stationRef name="Chantilly-Gouvieux" ml="2"/><stationRef name="Creil" ml="2"/><stationRef name="Laigneville" ml="2"/><stationRef name="Liancourt-Rantigny" ml="2"/><stationRef name="Clermont-de-l'Oise" ml="2"/><label offset="1"/><stationRef name="St-Just-en-Chaussée" ml="2"/><stationRef name="Breteuil-Embranchement" ml="2"/><stationRef name="Ailly-sur-Noye" ml="2"/><point station="Boves" ml="2" md="2.2"/><stationRef name="Longueau" mdl="3"/><stationRef name="Amiens" mr="1" md="5.2"/>
+    </trainLine>
+    <trainLine name="C11" color="#3f89d0">
+      <stationRef name="Paris Nord" mr="1"/><stationRef name="Orry-la-Ville Coye-la-Forêt" mr="1"/><stationRef name="Chantilly-Gouvieux" mr="1"/><label offset="1"/><stationRef name="Creil" mr="1"/><stationRef name="Laigneville" mr="1"/><stationRef name="Liancourt-Rantigny" mr="1"/><stationRef name="Clermont-de-l'Oise" mr="1"/><label offset="-6"/><stationRef name="St-Just-en-Chaussée" mr="1"/>
+    </trainLine>
+    <trainLine name="C12" color="#3f89d0">
+      <stationRef name="Paris Nord"/><label offset="-1"/><stationRef name="Orry-la-Ville Coye-la-Forêt"/><stationRef name="Chantilly-Gouvieux"/><stationRef name="Creil" md="0.5"/>
+    </trainLine>
+    <trainLine name="C13" color="#3f89d0">
+      <stationRef name="Paris Nord" mr="3"/><stationRef name="Orry-la-Ville Coye-la-Forêt" mr="3"/><label offset="1"/><stationRef name="Chantilly-Gouvieux" mr="3"/><stationRef name="Creil" mr="3"/><point station="Creil" mr="3" mu="0.8"/><point x="810" y="2410" mr="3.2" mu="1"/><stationRef name="Villers-St-Paul" mu="1"/><stationRef name="Rieux-Angicourt" mu="1"/><stationRef name="Pont-Ste-Maxence" ml="0.4" mu="1"/><label offset="0.7"/><stationRef name="Compiègne" mul="1"/>
+    </trainLine>
+    <trainLine name="C14" color="#3f89d0">
+      <stationRef name="Paris Nord" mr="2"/><stationRef name="Orry-la-Ville Coye-la-Forêt" mr="2"/><stationRef name="Chantilly-Gouvieux" mr="2"/><label offset="-1"/><stationRef name="Creil" mr="2"/><point station="Creil" mr="2" mu="1.2"/><point x="810" y="2410" mr="2.8" mu="2"/><stationRef name="Villers-St-Paul" mu="2"/><stationRef name="Rieux-Angicourt" mu="2"/><stationRef name="Pont-Ste-Maxence" ml="0.8" mu="2"/><autoStation name="Chevrières" a="l" mul="2"/><autoStation name="Longueil-Ste-Marie" a="l" mul="2"/><label offset="-0.7"/><autoStation name="Le Meux-Croix-St-Ouen" a="l" mul="2"/><autoStation name="Jaux" a="l" mul="2"/><stationRef name="Compiègne" mul="2"/>
+    </trainLine>
+    <trainLine name="C17" color="#3f89d0">
+      <stationRef name="Paris Nord" ml="6"/><autoStation name="Persan Beaumont" a="l" ml="6"/><label/><autoStation name="Chambly" a="l" ml="4" md="2"/><autoStation name="Bornel-Belle-Église" a="l" ml="2" md="4"/><stationRef name="Esches" md="6"/><autoStation name="Méru" a="l"/><autoStation name="Laboissière-le-Déluge" a="l"/><label/><stationRef name="St-Sulpice-Auteuil"/><stationRef name="Beauvais" mdl="1"/>
+    </trainLine>
+    <trainLine name="C40" color="#3f89d0">
+      <stationRef name="Lille Flandres" mr="2"/><autoStation name="Ronchin" mr="2"/><autoStation name="Wattignies-&#10;Templemars" mr="2"/><label offset="2"/><stationRef name="Seclin" mr="2"/><autoStation name="Phalempin" mr="2"/><stationRef name="Libercourt" mr="2"/><stationRef name="Ostricourt" mr="2"/><autoStation name="Leforest" mr="2"/><label offset="2"/><autoStation name="Pont-de-la-Deûle" mr="2"/><stationRef name="Douai" mr="2"/>
+    </trainLine>
+    <trainLine name="C41" color="#3f89d0" via="Libercourt">
+      <stationRef name="Lille Flandres" ml="3"/><label offset="-0.5"/><stationRef name="Seclin" ml="3"/><stationRef name="Libercourt" ml="3"/><point station="Libercourt" ml="3" md="3"/><point x="1165" y="795"/><stationRef name="Dourges"/><stationRef name="Hénin-Beaumont"/><label offset="-1"/><stationRef name="Billy-Montigny"/><stationRef name="Corons-de-Méricourt"/><stationRef name="Lens" mur="2"/>
+    </trainLine>
+    <trainLine name="C50" color="#3f89d0">
+      <stationRef name="Lille Flandres" ml="6"/><point station="Lille Flandres" ml="6" md="4.6"/><stationRef name="Lille Porte de Douai" mul="1"/><stationRef name="Lille CHR" mul="1"/><stationRef name="Loos-lez-Lille" mul="1"/><stationRef name="Haubourdin" mul="1"/><stationRef name="Santes" mul="1"/><label offset="-1"/><stationRef name="Wavrin" mul="1"/><stationRef name="La Fontaine" mul="1"/><stationRef name="Don-Sainghin" mul="1"/><autoStation name="Marquillies" a="l" mul="1"/><autoStation name="Salomé" a="l" mul="1"/><label/><stationRef name="La Bassée" mul="1"/><autoStation name="Cuinchy" mul="1"/><autoStation name="Beuvry-&#10;lès-Béthune" mul="1"/><stationRef name="Béthune" ml="2" md="0.6"/>
+    </trainLine>
+    <trainLine name="C51" color="#3f89d0" via="Don-Sainghin">
+      <stationRef name="Lille Flandres" ml="4"/><point station="Lille Flandres" ml="4" md="5.4"/><stationRef name="Lille Porte de Douai" mdr="1"/><stationRef name="Lille CHR" mdr="1"/><stationRef name="Loos-lez-Lille" mdr="1"/><stationRef name="Haubourdin" mdr="1"/><label offset="-1"/><stationRef name="Santes" mdr="1"/><stationRef name="Wavrin" mdr="1"/><stationRef name="La Fontaine" mdr="1"/><stationRef name="Don-Sainghin" mr="1" md="0.4"/><stationRef name="Bauvin-Provin" mr="1"/><autoStation name="Meurchin" mr="1"/><stationRef name="Pont-à-Vendin" mr="1"/><label offset="1"/><autoStation name="Loison/Lens" mr="1"/><autoStation name="Sallaumines" mr="1"/><stationRef name="Lens" mr="1" mu="2.4"/>
+    </trainLine>
+    <trainLine name="C60" color="#3f89d0">
+      <stationRef name="Lille Flandres" mr="5"/><point station="Lille Flandres" mr="5" md="3.6"/><autoStation name="Mont-&#10;de-Terre" mur="1"/><autoStation name="Lesquin" a="l" mur="1"/><autoStation name="Fretin" mur="1"/><label offset="-1.3"/><autoStation name="Ennevelin" mur="1"/><autoStation name="Templeuve" mur="1"/><autoStation name="Nomain" mur="1"/><stationRef name="Orchies" mur="1"/><autoStation name="Landas" mur="1"/><label offset="-1.3"/><autoStation name="Rosult" mur="1"/><stationRef name="St-Amand-les-Eaux" mur="1"/><stationRef name="Valenciennes" mur="1"/>
+    </trainLine>
+    <trainLine name="C70" color="#3f89d0">
+      <stationRef name="Lille Flandres" ml="8" md="1"/><stationRef name="La Madeleine" mr="0.4" md="1"/><autoStation name="St-André" a="l" mdr="1"/><autoStation name="Pérenchies" mdr="1"/><stationRef name="Armentières" mdr="1"/><label/><autoStation name="Nieppe" mdr="1"/><autoStation name="Steenwerck" mdr="1"/><stationRef name="Bailleul" mr="0.4" md="1"/><stationRef name="Strazeele" ml="0.4" md="1"/><stationRef name="Hazebrouck" mr="2" md="3.4"/>
+    </trainLine>
+    <trainLine name="P10" color="#73c82c">
+      <stationRef name="Creil" mu="0.5"/><stationRef name="Laigneville"/><stationRef name="Liancourt-Rantigny"/><stationRef name="Clermont-de-l'Oise"/><label offset="1"/><autoStation name="Avrechy"/><autoStation name="St-Rémy-en-l'Eau"/><stationRef name="St-Just-en-Chaussée"/><autoStation name="Gannes"/><stationRef name="Breteuil-Embranchement"/><autoStation name="La Faloise"/><stationRef name="Ailly-sur-Noye"/><autoStation name="Dommartin-Remiencourt"/><stationRef name="Boves" md="1.4"/><stationRef name="Longueau" mdl="1"/><stationRef name="Amiens" mr="1" md="2.4"/>
+    </trainLine>
+    <trainLine name="P14" color="#73c82c">
+      <stationRef name="Compiègne" mu="1.4"/><autoStation name="Longueil-Annel" mul="1"/><autoStation name="Thourotte" mul="1"/><autoStation name="Ribécourt" a="l" mul="1"/><autoStation name="Ourscamps" a="l" mul="1"/><stationRef name="Noyon" mul="1"/><label offset="-0.7"/><autoStation name="Appilly" a="l" mul="1"/><stationRef name="Chauny" mul="1"/><stationRef name="Viry-Noureuil" ml="1" mu="0.4"/><stationRef name="Tergnier" ml="1"/><stationRef name="Mennessis" ml="1"/><autoStation name="Montescourt" ml="1"/><label offset="1"/><stationRef name="Saint-Quentin" ml="1" md="0.5"/>
+    </trainLine>
+    <trainLine name="P15" color="#73c82c">
+      <stationRef name="Crépy-en-Valois" mdr="1"/><autoStation name="Vaumoise" mdr="1"/><stationRef name="Villers-Cotterêts" mdr="1"/><autoStation name="Corcy" mdr="1"/><label offset="1"/><autoStation name="Longpont" mdr="1"/><autoStation name="Vierzy" mdr="1"/><stationRef name="Soissons" mdr="1"/><autoStation name="Crouy" mdr="1"/><autoStation name="Margival" mdr="1"/><label offset="1"/><autoStation name="Vauxaillon" mdr="1"/><stationRef name="Anizy-Pinon" mdr="1"/><autoStation name="Clacy-Mons" mdr="1"/><stationRef name="Laon" mdr="1"/>
+    </trainLine>
+    <trainLine name="P20" color="#73c82c">
+      <stationRef name="Amiens" mr="1"/><stationRef name="Villers-Bretonneux"/><autoStation name="Marcelcave" a="b"/><label offset="1"/><autoStation name="Rosières" a="b"/><autoStation name="Chaulnes" a="b"/><stationRef name="Nesle" mr="2"/><stationRef name="Ham" mr="3" md="1"/><label/><autoStation name="Flavy-le-Martel" a="l" mr="2"/><stationRef name="Mennessis" mr="2"/><stationRef name="Tergnier" mr="2"/><point station="Tergnier" mr="2" md="2"/><autoStation name="La Fère"/><label/><autoStation name="Versigny"/><autoStation name="Crépy-Couvron" a="l"/><stationRef name="Laon" mul="1"/>
+    </trainLine>
+    <trainLine name="P21" color="#73c82c">
+      <stationRef name="Albert" mul="1"/><autoStation name="Buire-sur-l'Ancre" a="l" mul="1"/><autoStation name="Méricourt-Ribémont" a="l" mul="1"/><autoStation name="Heilly" a="l" mul="1"/><label/><stationRef name="Corbie" mul="1"/><autoStation name="Daours" a="l" mul="1"/><stationRef name="Amiens" ml="0.4" mu="1"/><stationRef name="St-Roch" mr="0.8" mu="1"/><point station="St-Roch" ml="1" mu="1"/><autoStation name="Dreuil-lès-Amiens" a="l"/><autoStation name="Ailly-sur-Somme" a="l"/><label/><autoStation name="Picquigny" a="l"/><autoStation name="Hangest-sur-Somme" a="l"/><autoStation name="Longpré-les-Corps-Saints" a="l"/><autoStation name="Pont-Rémy" a="l"/><stationRef name="Abbeville"/>
+    </trainLine>
+    <trainLine name="P22" color="#73c82c">
+      <stationRef name="Amiens" mr="4.8" mu="2"/><stationRef name="Corbie" mdr="2"/><label offset="3"/><stationRef name="Albert" mdr="2"/><autoStation name="Miraumont" a="l" mdr="2"/><stationRef name="Achiet" mr="5" mu="2.2"/><autoStation name="Courcelles-le-Comte" mr="5" mu="1.1"/><autoStation name="Boisleux" mr="5"/><stationRef name="Arras" mr="5" md="0.4"/>
+    </trainLine>
+    <trainLine name="P23" color="#73c82c">
+      <stationRef name="Amiens" mr="1" md="1"/><stationRef name="Longueau"/><stationRef name="Boves" mdr="1"/><stationRef name="Thézy-Glimont"/><autoStation name="Moreuil"/><autoStation name="Hargicourt-Pierrepont"/><autoStation name="Montdidier"/><label/><autoStation name="Tricot"/><autoStation name="Wacquemoulin" a="l"/><autoStation name="Estrées-St-Denis" a="l"/><autoStation name="Rémy" a="l"/><stationRef name="Compiègne" mul="3"/>
+    </trainLine>
+    <trainLine name="P24" color="#73c82c">
+      <stationRef name="Abancourt" mr="2.1" md="0.7"/><autoStation name="Fouilloy" mdr="2"/><label offset="1"/><stationRef name="Poix-de-Picardie" mdr="2"/><autoStation name="Namps-&#10;Quevauvilliers" mdr="2"/><stationRef name="St-Roch" mr="0.8" md="2"/><stationRef name="Amiens" md="2"/>
+    </trainLine>
+    <trainLine name="P30" color="#73c82c">
+      <stationRef name="Beauvais" ml="0.35" mu="0.35"/><autoStation name="Herchies"/><autoStation name="Milly-sur-Thérain"/><autoStation name="St-Omer-en-Chaussée"/><label/><autoStation name="Marseille-en-Beauvaisis"/><autoStation name="Grandvilliers"/><autoStation name="Feuquières-Broquiers"/><stationRef name="Abancourt" mdr="2"/><autoStation name="Aumale"/><autoStation name="Blangy-sur-Bresle"/><label/><autoStation name="Longroy-Gamaches"/><autoStation name="Eu"/><stationRef name="Le Tréport-Mers"/>
+    </trainLine>
+    <trainLine name="P32" color="#73c82c">
+      <stationRef name="Creil" ml="6"/><stationRef name="Montataire" md="6"/><autoStation name="Cramoisy" a="l" md="5"/><autoStation name="Cires-lès-Mello" a="l" md="4"/><autoStation name="Balagny-St-Epin" a="l" md="3"/><autoStation name="Mouy-Bury" a="l" md="2"/><autoStation name="Heilles-Mouchy" a="l" md="1"/><autoStation name="Hermes-Berthecourt" a="l"/><stationRef name="Villers-St-Sépulcre"/><label/><autoStation name="Montreuil-&#10;sur-Thérain" a="l"/><autoStation name="Rochy-Condé"/><stationRef name="Beauvais" mr="0.35" md="0.35"/>
+    </trainLine>
+    <trainLine name="P40" color="#73c82c">
+      <stationRef name="Douai" mr="2" md="3"/><stationRef name="Sin-le-Noble" mr="2" md="3"/><stationRef name="Cantin" mr="2" md="2"/><stationRef name="Arleux"/><label offset="-1"/><stationRef name="Brunémont"/><stationRef name="Aubigny-au-Bac"/><point station="Cambrai" ml="1" mu="1"/><stationRef name="Cambrai" ml="1"/><autoStation name="Wambaix" a="l" ml="1"/><autoStation name="Cattenières" a="l" ml="1"/><label/><stationRef name="Caudry" ml="1"/><autoStation name="Bertry" a="l" ml="1"/><autoStation name="Maurois" a="l" ml="1"/><stationRef name="Busigny" ml="1"/><stationRef name="Bohain" ml="1"/><stationRef name="Fresnoy-le-Grand" ml="1"/><stationRef name="Saint-Quentin" ml="1" mu="0.5"/>
+    </trainLine>
+    <trainLine name="P41" color="#73c82c">
+      <stationRef name="Douai" mr="1" md="3"/><stationRef name="Sin-le-Noble" mr="1" md="3"/><stationRef name="Cantin" mr="1" md="2.4"/><stationRef name="Arleux" mdl="1"/><label offset="1"/><stationRef name="Brunémont" mdl="1"/><stationRef name="Aubigny-au-Bac" mdl="1"/><point station="Cambrai" ml="2" mu="0.6"/><stationRef name="Cambrai" ml="2"/>
+    </trainLine>
+    <trainLine name="P42" color="#73c82c">
+      <stationRef name="Douai" ml="3"/><label offset="8.5"/><stationRef name="Ostricourt" ml="3"/><point station="Ostricourt" ml="3" mu="2"/><point x="1165" y="795" md="1"/><stationRef name="Dourges" mr="0.4" md="1"/><stationRef name="Hénin-Beaumont" mdr="1"/><label offset="1"/><stationRef name="Billy-Montigny" mdr="1"/><stationRef name="Corons-de-Méricourt" mdr="1"/><autoStation name="Pont-de-Sallaumines" mdr="1"/><stationRef name="Lens" mr="2.1" mu="0.7"/>
+    </trainLine>
+    <trainLine name="P43" color="#73c82c">
+      <stationRef name="Douai" mr="2.4" md="1"/><stationRef name="Montigny-en-Ostrevent" mr="0.4" mu="1"/><label/><stationRef name="Somain" mu="1"/><point station="Somain" mr="1" mu="1"/><autoStation name="Wallers"/><stationRef name="Raismes" ml="1" md="1"/><label offset="-1"/><autoStation name="Beuvrages" a="b" ml="1" md="1"/><stationRef name="Valenciennes" ml="2" md="1"/>
+    </trainLine>
+    <trainLine name="P44" color="#73c82c">
+      <stationRef name="Arras" mr="7"/><point station="Arras" mr="7" mu="2.8"/><autoStation name="Rœux" mdr="3"/><autoStation name="Biache St-Vaast" mdr="3"/><autoStation name="Vitry-en-Artois" mdr="3"/><label offset="1"/><autoStation name="Brebières-&#10;Sud" mdr="3"/><autoStation name="Corbehem" mdr="3"/><stationRef name="Douai" md="4.2"/>
+    </trainLine>
+    <trainLine name="P45" color="#73c82c">
+      <stationRef name="Rouen Rive Droite" mdr="1"/><stationRef name="Morgny" mdr="1"/><autoStation name="Longuerue-Vieux-Manoir" mdr="1"/><label offset="1"/><stationRef name="Montérolier-Buchy" mdr="1"/><autoStation name="Sommery" mdr="1"/><label offset="1"/><stationRef name="Serqueux" mdr="1"/><autoStation name="Formerie" mdr="1"/><stationRef name="Abancourt" mr="1.4"/><label offset="1.5"/><stationRef name="Poix-de-Picardie" mdr="1"/><point station="St-Roch" mr="0.4" md="1"/><stationRef name="St-Roch" mr="0.8" md="1"/><stationRef name="Amiens" md="1"/>
+    </trainLine>
+    <trainLine name="P51" color="#73c82c">
+      <stationRef name="Béthune" ml="3.4" mu="0.8"/><stationRef name="Vis-à-Marles" ml="1" mu="3.2"/><label offset="1"/><stationRef name="Calonne-Ricouart" ml="1" mu="2.2"/><stationRef name="Pernes-Camblain" ml="1" mu="1.6"/><stationRef name="St-Pol-sur-Ternoise" ml="1" mu="1"/>
+    </trainLine>
+    <trainLine name="P52" color="#73c82c">
+      <stationRef name="Hazebrouck" ml="1" md="1.4"/><autoStation name="Steenbecque" a="l" ml="1"/><autoStation name="Thiennes" a="l" ml="1"/><stationRef name="Isbergues" ml="1"/><label offset="-1"/><stationRef name="Ham-en-Artois" ml="1"/><stationRef name="Lillers" ml="1"/><autoStation name="Chocques" a="l" ml="1"/><autoStation name="Fouquereuil" a="l" ml="1"/><stationRef name="Béthune" ml="1" md="0.4"/><stationRef name="Nœux-les-Mines" mdl="1"/><autoStation name="Mazingarbe" mdl="1"/><stationRef name="Bully-Grenay" mdl="1"/><stationRef name="Liévin" mdl="1"/><autoStation name="Loos-en-Gohelle" a="l" mdl="1"/><stationRef name="Lens" mdl="1"/><stationRef name="Avion" mdl="1"/><stationRef name="Vimy" mdl="1"/><label/><autoStation name="Farbus" a="l" mdl="1"/><autoStation name="Bailleul-Sire-Berthoult" a="l" mdl="1"/><stationRef name="Arras" ml="2.4" mu="1"/>
+    </trainLine>
+    <trainLine name="P53" color="#73c82c">
+      <stationRef name="Étaples-Le Touquet" mr="4"/><autoStation name="Montreuil-sur-Mer" mr="4"/><autoStation name="Brimeux" mr="4"/><autoStation name="Beaurainville" a="l" mr="4"/><stationRef name="Maresquel" mr="4"/><autoStation name="Aubin-&#10;St-Vaast" a="t" mr="3"/><autoStation name="Hesdin" a="b" mr="2"/><label/><autoStation name="Auchy-&#10;les-Hesdin" a="t" mr="1"/><autoStation name="Blangy-sur-&#10;Ternoise" a="b"/><autoStation name="Anvin" a="t"/><stationRef name="St-Pol-sur-Ternoise"/><autoStation name="Tincques" a="l"/><autoStation name="Savy-Berlette" a="l"/><label/><stationRef name="Aubigny-en-Artois"/><autoStation name="Frévin-&#10;Capelle" a="b"/><autoStation name="Marœuil" a="b"/><stationRef name="Arras" ml="1"/>
+    </trainLine>
+    <trainLine name="P54" color="#73c82c">
+      <stationRef name="Calais Ville" mr="3"/><stationRef name="Les Fontinettes" mr="3"/><point station="Les Fontinettes" mr="3" md="4.4"/><stationRef name="Pont-d'Ardres" mdl="1"/><autoStation name="Nortkerque" mdl="1"/><stationRef name="Audruicq" mdl="1"/><label/><autoStation name="Ruminghem" mdl="1"/><stationRef name="Watten - Eperlecques" mdl="1"/><stationRef name="St-Omer" mdl="1"/><autoStation name="Renescure" a="l" mdl="1"/><autoStation name="Ebblinghem" a="l" mdl="1"/><stationRef name="Hazebrouck" md="1.4"/><stationRef name="Isbergues"/><label offset="1"/><stationRef name="Ham-en-Artois"/><stationRef name="Lillers"/><stationRef name="Béthune"/><stationRef name="Nœux-les-Mines"/><stationRef name="Bully-Grenay"/><stationRef name="Liévin"/><stationRef name="Lens"/><stationRef name="Avion"/><label/><stationRef name="Vimy"/><stationRef name="Arras" ml="1" mu="1"/>
+    </trainLine>
+    <trainLine name="P60" color="#73c82c">
+      <stationRef name="Valenciennes" mr="1" md="0.5"/><stationRef name="Le Poirier Université" mr="1"/><stationRef name="Le Quesnoy" mr="1"/><label offset="-1"/><autoStation name="Berlaimont" mr="1"/><stationRef name="Aulnoye-Aymeries" mr="1" md="0.2"/><stationRef name="Hautmont" mr="0.8"/><label/><autoStation name="Sous-&#10;le-Bois" a="t"/><autoStation name="Louvroil" a="t"/><stationRef name="Maubeuge"/><label/><autoStation name="Les &#10;Bons Pères" a="b"/><autoStation name="Recquignies" a="t"/><stationRef name="Jeumont"/>
+    </trainLine>
+    <trainLine name="P61" color="#73c82c">
+      <stationRef name="Hirson"/><stationRef name="Hirson Écoles"/><stationRef name="Anor"/><stationRef name="Fourmies"/><stationRef name="Sains-du-Nord"/><label offset="1"/><stationRef name="Avesnelles"/><stationRef name="Avesnes-sur-Helpe"/><stationRef name="St-Hilaire"/><stationRef name="Dompierre"/><stationRef name="Leval"/><stationRef name="Aulnoye-Aymeries" md="3"/>
+    </trainLine>
+    <trainLine name="P62" color="#73c82c">
+      <stationRef name="Aulnoye-Aymeries" ml="3" md="4.4"/><autoStation name="Hachette" mdr="1"/><autoStation name="Landrecies" mdr="1"/><label offset="-1"/><autoStation name="Ors" mdr="1"/><stationRef name="Le Cateau" mdr="1"/><point station="Busigny" mr="2" mu="0.6"/><stationRef name="Busigny" mr="2"/><stationRef name="Bohain" mr="2"/><stationRef name="Fresnoy-le-Grand" mr="2"/><stationRef name="Saint-Quentin" mr="2"/>
+    </trainLine>
+    <trainLine name="P63" color="#73c82c">
+      <stationRef name="Valenciennes" ml="2" md="2"/><autoStation name="Trith-St-Léger" a="l"/><autoStation name="Prouvy-Thiant" a="l"/><autoStation name="Denain"/><label/><autoStation name="Lourches"/><autoStation name="Bouchain"/><autoStation name="Iwuy"/><autoStation name="Escaudœuvres"/><stationRef name="Cambrai" mr="1" mu="1"/>
+    </trainLine>
+    <trainLine name="P64" color="#73c82c">
+      <stationRef name="Laon" mur="1"/><autoStation name="Barenton-Bugny"/><autoStation name="Verneuil-sur-Serre"/><autoStation name="Dercy-Froidmont"/><autoStation name="Voyenne"/><label/><autoStation name="Marle-sur-Serre"/><autoStation name="Vervins"/><autoStation name="La Bouteille" a="l"/><autoStation name="Origny-en-Thiérache" a="l"/><point station="Hirson" ml="2" md="2"/><stationRef name="Hirson" ml="2"/><stationRef name="Hirson Écoles" ml="2"/><stationRef name="Anor" ml="2"/><stationRef name="Fourmies" ml="2"/><stationRef name="Sains-du-Nord" ml="2"/><stationRef name="Avesnelles" ml="2"/><label offset="1"/><stationRef name="Avesnes-sur-Helpe" ml="2"/><stationRef name="St-Hilaire" ml="2"/><stationRef name="Dompierre" ml="2"/><stationRef name="Leval" ml="2"/><stationRef name="Aulnoye-Aymeries" ml="2" md="3"/>
+    </trainLine>
+    <trainLine name="P70" color="#73c82c">
+      <stationRef name="Hazebrouck" mu="1"/><stationRef name="Cassel"/><stationRef name="Arnèke"/><label offset="2"/><stationRef name="Esquelbecq"/><stationRef name="Bergues"/><stationRef name="Coudekerque-Branche"/><stationRef name="Dunkerque"/>
+    </trainLine>
+    <trainLine name="P72" color="#73c82c">
+      <stationRef name="Dunkerque" ml="1"/><stationRef name="Coudekerque-Branche" ml="1"/><point x="540" y="190" ml="1"/><stationRef name="Grande Synthe"/><autoStation name="Bourbourg" a="b"/><label/><autoStation name="Gravelines" a="b"/><autoStation name="Beau-Marais" a="t"/><point x="150" y="190" mr="1.4"/><point station="Les Fontinettes" mr="5" md="3.6"/><stationRef name="Les Fontinettes" mr="5"/><stationRef name="Calais Ville" mr="5"/>
+    </trainLine>
+    <trainLine name="P73" color="#73c82c">
+      <stationRef name="Rang-du-Fliers Verton Berck" mu="1"/><stationRef name="Étaples-Le Touquet"/><autoStation name="Dannes-Camiers" a="l"/><autoStation name="Neufchâtel - Hardelot" a="l"/><label offset="2"/><autoStation name="Hesdigneul" a="l"/><autoStation name="Pont-de-Briques" a="l"/><stationRef name="Boulogne-Ville"/><stationRef name="Boulogne-Tintelleries"/><autoStation name="Wimille-Wimereux" a="l"/><stationRef name="Marquise-Rinxent"/><autoStation name="Le Haut-Banc" a="l"/><autoStation name="Caffiers" a="l"/><label offset="2"/><autoStation name="Pihen" a="l"/><stationRef name="Calais Fréthun"/><stationRef name="Les Fontinettes"/><stationRef name="Calais Ville"/>
+    </trainLine>
+    <trainLine name="P80" color="#73c82c">
+      <stationRef name="Lille Flandres" mr="1" mu="1"/><stationRef name="Croix-Wasquehal" mr="1"/><autoStation name="Croix l'Allumette" mr="1"/><label/><stationRef name="Roubaix" mr="1"/><stationRef name="Tourcoing" mr="1"/>
+    </trainLine>
+    <trainLine name="P81" color="#73c82c">
+      <stationRef name="Lille Flandres" mr="6"/><stationRef name="Lezennes"/><autoStation name="Hellemmes" a="b"/><label/><autoStation name="Pont-de-Bois" a="t"/><autoStation name="Annappes" a="b"/><stationRef name="Ascq"/><autoStation name="Baisieux" a="b"/><label/><autoStation name="Froyennes" a="t"/><stationRef name="Tournai"/>
+    </trainLine>
+    <busLine name="P82" color="#b1d982">
+      <stationRef name="Ascq" md="1"/><autoStation name="Tressin"/><autoStation name="Anstaing"/><autoStation name="Bouvines"/><autoStation name="Cysoing"/><label/><autoStation name="Cobrieux"/><autoStation name="Genech"/><autoStation name="Nomain-Ouvignie"/><stationRef name="Orchies" mu="2"/>
+    </busLine>
+    <busLine name="P83" color="#b1d982">
+      <stationRef name="Lille Flandres" ml="1" mu="1"/><stationRef name="Marquette"/><autoStation name="Wambrechies" a="l"/><label/><autoStation name="Quesnoy-sur-Deûle" a="l"/><autoStation name="Ste-Marguerite" a="l"/><stationRef name="Comines"/>
+    </busLine>
+    <walkingLine>
+      <stationRef name="Lille Flandres"/>
+      <stationRef name="Lille Europe"/>
+    </walkingLine>
+  </lines>
+  <background height="2700">
+    <sea points="l t, l 1800, 0 1800, 80 1720, 80 60, 750 60, 810 0, 810 t"/>
+    <boundary points="l t, 690 t, 690 0, 815 125, 1480 125, 2000 645, 2000 900, 2370 1270, 2370 1330, 1900 1800, 1900 2400, 1650 2650, 1000 2650, 920 2570, 750 2570, 700 2520, 650 2520, 375 2245, 375 1850, 0 1475, l 1475"/>
+  </background>
+</place>

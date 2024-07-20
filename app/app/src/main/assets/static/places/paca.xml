@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<place>
+    <stations>
+        <station name="Marseille St-Charles" x="660" y="1220"/>
+        <station name="Marseille Blancarde" x="660" y="1270" a="l"/>
+        <station name="La Penne-sur-Huveaune" x="780" y="1390" a="l"/>
+        <station name="La Ciotat" x="930" y="1390" a="b"/>
+        <station name="La Seyne-Six-Fours" x="1050" y="1510" a="l"/>
+        <station name="Toulon" x="1100" y="1510" a="b" major="true"/>
+        <station name="La Garde" x="1150" y="1510" a="t"/>
+        <station name="La Pauline-Hyères" x="1200" y="1510"/>
+        <station name="La Crau" x="1230" y="1540"/>
+        <station name="Hyères" x="1260" y="1570"/>
+
+        <station name="Carnoules" x="1300" y="1410"/>
+        <station name="Les Arcs-Draguignan" x="1300" y="1230"/>
+        <station name="Fréjus" x="1330" y="1200"/>
+        <station name="St-Raphaël-Valescure" x="1360" y="1170"/>
+
+        <station name="Grasse" x="1480" y="800" a="l"/>
+        <station name="Le Bosquet" x="1580" y="900" a="l"/>
+        <station name="Cannes-La-Bocca" x="1590" y="940"/>
+        <station name="Cannes" x="1630" y="900"/>
+        <station name="Golfe-Juan-Vallauris" x="1660" y="870"/>
+        <station name="Juan-les Pins" x="1690" y="840"/>
+        <station name="Antibes" x="1720" y="810"/>
+        <station name="Biot" x="1750" y="780" a="l"/>
+        <station name="Villeneuve-Loubet-Plage" x="1780" y="750" a="l"/>
+        <station name="Cagnes-sur-Mer" x="1810" y="720" a="l"/>
+        <station name="Cros-de-Cagnes" x="1840" y="690" a="l"/>
+        <station name="St-Laurent-du-Var" x="1870" y="660" a="l"/>
+        <station name="Nice-St-Augustin" x="1900" y="630" a="l"/>
+        <station name="Nice-Ville" x="1930" y="600" a="l"/>
+        <station name="Vintimille" x="2400" y="600"/>
+        <station name="Tende" x="1930" y="150" a="l"/>
+
+        <station name="Arenc-&#10;Euroméditerranée" x="560" y="1220" a="b"/>
+        <station name="L'Estaque" x="460" y="1220" a="l"/>
+        <station name="La Redonne-Ensuès" x="400" y="1280"/>
+        <station name="Sausset-les-Pins" x="330" y="1280" a="l"/>
+        <station name="La Couronne" x="310" y="1260" a="l"/>
+
+        <station name="Vitrolles Aéroport &#10;Marseille Provence" x="400" y="1160"/>
+        <station name="Miramas" x="310" y="1070"/>
+        <station name="St-Martin-de-Crau" x="260" y="1020" a="l"/>
+        <station name="Arles" x="260" y="980" a="l"/>
+        <station name="Tarascon" x="260" y="920"/>
+        <station name="Montpellier &#10;St-Roch" x="70" y="920" a="b"/>
+
+        <station name="Sénas" x="380" y="1000"/>
+        <station name="St-Saturnin-d'Avignon" x="380" y="900"/>
+        <station name="Morières-lès-Avignon" x="350" y="870"/>
+        <station name="Avignon Centre" x="260" y="870" a="l"/>
+        <station name="Avignon TGV" x="245" y="885" a="l"/>
+
+        <station name="Sorgues-Châteauneuf-du-Pape" x="260" y="820" a="l"/>
+        <station name="Carpentras" x="360" y="720"/>
+        <station name="Crest" x="310" y="450" a="b"/>
+        <station name="Livron" x="260" y="400" a="l"/>
+        <station name="Valence-Ville" x="260" y="330" a="l"/>
+        <station name="Romans-Bourg-de-Péage" x="360" y="230"/>
+        <station name="Lyon Part-Dieu" x="260" y="150" a="l"/>
+
+        <station name="Aix-en-Provence" x="860" y="1020"/>
+        <station name="Meyrargues" x="860" y="970"/>
+        <station name="Pertuis" x="810" y="920" a="l"/>
+        <station name="Serres" x="860" y="500"/>
+        <station name="Veynes-Dévoluy" x="910" y="450" a="t"/>
+        <station name="Gap" x="980" y="450" a="b"/>
+        <station name="Chorges" x="1050" y="450" a="t"/>
+        <station name="Embrun" x="1120" y="450"/>
+        <station name="Montdauphin-Guillestre" x="1170" y="400"/>
+        <station name="L'Argentière-les-Ecrins" x="1220" y="350"/>
+        <station name="Briançon" x="1270" y="300"/>
+
+        <station name="Aspres-sur-Buëch" x="860" y="400"/>
+        <station name="Grenoble" x="860" y="50"/>
+    </stations>
+    <lines>
+        <trainLine name="1" color="#2087C8">
+            <stationRef name="Marseille St-Charles" ml="1"/><stationRef name="Marseille Blancarde" mdll="1"/><autoStation name="La Pomme" a="l" mdl="1"/><autoStation name="St-Marcel" a="l" mdl="1"/><autoStation name="La Barasse" a="l" mdl="1"/><stationRef name="La Penne-sur-Huveaune" mddl="1"/><autoStation name="Aubagne" a="b" md="1"/><label offset="-1.5"/><autoStation name="Cassis" a="b" md="1"/><stationRef name="La Ciotat" mddl="1"/><autoStation name="St-Cyr - Les Lecques - La Cadière" a="l" mdl="1"/><autoStation name="Bandol" a="l" mdl="1"/><autoStation name="Ollioules - Sanary-sur-Mer" a="l" mdl="1"/><stationRef name="La Seyne-Six-Fours" mddl="1"/><stationRef name="Toulon" md="1"/><label offset="2"/><stationRef name="La Garde" md="1"/><stationRef name="La Pauline-Hyères" mddl="1"/><label/><stationRef name="La Crau" mdl="1"/><stationRef name="Hyères" mdl="1"/>
+        </trainLine>
+        <trainLine name="2" color="#2087C8">
+            <stationRef name="Toulon" mu="1"/><label offset="-2"/><stationRef name="La Garde" mu="1"/><stationRef name="La Pauline-Hyères" muul="1"/><autoStation name="Solliès-Pont" mul="1"/><autoStation name="Cuers-Pierrefeu" mul="1"/><autoStation name="Puget-Ville" mul="1"/><stationRef name="Carnoules" mull="1"/><autoStation name="Pignans" ml="1"/><label/><autoStation name="Gonfaron" ml="1"/><autoStation name="Le Luc-et-le-Cannet" ml="1"/><autoStation name="Vidauban" ml="1"/><stationRef name="Les Arcs-Draguignan" ml="1"/>
+        </trainLine>
+        <trainLine name="3" color="#2087C8">
+            <stationRef name="Les Arcs-Draguignan" mdrr="1"/><stationRef name="Fréjus" mdr="1"/><label offset="0.7"/><stationRef name="St-Raphaël-Valescure" mdr="1"/><autoStation name="Boulouris-sur-Mer" mdr="1"/><autoStation name="Le Dramont" mdr="1"/><autoStation name="Agay" mdr="1"/><autoStation name="Anthéor-Cap-Roux" mdr="1"/><label offset="0.7"/><autoStation name="Le Trayas" mdr="1"/><autoStation name="Théoule-sur-Mer" mdr="1"/><autoStation name="Mandelieu-la-Napoule" mdr="1"/><stationRef name="Cannes-La-Bocca" mdr="1"/><label offset="1.5"/><stationRef name="Cannes" mdr="1"/>
+        </trainLine>
+        <trainLine name="4" color="#2087C8">
+            <branch>
+                <stationRef name="Grasse"/><autoStation name="Mouans-Sartoux" a="l"/><label/><autoStation name="Ranguin" a="l"/><autoStation name="La Frayère" a="l"/><stationRef name="Le Bosquet" mul="1"/>
+            </branch>
+            <branch>
+                <stationRef name="Cannes-La-Bocca" mul="1"/><label offset="-1"/>
+            </branch>
+            <stationRef name="Cannes" mul="1"/><stationRef name="Golfe-Juan-Vallauris" mul="1"/><label offset="-0.8"/><stationRef name="Juan-les Pins" mul="1"/><stationRef name="Antibes" mul="1"/><stationRef name="Biot" mul="1"/><stationRef name="Villeneuve-Loubet-Plage" mul="1"/><stationRef name="Cagnes-sur-Mer" mul="1"/><stationRef name="Cros-de-Cagnes" mul="1"/><label offset="-0.8"/><stationRef name="St-Laurent-du-Var" mul="1"/><stationRef name="Nice-St-Augustin" mul="1"/><stationRef name="Nice-Ville" md="1" ml="1" muul="1"/><label/><autoStation name="Nice-&#10;Riquier" a="b"/><autoStation name="Villefranche-&#10;sur-Mer" a="t"/><autoStation name="Beaulieu-&#10;sur-Mer" a="b"/><autoStation name="Eze" a="t"/><autoStation name="Cap&#10;d'Ail" a="b"/><label/><autoStation name="Monaco-Monte-&#10;Carlo" a="t"/><autoStation name="Roquebrune&#10;Cap-Martin" a="b"/><autoStation name="Carnolès" a="t"/><autoStation name="Menton" a="b"/><label/><autoStation name="Menton&#10;Garavan" a="t"/><stationRef name="Vintimille"/>
+            </trainLine>
+        <trainLine name="5" color="#2087C8">
+            <stationRef name="Nice-Ville" mu="1" ml="1.4"/><autoStation name="Nice Pont Michel" a="l" ml="1.4"/><label/><autoStation name="L'Ariane-la-Trinité" a="l" ml="1.4"/><autoStation name="La Trinité-Victor" a="l" ml="1.4"/><autoStation name="Drap-Cantaron" a="l" ml="1.4"/><autoStation name="Fontanil-Lycée de Drap" a="l" ml="1.4"/><label/><autoStation name="Peillon-Ste-Thècle" a="l" ml="1.4"/><autoStation name="Peille" a="l" ml="1.4"/><autoStation name="L'Escarène" a="l" ml="1.4"/><autoStation name="Touët-de-l'Escarène" a="l" ml="1.4"/><label/><autoStation name="Sospel" a="l" ml="1.4"/><autoStation name="Breil-sur-Roya" a="l" ml="1.4"/><autoStation name="Fontan-Saorge" a="l" ml="1.4"/><autoStation name="St-Dalmas-de-Tende" a="l" ml="1.4"/><label/><autoStation name="La Brigue" a="l" ml="1.4"/><stationRef name="Tende" ml="1.4"/>
+        </trainLine>
+        <trainLine name="6" color="#2087C8">
+            <stationRef name="Marseille St-Charles"/><point station="Marseille Blancarde"/><point station="La Penne-sur-Huveaune"/><label offset="1"/><point station="La Ciotat"/><point station="La Seyne-Six-Fours"/><stationRef name="Toulon"/><label offset="-4"/><point station="La Pauline-Hyères"/><stationRef name="Carnoules"/><label/><stationRef name="Les Arcs-Draguignan"/><label offset="1.2"/><stationRef name="St-Raphaël-Valescure"/><label offset="-2"/><label offset="16.5"/><stationRef name="Cannes"/><label offset="0.8"/><stationRef name="Antibes"/><label offset="7"/><stationRef name="Nice-St-Augustin"/><stationRef name="Nice-Ville" md="1" ml="1"/>
+        </trainLine>
+        <trainLine name="7A" color="#2087C8" via="Rognac">
+            <stationRef name="Marseille St-Charles" ml="2" md="1"/><stationRef name="Arenc-Euroméditerranée" md="1"/><label offset="-1"/><stationRef name="L'Estaque" mddl="1"/><autoStation name="Pas-des-Lanciers" a="l" mdl="1"/><stationRef name="Vitrolles Aéroport Marseille Provence" mdl="1"/><autoStation name="Rognac" a="l" mdl="1"/><label/><autoStation name="St-Chamas" mdl="1"/><stationRef name="Miramas" mdl="1"/>
+        </trainLine>
+        <trainLine name="7B" color="#2087C8" via="Port-de-Bouc">
+            <stationRef name="Marseille St-Charles" md="2" ml="2"/><stationRef name="Arenc-Euroméditerranée" md="2"/><label offset="-3"/><stationRef name="L'Estaque" md="2" ml="0.4"/><autoStation name="Niolon" a="l" md="1" mr="1"/><stationRef name="La Redonne-Ensuès" mr="2"/><autoStation name="Carry-le-Rouet" a="b" mr="0.3"/><stationRef name="Sausset-les-Pins" ml="1.4"/><stationRef name="La Couronne" ml="1.4"/><autoStation name="Martigues" a="l" ml="1.4"/><label/><autoStation name="Croix-Sainte" a="l" ml="1.4"/><autoStation name="Port-de-Bouc" a="l" ml="1.4"/><autoStation name="Fos-sur-Mer" a="l" ml="1.4"/><autoStation name="Rassuen" a="l" ml="1.4"/><autoStation name="Istres" a="l" ml="1.4"/><stationRef name="Miramas" mdl="2"/>
+        </trainLine>
+        <trainLine name="8" color="#2087C8" via="Arles">
+            <stationRef name="Marseille St-Charles" ml="2" mu="1"/><label offset="12"/><point station="L'Estaque" muur="1"/><stationRef name="Vitrolles Aéroport Marseille Provence" mur="1"/><stationRef name="Miramas" mur="1"/><stationRef name="St-Martin-de-Crau" murr="1"/><stationRef name="Arles" mr="1"/><label offset="-1.5"/><label offset="3"/><stationRef name="Avignon Centre" mr="1" md="1"/>
+        </trainLine>
+        <trainLine name="9" color="#2087C8" via="Cavaillon">
+            <stationRef name="Marseille St-Charles" ml="2" mu="2"/><label offset="14"/><point station="L'Estaque" muur="2"/><stationRef name="Vitrolles Aéroport Marseille Provence" mur="2"/><stationRef name="Miramas" mur="2"/><autoStation name="Salon"/><autoStation name="Lamanon"/><stationRef name="Sénas"/><autoStation name="Orgon"/><autoStation name="Cavaillon"/><autoStation name="L'Isle-sur-Sorgue/Fontaine-de-Vaucluse"/><autoStation name="Le Thor"/><autoStation name="Gadagne"/><stationRef name="St-Saturnin-d'Avignon"/><label/><stationRef name="Morières-lès-Avignon"/><autoStation name="Montfavet" a="t"/><stationRef name="Avignon Centre" mr="1"/><stationRef name="Avignon TGV" mdr="1" ml="0.4"/>
+        </trainLine>
+        <trainLine name="10" color="#2087C8">
+            <stationRef name="Avignon Centre" mu="1.4"/><stationRef name="Sorgues-Châteauneuf-du-Pape"/><autoStation name="Bédarrides" a="l"/><label/><autoStation name="Courthézon" a="l"/><autoStation name="Orange" a="l"/><autoStation name="Bollène-la-Croisière" a="l"/><label/><autoStation name="Pierrelatte" a="l"/><autoStation name="Donzère" a="l"/><autoStation name="Montélimar" a="l"/><label/><autoStation name="Loriol" a="l"/><stationRef name="Livron"/><label offset="1"/><stationRef name="Valence-Ville"/><label/><stationRef name="Lyon Part-Dieu"/>
+        </trainLine>
+        <trainLine name="11" color="#2087C8">
+            <stationRef name="Marseille St-Charles" ml="2"/><label offset="5"/><point station="L'Estaque"/><stationRef name="Vitrolles Aéroport Marseille Provence"/><stationRef name="Miramas"/><stationRef name="St-Martin-de-Crau"/><stationRef name="Arles"/><label offset="-1"/><stationRef name="Tarascon"/><autoStation name="Nîmes" a="b"/><label/><autoStation name="Lunel" a="t"/><stationRef name="Montpellier St-Roch"/>
+        </trainLine>
+        <trainLine name="12" color="#2087C8">
+            <stationRef name="Marseille St-Charles" mu="1" mull="1"/><autoStation name="Picon-Busserine" mu="1" mul="1" a="l"/><autoStation name="Ste-Marthe-en-Provence" mu="1" mul="1" a="l"/><autoStation name="St-Joseph-Le-Castellas" mu="1" mul="1" a="l"/><label/><autoStation name="St-Antoine" mu="1" mul="1" a="l"/><autoStation name="Septèmes" mu="1" mul="1" a="l"/><autoStation name="Simiane" mu="1" mul="1" a="l"/><autoStation name="Gardanne" mu="1" mul="1" a="l"/><stationRef name="Aix-en-Provence" mu="1" mull="1"/><stationRef name="Meyrargues" ml="1"/><label/><stationRef name="Pertuis" ml="1"/>
+        </trainLine>
+        <trainLine name="13" color="#2087C8">
+            <stationRef name="Marseille St-Charles" mu="1"/><label offset="1"/><stationRef name="Aix-en-Provence" mu="1"/><stationRef name="Meyrargues"/><autoStation name="Manosque-Gréoux-Bains"/><label/><autoStation name="La Brillane-Oraison"/><autoStation name="Château-Arnoux-St-Auban"/><autoStation name="Sisteron"/><autoStation name="Laragne"/><label/><stationRef name="Serres" md="1"/><stationRef name="Veynes-Dévoluy" md="1"/><stationRef name="Gap" md="1"/><stationRef name="Chorges" md="1"/><stationRef name="Embrun" mddr="1"/><label offset="-1"/><stationRef name="Montdauphin-Guillestre" mdr="1"/><stationRef name="L'Argentière-les-Ecrins" mdr="1"/><stationRef name="Briançon" mdr="1"/>
+        </trainLine>
+        <trainLine name="14" color="#2087C8">
+            <stationRef name="Romans-Bourg-de-Péage" mr="1"/><label/><autoStation name="Valence TGV" mr="1"/><stationRef name="Valence-Ville" mr="1"/><label offset="1"/><stationRef name="Livron" mr="1"/><stationRef name="Crest" mr="1"/><label/><autoStation name="Saillans" a="b"/><autoStation name="Die" a="b"/><label/><autoStation name="Luc-en-Diois" a="b"/><stationRef name="Veynes-Dévoluy"/><stationRef name="Gap"/><stationRef name="Chorges"/><stationRef name="Embrun"/><label offset="1"/><stationRef name="Montdauphin-Guillestre"/><stationRef name="L'Argentière-les-Ecrins"/><stationRef name="Briançon"/>
+        </trainLine>
+        <trainLine name="15" color="#2087C8">
+            <stationRef name="Grenoble"/><autoStation name="Pont-de-Claix"/><label/><autoStation name="Jarrie-Vizille"/><autoStation name="St-Georges-de-Commiers"/><autoStation name="Vif"/><label/><autoStation name="Monestier-de-Clermont"/><autoStation name="Clelles-Mens"/><autoStation name="Lus-la-Croix-Haute"/><label/><stationRef name="Aspres-sur-Buëch" mu="1"/><stationRef name="Veynes-Dévoluy" mu="1"/><stationRef name="Gap" mu="1"/>
+        </trainLine>
+        <trainLine name="16" color="#2087C8">
+            <stationRef name="Avignon TGV" ml="0.4"/><stationRef name="Avignon Centre" mr="1" mu="1.4"/><stationRef name="Sorgues-Châteauneuf-du-Pape" mr="1"/><autoStation name="Entraigues-Sur-La-Sorgue" mr="1"/><label/><autoStation name="Monteux" mr="1"/><stationRef name="Carpentras" mr="1"/>
+        </trainLine>
+    </lines>
+    <background>
+        <sea points="l b, l 1230, 265 1230, 335 1300, 600 1300, 650 1250, 650 1300, 760 1410, 910 1410, 1030 1530, 1180 1530, 1230 1580, 1350 1580, 1400 1530, 1400 1145, 1925 620, r 620, r b"/>
+        <river points="240 t, 240 b"/>
+        <boundary points="2380 b, 2380 480, 2000 100, 1350 100, 1080 370, 870 370, 760 480, 440 480, 240 680, 240 b"/>
+    </background>
+</place>

@@ -1,0 +1,40 @@
+img[role="button"], span[role="button"] {
+    cursor: pointer;
+}
+
+button, input, textarea {
+    border-radius: 0.2em;
+    border: solid 1px #ccc;
+    outline: none;
+}
+
+textarea {
+    display: block;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-family: sans-serif;
+}
+
+button, input[type=button], input[type=submit], input[type=reset] {
+    background-color: var(--background-color);
+    color: var(--color1);
+}
+
+button:hover, input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+    background-color: var(--background-color-dark);
+}
+
+button:active{
+    background-color: var(--background-color-dark);
+}
+
+button:disabled, button:hover:disabled, button:active:disabled {
+    background-color: var(--background-color-dark);
+    filter: grayscale(100%);
+    opacity: 0.6;
+}
+
+input:focus, textarea:focus {
+    border-color: rgba(82, 168, 236, 0.75);
+    box-shadow: 0 0 8px rgba(82, 168, 236, 0.5);
+}

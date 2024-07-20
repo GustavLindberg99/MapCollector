@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="application-name" content="Map Collector"/>
+    <meta name="author" content="Gustav Lindberg"/>
+
+    <!-- Peer.js (library for communicating with the opponent in multiplayer games) -->
+    <script type="text/javascript" src="libs/peerjs.min.js"></script>
+
+    <!-- Tippy.js (library for showing bubbles). The CSS is Map Collector's own customization of the tippy bubble. -->
+    <script type="text/javascript" src="libs/core@2"></script>
+    <script type="text/javascript" src="libs/tippy.js@6"></script>
+    <link rel="stylesheet" type="text/css" href="static/css/tippy.css"/>
+
+    <!-- Xdialog (library for showing dialogs) -->
+    <script type="text/javascript" src="mock/xdialog-mock.js"></script>
+
+    <!-- Toastify (library for showing toast messages). Uses the mocked version that shows native Android toasts. -->
+    <script type="text/javascript" src="mock/toastify-mock.js"></script>
+
+    <!-- Game -->
+    <script type="module" src="static/js/game/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="static/css/game/main.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/toolbar.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/zoom-box.css"/>
+
+    <!-- General -->
+    <link rel="stylesheet" type="text/css" href="static/css/general/main.css"/>
+    <link rel="stylesheet" type="text/css" href="static/css/app.css"/>
+</head>
+<body>
+    <section role="application"></section>
+</body>
+</html>

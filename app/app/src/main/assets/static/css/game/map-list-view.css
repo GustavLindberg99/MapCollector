@@ -1,0 +1,112 @@
+/* Constructor */
+.mapListView > h4 {
+    position: relative;
+    font-weight: normal;
+    background-color: var(--background-color-light);
+    margin: 0px;
+    padding: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.mapListView > h4 > .arrow {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    width: 0.7em;
+    height: 0.5em;
+    background-color: black;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+}
+
+.mapListView > .mapListContainer {
+    overflow-y: auto;
+}
+
+.mapListView > .mapListContainer > .mapList {
+    min-height: 100%;
+    font-weight: normal;
+    background-color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+    overflow: auto;
+}
+
+.mapListView.collapsed > .mapListContainer {
+    display: none;
+}
+
+.mapListView.collapsed > h4 > .arrow {
+    transform: rotate(270deg);
+}
+
+
+/* createMapElement() */
+.map {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+    height: 150px;
+    min-height: 150px;
+    max-height: 150px;
+    border: outset #eee 2px;
+    margin: 4px;
+    padding: 0px;
+    overflow: hidden;
+    cursor: default;
+    background-color: white;
+}
+
+.map.selected {
+    border: inset #eee 2px;
+    filter: brightness(85%);
+}
+
+.map > div {
+    width: 94%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: 0px;
+}
+
+.map div.typeLabel {
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    z-index: 1;
+    max-width: fit-content;
+    text-align: left;
+    font-size: 0.8em;
+    height: 1em;
+}
+
+.map div.lineLabel {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.map div.stationsLabel {
+    font-size: 9px;
+    text-align: center;
+    height: 81px;
+    padding-top: 4px;
+    line-height: 16px;
+    overflow: hidden;
+}
+
+@media (max-width:500px) and (min-height:271px){    /*Tall and narrow windows*/
+    .map {
+        transform: scale(0.7);
+        transform-origin: 0 0;
+        /*The negative margins are because otherwise just setting a transform:scale leaves a blank area around the map*/
+        margin-right: -30px;
+        margin-bottom: -45px;
+    }
+}

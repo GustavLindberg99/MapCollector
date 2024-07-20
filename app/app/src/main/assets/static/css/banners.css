@@ -1,0 +1,30 @@
+div.banner{
+    position:sticky;
+    position:-webkit-sticky;
+    top:0;
+    width:100%;
+    padding:8px;
+    z-index:11;
+}
+
+div.banner#cookieConsent{
+    background-color:var(--color2);
+    color:white;
+}
+
+div.banner#expiredAccount{
+    background-color:#f77700;
+}
+
+div.banner#survey{
+    background-color:var(--color1);
+}
+
+div.banner h6{
+    font-size:1.3rem;
+    margin:0px;
+}
+
+div.banner#cookieConsent a{
+    color:var(--background-color);
+}

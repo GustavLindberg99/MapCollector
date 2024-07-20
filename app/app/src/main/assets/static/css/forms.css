@@ -1,0 +1,80 @@
+﻿input.correct, textarea.correct {
+    border-color: #4c4;
+}
+
+input.correct:focus, textarea.correct:focus {
+    box-shadow: 0 0 8px #4c4;
+}
+
+input.warning, textarea.warning {
+    border-color: #dd2;
+}
+
+input.warning:focus, textarea.warning:focus {
+    box-shadow: 0 0 8px #dd2;
+}
+
+input.badWarning, textarea.badWarning {
+    border-color: #d82;
+}
+
+input.badWarning:focus, textarea.badWarning:focus {
+    box-shadow: 0 0 8px #d82;
+}
+
+input.incorrect, textarea.incorrect {
+    border-color: #c44;
+}
+
+input.incorrect:focus, textarea.incorrect:focus {
+    box-shadow: 0 0 8px #c44;
+}
+
+.formToolTip {
+    display: none;
+    visibility: hidden;
+    margin-left: 20px;
+    padding: 2px 4px;
+    border: 1px solid #555;
+    background-color: #CCC;
+    border-radius: 4px;
+    font-weight: normal;
+}
+
+p.formToolTip {
+    display: none;
+    visibility: hidden;
+    margin-left: 0px;
+}
+
+p.formToolTip.correct, p.formToolTip.warning, p.formToolTip.badWarning, p.formToolTip.incorrect{
+    display: table;    /*It has to be table and not block otherwise it will take up the width of the whole page*/
+}
+
+.formToolTip.correct{
+    display: inline-block;
+    visibility: visible;
+    background-color: #6e6;
+    border-color: #4c4;
+}
+
+.formToolTip.warning{
+    display: inline-block;
+    visibility: visible;
+    background-color: #ff4;
+    border-color: #dd2;
+}
+
+.formToolTip.badWarning{
+    display: inline-block;
+    visibility: visible;
+    background-color: #fa4;
+    border-color: #d82;
+}
+
+.formToolTip.incorrect{
+    display: inline-block;
+    visibility: visible;
+    background-color: #e66;
+    border-color: #c44;
+}

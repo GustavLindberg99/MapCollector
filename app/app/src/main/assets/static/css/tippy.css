@@ -1,0 +1,18 @@
+.tippy-box {
+    pointer-events: auto;
+    color: black;
+    background-color: var(--background-color-light);
+}
+
+.tippy-box[data-placement^='top'] > .tippy-arrow::before {
+  border-top-color: var(--background-color-light);
+}
+.tippy-box[data-placement^='bottom'] > .tippy-arrow::before {
+  border-bottom-color: var(--background-color-light);
+}
+.tippy-box[data-placement^='left'] > .tippy-arrow::before {
+  border-left-color: var(--background-color-light);
+}
+.tippy-box[data-placement^='right'] > .tippy-arrow::before {
+  border-right-color: var(--background-color-light);
+}

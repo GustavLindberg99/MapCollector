@@ -1,0 +1,51 @@
+.errorMaps {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+div.errorMaps{
+    position: relative;
+}
+
+div.errorMaps > img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+div.errorMaps > img:first-child {
+    left: 20px;
+    top: 30px;
+    transform: rotate(-30deg);
+}
+
+div.errorMaps > img:first-child+img {
+    left: 50px;
+    top: 20px;
+}
+
+div.errorMaps > img:first-child+img+img {
+    left: 80px;
+    top: 30px;
+    transform: rotate(30deg);
+}
+
+ul.errorList {
+    position: relative;
+    left: 20px;
+    padding-left: 200px;
+}
+
+/*Narrow windows*/
+@media(max-width:480px) {
+    article .errorMaps {
+        float: none;
+    }
+
+    ul.errorList {
+        position: static;
+        left: 0px;
+        padding-left: 50px;
+    }
+}

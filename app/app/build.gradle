@@ -1,0 +1,65 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'tk.mapcollector'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "tk.mapcollector"
+        minSdk 26
+        targetSdk 34
+        versionCode 14    //Increment this by 1 at each new version
+        versionName "7.0.0"    //Change this to the appropriate number at each new version
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables {
+            useSupportLibrary true
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    implementation libs.androidx.core.ktx
+    implementation libs.androidx.appcompat
+    implementation libs.material
+    implementation libs.androidx.lifecycle.runtime.ktx
+    implementation libs.androidx.webkit
+    implementation libs.commons.io
+    implementation libs.commons.text
+    implementation libs.activity.ktx
+    implementation libs.androidx.constraintlayout
+    implementation libs.volley
+    implementation libs.androidsvg.aar
+    implementation libs.activity.ktx
+}
+
+tasks.register('jslibs', Exec) {
+    commandLine 'python', layout.projectDirectory.file('jslibs.py')
+}
+
+gradle.projectsEvaluated {
+    assembleDebug.dependsOn jslibs
+    assembleRelease.dependsOn jslibs
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}

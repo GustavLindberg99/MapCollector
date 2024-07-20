@@ -1,0 +1,81 @@
+body {
+    margin: 0px;
+    overflow-x: hidden;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
+    color: #00e;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #009;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 1.7em;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
+h3 {
+    font-size: 1.1em;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-break: keep-all;
+}
+
+img.inline, svg.inline {
+    height: 1.2em;
+    vertical-align: middle;
+}
+
+svg.inline {
+    width: 1.2em;
+}
+
+section, article {
+    margin: 8px;
+}
+
+article p, article li {
+    text-align: justify;
+}
+
+article form p, article form li {
+    text-align: left;
+}
+
+footer+div:not(.xd-overlay) {    /*Selects the link to FreeWebHostingArea.com. Don't abuse this.*/
+    max-width: fit-content;    /*The div shouldn't be wider than necessary because otherwise it won't work to click on stuff next to it*/
+    max-width: -moz-fit-content;    /*Same as above but for Firefox (Firefox is the only good browser that doesn't support the above right now, see https://caniuse.com/#feat=intrinsic-width )*/
+}
+
+/*Phones*/
+@media(max-device-width:480px) {
+    * {
+        touch-action: manipulation;    /*So that double-clicking doesn't zoom in*/
+        -webkit-overflow-scrolling: touch;    /*So scrolling works better on iPhones*/
+    }
+
+    input, textarea, article img {
+        max-width: 100%;
+    }
+
+    html, body {    /*So that the document doesn't scroll horizontally on mobile devices with lots of whitespace to the right*/
+        overflow-x: hidden;
+    }
+}

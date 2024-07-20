@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<place similarLines="color">
+    <stations>
+        <station name="Hässelby Strand" x="50" y="300" a="l"/>
+        <station name="Hässelby Gård" x="100" y="350" a="l"/>
+        <station name="Johannelund" x="150" y="400" a="l"/>
+        <station name="Vällingby" x="200" y="450" a="l"/>
+        <station name="Råcksta" x="250" y="500" a="l"/>
+        <station name="Blackeberg" x="300" y="550" a="l"/>
+        <station name="Islandstorget" x="350" y="600" a="l"/>
+        <station name="Ängby&#xad;plan" x="400" y="650" a="l"/>
+        <station name="Åkeshov" x="450" y="650" a="b"/>
+        <station name="Brommaplan" x="500" y="650" a="t" default=""/>
+        <station name="Abrahamsberg" x="550" y="650" a="b"/>
+        <station name="Stora &#10;Mossen" x="600" y="650" a="t"/>
+        <station name="Alvik" x="650" y="650"/>
+        <station name="Kristineberg" x="700" y="700"/>
+        <station name="Thorildsplan" x="830" y="720"/>
+        <station name="Fridhemsplan" x="900" y="650"/>
+        <station name="S:t &#10;Eriksplan" x="940" y="610"/>
+        <station name="Odenplan" x="1030" y="580" a="b"/>
+        <station name="Rådmansgatan" x="1150" y="580" a="t"/>
+        <station name="Hötorget" x="1200" y="630" a="l"/>
+
+        <station name="T-Centralen" x="1200" y="750"/>
+        <station name="Gamla Stan" x="1200" y="810" a="l"/>
+        <station name="Slussen" x="1200" y="870" a="l"/>
+        <station name="Medborgarplatsen" x="1250" y="920"/>
+        <station name="Skanstull" x="1250" y="990"/>
+        <station name="Gullmarsplan" x="1250" y="1060"/>
+        <station name="Globen" x="1200" y="1110"/>
+        <station name="Enskede Gård" x="1200" y="1180"/>
+        <station name="Sockenplan" x="1200" y="1250"/>
+        <station name="Svedmyra" x="1200" y="1320"/>
+        <station name="Stureby" x="1200" y="1390"/>
+        <station name="Band&#xad;hagen" x="1200" y="1460" a="l"/>
+        <station name="Högdalen" x="1200" y="1530"/>
+        <station name="Rågsved" x="1200" y="1600"/>
+        <station name="Hagsätra" x="1200" y="1670"/>
+
+        <station name="Skärmarbrink" x="1370" y="1180"/>
+        <station name="Blåsut" x="1370" y="1250"/>
+        <station name="Sandsborg" x="1370" y="1320"/>
+        <station name="Skogskyrkogården" x="1370" y="1390"/>
+        <station name="Tallkrogen" x="1370" y="1460"/>
+        <station name="Gubbängen" x="1370" y="1530"/>
+        <station name="Hökarängen" x="1370" y="1600"/>
+        <station name="Farsta" x="1370" y="1670"/>
+        <station name="Farsta &#10;Strand" x="1370" y="1740" a="b"/>
+
+        <station name="Hammarbyhöjden" x="1420" y="1230"/>
+        <station name="Björkhagen" x="1470" y="1280"/>
+        <station name="Kärrtorp" x="1520" y="1330"/>
+        <station name="Bagarmossen" x="1570" y="1380"/>
+        <station name="Skarpnäck" x="1620" y="1430"/>
+
+        <station name="Hjulsta" x="600" y="100"/>
+        <station name="Tensta" x="600" y="150"/>
+        <station name="Rinkeby" x="600" y="200"/>
+        <station name="Rissne" x="600" y="250"/>
+        <station name="Duvbo" x="600" y="300"/>
+        <station name="Sundbybergs Centrum" x="600" y="350" a="l"/>
+        <station name="Solna &#10;Strand" x="650" y="400" a="l"/>
+        <station name="Huvudsta" x="700" y="450" a="l"/>
+
+        <station name="Akalla" x="910" y="100" a="l"/>
+        <station name="Husby" x="910" y="170" a="l"/>
+        <station name="Kista" x="910" y="240" a="l"/>
+        <station name="Hallonbergen" x="910" y="310" a="l"/>
+        <station name="Näckrosen" x="910" y="380"/>
+        <station name="Solna Centrum" x="840" y="450"/>
+        <station name="Västra Skogen" x="770" y="520"/>
+        <station name="Stadshagen" x="820" y="570"/>
+        <station name="Rådhuset" x="980" y="730"/>
+        <station name="Kungs&#xad;trädgården" x="1240" y="790" a="b"/>
+
+        <station name="Mariatorget" x="1120" y="950" a="l"/>
+        <station name="Zinkensdamm" x="1070" y="1000" a="l"/>
+        <station name="Hornstull" x="1020" y="1050" a="l"/>
+        <station name="Liljeholmen" x="970" y="1100" a="l"/>
+        <station name="Midsommar&#xad;kransen" x="970" y="1170"/>
+        <station name="Telefonplan" x="970" y="1240"/>
+        <station name="Hägerstensåsen" x="970" y="1310"/>
+        <station name="Västertorp" x="970" y="1380"/>
+        <station name="Fruängen" x="970" y="1450"/>
+
+        <station name="Aspudden" x="850" y="1220"/>
+        <station name="Örnsberg" x="800" y="1270"/>
+        <station name="Axelsberg" x="750" y="1320"/>
+        <station name="Mälarhöjden" x="700" y="1370"/>
+        <station name="Bredäng" x="650" y="1420"/>
+        <station name="Sätra" x="600" y="1470"/>
+        <station name="Skärholmen" x="550" y="1520"/>
+        <station name="Vårberg" x="500" y="1570"/>
+        <station name="Vårby Gård" x="450" y="1620"/>
+        <station name="Masmo" x="400" y="1670"/>
+        <station name="Fittja" x="350" y="1720"/>
+        <station name="Alby" x="300" y="1770"/>
+        <station name="Hallunda" x="250" y="1820"/>
+        <station name="Norsborg" x="200" y="1870"/>
+
+        <station name="Östermalmstorg" x="1250" y="700"/>
+        <station name="Karlaplan" x="1300" y="650"/>
+        <station name="Gärdet" x="1350" y="600"/>
+        <station name="Ropsten" x="1400" y="550"/>
+
+        <station name="Stadion" x="1250" y="600"/>
+        <station name="Tekniska &#10;Högskolan" x="1250" y="530"/>
+        <station name="Universitetet" x="1250" y="460" a="l"/>
+        <station name="Bergshamra" x="1250" y="390" a="l"/>
+        <station name="Danderyds &#10;Sjukhus" x="1250" y="320" a="l"/>
+        <station name="Mörby &#10;Centrum" x="1250" y="250" a="l"/>
+    </stations>
+    <lines>
+        <trainLine name="10" color="#008dd0">
+            <stationRef name="Hjulsta"/><stationRef name="Tensta"/><label/><stationRef name="Rinkeby"/><stationRef name="Rissne"/><stationRef name="Duvbo"/><label/><stationRef name="Sundbybergs Centrum" md="2.8"/><stationRef name="Solna Strand" mdl="2"/><stationRef name="Huvudsta" mdl="2"/><label/><stationRef name="Västra Skogen" mdl="2"/><stationRef name="Stadshagen" mdl="2"/><label offset="-1"/><stationRef name="Fridhemsplan" mdr="2" mdl="2"/><stationRef name="Rådhuset" mdr="2" mdl="2"/><point x="1000" y="750" md="2" ml="0.8"/><label offset="-1"/><stationRef name="T-Centralen" md="2" mr="2"/><stationRef name="Kungsträdgården" md="2" mr="2"/>
+        </trainLine>
+        <trainLine name="11" color="#008dd0">
+            <stationRef name="Akalla"/><stationRef name="Husby"/><label/><stationRef name="Kista"/><stationRef name="Hallonbergen"/><stationRef name="Näckrosen"/><label/><stationRef name="Solna Centrum"/><stationRef name="Västra Skogen" mdl="1"/><stationRef name="Stadshagen" mdl="1"/><label offset="1"/><stationRef name="Fridhemsplan" mdr="2" mdl="1"/><stationRef name="Rådhuset" mdr="2" mdl="1"/><point x="1000" y="750" md="1" ml="0.4"/><label offset="1"/><stationRef name="T-Centralen" md="1" mr="2"/><point station="T-Centralen" md="2" mr="2" muur="1"/><stationRef name="Kungsträdgården" md="2" mr="2" mur="1"/>
+        </trainLine>
+        <trainLine name="13" color="#db0812">
+            <stationRef name="Ropsten" ml="2" mul="1"/><label/><stationRef name="Gärdet" ml="2" mul="1"/><stationRef name="Karlaplan" ml="2" mul="1"/><stationRef name="Östermalmstorg" ml="2" mul="1"/><point station="T-Centralen" ml="2" mull="1"/><stationRef name="T-Centralen" ml="3"/><stationRef name="Gamla Stan" ml="3"/><stationRef name="Slussen" ml="3"/><label offset="-1"/><stationRef name="Mariatorget" ml="3"/><stationRef name="Zinkensdamm" ml="3"/><stationRef name="Hornstull" ml="3"/><stationRef name="Liljeholmen" ml="3"/><label/><stationRef name="Aspudden" ml="3"/><stationRef name="Örnsberg" ml="3"/><stationRef name="Axelsberg" ml="3"/><label/><stationRef name="Mälarhöjden" ml="3"/><stationRef name="Bredäng" ml="3"/><stationRef name="Sätra" ml="3"/><label/><stationRef name="Skärholmen" ml="3"/><stationRef name="Vårberg" ml="3"/><stationRef name="Vårby Gård" ml="3"/><label/><stationRef name="Masmo" ml="3"/><stationRef name="Fittja" ml="3"/><stationRef name="Alby" ml="3"/><label/><stationRef name="Hallunda" ml="3"/><stationRef name="Norsborg" ml="3"/>
+        </trainLine>
+        <trainLine name="14" color="#db0812">
+            <stationRef name="Mörby Centrum" ml="2"/><stationRef name="Danderyds Sjukhus" ml="2"/><label/><stationRef name="Bergshamra" ml="2"/><stationRef name="Universitetet" ml="2"/><stationRef name="Tekniska Högskolan" ml="2"/><label/><stationRef name="Stadion" ml="2"/><stationRef name="Östermalmstorg" ml="2"/><stationRef name="T-Centralen" ml="2"/><stationRef name="Gamla Stan" ml="2"/><stationRef name="Slussen" ml="2"/><point station="Slussen" ml="3" mdrr="1"/><label offset="1"/><stationRef name="Mariatorget" ml="3" mdr="1"/><stationRef name="Zinkensdamm" ml="3" mdr="1"/><stationRef name="Hornstull" ml="3" mdr="1"/><stationRef name="Liljeholmen" ml="3" mdr="1"/><label/><stationRef name="Midsommarkransen" ml="3" mdr="1"/><stationRef name="Telefonplan" ml="3" mdr="1"/><stationRef name="Hägerstensåsen" ml="3" mdr="1"/><label/><stationRef name="Västertorp" ml="3" mdr="1"/><stationRef name="Fruängen" ml="3" mdr="1"/>
+        </trainLine>
+        <trainLine name="17" color="#04a64a">
+            <stationRef name="Hässelby Strand" mur="1"/><stationRef name="Hässelby Gård" mur="1"/><label offset="-2"/><stationRef name="Johannelund" mur="1"/><stationRef name="Vällingby" mur="1"/><stationRef name="Råcksta" mur="1"/><stationRef name="Blackeberg" mur="1"/><stationRef name="Islandstorget" mur="1"/><stationRef name="Ängbyplan" muur="1"/><label/><stationRef name="Åkeshov" mu="1"/><stationRef name="Brommaplan" mu="1"/><stationRef name="Abrahamsberg" mu="1"/><stationRef name="Stora Mossen" mu="1"/><stationRef name="Alvik" muur="1"/><stationRef name="Kristineberg" mur="1"/><point x="720" y="720" muur="1"/><label offset="-2"/><stationRef name="Thorildsplan" muul="1"/><stationRef name="Fridhemsplan" mul="1"/><stationRef name="S:t Eriksplan" mul="1"/><point x="970" y="580" muul="1"/><stationRef name="Odenplan" mu="1"/><label offset="-2"/><stationRef name="Rådmansgatan" muur="1"/><stationRef name="Hötorget" murr="1"/><label offset="-2"/><stationRef name="T-Centralen" mr="1"/><stationRef name="Gamla Stan" mr="1"/><stationRef name="Slussen" mr="1"/><stationRef name="Medborgarplatsen" mr="1"/><label offset="-2"/><stationRef name="Skanstull" mr="1"/><stationRef name="Gullmarsplan" mr="1"/><label offset="-1"/><stationRef name="Skärmarbrink" mr="1"/><stationRef name="Hammarbyhöjden" mr="1"/><label/><stationRef name="Björkhagen" mr="1"/><stationRef name="Kärrtorp" mr="1"/><label/><stationRef name="Bagarmossen" mr="1"/><stationRef name="Skarpnäck" mr="1"/>
+        </trainLine>
+        <trainLine name="18" color="#04a64a">
+            <stationRef name="Hässelby Strand"/><stationRef name="Hässelby Gård"/><label/><stationRef name="Johannelund"/><stationRef name="Vällingby"/><stationRef name="Råcksta"/><stationRef name="Blackeberg"/><stationRef name="Islandstorget"/><stationRef name="Ängbyplan"/><stationRef name="Åkeshov"/><label/><stationRef name="Brommaplan"/><stationRef name="Abrahamsberg"/><stationRef name="Stora Mossen"/><stationRef name="Alvik"/><stationRef name="Kristineberg"/><point x="720" y="720"/><label/><stationRef name="Thorildsplan"/><stationRef name="Fridhemsplan"/><stationRef name="S:t Eriksplan"/><point x="970" y="580"/><stationRef name="Odenplan"/><label/><stationRef name="Rådmansgatan"/><stationRef name="Hötorget"/><label/><stationRef name="T-Centralen"/><stationRef name="Gamla Stan"/><stationRef name="Slussen"/><point station="Slussen" md="0.4"/><stationRef name="Medborgarplatsen" md="0.4"/><label/><stationRef name="Skanstull"/><stationRef name="Gullmarsplan"/><point station="Gullmarsplan" md="0.4"/><label offset="1"/><stationRef name="Skärmarbrink" md="0.4"/><stationRef name="Blåsut"/><label/><stationRef name="Sandsborg"/><stationRef name="Skogskyrkogården"/><stationRef name="Tallkrogen"/><label/><stationRef name="Gubbängen"/><stationRef name="Hökarängen"/><stationRef name="Farsta"/><label/><stationRef name="Farsta Strand" mu="1"/>
+        </trainLine>
+        <trainLine name="19" color="#04a64a">
+            <stationRef name="Hässelby Strand" mdl="1"/><stationRef name="Hässelby Gård" mdl="1"/><label offset="2"/><stationRef name="Johannelund" mdl="1"/><stationRef name="Vällingby" mdl="1"/><stationRef name="Råcksta" mdl="1"/><stationRef name="Blackeberg" mdl="1"/><stationRef name="Islandstorget" mdl="1"/><stationRef name="Ängbyplan" mddl="1"/><stationRef name="Åkeshov" md="1"/><stationRef name="Brommaplan" md="1"/><label/><stationRef name="Abrahamsberg" md="1"/><stationRef name="Stora Mossen" md="1"/><stationRef name="Alvik" mddl="1"/><stationRef name="Kristineberg" mdl="1"/><point x="720" y="720" mddl="1"/><label offset="2"/><stationRef name="Thorildsplan" mddr="1"/><stationRef name="Fridhemsplan" mdr="1"/><stationRef name="S:t Eriksplan" mdr="1"/><point x="970" y="580" mddr="1"/><stationRef name="Odenplan" md="1"/><label offset="2"/><stationRef name="Rådmansgatan" mddl="1"/><stationRef name="Hötorget" mdll="1"/><label offset="2"/><stationRef name="T-Centralen" ml="1"/><stationRef name="Gamla Stan" ml="1"/><stationRef name="Slussen" ml="1"/><point station="Slussen" md="0.8" ml="1"/><stationRef name="Medborgarplatsen" md="0.8" ml="1"/><label offset="2"/><stationRef name="Skanstull" ml="1"/><stationRef name="Gullmarsplan" ml="1"/><stationRef name="Globen" mu="1"/><label/><stationRef name="Enskede Gård"/><stationRef name="Sockenplan"/><stationRef name="Svedmyra"/><label/><stationRef name="Stureby"/><stationRef name="Bandhagen"/><stationRef name="Högdalen"/><label/><stationRef name="Rågsved"/><stationRef name="Hagsätra"/>
+        </trainLine>
+    </lines>
+    <background>
+        <zone color="1" name="main" points="l t, l b, r b, r t"/>
+        <sea points="r t, r 1500, 2200 1500, 1550 850, 800 850, 0 1650, l 1650, l 400, 0 400, 450 850, 650 850, 700 800, 1150 800, 1180 830, 1220 830, 1250 800, 1600 800, 1850 1050, 1900 1050, 1950 1000, 1950 950, 1600 600, 1500 600, 1400 500, 1400 400, 1450 350, 1550 350, 1800 600, 2100 600, 2200 500, 2200 t"/>
+        <sea points="1170 370, 1190 350, 1210 350, 1230 370, 1230 480, 1210 500, 1190 500, 1170 480"/>
+        <sea points="735 615, 680 560, 790 560"/>
+        <river points="1400 490, 1340 490, 1290 440, 1290 390, 1200 300, 1200 t"/>
+        <river points="1290 440, 1200 440"/>
+        <river points="1600 850, 1600 750, 1620 730, 1630 730, 1800 900, 1910 900"/>
+        <river points="1140 802, 1260 802"/>
+        <river points="1210 802, 1250 842"/>
+        <river points="1450 850, 1300 1000, 1200 1000, 1130 1070, 1000 1070, 950 1020, 950 850"/>
+        <river points="1350 950, 1500 1100"/>
+        <river points="710 810, 670 770, 670 680, 800 550, 850 550, 1110 810"/>
+        <river points="l 1300, 300 1300"/>
+        <river points="450 330, 735 615"/>
+        <island points="l 500, 0 500, 500 1000, 500 1050, 0 1550, l 1550" zone="main"/>
+        <island points="700 840, 710 830, 750 830, 760 840, 760 870, 750 880, 710 880, 700 870" zone="main"/>
+        <island points="1450 450, 1430 470, 1430 500, 1480 550, 1600 550, 2000 950, 2050 950, 2100 900, 2100 850, 2000 750, 1930 750, 1630 450" zone="main"/>
+    </background>
+    <extra id="commuterrail">
+        <stations>
+            <station name="Bålsta" x="270" y="20" a="right"/>
+            <station name="Bro" x="310" y="60" a="right"/>
+            <station name="Kungsängen" x="350" y="100" a="right"/>
+            <station name="Kallhäll" x="420" y="170" a="right"/>
+            <station name="Jakobsberg" x="460" y="210" a="right"/>
+            <station name="Barkarby" x="500" y="250" a="left"/>
+            <station name="Spånga" x="550" y="300" a="left"/>
+
+            <station name="Solna" x="1030" y="530" a="right"/>
+            <station name="Ulriksdal" x="1030" y="480" a="right"/>
+            <station name="Helenelund" x="1030" y="430" a="right"/>
+            <station name="Sollentuna" x="1030" y="380" a="right"/>
+            <station name="Häggvik" x="1030" y="330" a="right"/>
+            <station name="Norrviken" x="1030" y="280" a="right"/>
+            <station name="Rotebro" x="1030" y="230" a="right"/>
+            <station name="Upplands Väsby" x="1030" y="180" a="right"/>
+            <station name="Rosersberg" x="1030" y="110" a="left"/>
+            <station name="Märsta" x="1030" y="40" a="left"/>
+            <station name="Arlanda C" x="1080" y="130" a="right"/>
+            <station name="Knivsta" x="1130" y="80" a="right"/>
+            <station name="Uppsala C" x="1180" y="30" a="right"/>
+
+            <station name="Stockholms &#10;Södra" x="1120" y="980" a="right"/>
+            <station name="Årstaberg" x="1120" y="1110" a="left"/>
+            <station name="Älvsjö" x="1120" y="1350" a="left"/>
+            <station name="Trångsund" x="1440" y="1740" a="top"/>
+            <station name="Skogås" x="1510" y="1740" a="bottom"/>
+            <station name="Vega" x="1580" y="1740" a="top"/>
+            <station name="Handen" x="1650" y="1740" a="bottom"/>
+            <station name="Jordbro" x="1720" y="1740" a="top"/>
+            <station name="Västerhaninge" x="1790" y="1740" a="bottom"/>
+            <station name="Krigslida" x="1860" y="1740" a="top"/>
+            <station name="Tungelsta" x="1930" y="1740" a="bottom"/>
+            <station name="Hemfosa" x="2000" y="1740" a="top"/>
+            <station name="Segersäng" x="2070" y="1740" a="bottom"/>
+            <station name="Ösmo" x="2140" y="1740" a="top"/>
+            <station name="Nynäsgård" x="2210" y="1740" a="bottom"/>
+            <station name="Gröndalsviken" x="2280" y="1740" a="top"/>
+            <station name="Nynäshamn" x="2350" y="1740" a="right"/>
+
+            <station name="Stuvsta" x="1070" y="1400" a="left"/>
+            <station name="Huddinge" x="1070" y="1470" a="left"/>
+            <station name="Flemingsberg" x="1070" y="1540" a="left"/>
+            <station name="Tullinge" x="1070" y="1610" a="left"/>
+            <station name="Tumba" x="1070" y="1680" a="left"/>
+            <station name="Rönninge" x="1070" y="1750" a="left"/>
+            <station name="Östertälje" x="1070" y="1820" a="left"/>
+            <station name="Södertälje hamn" x="1020" y="1870" a="right"/>
+            <station name="Södertälje Centrum" x="970" y="1870" a="left"/>
+            <station name="Södertälje Syd" x="1070" y="1920" a="left"/>
+            <station name="Järna" x="1070" y="1990" a="left"/>
+            <station name="Mölnbo" x="1070" y="2060" a="left"/>
+            <station name="Gnesta" x="1070" y="2130" a="left"/>
+        </stations>
+        <lines>
+            <trainLine name="40" color="#f166a7">
+                <stationRef name="Uppsala C" ml="1"/><label/><stationRef name="Knivsta" ml="1"/><stationRef name="Arlanda C" ml="1"/><stationRef name="Upplands Väsby" ml="1"/><stationRef name="Rotebro" ml="1"/><stationRef name="Norrviken" ml="1"/><label/><stationRef name="Häggvik" ml="1"/><stationRef name="Sollentuna" ml="1"/><stationRef name="Helenelund" ml="1"/><stationRef name="Ulriksdal" ml="1"/><stationRef name="Solna" ml="1"/><point station="Odenplan" md="1" ml="1"/><stationRef name="Odenplan" md="2"/><label offset="-4"/><point station="T-Centralen" ml="4" mu="2"/><stationRef name="T-Centralen" ml="4"/><point x="1200" y="900" md="6" ml="6" mdrr="2"/><stationRef name="Stockholms Södra" mdrr="2"/><stationRef name="Årstaberg" mr="2"/><label offset="-5"/><stationRef name="Älvsjö" mr="2"/><point station="Älvsjö" md="0.4" mr="2"/><stationRef name="Stuvsta" md="1" mdrr="1"/><label offset="-2"/><stationRef name="Huddinge" mr="1"/><stationRef name="Flemingsberg" mr="1"/><stationRef name="Tullinge" mr="1"/><stationRef name="Tumba" mr="1"/><label offset="-2"/><stationRef name="Rönninge" mr="1"/><stationRef name="Östertälje" mdrr="1"/><point station="Södertälje hamn" mddr="1"/><stationRef name="Södertälje hamn" md="1" ml="0.4"/><stationRef name="Södertälje Centrum" md="1"/>
+            </trainLine>
+            <trainLine name="41" color="#f166a7">
+                <stationRef name="Märsta" ml="2"/><label offset="-1"/><stationRef name="Rosersberg" ml="2"/><stationRef name="Upplands Väsby" ml="2"/><stationRef name="Rotebro" ml="2"/><stationRef name="Norrviken" ml="2"/><stationRef name="Häggvik" ml="2"/><label/><stationRef name="Sollentuna" ml="2"/><stationRef name="Helenelund" ml="2"/><stationRef name="Ulriksdal" ml="2"/><stationRef name="Solna" ml="2"/><point station="Odenplan" md="1" ml="1" mdll="1"/><stationRef name="Odenplan" md="2" mdl="1"/><label offset="-2"/><point station="T-Centralen" ml="5" mu="1.6"/><stationRef name="T-Centralen" ml="5"/><point x="1200" y="900" md="6" ml="6" mdrr="1"/><stationRef name="Stockholms Södra" mdrr="1"/><stationRef name="Årstaberg" mr="1"/><label offset="-3"/><stationRef name="Älvsjö" mr="1"/><stationRef name="Stuvsta" md="1"/><label/><stationRef name="Huddinge"/><stationRef name="Flemingsberg"/><stationRef name="Tullinge"/><stationRef name="Tumba"/><label/><stationRef name="Rönninge"/><stationRef name="Östertälje"/><point station="Södertälje hamn"/><stationRef name="Södertälje hamn" ml="0.4"/><stationRef name="Södertälje Centrum"/>
+            </trainLine>
+            <trainLine name="42" color="#f166a7">
+                <stationRef name="Märsta" ml="3"/><label offset="1"/><stationRef name="Rosersberg" ml="3"/><stationRef name="Upplands Väsby" ml="3"/><stationRef name="Rotebro" ml="3"/><stationRef name="Norrviken" ml="3"/><stationRef name="Häggvik" ml="3"/><stationRef name="Sollentuna" ml="3"/><label/><stationRef name="Helenelund" ml="3"/><stationRef name="Ulriksdal" ml="3"/><stationRef name="Solna" ml="3"/><point station="Odenplan" md="1" ml="1" mdll="2"/><stationRef name="Odenplan" md="2" mdl="2"/><label/><point station="T-Centralen" ml="6" mu="1.2"/><stationRef name="T-Centralen" ml="6"/><point x="1200" y="900" md="6" ml="6"/><stationRef name="Stockholms Södra"/><stationRef name="Årstaberg"/><label offset="-1"/><stationRef name="Älvsjö"/><point x="1300" y="1530"/><label offset="-2"/><point x="1300" y="1670"/><stationRef name="Farsta Strand"/><stationRef name="Trångsund"/><stationRef name="Skogås"/><label offset="-1"/><stationRef name="Vega"/><stationRef name="Handen"/><stationRef name="Jordbro"/><stationRef name="Västerhaninge"/><label offset="-1"/><stationRef name="Krigslida"/><stationRef name="Tungelsta"/><stationRef name="Hemfosa"/><stationRef name="Segersäng"/><label offset="-1"/><stationRef name="Ösmo"/><stationRef name="Nynäsgård"/><stationRef name="Gröndalsviken"/><stationRef name="Nynäshamn"/>
+            </trainLine>
+            <trainLine name="43" color="#f166a7">
+                <stationRef name="Bålsta"/><stationRef name="Bro"/><stationRef name="Kungsängen"/><label offset="-1"/><stationRef name="Kallhäll"/><stationRef name="Jakobsberg"/><stationRef name="Barkarby"/><stationRef name="Spånga"/><stationRef name="Sundbybergs Centrum" md="1" mr="1"/><label offset="-1"/><point x="700" y="350" md="1" mr="1"/><point x="830" y="480"/><label offset="-1"/><point x="930" y="480" ml="6.2"/><stationRef name="Odenplan" md="2" mdl="3"/><label offset="2"/><point station="T-Centralen" mu="0.8" ml="7"/><stationRef name="T-Centralen" ml="7"/><point x="1200" y="900" md="6" ml="6" mull="1"/><stationRef name="Stockholms Södra" mull="1"/><stationRef name="Årstaberg" ml="1"/><label offset="1"/><stationRef name="Älvsjö" ml="1"/><point station="Älvsjö" mdll="1"/><point x="1300" y="1530" mdll="1"/><label/><point x="1300" y="1670" mdll="1"/><stationRef name="Farsta Strand" mddl="1"/><stationRef name="Trångsund" md="1"/><stationRef name="Skogås" md="1"/><label offset="1"/><stationRef name="Vega" md="1"/><stationRef name="Handen" md="1"/><stationRef name="Jordbro" md="1"/><stationRef name="Västerhaninge" md="1"/><label offset="1"/><stationRef name="Krigslida" md="1"/><stationRef name="Tungelsta" md="1"/><stationRef name="Hemfosa" md="1"/><stationRef name="Segersäng" md="1"/><label offset="1"/><stationRef name="Ösmo" md="1"/><stationRef name="Nynäsgård" md="1"/><stationRef name="Gröndalsviken" md="1"/><stationRef name="Nynäshamn" md="1"/>
+            </trainLine>
+            <trainLine name="44" color="#f166a7">
+                <stationRef name="Bålsta" mdl="1"/><stationRef name="Bro" mdl="1"/><stationRef name="Kungsängen" mdl="1"/><label offset="1"/><stationRef name="Kallhäll" mdl="1"/><stationRef name="Jakobsberg" mdl="1"/><stationRef name="Barkarby" mdl="1"/><stationRef name="Spånga" mdl="1"/><point station="Sundbybergs Centrum" md="1" mr="1" mddl="1"/><stationRef name="Sundbybergs Centrum" mr="1" md="2"/><label offset="1"/><point x="700" y="350" md="1" mr="1" mddl="1"/><point x="830" y="480" mddl="1"/><label offset="1"/><point x="930" y="480" ml="6.2" mddl="1"/><stationRef name="Odenplan" md="2" mdl="4"/><label offset="4"/><point station="T-Centralen" mu="0.4" ml="8"/><stationRef name="T-Centralen" ml="8"/><point x="1200" y="900" md="6" ml="6" mull="2"/><stationRef name="Stockholms Södra" mull="2"/><stationRef name="Årstaberg" ml="2"/><label offset="3"/><stationRef name="Älvsjö" ml="2"/><point station="Älvsjö" md="2" ml="1" mull="1"/><stationRef name="Stuvsta" md="1" mull="1"/><label offset="2"/><stationRef name="Huddinge" ml="1"/><stationRef name="Flemingsberg" ml="1"/><stationRef name="Tullinge" ml="1"/><stationRef name="Tumba" ml="1"/><label offset="2"/><stationRef name="Rönninge" ml="1"/><stationRef name="Östertälje" mull="1"/><stationRef name="Södertälje hamn" muul="1"/><stationRef name="Södertälje Centrum" mu="1"/>
+            </trainLine>
+            <trainLine name="48" color="#f166a7">
+                <stationRef name="Gnesta"/><label/><stationRef name="Mölnbo"/><stationRef name="Järna"/><stationRef name="Södertälje Syd" md="2.4"/><label/><stationRef name="Södertälje hamn" md="2" ml="0.4"/><stationRef name="Södertälje Centrum" md="2"/>
+            </trainLine>
+
+            <walkingLine>
+                <stationRef name="Mariatorget" ml="3"/>
+                <stationRef name="Stockholms Södra"/>
+            </walkingLine>
+        </lines>
+        <background>
+            <boundary points="l t, 1050 t, 1050 150, 1100 150, 1250 0, r 0, r b, l b"/>
+        </background>
+    </extra>
+    <extra id="tram" boxpos="br">
+        <stations>
+            <station name="Solna Station" x="890" y="500"/>
+            <station name="Solna Business Park" x="740" y="350" a="t"/>
+            <station name="Bällsta Bro" x="550" y="400" a="l"/>
+            <station name="Karlsbodavägen" x="550" y="470"/>
+            <station name="Bromma Flygplats" x="460" y="520" a="l"/>
+            <station name="Bromma &#10;Blocks" x="530" y="520" a="b"/>
+            <station name="Norra Ulvsunda" x="600" y="520"/>
+            <station name="Johannesfred" x="650" y="570"/>
+            <station name="Alviks Strand" x="650" y="780"/>
+            <station name="Stora Essingen" x="730" y="860"/>
+            <station name="Gröndal" x="810" y="940"/>
+            <station name="Trekanten" x="890" y="1020" a="l"/>
+            <station name="Årstadal" x="1015" y="1110" a="b"/>
+            <station name="Årsta&#xad;berg" x="1050" y="1110" a="t"/>
+            <station name="Årsta&#xad;fältet" x="1090" y="1110" a="b"/>
+            <station name="Valla &#10;Torg" x="1130" y="1110" a="t"/>
+            <station name="Linde" x="1160" y="1110" a="b"/>
+            <station name="Mårtensdal" x="1330" y="1040" a="t"/>
+            <station name="Luma" x="1400" y="1040" a="b"/>
+            <station name="Sickla Kaj" x="1450" y="990"/>
+            <station name="Sickla Udde" x="1450" y="930"/>
+
+            <station name="Henriksdal" x="1320" y="870" a="t"/>
+            <station name="Sickla" x="1450" y="870" a="t"/>
+            <station name="Nacka" x="1530" y="870" a="t"/>
+            <station name="Saltsjö-Järla" x="1580" y="920"/>
+            <station name="Lillängen" x="1630" y="970"/>
+            <station name="Storängen" x="1680" y="1020"/>
+            <station name="Saltsjö-Duvnäs" x="1730" y="1070"/>
+            <station name="Östervik" x="1780" y="1120"/>
+            <station name="Fisksätra" x="1830" y="1170"/>
+            <station name="Igelboda" x="1880" y="1220"/>
+            <station name="Neglinge" x="1930" y="1270"/>
+            <station name="Ringvägen" x="1980" y="1320"/>
+            <station name="Saltsjöbaden" x="2030" y="1370"/>
+
+            <station name="Tippen" x="1880" y="1290" a="l"/>
+            <station name="Tattby" x="1880" y="1360" a="l"/>
+            <station name="Erstaviksbadet" x="1880" y="1430" a="l"/>
+            <station name="Solsidan" x="1880" y="1500" a="l"/>
+
+            <station name="Nybroplan" x="1380" y="790" a="b"/>
+            <station name="Styrmansgatan" x="1460" y="790" a="t"/>
+            <station name="Djurgårdsbron" x="1540" y="790" a="b"/>
+            <station name="Nordiska Museet/Vasamuseet" x="1640" y="790"/>
+            <station name="Liljevalchs/Gröna Lund" x="1690" y="840"/>
+            <station name="Skansen" x="1740" y="890"/>
+            <station name="Djurgårdsskolan" x="1790" y="940"/>
+            <station name="Bellmansro" x="1840" y="990"/>
+            <station name="Waldemarsudde" x="1890" y="1040"/>
+
+            <station name="Torsvik" x="1450" y="500" a="l"/>
+            <station name="Baggeby" x="1500" y="500" a="t"/>
+            <station name="Bodal" x="1550" y="500" a="b"/>
+            <station name="Larsberg" x="1600" y="500"/>
+            <station name="AGA" x="1650" y="550"/>
+            <station name="Skärsätra" x="1700" y="600"/>
+            <station name="Kottla" x="1750" y="650"/>
+            <station name="Högberga" x="1800" y="700"/>
+            <station name="Brevik" x="1850" y="750"/>
+            <station name="Käppala" x="1900" y="800"/>
+            <station name="Gåshaga" x="1950" y="850"/>
+            <station name="Gåshaga Brygga" x="2000" y="900"/>
+
+            <station name="Alléparken" x="600" y="700" a="l"/>
+            <station name="Klövervägen" x="550" y="750" a="l"/>
+            <station name="Smedslätten" x="500" y="800"/>
+            <station name="Ålstensgatan" x="440" y="800" a="b"/>
+            <station name="Ålstens Gård" x="410" y="770" a="l"/>
+            <station name="Höglandstorget" x="380" y="740" a="l"/>
+            <station name="Olovslund" x="350" y="710" a="l"/>
+            <station name="Nockeby Torg" x="320" y="680" a="l"/>
+            <station name="Nockeby" x="290" y="650" a="l"/>
+
+            <station name="Mörby" x="1330" y="380"/>
+            <station name="Djursholms Ösby" x="1370" y="340"/>
+            <station name="Vendevägen" x="1500" y="310" a="t"/>
+            <station name="Östberga" x="1570" y="310"/>
+            <station name="Altorp" x="1620" y="360"/>
+            <station name="Lahäll" x="1670" y="410"/>
+            <station name="Näsby Allé" x="1720" y="460"/>
+            <station name="Näsbypark" x="1770" y="510"/>
+
+            <station name="Roslags Näsby" x="1520" y="190" a="l"/>
+            <station name="Galoppfältet" x="1660" y="190"/>
+            <station name="Viggbyholm" x="1710" y="240"/>
+            <station name="Hägernäs" x="1760" y="290"/>
+            <station name="Rydbo" x="1810" y="340"/>
+            <station name="Täljö" x="1860" y="390"/>
+            <station name="Åkers Runö" x="1910" y="440"/>
+            <station name="Åkersberga" x="1960" y="490"/>
+            <station name="Tunagård" x="2010" y="540"/>
+            <station name="Österskär" x="2060" y="590"/>
+
+            <station name="Tibble" x="1570" y="140" a="l"/>
+            <station name="Ensta" x="1620" y="90" a="l"/>
+            <station name="Visinge" x="1670" y="40" a="l"/>
+            <station name="Täby Kyrkby" x="1740" y="40"/>
+            <station name="Kragstalund" x="1790" y="90"/>
+            <station name="Bällsta" x="1840" y="140"/>
+            <station name="Vallentuna" x="1890" y="190"/>
+            <station name="Ormsta" x="1940" y="240"/>
+            <station name="Molnby" x="1990" y="290"/>
+            <station name="Lindholmen" x="2040" y="340"/>
+            <station name="Frösunda" x="2090" y="390"/>
+            <station name="Ekskogen" x="2140" y="440"/>
+            <station name="Kårsta" x="2190" y="490"/>
+        </stations>
+        <lines>
+            <trainLine name="7" color="#80857e">
+                <stationRef name="T-Centralen" mr="2"/><point station="T-Centralen" md="2" mr="2" muur="2"/><stationRef name="Kungsträdgården" md="2" mr="2" mur="2"/><label/><stationRef name="Nybroplan" md="0.6"/><stationRef name="Styrmansgatan" md="0.6"/><stationRef name="Djurgårdsbron" md="0.6"/><label/><stationRef name="Nordiska Museet/Vasamuseet" md="0.6" mr="0.6"/><stationRef name="Liljevalchs/Gröna Lund"/><stationRef name="Skansen"/><stationRef name="Djurgårdsskolan"/><label/>
+                <oneWay>
+                    <stationRef name="Bellmansro"/>
+                    <point station="Bellmansro"/>
+                </oneWay>
+                <stationRef name="Waldemarsudde"/>
+            </trainLine>
+            <trainLine name="12" color="#738ba4">
+                <stationRef name="Alvik" md="2" ml="3"/><label/><stationRef name="Alléparken" ml="1"/><stationRef name="Klövervägen" ml="1"/><label/><stationRef name="Smedslätten" ml="1"/><stationRef name="Ålstensgatan"/><label/><stationRef name="Ålstens Gård"/><stationRef name="Höglandstorget"/><stationRef name="Olovslund"/><label/><stationRef name="Nockeby Torg"/><stationRef name="Nockeby"/>
+            </trainLine>
+            <trainLine name="21" color="#b56631">
+                <stationRef name="Ropsten" ml="2" mul="1" mur="1"/><label/><stationRef name="Torsvik" ml="3.4"/><stationRef name="Baggeby"/><stationRef name="Bodal"/><stationRef name="Larsberg"/><label/><stationRef name="AGA"/><stationRef name="Skärsätra"/><stationRef name="Kottla"/><label/><stationRef name="Högberga"/><stationRef name="Brevik"/><stationRef name="Käppala"/><label/><stationRef name="Gåshaga"/><stationRef name="Gåshaga Brygga"/>
+            </trainLine>
+            <trainLine name="25" color="#00aaad">
+                <stationRef name="Slussen" mr="2"/><label/><stationRef name="Henriksdal"/><stationRef name="Sickla"/><stationRef name="Nacka"/><label/><stationRef name="Saltsjö-Järla"/><stationRef name="Lillängen"/><stationRef name="Storängen"/><label/><stationRef name="Saltsjö-Duvnäs"/><stationRef name="Östervik"/><stationRef name="Fisksätra"/><label/><stationRef name="Igelboda"/><stationRef name="Neglinge"/><label/><stationRef name="Ringvägen"/><stationRef name="Saltsjöbaden"/>
+            </trainLine>
+            <trainLine name="26" color="#00aaad">
+                <stationRef name="Igelboda" md="1"/><label/><stationRef name="Tippen"/><stationRef name="Tattby"/><stationRef name="Erstaviksbadet"/><label/><stationRef name="Solsidan"/>
+            </trainLine>
+            <trainLine name="27" color="#a05ea6">
+                <stationRef name="Tekniska Högskolan" ml="1"/><stationRef name="Universitetet" ml="1"/><point station="Universitetet" ml="1" mu="0.8"/><label offset="-1"/><stationRef name="Mörby" mul="1" mu="0.4"/><stationRef name="Djursholms Ösby" mul="1" mu="0.4"/><label offset="1"/><stationRef name="Roslags Näsby" mul="1" mu="0.4"/><stationRef name="Tibble" mul="1" mu="0.4"/><stationRef name="Ensta" mul="1" mu="0.4"/><label/><stationRef name="Visinge" ml="1.8"/><stationRef name="Täby Kyrkby"/><stationRef name="Kragstalund"/><label/><stationRef name="Bällsta"/><stationRef name="Vallentuna"/><stationRef name="Ormsta"/><label/><stationRef name="Molnby"/><stationRef name="Lindholmen"/><stationRef name="Frösunda"/><label/><stationRef name="Ekskogen"/><stationRef name="Kårsta"/>
+            </trainLine>
+            <trainLine name="28" color="#a05ea6">
+                <stationRef name="Tekniska Högskolan"/><stationRef name="Universitetet"/><point station="Universitetet" mu="0.4"/><label offset="1.5"/><stationRef name="Mörby" mu="0.4"/><stationRef name="Djursholms Ösby" mu="0.4"/><autoStation name="Bråvallavägen" a="l" mu="0.4"/><autoStation name="Djursholms Ekeby" mu="0.4"/><label offset="1"/><autoStation name="Enebyberg" mu="0.4"/><stationRef name="Roslags Näsby" mu="0.4"/><autoStation name="Täby Centrum" a="t" mu="0.4" ml="0.2"/><stationRef name="Galoppfältet" mu="0.4" ml="0.4"/><label/><stationRef name="Viggbyholm"/><stationRef name="Hägernäs"/><stationRef name="Rydbo"/><label/><stationRef name="Täljö"/><stationRef name="Åkers Runö"/><stationRef name="Åkersberga"/><label/><stationRef name="Tunagård"/><stationRef name="Österskär"/>
+            </trainLine>
+            <trainLine name="29" color="#a05ea6">
+                <stationRef name="Tekniska Högskolan" mr="1"/><stationRef name="Universitetet" mr="1"/><autoStation name="Stocksund" mu="0.4" mdr="1"/><label offset="1"/><stationRef name="Mörby" mu="0.4" mdr="1"/><stationRef name="Djursholms Ösby" mu="0.4" mdr="1"/><point x="1400" y="310" mu="0.4" mdr="1"/><label/><stationRef name="Vendevägen" md="0.3"/><stationRef name="Östberga" md="0.3" mr="0.3"/><stationRef name="Altorp"/><stationRef name="Lahäll"/><label/><stationRef name="Näsby Allé"/><stationRef name="Näsbypark"/>
+            </trainLine>
+            <trainLine name="30" color="#e08220">
+                <stationRef name="Solna Station" mr="1"/><label/><stationRef name="Solna Centrum" mr="1"/><stationRef name="Solna Business Park" md="1.8" mr="2.8"/><label/><stationRef name="Sundbybergs Centrum" md="1.8" ml="1"/><stationRef name="Bällsta Bro" md="0.8"/><stationRef name="Karlsbodavägen"/><label/><stationRef name="Norra Ulvsunda"/><stationRef name="Johannesfred" mu="1" ml="1"/><stationRef name="Alvik" md="2" ml="1"/><label offset="-1"/><stationRef name="Alviks Strand" md="1" ml="1"/><stationRef name="Stora Essingen" ml="2"/><stationRef name="Gröndal" ml="2"/><stationRef name="Trekanten" ml="2"/><label/><stationRef name="Liljeholmen" ml="3" mu="1"/><point x="980" y="1110" ml="3.7" mu="1.7"/><stationRef name="Årstadal" mu="1.7"/><stationRef name="Årstaberg" mu="1.7"/><stationRef name="Årstafältet" mu="1.7"/><stationRef name="Valla Torg" mu="1.7"/><stationRef name="Linde" mu="1.7"/><stationRef name="Globen" mu="1" mul="1"/><stationRef name="Gullmarsplan" ml="2" mu="0.4"/><point x="1270" y="1040" ml="2.4"/><label/><stationRef name="Mårtensdal"/><stationRef name="Luma"/><stationRef name="Sickla Kaj"/><stationRef name="Sickla Udde"/><label/><stationRef name="Sickla" md="1"/>
+            </trainLine>
+            <trainLine name="31" color="#e08220">
+                <stationRef name="Bromma Flygplats" mdl="1"/><stationRef name="Bromma Blocks" mdl="1"/><label/><stationRef name="Norra Ulvsunda" mdl="1"/><stationRef name="Johannesfred" mu="0.6" ml="2"/><stationRef name="Alvik" md="2" ml="2"/><label offset="1"/><stationRef name="Alviks Strand" md="1" ml="2"/>
+            </trainLine>
+
+            <walkingLine>
+                <stationRef name="Nybroplan" md="0.6"/>
+                <stationRef name="Östermalmstorg" ml="2"/>
+            </walkingLine>
+        </lines>
+    </extra>
+</place>

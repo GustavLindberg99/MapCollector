@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<place>
+  <stations>
+    <station name="Helsinki" name-sv="Helsingfors" x="500" y="1000" a="b"/>
+    <station name="Pasila" name-sv="Böle" x="500" y="930"/>
+    <station name="Käpylä" name-sv="Kottby" x="500" y="860"/>
+    <station name="Oulunkylä" name-sv="Åggelby" x="500" y="790" a="l"/>
+    <station name="Pukinmäki" name-sv="Bocksbacka" x="500" y="720" a="l"/>
+    <station name="Malmi" name-sv="Malm" x="500" y="650" a="l"/>
+    <station name="Tapanila" name-sv="Mosabacka" x="500" y="580" a="l"/>
+    <station name="Puistola" name-sv="Parkstad" x="500" y="510" a="l"/>
+    <station name="Tikkurila" name-sv="Dickursby" x="500" y="440" a="l"/>
+    <station name="Hiekkaharju" name-sv="Sandkulla" x="500" y="370" a="l"/>
+    <station name="Koivukylä" name-sv="Björkby" x="500" y="300" a="l"/>
+    <station name="Rekola" name-sv="Räckhals" x="500" y="230" a="l"/>
+    <station name="Korso" x="500" y="160" a="l"/>
+    <station name="Savio" x="500" y="90" a="l"/>
+    <station name="Kerava" name-sv="Kervo" x="500" y="20" a="l"/>
+    <station name="Ainola" x="450" y="-30"/>
+    <station name="Järvenpää" name-sv="Träskända" x="400" y="-80"/>
+    <station name="Saunakallio" x="350" y="-130"/>
+    <station name="Jokela" x="300" y="-180"/>
+    <station name="Hyvinkää" name-sv="Hyvinge" x="250" y="-230"/>
+    <station name="Riihimäki" x="200" y="-280" a="l"/>
+    <station name="Ryttylä" x="200" y="-350" a="l"/>
+    <station name="Turenki" x="200" y="-420" a="l"/>
+    <station name="Hämeenlinna" name-sv="Tavastehus" x="200" y="-490" a="l"/>
+    <station name="Toijala" x="200" y="-700" a="l"/>
+    <station name="Viiala" x="200" y="-770" a="l"/>
+    <station name="Lempäälä" x="200" y="-840" a="l"/>
+    <station name="Tampere" name-sv="Tammerfors" x="200" y="-910" a="l"/>
+    <station name="Tesoma" x="200" y="-980" a="l"/>
+    <station name="Nokia" x="200" y="-1050" a="l"/>
+
+    <station name="Lahti" name-sv="Lahtis" x="500" y="-280"/>
+    <station name="Villähde" x="550" y="-330" a="t"/>
+    <station name="Nastola" x="620" y="-330" a="b"/>
+    <station name="Uusikylä" x="690" y="-330" a="t"/>
+    <station name="Kausala" x="740" y="-280"/>
+    <station name="Koria" x="740" y="-210"/>
+    <station name="Kouvola" x="740" y="-140"/>
+    <station name="Kotkan satama" name-sv="Kotka hamn" x="1880" y="1000"/>
+
+    <station name="&#10;Ilmala" x="425" y="855" a="l"/>
+    <station name="Huopalahti" name-sv="Hoplax" x="390" y="820"/>
+    <station name="Pohjois-Haaga" name-sv="Norra Haga" x="350" y="780" a="l"/>
+    <station name="Aviapolis" x="350" y="370" a="l"/>
+    <station name="Lentoasema" name-sv="Flygplatsen" x="390" y="330" a="l"/>
+    <station name="Leinelä" name-sv="Lejle" x="460" y="330" a="t"/>
+
+    <station name="Valimo" name-sv="Gjuteriet" x="320" y="820" a="b"/>
+    <station name="Pitäjänmäki" name-sv="Sockenbacka" x="250" y="820" a="b"/>
+    <station name="Mäkkylä" x="180" y="820" a="b"/>
+    <station name="Leppävaara" name-sv="Alberga" x="110" y="820" a="b"/>
+    <station name="Kilo" x="40" y="820" a="b"/>
+    <station name="Kera" x="-30" y="820" a="b"/>
+    <station name="Kauniainen" name-sv="Grankulla" x="-100" y="820" a="b"/>
+    <station name="Koivuhovi" name-sv="Björkgård" x="-170" y="820" a="b"/>
+    <station name="Tuomarila" name-sv="Domsby" x="-240" y="820" a="b"/>
+    <station name="Espoo" name-sv="Esbo" x="-310" y="820" a="b"/>
+    <station name="Kauklahti" name-sv="Köklax" x="-380" y="820" a="b"/>
+    <station name="Masala" name-sv="Masaby" x="-450" y="820" a="b"/>
+    <station name="Jorvas" x="-520" y="820" a="b"/>
+    <station name="Tolsa" name-sv="Tolls" x="-590" y="820" a="b"/>
+    <station name="Kirkkonummi" name-sv="Kyrkslätt" x="-660" y="820" a="b"/>
+    <station name="Siuntio" name-sv="Sjundeå" x="-730" y="820" a="l"/>
+
+    <station name="Mellunmäki" name-sv="Mellungsbacka" x="1210" y="850"/>
+    <station name="Vuosaari" name-sv="Nordsjö" x="1270" y="1000" a="b"/>
+    <station name="Itäkeskus" name-sv="Östra centrum" x="1060" y="1000" a="b"/>
+    <station name="Siilitie" name-sv="Igelkottsvägen" x="990" y="1000" a="b"/>
+    <station name="Herttoniemi" name-sv="Hertonäs" x="920" y="1000" a="b"/>
+    <station name="Kulosaari" name-sv="Brändö" x="850" y="1000" a="b"/>
+    <station name="Kalasatama" name-sv="Fiskehamnen" x="780" y="1000" a="b"/>
+    <station name="Sörnäinen" name-sv="Sörnäs" x="710" y="1000" a="b"/>
+    <station name="Hakaniemi" name-sv="Hagnäs" x="640" y="1000" a="b"/>
+    <station name="Helsingin &#10;yliopisto" name-sv="Helsingfors &#10;universitet" x="570" y="1000" a="b"/>
+    <station name="Kamppi" name-sv="Kampen" x="430" y="1000" a="b"/>
+    <station name="Ruoholahti" name-sv="Gräsviken" x="360" y="1000" a="b"/>
+    <station name="Lauttasaari" name-sv="Drumsö" x="290" y="1000" a="b"/>
+    <station name="Koivusaari" name-sv="Björkholmen" x="220" y="1000" a="b"/>
+    <station name="Keilaniemi" name-sv="Kägeludden" x="150" y="1000" a="b"/>
+    <station name="Aalto-&#10;yliopisto" name-sv="Aalto-&#10;universitetet" x="80" y="1000" a="b"/>
+    <station name="Tapiola" name-sv="Hagalund" x="10" y="1000" a="b"/>
+    <station name="Kivenlahti" name-sv="Stensvik" x="-550" y="1000" a="b"/>
+  </stations>
+  <lines>
+    <trainLine name="A" color="#963181">
+      <stationRef name="Helsinki" ml="10"/><stationRef name="Pasila" ml="10"/><point station="Pasila" ml="7" mu="7" mdll="3"/><stationRef name="Ilmala" mdl="3"/><stationRef name="Huopalahti" mddl="3"/><stationRef name="Valimo" md="3"/><stationRef name="Pitäjänmäki" md="3"/><label offset="2"/><stationRef name="Mäkkylä" md="3"/><stationRef name="Leppävaara" md="3"/>
+    </trainLine>
+    <trainLine name="D" color="#1BA63F">
+      <stationRef name="Helsinki" ml="1"/><stationRef name="Pasila" ml="1"/><label offset="-2"/><stationRef name="Tikkurila" ml="1"/><label offset="1.5"/><stationRef name="Kerava" mdll="1"/><stationRef name="Järvenpää" mdl="1"/><label offset="2"/><stationRef name="Hyvinkää" mdl="1"/><stationRef name="Riihimäki" mdll="1"/><stationRef name="Ryttylä" ml="1"/><label offset="1"/><stationRef name="Turenki" ml="1"/><stationRef name="Hämeenlinna" ml="1"/>
+    </trainLine>
+    <trainLine name="E" color="#963181">
+      <stationRef name="Helsinki" ml="9"/><stationRef name="Pasila" ml="9"/><point station="Pasila" ml="7" mu="7" mdll="2"/><stationRef name="Huopalahti" mddl="2"/><label offset="4.5"/><stationRef name="Leppävaara" md="2"/><stationRef name="Kilo" md="2"/><stationRef name="Kera" md="2"/><stationRef name="Kauniainen" md="2"/><label offset="3.5"/><stationRef name="Koivuhovi" md="2"/><stationRef name="Tuomarila" md="2"/><stationRef name="Espoo" md="2"/><stationRef name="Kauklahti" md="2"/>
+    </trainLine>
+    <trainLine name="G" color="#1BA63F">
+      <stationRef name="Riihimäki" murr="2"/><autoStation name="Hikiä" murr="2" a="t"/><autoStation name="Oitti" murr="2" a="b"/><autoStation name="Mommila" murr="2" a="t"/><label/><autoStation name="Lappila" murr="2" a="b"/><autoStation name="Järvelä" murr="2" a="t"/><autoStation name="Herrala" murr="2" a="b"/><stationRef name="Lahti" murr="2" ml="1"/>
+    </trainLine>
+    <trainLine name="I" color="#963181">
+      <stationRef name="Helsinki" ml="3"/><stationRef name="Pasila" ml="3"/><stationRef name="Käpylä" ml="3"/><stationRef name="Oulunkylä" ml="3"/><stationRef name="Pukinmäki" ml="3"/><label offset="2"/><stationRef name="Malmi" ml="3"/><stationRef name="Tapanila" ml="3"/><stationRef name="Puistola" ml="3"/><stationRef name="Tikkurila" ml="3"/><stationRef name="Hiekkaharju" ml="3"/><stationRef name="Leinelä" ml="3"/><label/><stationRef name="Lentoasema"/><stationRef name="Aviapolis"/><autoStation name="Kivistö" a="l"/><autoStation name="Vehkala" name-sv="Veckal" a="l"/><label/><autoStation name="Vantaankoski" name-sv="Vandaforsen" a="l"/><autoStation name="Martinlaakso" name-sv="Mårtensdal" mur="0.5" mul="0.5" a="l"/><autoStation name="Louhela" name-sv="Klippsta" mur="1" mul="1" a="l"/><autoStation name="Myyrmäki" name-sv="Myrbacka" mur="1.5" mul="1.5" a="l"/><autoStation name="Malminkartano" name-sv="Malmgård" mur="2" mul="2" a="l"/><autoStation name="Kannelmäki" name-sv="Gamlas" mur="2.5" mul="2.5" a="l"/><label/><stationRef name="Pohjois-Haaga" mur="3" mul="3"/><stationRef name="Huopalahti" muur="3"/><stationRef name="Ilmala" mur="3"/><point station="Pasila" ml="7" mu="7" murr="3"/><stationRef name="Pasila" ml="4"/><stationRef name="Helsinki" ml="4"/>
+    </trainLine>
+    <trainLine name="K" color="#963181">
+      <stationRef name="Helsinki" ml="2"/><stationRef name="Pasila" ml="2"/><stationRef name="Käpylä" ml="2"/><stationRef name="Oulunkylä" ml="2"/><stationRef name="Pukinmäki" ml="2"/><label/><stationRef name="Malmi" ml="2"/><stationRef name="Tapanila" ml="2"/><stationRef name="Puistola" ml="2"/><stationRef name="Tikkurila" ml="2"/><stationRef name="Hiekkaharju" ml="2"/><stationRef name="Koivukylä" ml="2"/><stationRef name="Rekola" ml="2"/><label/><stationRef name="Korso" ml="2"/><stationRef name="Savio" ml="2"/><stationRef name="Kerava" mdll="2"/>
+    </trainLine>
+    <trainLine name="L" color="#963181">
+      <stationRef name="Helsinki" ml="8"/><stationRef name="Pasila" ml="8"/><point station="Pasila" ml="7" mu="7" mdll="1"/><stationRef name="Ilmala" mdl="1"/><stationRef name="Huopalahti" mddl="1"/><stationRef name="Valimo" md="1"/><stationRef name="Pitäjänmäki" md="1"/><label offset="-2"/><stationRef name="Mäkkylä" md="1"/><stationRef name="Leppävaara" md="1"/><stationRef name="Kilo" md="1"/><stationRef name="Kera" md="1"/><stationRef name="Kauniainen" md="1"/><label offset="2"/><stationRef name="Koivuhovi" md="1"/><stationRef name="Tuomarila" md="1"/><stationRef name="Espoo" md="1"/><stationRef name="Kauklahti" md="1"/><stationRef name="Masala" md="1"/><stationRef name="Jorvas" md="1"/><label offset="3.5"/><stationRef name="Tolsa" md="1"/><stationRef name="Kirkkonummi" md="1"/>
+    </trainLine>
+    <trainLine name="M" color="#1BA63F">
+      <stationRef name="Toijala" mr="1"/><stationRef name="Viiala" mr="1"/><stationRef name="Lempäälä" mr="1"/><label offset="-1"/><stationRef name="Tampere" mr="1"/><stationRef name="Tesoma" mr="1"/><stationRef name="Nokia" mr="1"/>
+    </trainLine>
+    <trainLine name="O" color="#1BA63F">
+      <stationRef name="Lahti" murr="2" mdr="1"/><stationRef name="Villähde" mddr="1"/><stationRef name="Nastola" md="1" mr="0.5"/><label offset="1"/><stationRef name="Uusikylä" mddl="1" mr="1"/><stationRef name="Kausala" mdll="1" mr="1"/><stationRef name="Koria"/><stationRef name="Kouvola"/><autoStation name="Myllykoski"/><label/><autoStation name="Inkeroinen"/><autoStation name="Tavastila"/><autoStation name="Kymi" name-sv="Kymmene"/><autoStation name="Kyminlinna"/><autoStation name="Paimenportti"/><label/><autoStation name="Kotka"/><stationRef name="Kotkan satama"/>
+    </trainLine>
+    <trainLine name="R" color="#1BA63F">
+      <stationRef name="Helsinki"/><stationRef name="Pasila"/><label offset="2"/><stationRef name="Tikkurila"/><label offset="5.5"/><stationRef name="Kerava"/><stationRef name="Ainola"/><stationRef name="Järvenpää"/><stationRef name="Saunakallio"/><label/><stationRef name="Jokela"/><stationRef name="Hyvinkää"/><stationRef name="Riihimäki"/><stationRef name="Ryttylä"/><label offset="-1"/><stationRef name="Turenki"/><stationRef name="Hämeenlinna"/><autoStation name="Parola" a="l"/><label/><autoStation name="Iittala" a="l"/><stationRef name="Toijala"/><stationRef name="Viiala"/><stationRef name="Lempäälä"/><label offset="1"/><stationRef name="Tampere"/><stationRef name="Tesoma"/><stationRef name="Nokia"/>
+    </trainLine>
+    <trainLine name="T" color="#1BA63F">
+      <stationRef name="Helsinki" mr="1"/><stationRef name="Pasila" mr="1"/><stationRef name="Käpylä" mr="1"/><stationRef name="Oulunkylä" mr="1"/><stationRef name="Pukinmäki" mr="1"/><label/><stationRef name="Malmi" mr="1"/><stationRef name="Tapanila" mr="1"/><stationRef name="Puistola" mr="1"/><stationRef name="Tikkurila" mr="1"/><stationRef name="Hiekkaharju" mr="1"/><stationRef name="Koivukylä" mr="1"/><stationRef name="Rekola" mr="1"/><label/><stationRef name="Korso" mr="1"/><stationRef name="Savio" mr="1"/><stationRef name="Kerava" murr="1"/><stationRef name="Ainola" mur="1"/><stationRef name="Järvenpää" mur="1"/><stationRef name="Saunakallio" mur="1"/><label offset="-2"/><stationRef name="Jokela" mur="1"/><stationRef name="Hyvinkää" mur="1"/><stationRef name="Riihimäki" murr="1"/>
+    </trainLine>
+    <trainLine name="U" color="#963181">
+      <stationRef name="Helsinki" ml="7"/><stationRef name="Pasila" ml="7"/><point station="Pasila" ml="7" mu="7"/><stationRef name="Huopalahti"/><label offset="6"/><stationRef name="Leppävaara"/><stationRef name="Kilo"/><stationRef name="Kera"/><stationRef name="Kauniainen"/><label/><stationRef name="Koivuhovi"/><stationRef name="Tuomarila"/><stationRef name="Espoo"/><stationRef name="Kauklahti"/><stationRef name="Masala"/><stationRef name="Jorvas"/><label offset="1"/><stationRef name="Tolsa"/><stationRef name="Kirkkonummi"/>
+    </trainLine>
+    <trainLine name="X" color="#963181">
+      <stationRef name="Helsinki" ml="6"/><stationRef name="Pasila" ml="6"/><point station="Pasila" ml="7" mu="7" murr="1"/><stationRef name="Huopalahti" muur="1"/><label offset="4.5"/><stationRef name="Leppävaara" mu="1"/><stationRef name="Kilo" mu="1"/><stationRef name="Kera" mu="1"/><stationRef name="Kauniainen" mu="1"/><label offset="-1.9"/><stationRef name="Koivuhovi" mu="1"/><stationRef name="Tuomarila" mu="1"/><stationRef name="Espoo" mu="1"/><stationRef name="Kauklahti" mu="1"/><stationRef name="Masala" mu="1"/><stationRef name="Jorvas" mu="1"/><label offset="-1"/><stationRef name="Tolsa" mu="1"/><stationRef name="Kirkkonummi" mu="1"/><label offset="1"/><stationRef name="Siuntio" mu="1"/>
+    </trainLine>
+    <trainLine name="Y" color="#963181">
+      <stationRef name="Helsinki" ml="5"/><stationRef name="Pasila" ml="5"/><point station="Pasila" ml="7" mu="7" murr="2"/><stationRef name="Huopalahti" muur="2"/><label offset="2.5"/><stationRef name="Leppävaara" mu="2"/><label offset="1"/><stationRef name="Espoo" mu="2"/><stationRef name="Kauklahti" mu="2"/><stationRef name="Masala" mu="2"/><label offset="-3"/><stationRef name="Kirkkonummi" mu="2"/><label offset="-1"/><stationRef name="Siuntio" mu="2"/>
+    </trainLine>
+    <trainLine name="Z" color="#1BA63F">
+      <stationRef name="Helsinki" mr="2"/><stationRef name="Pasila" mr="2"/><label offset="-2"/><stationRef name="Tikkurila" mr="2"/><label offset="1.5"/><stationRef name="Kerava" murr="2"/><autoStation name="Haarajoki" murr="2"/><autoStation name="Mäntsälä" murr="2"/><label/><autoStation name="Henna" murr="2"/><stationRef name="Lahti" murr="2"/><stationRef name="Villähde"/><stationRef name="Nastola" mr="0.5"/><label offset="-1"/><stationRef name="Uusikylä" mr="1"/><stationRef name="Kausala" mr="1"/><stationRef name="Koria" mr="1"/><stationRef name="Kouvola" mr="1"/>
+    </trainLine>
+
+    <trainLine name="1" color="#EF4822">
+      <stationRef name="Kivenlahti" md="2" ml="4"/><autoStation name="Espoonlahti" name-sv="Esboviken" md="2" ml="4" a="b"/><autoStation name="Soukka" name-sv="Sökö" md="2" ml="4" a="b"/><autoStation name="Kaitaa" name-sv="Kaitans" md="2" ml="4" a="b"/><autoStation name="Finnoo" name-sv="Finno" md="2" ml="4" a="b"/><label/><autoStation name="Matinkylä" name-sv="Mattby" md="2" ml="4" a="b"/><autoStation name="Niittykumpu" name-sv="Ängskulla" md="2" ml="4" a="b"/><autoStation name="Urheilupuisto" name-sv="Idrottsparken" md="2" ml="4" a="b"/><stationRef name="Tapiola" md="2" ml="4"/><stationRef name="Aalto-yliopisto" md="2" ml="4"/><stationRef name="Keilaniemi" md="2" ml="4"/><stationRef name="Koivusaari" md="2" ml="4"/><stationRef name="Lauttasaari" md="2" ml="4"/><stationRef name="Ruoholahti" md="2" ml="4"/><label offset="-1"/><stationRef name="Kamppi" md="2" ml="4"/><stationRef name="Helsinki" md="2" ml="4"/><stationRef name="Helsingin yliopisto" md="2" ml="4"/><stationRef name="Hakaniemi" md="2" ml="4"/><stationRef name="Sörnäinen" md="2" ml="4"/><stationRef name="Kalasatama" md="2" ml="4"/><stationRef name="Kulosaari" md="2" ml="4"/><stationRef name="Herttoniemi" md="2" ml="4"/><label offset="-1"/><stationRef name="Siilitie" md="2" ml="4"/><stationRef name="Itäkeskus" md="2" ml="4"/><autoStation name="Puotila" name-sv="Botby gård" md="2" ml="4" a="b"/><label/><autoStation name="Rastila" name-sv="Rastböle" md="2" ml="4" a="b"/><stationRef name="Vuosaari" md="2" ml="4"/>
+    </trainLine>
+    <trainLine name="2" color="#EF4822">
+      <stationRef name="Tapiola" md="1" ml="4"/><stationRef name="Aalto-yliopisto" md="1" ml="4"/><stationRef name="Keilaniemi" md="1" ml="4"/><stationRef name="Koivusaari" md="1" ml="4"/><stationRef name="Lauttasaari" md="1" ml="4"/><stationRef name="Ruoholahti" md="1" ml="4"/><label offset="1"/><stationRef name="Kamppi" md="1" ml="4"/><stationRef name="Helsinki" md="1" ml="4"/><stationRef name="Helsingin yliopisto" md="1" ml="4"/><stationRef name="Hakaniemi" md="1" ml="4"/><stationRef name="Sörnäinen" md="1" ml="4"/><stationRef name="Kalasatama" md="1" ml="4"/><stationRef name="Kulosaari" md="1" ml="4"/><stationRef name="Herttoniemi" md="1" ml="4"/><label offset="1"/><stationRef name="Siilitie" md="1" ml="4"/><stationRef name="Itäkeskus" md="1" ml="4"/><autoStation name="Myllypuro" name-sv="Kvarnbäcken" md="1" ml="4"/><label/><autoStation name="Kontula" name-sv="Gårdsbacka" md="1" ml="4"/><stationRef name="Mellunmäki" md="1" ml="4"/>
+    </trainLine>
+  </lines>
+  <background>
+    <boundary points="l b, l -200, 400 -200, 1500 900, 600 b"/>
+    <zone name="D" color="2" points="l t, l b, r b, r t"/>
+    <zone name="C" color="1" points="-650 b, -650 1050, 270 130, r 130, r b"/>
+    <zone name="B" color="2" points="-230 b, -230 800, 70 500, r 500, r b"/>
+    <zone name="A" color="1" points="180 b, 180 970, 250 900, 350 900, 430 820, 730 820, 880 970, 880 b"/>
+    <sea points="l 1020, r 1020, r b, l b"/>
+  </background>
+</place>

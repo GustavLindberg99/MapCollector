@@ -1,0 +1,28 @@
+.zoomBox {
+    position: absolute;
+    z-index: 3;
+    right: 20px;
+    display: flex;
+    flex-direction: column-reverse;  /*It has to be reversed because we want it to overflow on the top instead of the bottom since there is more space on top due to the game information box*/
+    align-items: center;
+    text-align: center;
+    margin-right: 8px;
+    bottom: 20px;
+    max-height: calc(100% - 100px);
+    height: 25vh;
+}
+
+.zoomBox input[type=range]{
+    width: 10px;
+    min-height: 50px;    /*This is mostly to override the default min-height:auto that inputs have in order to allow it to shrink if the page height is too small*/
+    flex: 1;
+    writing-mode: vertical-lr;
+}
+
+/*Phones*/
+@media (max-device-width:480px){
+    .zoomBox{   /*Phones don't have scrollbars so there is more room to put the zoom box closer to the edge*/
+        bottom:5px;
+        right:0px;
+    }
+}

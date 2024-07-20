@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<place>
+  <stations>
+    <station name="Thisted" x="800" y="1250"/>
+    <station name="Sjørring" x="750" y="1300"/>
+    <station name="Snedsted" x="700" y="1350"/>
+    <station name="Hørdum" x="650" y="1400"/>
+    <station name="Bedsted Thy" x="600" y="1450"/>
+    <station name="Hurup Thy" x="550" y="1500"/>
+    <station name="Ydby" x="500" y="1550"/>
+    <station name="Lyngs" x="500" y="1620"/>
+    <station name="Hvidbjerg" x="500" y="1690"/>
+    <station name="Uglev" x="500" y="1760"/>
+    <station name="Oddesund Nord" x="500" y="1830"/>
+    <station name="Humlum" x="500" y="1970"/>
+
+    <station name="Struer" x="500" y="2040" a="l"/>
+    <station name="Hjerm" x="500" y="2110" a="l"/>
+    <station name="Holstebro" x="500" y="2180" a="l"/>
+    <station name="Bur" x="450" y="2230" a="l"/>
+    <station name="Vemb" x="400" y="2280"/>
+    <station name="Ulfborg" x="400" y="2325" a="l"/>
+    <station name="Tim" x="400" y="2370" a="l"/>
+    <station name="Hee" x="400" y="2415" a="l"/>
+    <station name="Ringkøbing" x="400" y="2460" a="l"/>
+    <station name="Lem" x="400" y="2505" a="l"/>
+
+    <station name="Thyborøn" x="310" y="1835" a="l"/>
+    <station name="Thyborøn Kirke" x="310" y="1865" a="l"/>
+    <station name="Sprogøvej" x="310" y="1890" a="l"/>
+    <station name="Rønland" x="310" y="1915" a="l"/>
+    <station name="Harboøre" x="310" y="1940" a="l"/>
+    <station name="Vrist" x="310" y="1965" a="l"/>
+    <station name="Victoria Street" x="310" y="1995" a="l"/>
+    <station name="Strande" x="310" y="2020" a="l"/>
+    <station name="Nejrup" x="310" y="2045" a="l"/>
+    <station name="Klinkby" x="310" y="2070" a="l"/>
+    <station name="Balleby" x="310" y="2095" a="l"/>
+    <station name="Lemvig" x="310" y="2120" a="l"/>
+    <station name="Armose" x="310" y="2150" a="l"/>
+    <station name="Bonnet" x="310" y="2175" a="l"/>
+    <station name="Ramme" x="310" y="2200" a="l"/>
+    <station name="Fåre" x="310" y="2225" a="l"/>
+    <station name="Sinkbæk" x="310" y="2250" a="l"/>
+    <station name="Bækmarksbro" x="340" y="2280" a="l"/>
+    <station name="Amstrup" x="370" y="2280" a="t"/>
+
+    <station name="Ry" x="1420" y="2750" a="b"/>
+    <station name="Laven" x="1360" y="2690"/>
+    <station name="Svejbæk" x="1300" y="2630"/>
+    <station name="Silkeborg" x="1240" y="2570"/>
+    <station name="Engesvang" x="1180" y="2510" a="t"/>
+    <station name="Bording" x="1080" y="2510" a="t"/>
+    <station name="Ikast" x="980" y="2510" a="t"/>
+    <station name="Hammerum" x="880" y="2510" a="t"/>
+    <station name="Birk &#10;Centerpark" x="780" y="2510" a="t"/>
+
+    <station name="Borris" x="440" y="2510" a="t"/>
+    <station name="Skjern" x="400" y="2550" a="l"/>
+
+    <station name="Tarm" x="400" y="2615"/>
+    <station name="Ølgod" x="400" y="2680"/>
+    <station name="Gårde" x="400" y="2745"/>
+    <station name="Tistrup" x="400" y="2810"/>
+    <station name="Sig" x="400" y="2875"/>
+    <station name="Varde Nord" x="400" y="2940"/>
+    <station name="Varde" x="400" y="3005"/>
+    <station name="Varde Kaserne" x="400" y="3070"/>
+    <station name="Guldager" x="400" y="3135"/>
+    <station name="Gjesing" x="400" y="3200"/>
+    <station name="Spangsbjerg" x="400" y="3265"/>
+    <station name="Esbjerg" x="400" y="3330" a="l"/>
+    <station name="Jerne" x="470" y="3330" a="b"/>
+    <station name="Tjæreborg" x="540" y="3330" a="b"/>
+
+    <station name="Nørre Nebel" x="310" y="2610" a="l"/>
+    <station name="Lunde Jylland" x="310" y="2635" a="l"/>
+    <station name="Løftgård" x="310" y="2665" a="l"/>
+    <station name="Outrup" x="310" y="2690" a="l"/>
+    <station name="Henne" x="310" y="2715" a="l"/>
+    <station name="Dyreby" x="310" y="2740" a="l"/>
+    <station name="Jegum" x="310" y="2765" a="l"/>
+    <station name="Vrøgum" x="310" y="2790" a="l"/>
+    <station name="Baunhøj" x="310" y="2820" a="l"/>
+    <station name="Oksbøl" x="310" y="2845" a="l"/>
+    <station name="Billum" x="310" y="2870" a="l"/>
+    <station name="Janderup" x="310" y="2895" a="l"/>
+    <station name="Hyllerslev" x="310" y="2920" a="l"/>
+    <station name="Boulevarden" x="310" y="2945" a="l"/>
+    <station name="Varde Vest" x="340" y="2975" a="l"/>
+    <station name="Frisvadvej" x="370" y="2975"/>
+
+    <station name="Aulum" x="500" y="2330"/>
+    <station name="Vildbjerg" x="590" y="2420"/>
+    <station name="Herning" x="680" y="2510" a="b"/>
+    <station name="Brande" x="770" y="2600" a="l"/>
+    <station name="Thyregod" x="860" y="2690" a="l"/>
+    <station name="Give" x="950" y="2780" a="l"/>
+    <station name="Jelling" x="1040" y="2870" a="l"/>
+    <station name="Vejle Sygehus" x="1130" y="2960" a="l"/>
+
+    <station name="Vinderup" x="647" y="2040" a="b"/>
+    <station name="Skive" x="792" y="2040" a="t"/>
+    <station name="Højslev" x="939" y="2040" a="b"/>
+    <station name="Stoholm" x="1086" y="2040" a="t"/>
+    <station name="Viborg" x="1233" y="2040" a="b"/>
+    <station name="Rødkærsbro" x="1380" y="2040"/>
+    <station name="Bjerringbro" x="1467" y="2127"/>
+    <station name="Ulstrup" x="1553" y="2213" a="l"/>
+    <station name="Langå" x="1630" y="2300"/>
+    <station name="Hadsten" x="1630" y="2400" a="l"/>
+    <station name="Hinnerup" x="1730" y="2500" a="l"/>
+    <station name="&#10;Aarhus H" x="1730" y="2540"/>
+
+    <station name="Dokk1" x="1755" y="2515"/>
+    <station name="Skolebakken" x="1795" y="2475"/>
+    <station name="Klokhøjen" x="1795" y="2350" a="l"/>
+    <station name="Lisbjerg &#10;Bygade" x="1805" y="2340" a="t"/>
+    <station name="Lystrup" x="1930" y="2340"/>
+    <station name="Grenaa" x="2280" y="1990"/>
+
+    <station name="Randers" x="1630" y="2200"/>
+    <station name="Hobro" x="1630" y="2100"/>
+    <station name="Arden" x="1630" y="2000"/>
+    <station name="Skørping" x="1630" y="1900" a="l"/>
+    <station name="Støvring" x="1630" y="1800" a="l"/>
+    <station name="Svenstrup" x="1630" y="1700" a="l"/>
+    <station name="Skalborg" x="1630" y="1600" a="l"/>
+    <station name="Aalborg" x="1630" y="1500"/>
+    <station name="Aalborg Vestby" x="1630" y="1400"/>
+    <station name="Lindholm" x="1630" y="1300"/>
+    <station name="Aalborg Lufthavn" x="1580" y="1250" a="l"/>
+    <station name="Brønderslev" x="1630" y="1200"/>
+    <station name="Vrå" x="1630" y="1100"/>
+    <station name="Hjørring" x="1630" y="1000"/>
+    <station name="Sindal" x="1680" y="950"/>
+    <station name="Tolne" x="1730" y="900" a="l"/>
+    <station name="Kvissel" x="1780" y="850" a="l"/>
+    <station name="Frederikshavn" x="1830" y="800"/>
+    <station name="Strandby" x="1830" y="730"/>
+    <station name="Rimmen" x="1830" y="660"/>
+    <station name="Jerup" x="1830" y="590"/>
+    <station name="Napstjært" x="1830" y="520"/>
+    <station name="Ålbæk" x="1880" y="470"/>
+    <station name="Bunken" x="1930" y="420"/>
+    <station name="Hulsig" x="1980" y="370"/>
+    <station name="Frederikshavnsvej" x="2030" y="320"/>
+    <station name="Skagen" x="2080" y="270"/>
+
+    <station name="Kvægtorvet" x="1590" y="960" a="l"/>
+    <station name="Teglgårdsvej" x="1550" y="920" a="l"/>
+    <station name="Herregårdsparken" x="1510" y="880" a="l"/>
+    <station name="Vellingshøj" x="1470" y="840" a="l"/>
+    <station name="Vidstrup" x="1430" y="800"/>
+    <station name="Sønderby" x="1390" y="760"/>
+    <station name="Tornby" x="1350" y="720"/>
+    <station name="Horne" x="1350" y="670"/>
+    <station name="Emmersbæk" x="1350" y="620"/>
+    <station name="Lilleheden" x="1350" y="570"/>
+    <station name="Hirtshals" x="1350" y="520"/>
+
+    <station name="&#10;Viby Jylland" x="1660" y="2610"/>
+    <station name="Odder" x="1660" y="3050"/>
+
+    <station name="Hørning" x="1590" y="2680" a="l"/>
+    <station name="&#10;Skanderborg" x="1520" y="2750"/>
+    <station name="Horsens" x="1420" y="2850" a="l"/>
+    <station name="Hedensted" x="1320" y="2950" a="l"/>
+    <station name="Vejle" x="1220" y="3050" a="l"/>
+    <station name="Brejning" x="1220" y="3110" a="l"/>
+    <station name="Fredericia" x="1390" y="3300" a="l"/>
+
+    <station name="Taulov" x="1290" y="3330" a="b"/>
+    <station name="Kolding" x="1200" y="3330" a="b"/>
+    <station name="Lunderskov" x="1110" y="3330" a="t"/>
+    <station name="Vamdrup" x="1060" y="3380"/>
+    <station name="Vojens" x="1060" y="3534"/>
+    <station name="Rødekro" x="1060" y="3688"/>
+    <station name="Tinglev" x="1060" y="3842"/>
+    <station name="Padborg" x="1060" y="3996"/>
+    <station name="Flensburg" x="1060" y="4150"/>
+    <station name="Hamburg Hbf" x="1800" y="4890" a="l"/>
+    <station name="Kliplev" x="1110" y="3892"/>
+    <station name="Gråsten" x="1160" y="3942"/>
+    <station name="Sønderborg" x="1210" y="3992"/>
+
+    <station name="Vejen" x="990" y="3330" a="t"/>
+    <station name="Brørup" x="900" y="3330" a="t"/>
+    <station name="Holsted" x="800" y="3330" a="t"/>
+    <station name="Gørding" x="700" y="3330" a="t"/>
+    <station name="Bramming" x="610" y="3330" a="t"/>
+
+    <station name="Sejstrup" x="660" y="3380"/>
+    <station name="Gredstedbro" x="660" y="3430"/>
+    <station name="Ribe Nørremark" x="660" y="3480"/>
+    <station name="Ribe" x="660" y="3530"/>
+    <station name="Hviding" x="660" y="3580"/>
+    <station name="Rejsby" x="660" y="3630"/>
+    <station name="Brøns" x="660" y="3680"/>
+    <station name="Skærbæk" x="660" y="3730"/>
+    <station name="Døstrup Sønderjylland" x="660" y="3780"/>
+    <station name="Bredebro" x="660" y="3830"/>
+    <station name="Visby" x="660" y="3880"/>
+    <station name="Tønder Nord" x="660" y="3930"/>
+    <station name="Tønder" x="660" y="3980"/>
+    <station name="Süderlügum" x="660" y="4030"/>
+    <station name="Uphusum" x="660" y="4080"/>
+    <station name="Niebüll" x="660" y="4130"/>
+
+    <station name="Middelfart" x="1500" y="3330" a="t"/>
+    <station name="Odense" x="2080" y="3330" a="t"/>
+    <station name="Svendborg" x="2080" y="3980"/>
+    <station name="Langeskov" x="2135" y="3330" a="b"/>
+    <station name="Nyborg" x="2190" y="3330" a="b"/>
+    <station name="Korsør" x="2430" y="3330" a="b"/>
+    <station name="Slagelse" x="2530" y="3330" a="b"/>
+    <station name="Sorø" x="2710" y="3330" a="t"/>
+    <station name="Ringsted" x="2880" y="3330" a="b"/>
+    <station name="Borup" x="2940" y="3270"/>
+    <station name="Viby &#10;Sjælland" x="3000" y="3210"/>
+    <station name="Roskilde" x="3060" y="3150" a="l"/>
+    <station name="Trekroner" x="3142" y="3150" a="t"/>
+    <station name="Hedehusene" x="3224" y="3150" a="t"/>
+    <station name="Høje &#10;Taastrup" x="3306" y="3150" a="t"/>
+    <station name="Valby" x="3388" y="3150" a="t"/>
+
+    <station name="Høng" x="2530" y="3290" a="l"/>
+    <station name="Ruds Vedby" x="2530" y="3250" a="l"/>
+    <station name="Skellebjerg" x="2530" y="3210" a="l"/>
+    <station name="Dianalund" x="2560" y="3180" a="l"/>
+    <station name="Vedde" x="2590" y="3150" a="l"/>
+    <station name="Stenlille" x="2640" y="3150" a="t"/>
+    <station name="Nyrup" x="2700" y="3150" a="b"/>
+    <station name="Bagmarken" x="2750" y="3150" a="t"/>
+    <station name="Store &#10;Merløse" x="2800" y="3150" a="b"/>
+    <station name="Kirke &#10;Eskilstrup" x="2830" y="3120"/>
+
+    <station name="Lejre" x="3000" y="3090" a="t"/>
+    <station name="Hvalsø" x="2930" y="3090" a="t"/>
+    <station name="Tølløse" x="2860" y="3090" a="t"/>
+    <station name="Vipperød" x="2790" y="3090" a="t"/>
+    <station name="Holbæk" x="2720" y="3090" a="b"/>
+    <station name="Regstrup" x="2650" y="3090" a="t"/>
+    <station name="Knabstrup" x="2580" y="3090" a="b"/>
+    <station name="Mørkøv" x="2510" y="3090" a="t"/>
+    <station name="Jyderup" x="2440" y="3090" a="b"/>
+    <station name="Svebølle" x="2370" y="3090" a="t"/>
+    <station name="Kalundborg" x="2300" y="3090" a="l"/>
+
+    <station name="Stenhus" x="2720" y="3050"/>
+    <station name="Ny Hagested" x="2720" y="3010"/>
+    <station name="Gislinge" x="2720" y="2970"/>
+    <station name="Svinninge" x="2720" y="2930"/>
+    <station name="Hørve" x="2720" y="2890"/>
+    <station name="Fårevejle" x="2720" y="2850"/>
+    <station name="Asnæs" x="2720" y="2810"/>
+    <station name="Grevinge" x="2720" y="2770"/>
+    <station name="Vig" x="2750" y="2740"/>
+    <station name="Nørre Asmindrup" x="2780" y="2710" a="l"/>
+    <station name="Sommerland Sjælland" x="2810" y="2680" a="l"/>
+    <station name="Højby Sjælland" x="2840" y="2650" a="l"/>
+    <station name="Nyled" x="2880" y="2650" a="b"/>
+    <station name="Nykøbing Sjælland" x="2920" y="2650"/>
+
+    <station name="Gadstrup" x="3110" y="3200"/>
+    <station name="Havdrup" x="3160" y="3250"/>
+    <station name="Lille Skensved" x="3210" y="3300" a="l"/>
+    <station name="Ølby" x="3260" y="3360" a="l"/>
+    <station name="Køge" x="3260" y="3420"/>
+    <station name="Herfølge" x="3210" y="3470" a="l"/>
+    <station name="Tureby" x="3160" y="3520" a="l"/>
+    <station name="Haslev" x="3110" y="3570"/>
+    <station name="Holme-Olstrup" x="3060" y="3620"/>
+    <station name="Næstved &#10;Nord" x="3010" y="3670"/>
+    <station name="Glumsø" x="2850" y="3580" a="l"/>
+    <station name="Næstved" x="3010" y="3740" a="l"/>
+    <station name="Lundby" x="3060" y="3790" a="l"/>
+    <station name="Vordingborg" x="3060" y="3880" a="l"/>
+    <station name="Nørre Alslev" x="3060" y="3970" a="l"/>
+    <station name="Eskilstrup" x="3060" y="4060" a="l"/>
+    <station name="Nykøbing Falster" x="3060" y="4150"/>
+
+    <station name="Egøje" x="3290" y="3450"/>
+    <station name="Vallø" x="3320" y="3480"/>
+    <station name="Grubberholm" x="3350" y="3510"/>
+    <station name="Himlingøje" x="3380" y="3540"/>
+    <station name="Hårlev" x="3410" y="3570"/>
+    <station name="Varpelev" x="3440" y="3600"/>
+    <station name="Klippinge" x="3470" y="3630"/>
+    <station name="Store Heddinge" x="3500" y="3660"/>
+    <station name="Rødvig" x="3530" y="3690"/>
+
+    <station name="Lille Linde" x="3410" y="3610" a="l"/>
+    <station name="Karise" x="3410" y="3650" a="l"/>
+    <station name="Tokkerup" x="3410" y="3690" a="l"/>
+    <station name="Faxe Syd" x="3410" y="3730" a="l"/>
+    <station name="Faxe Ladeplads" x="3410" y="3770" a="l"/>
+
+    <station name="Øster &#10;Toreby" x="2980" y="4150" a="t"/>
+    <station name="Grænge" x="2920" y="4150" a="b"/>
+    <station name="Sakskøbing" x="2840" y="4150" a="t"/>
+    <station name="Maribo" x="2780" y="4150" a="b"/>
+    <station name="Ryde" x="2720" y="4150" a="t"/>
+    <station name="Søllested" x="2660" y="4150" a="b"/>
+    <station name="Avnede" x="2600" y="4150" a="t"/>
+    <station name="Nakskov" x="2520" y="4150" a="l"/>
+
+    <station name="Helsingør" x="3470" y="2500" a="l"/>
+    <station name="Snekkersten" x="3470" y="2550" a="l"/>
+    <station name="Espergærde" x="3470" y="2600" a="l"/>
+    <station name="Humlebæk" x="3470" y="2650" a="l"/>
+    <station name="Nivå" x="3470" y="2700" a="l"/>
+    <station name="Kokkedal" x="3470" y="2750" a="l" major="true"/>
+    <station name="Rungsted Kyst" x="3470" y="2800" a="l"/>
+    <station name="Vedbæk" x="3470" y="2850" a="l"/>
+    <station name="Skodsborg" x="3470" y="2900" a="l"/>
+    <station name="Klampenborg" x="3470" y="2950" a="l"/>
+    <station name="Hellerup" x="3470" y="3000" major="true"/>
+    <station name="Østerport" x="3470" y="3050"/>
+    <station name="Nørreport" x="3470" y="3100"/>
+    <station name="&#10;København H" x="3470" y="3150"/>
+    <station name="Ørestad" x="3530" y="3150" a="t"/>
+    <station name="Tårnby" x="3580" y="3150" a="t"/>
+    <station name="Københavns &#10;Lufthavn" x="3630" y="3150" a="b"/>
+    <station name="Hyllie" x="3900" y="3150"/>
+    <station name="Lund C" x="4100" y="2950"/>
+
+    <station name="København Syd" x="3380" y="3240" a="l"/>
+    <station name="Køge &#10;Nord" x="3290" y="3330" a="t"/>
+  </stations>
+  <lines>
+    <trainLine name="1" color="#F04E23">
+      <stationRef name="Østerport" ml="1"/><stationRef name="Nørreport" ml="1"/><stationRef name="København H" ml="1" mu="2"/><point station="København H" ml="1" mu="0.4"/><label offset="-4"/><stationRef name="København Syd" mul="1"/><stationRef name="Køge Nord" ml="0.4" mu="1"/><label offset="4"/><stationRef name="Ringsted" mr="2" mu="1"/><stationRef name="Sorø" mu="1"/><label offset="9"/><stationRef name="Slagelse" mu="1"/><stationRef name="Korsør" mu="1"/><label offset="7"/><stationRef name="Nyborg" mu="1"/><stationRef name="Odense" mu="1"/><label offset="4"/><stationRef name="Middelfart" mu="1"/><point x="1420" y="3330" mr="0.4" mu="1"/><stationRef name="Fredericia" mr="1" mu="0.4"/><point x="1390" y="3280" mr="1" mu="0.4"/><label offset="-1"/><point station="Brejning" mr="1" mu="0.4"/><stationRef name="Vejle" mr="1" md="0.6"/><point station="Vejle" mr="1" md="0.4"/><label offset="10"/><stationRef name="Horsens" mdr="1"/><stationRef name="Skanderborg" mdr="1"/><label offset="1"/><stationRef name="Aarhus H" mr="1" md="0.4"/><point station="Hinnerup" mr="1" mu="0.4"/><label/><stationRef name="Hadsten" mr="1" mu="0.4"/><stationRef name="Langå" mr="1"/><stationRef name="Randers" mr="1"/><label offset="-1"/><stationRef name="Hobro" mr="1"/><stationRef name="Arden" mr="1"/><stationRef name="Skørping" mr="1"/><stationRef name="Støvring" mr="1"/><label offset="-2"/><stationRef name="Svenstrup" mr="1"/><stationRef name="Skalborg" mr="1"/><stationRef name="Aalborg" mr="1" md="0.5"/>
+    </trainLine>
+    <trainLine name="1x" color="#FDBA58">
+      <stationRef name="Københavns Lufthavn" md="1"/><stationRef name="København H" mr="2" md="1"/><point station="København H" mr="0.4" md="1"/><label offset="-5"/><point station="Køge Nord" mr="1.4"/><label offset="-34"/><label offset="9.5"/><label offset="35"/><stationRef name="Odense"/><label offset="-3.5"/><point x="1420" y="3330"/><stationRef name="Fredericia"/><point x="1390" y="3280"/><label offset="-2.5"/><point station="Brejning"/><stationRef name="Vejle" md="0.6"/><point station="Vejle"/><label offset="7"/><stationRef name="Horsens"/><stationRef name="Skanderborg"/><label offset="-1"/><stationRef name="Aarhus H"/><point station="Hinnerup"/><label offset="2"/><point station="Hadsten"/><stationRef name="Randers"/><label offset="1"/><stationRef name="Hobro"/><label offset="5"/><stationRef name="Aalborg"/><label offset="1"/><stationRef name="Aalborg Vestby"/><stationRef name="Lindholm" md="0.4"/><point station="Lindholm"/><label offset="-1"/><stationRef name="Aalborg Lufthavn"/>
+    </trainLine>
+    <trainLine name="3" color="#FDBA58">
+      <stationRef name="Københavns Lufthavn" md="2"/><stationRef name="København H" mr="2" md="2"/><point station="København H" mr="0.8" md="2"/><label offset="-3"/><point station="Køge Nord" mr="1.8" md="1"/><label offset="-62.5"/><label offset="14"/><label offset="58"/><stationRef name="Odense" md="1"/><label offset="-10"/><point x="1420" y="3330" ml="0.4" md="1"/><stationRef name="Fredericia" ml="1" md="0.4"/><point x="1390" y="3280" ml="1" md="0.4"/><label offset="-5"/><point station="Brejning" ml="1" md="0.4"/><stationRef name="Vejle" ml="1" md="0.6"/><point station="Vejle" ml="1" md="0.4"/><stationRef name="Vejle Sygehus" mdl="1"/><label offset="1"/><stationRef name="Jelling" mdl="1"/><stationRef name="Give" mdl="1"/><stationRef name="Thyregod" mdl="1"/><label offset="1"/><stationRef name="Brande" mdl="1"/><stationRef name="Herning" mdl="1"/><stationRef name="Vildbjerg" mdl="1"/><label offset="2"/><stationRef name="Aulum" ml="1" md="0.4"/><stationRef name="Holstebro" ml="1"/><label offset="2"/><stationRef name="Hjerm" ml="1"/><stationRef name="Struer" ml="1"/>
+    </trainLine>
+    <trainLine name="4" color="#F04E23">
+      <stationRef name="Østerport" ml="2"/><stationRef name="Nørreport" ml="2"/><stationRef name="København H" ml="2" mu="2"/><stationRef name="Valby" mu="2"/><label offset="-4"/><stationRef name="Høje Taastrup" mu="2"/><stationRef name="Roskilde" ml="0.8" mu="2"/><label offset="3"/><stationRef name="Ringsted" ml="0.8" mu="2"/><point station="Ringsted" ml="6.8" md="4"/><stationRef name="Sorø" md="4"/><label offset="-7"/><stationRef name="Slagelse" md="4"/><stationRef name="Korsør" md="4"/><label offset="-10"/><stationRef name="Nyborg" md="4"/><stationRef name="Langeskov" md="4"/><stationRef name="Odense" md="4"/><label offset="-13"/><stationRef name="Middelfart" md="4"/><label offset="21"/><stationRef name="Kolding" md="4"/><stationRef name="Lunderskov" md="4"/><stationRef name="Vejen" md="4"/><label offset="-6"/><stationRef name="Bramming" md="4"/><label offset="4"/><stationRef name="Esbjerg" md="4"/>
+    </trainLine>
+    <trainLine name="5" color="#FDBA58">
+      <stationRef name="Københavns Lufthavn" md="3"/><stationRef name="København H" mr="2" md="3"/><point station="København H" mr="1.2" md="3"/><label offset="-1"/><point station="Køge Nord" mr="2.2" md="2"/><label offset="-64.5"/><label offset="11"/><label offset="56"/><stationRef name="Odense" md="2"/><label offset="-13"/><point x="1420" y="3330" ml="0.8" md="2"/><stationRef name="Fredericia" md="2.8"/><point x="1360" y="3330" ml="4.2" md="7"/><label offset="9"/><stationRef name="Kolding" md="7"/><stationRef name="Lunderskov" md="7"/><point station="Lunderskov" ml="6" md="7"/><stationRef name="Vamdrup" mr="1"/><label offset="2"/><stationRef name="Vojens" mr="1"/><stationRef name="Rødekro" mr="1"/><label offset="2"/><stationRef name="Tinglev" mr="1"/><stationRef name="Kliplev" mr="1"/><label/><stationRef name="Gråsten" mr="1"/><stationRef name="Sønderborg" mr="1"/>
+    </trainLine>
+    <trainLine name="5x" color="#2F6991">
+      <stationRef name="København H" mr="2" md="4"/><point station="København H" mr="1.6" md="4"/><label offset="1"/><point station="Køge Nord" mr="2.6" md="3"/><label offset="-3"/><stationRef name="Ringsted" mr="2" md="3"/><label offset="-14"/><label offset="12"/><stationRef name="Odense" md="3"/><label offset="-19"/><label offset="35"/><stationRef name="Kolding" md="3"/><point station="Lunderskov" ml="4.8" md="3"/><point station="Vamdrup" ml="1" mu="0.8"/><label offset="-25"/><label offset="6"/><stationRef name="Padborg" ml="1"/><label offset="-1"/><point station="Flensburg" ml="1"/><label/><autoStation name="Schleswig" ml="1"/><label/><stationRef name="Hamburg Hbf" ml="1"/>
+    </trainLine>
+
+    <trainLine name="39" color="#ADCE6D">
+      <stationRef name="Østerport" mr="2"/><stationRef name="Nørreport" mr="2"/><stationRef name="København H" mr="2" mu="1"/><stationRef name="Ørestad" mu="1"/><stationRef name="Tårnby" mu="1"/><stationRef name="Københavns Lufthavn" mu="1"/><label/><stationRef name="Hyllie" mr="1" mu="1"/><autoStation name="Triangeln"/><autoStation name="Malmö C"/><label/><autoStation name="Burlöv"/><stationRef name="Lund C"/>
+    </trainLine>
+    <trainLine name="40" color="#50B848" via="Roskilde">
+      <stationRef name="Helsingør"/><stationRef name="Snekkersten"/><label offset="-1"/><stationRef name="Espergærde"/><stationRef name="Humlebæk"/><stationRef name="Nivå"/><stationRef name="Kokkedal"/><stationRef name="Rungsted Kyst"/><stationRef name="Vedbæk"/><stationRef name="Skodsborg"/><stationRef name="Klampenborg"/><label offset="-1"/><stationRef name="Hellerup"/><stationRef name="Østerport"/><stationRef name="Nørreport"/><stationRef name="København H" mu="2"/><point station="København H" ml="1" mu="1"/><stationRef name="Valby" mu="1"/><label offset="2"/><stationRef name="Høje Taastrup" mu="1"/><stationRef name="Hedehusene" mu="1"/><stationRef name="Trekroner" mu="1"/><stationRef name="Roskilde" ml="0.4" mu="1"/><stationRef name="Viby Sjælland" mul="1"/><label/><stationRef name="Borup" mul="1"/><stationRef name="Ringsted" mr="0.6" mu="2"/><point x="2850" y="3360" mu="1.4"/><label offset="-1"/><stationRef name="Glumsø"/><label offset="-1"/><stationRef name="Næstved" ml="0.35" mu="0.35"/>
+    </trainLine>
+    <trainLine name="50" color="#50B848">
+      <stationRef name="Københavns Lufthavn"/><stationRef name="Tårnby"/><stationRef name="Ørestad"/><label offset="6"/><stationRef name="Høje Taastrup"/><stationRef name="Trekroner"/><stationRef name="Roskilde"/><label offset="-1.5"/><stationRef name="Ringsted" mr="2" mu="2"/><point station="Ringsted" ml="5" md="5"/><stationRef name="Sorø" md="5"/><label offset="-6"/><stationRef name="Slagelse" md="5"/>
+    </trainLine>
+    <trainLine name="51" color="#50B848" via="Køge">
+      <stationRef name="Helsingør" mr="1"/><stationRef name="Snekkersten" mr="1"/><label offset="1"/><stationRef name="Espergærde" mr="1"/><stationRef name="Humlebæk" mr="1"/><stationRef name="Nivå" mr="1"/><stationRef name="Kokkedal" mr="1"/><stationRef name="Rungsted Kyst" mr="1"/><stationRef name="Vedbæk" mr="1"/><stationRef name="Skodsborg" mr="1"/><stationRef name="Klampenborg" mr="1"/><label offset="1"/><stationRef name="Hellerup" mr="1"/><stationRef name="Østerport" mr="1"/><stationRef name="Nørreport" mr="1"/><stationRef name="København H" mr="1" mu="1.5"/><point station="København H" mr="1" mu="1"/><label offset="-1"/><stationRef name="København Syd"/><stationRef name="Køge Nord" mr="1" mu="1"/><point station="Ølby" mr="1" mu="1"/><stationRef name="Ølby" mr="1"/><stationRef name="Køge" mr="1"/><stationRef name="Herfølge" md="1"/><label/><stationRef name="Tureby" md="1"/><stationRef name="Haslev" md="1"/><stationRef name="Holme-Olstrup" md="1"/><label/><stationRef name="Næstved Nord" mr="1.4" mu="0.4"/><stationRef name="Næstved" mur="2"/>
+    </trainLine>
+    <trainLine name="52" color="#17253F">
+      <stationRef name="Roskilde" md="1.4"/><label offset="-1"/><stationRef name="Gadstrup" mdl="1"/><stationRef name="Havdrup" mdl="1"/><label offset="-1"/><stationRef name="Lille Skensved" mdl="1"/><point x="3260" y="3350" ml="1" md="0.4"/><stationRef name="Ølby" ml="1"/><label offset="-1"/><stationRef name="Køge" ml="1"/><point station="Køge" ml="1" md="0.4"/><label/><stationRef name="Egøje" mdl="1"/><stationRef name="Vallø" mdl="1"/><stationRef name="Grubberholm" mdl="1"/><label/><stationRef name="Himlingøje" mdl="1"/><stationRef name="Hårlev" mdl="1"/><stationRef name="Lille Linde" mdl="1"/><label/><stationRef name="Karise" mdl="1"/><stationRef name="Tokkerup" mdl="1"/><stationRef name="Faxe Syd" mdl="1"/><label/><stationRef name="Faxe Ladeplads" mdl="1"/>
+    </trainLine>
+    <trainLine name="53" color="#17253F">
+      <stationRef name="Roskilde" mdr="1"/><label offset="1"/><stationRef name="Gadstrup"/><stationRef name="Havdrup"/><label offset="1"/><stationRef name="Lille Skensved"/><point x="3260" y="3350"/><stationRef name="Ølby"/><label offset="1"/><stationRef name="Køge"/><stationRef name="Egøje"/><label/><stationRef name="Vallø"/><stationRef name="Grubberholm"/><stationRef name="Himlingøje"/><label/><stationRef name="Hårlev"/><stationRef name="Varpelev"/><label/><stationRef name="Klippinge"/><stationRef name="Store Heddinge"/><label/><stationRef name="Rødvig"/>
+    </trainLine>
+    <trainLine name="54" color="#50B848">
+      <stationRef name="Næstved" mr="0.35" md="0.35"/><stationRef name="Lundby"/><label offset="-1"/><stationRef name="Vordingborg"/><stationRef name="Nørre Alslev"/><stationRef name="Eskilstrup"/><stationRef name="Nykøbing Falster"/>
+    </trainLine>
+    <trainLine name="54x" color="#50B848">
+      <stationRef name="København H" mr="2" md="5"/><label offset="2"/><point station="Køge Nord" mr="3" md="4"/><label offset="-3.5"/><stationRef name="Ringsted" mr="2" md="4"/><point station="Ringsted" ml="2.6" md="4"/><point x="2850" y="3360" mr="1" md="0.4"/><label offset="1"/><point station="Glumsø" mr="1" mu="0.4"/><label offset="1"/><stationRef name="Næstved" mur="1"/><point station="Lundby" mr="1" mu="0.4"/><label offset="1"/><stationRef name="Vordingborg" mr="1"/><stationRef name="Nykøbing Falster" mr="1"/>
+    </trainLine>
+    <trainLine name="55" color="#17253F">
+      <stationRef name="Nykøbing Falster" ml="1"/><stationRef name="Øster Toreby"/><label/><stationRef name="Grænge"/><stationRef name="Sakskøbing"/><stationRef name="Maribo"/><label/><stationRef name="Ryde"/><stationRef name="Søllested"/><stationRef name="Avnede"/><label/><stationRef name="Nakskov"/>
+    </trainLine>
+    <trainLine name="56" color="#50B848">
+      <stationRef name="Østerport" ml="4"/><stationRef name="Nørreport" ml="4"/><stationRef name="København H" ml="4" mu="4"/><stationRef name="Valby" mu="4"/><label offset="2"/><stationRef name="Høje Taastrup" mu="4"/><stationRef name="Hedehusene" mu="4"/><stationRef name="Trekroner" mu="4"/><stationRef name="Roskilde" ml="1.6" mu="4"/><label offset="1"/><stationRef name="Lejre" mr="1.4" mu="1"/><stationRef name="Hvalsø" mu="1"/><stationRef name="Tølløse" mu="1"/><stationRef name="Vipperød" mu="1"/><label offset="1"/><stationRef name="Holbæk" mu="1"/>
+    </trainLine>
+    <trainLine name="56x" color="#50B848">
+      <stationRef name="Østerport" ml="3"/><stationRef name="Nørreport" ml="3"/><stationRef name="København H" ml="3" mu="3"/><label offset="2"/><stationRef name="Høje Taastrup" mu="3"/><stationRef name="Roskilde" ml="1.2" mu="3"/><point station="Roskilde" ml="2" mu="3"/><label offset="-0.7"/><point station="Lejre" mr="1"/><label offset="6"/><stationRef name="Holbæk"/><stationRef name="Regstrup"/><stationRef name="Knabstrup"/><label/><stationRef name="Mørkøv"/><stationRef name="Jyderup"/><stationRef name="Svebølle"/><autoStation name="Kalundborg &#10;Øst" a="b"/><stationRef name="Kalundborg"/>
+    </trainLine>
+    <trainLine name="57" color="#17253F">
+      <stationRef name="Holbæk" mu="2"/><stationRef name="Stenhus"/><label/><stationRef name="Ny Hagested"/><stationRef name="Gislinge"/><stationRef name="Svinninge"/><label/><stationRef name="Hørve"/><stationRef name="Fårevejle"/><stationRef name="Asnæs"/><label/><stationRef name="Grevinge"/><stationRef name="Vig"/><stationRef name="Nørre Asmindrup"/><label/><stationRef name="Sommerland Sjælland"/><stationRef name="Højby Sjælland"/><stationRef name="Nyled"/><label/><stationRef name="Nykøbing Sjælland"/>
+    </trainLine>
+    <trainLine name="58" color="#17253F">
+      <stationRef name="Slagelse" mu="2"/><stationRef name="Høng"/><label/><stationRef name="Ruds Vedby"/><stationRef name="Skellebjerg"/><label/><stationRef name="Dianalund"/><stationRef name="Vedde"/><stationRef name="Stenlille"/><label/><stationRef name="Nyrup"/><stationRef name="Bagmarken"/><stationRef name="Store Merløse" mr="1"/><label/><stationRef name="Kirke Eskilstrup" mdr="1"/><stationRef name="Tølløse" md="1"/>
+    </trainLine>
+
+    <trainLine name="60" color="#F04E23">
+      <stationRef name="Aarhus H" ml="2" mu="0.8"/><label offset="6"/><stationRef name="Skanderborg" mul="2"/><stationRef name="Horsens" mul="2"/><label offset="-3.5"/><point station="Vejle" ml="3" md="0.2"/><stationRef name="Vejle" ml="3" md="0.6"/><point station="Brejning" ml="3" md="1.2"/><label offset="8"/><point x="1390" y="3280" ml="3" md="1.2"/><stationRef name="Fredericia" ml="3" md="1.6"/><point x="1360" y="3330" ml="3.4" md="2"/><label offset="1"/><stationRef name="Kolding" md="2"/>
+    </trainLine>
+    <trainLine name="61" color="#08A2AD">
+      <stationRef name="Odense" md="5"/><autoStation name="Odense Sygehus"/><label/><autoStation name="Fruens Bøge"/><autoStation name="Hjallese"/><autoStation name="Højby"/><label/><autoStation name="Årslev"/><autoStation name="Pederstrup"/><autoStation name="Ringe"/><autoStation name="Rudme"/><label/><autoStation name="Kværndrup"/><autoStation name="Stenstrup"/><autoStation name="Stenstrup Syd"/><label/><autoStation name="Svendborg Vest"/><stationRef name="Svendborg"/>
+    </trainLine>
+    <trainLine name="62" color="#50B848">
+      <stationRef name="Odense" mu="2"/><autoStation name="Holmstrup" a="t" mu="2"/><autoStation name="Tommerup" a="t" mu="2"/><autoStation name="Skalbjerg" a="t" mu="2"/><autoStation name="Bred" a="t" mu="2"/><autoStation name="Aarup" a="t" mu="2"/><label offset="1"/><autoStation name="Gelsted" a="t" mu="2"/><autoStation name="Ejby" a="t" mu="2"/><autoStation name="Nørre &#10;Aaby" a="t" mu="2"/><autoStation name="Kauslunde" a="t" mu="2"/><stationRef name="Middelfart" mu="2"/><point x="1420" y="3330" mr="0.8" mu="2"/><stationRef name="Fredericia" mr="2" mu="0.8"/>
+    </trainLine>
+    <trainLine name="69" color="#223A76">
+      <stationRef name="Skørping" ml="1"/><stationRef name="Støvring" ml="1"/><label offset="2"/><stationRef name="Svenstrup" ml="1"/><stationRef name="Skalborg" ml="1"/><stationRef name="Aalborg" ml="1"/><label offset="3"/><stationRef name="Aalborg Vestby" ml="1"/><stationRef name="Lindholm" ml="1" md="0.4"/><label offset="1"/><stationRef name="Aalborg Lufthavn" mdl="1"/>
+    </trainLine>
+
+    <trainLine name="71" color="#08A2AD">
+      <stationRef name="Aarhus H" ml="4" mu="1.6"/><stationRef name="Viby Jylland" mul="4"/><stationRef name="Hørning" mul="4"/><label offset="2"/><stationRef name="Skanderborg" mul="4"/><point station="Skanderborg" ml="4.6" mu="1"/><autoStation name="Alken" a="t" mu="1"/><stationRef name="Ry" mr="0.4" mu="1"/><stationRef name="Laven" mur="1"/><stationRef name="Svejbæk" mur="1"/><label offset="1"/><stationRef name="Silkeborg" mur="1"/><stationRef name="Engesvang" mr="0.4" mu="1"/><stationRef name="Bording" mu="1"/><label offset="1"/><stationRef name="Ikast" mu="1"/><stationRef name="Hammerum" mu="1"/><label offset="1"/><stationRef name="Birk Centerpark" mu="1"/><stationRef name="Herning" mr="2" mu="1"/>
+    </trainLine>
+    <trainLine name="71x" color="#08A2AD" via="Herning">
+      <stationRef name="Aarhus H" ml="3" mu="1.2"/><stationRef name="Viby Jylland" mul="3"/><stationRef name="Hørning" mul="3"/><label/><stationRef name="Skanderborg" mul="3"/><point station="Skanderborg" ml="4.2"/><stationRef name="Ry"/><stationRef name="Svejbæk"/><label offset="-1"/><stationRef name="Silkeborg"/><point station="Engesvang"/><label offset="2"/><stationRef name="Ikast"/><label offset="-1"/><point station="Herning" mr="1.4"/><stationRef name="Herning" mur="1"/><stationRef name="Vildbjerg" mur="1"/><label offset="-2"/><stationRef name="Aulum" mr="1" mu="0.4"/><stationRef name="Holstebro" mr="1"/><label offset="-2"/><stationRef name="Hjerm" mr="1"/><stationRef name="Struer" mr="1"/>
+    </trainLine>
+    <trainLine name="72" color="#17253F">
+      <stationRef name="Aarhus H" mr="3" md="1.2"/><stationRef name="Dokk1" mdr="3"/><label offset="1"/><stationRef name="Skolebakken" mdr="3"/><autoStation name="Østbanetorvet" mdr="3"/><autoStation name="Risskov  Strandpark" mdr="3"/><autoStation name="Vestre Strandalle" mdr="3"/><label/><autoStation name="Torsøvej" mdr="3"/><stationRef name="Lystrup" mr="4.2"/><autoStation name="Hovmarken" mdr="3"/><label/><autoStation name="Hjortshøj" mdr="3"/><autoStation name="Skødstrup" mdr="3"/><autoStation name="Løgten" mdr="3"/><label/><autoStation name="Hornslet" mdr="3"/><autoStation name="Mørke" mdr="3"/><autoStation name="Thorsager" mdr="3"/><label/><autoStation name="Ryomgård" mdr="3"/><autoStation name="Kolind" mdr="3"/><autoStation name="Trustrup" mdr="3"/><label/><autoStation name="Hessel" mdr="3"/><stationRef name="Grenaa" mdr="3"/>
+    </trainLine>
+    <trainLine name="73" color="#17253F">
+      <stationRef name="Lystrup" mr="3.2"/><autoStation name="Nye" a="t" mr="4"/><autoStation name="Lisbjerg-&#10;Terp" a="t" mr="4"/><label/><stationRef name="Lisbjerg Bygade" mr="1.4"/><stationRef name="Klokhøjen" mr="1.4"/><autoStation name="Humlehuse" a="l" mr="1.4"/><autoStation name="Gl. Skejby" a="l" mr="1.4"/><autoStation name="Aarhus Uni.hospital" a="l" mr="1.4"/><autoStation name="Olof Palmes Allé" a="l" mr="1.4"/><autoStation name="Nehrus Allé" a="l" mr="1.4"/><autoStation name="Vandtårnet" a="l" mr="1.4"/><autoStation name="Stockholmsgade" a="l" mr="1.4"/><autoStation name="Stjernepladsen" a="l" mr="1.4"/><autoStation name="Aarhus Universitet" a="l" mr="1.4"/><autoStation name="Universitetsparken" a="l" mr="1.4"/><autoStation name="Nørreport Aarhus" a="l" mr="1.4"/><stationRef name="Skolebakken" mdr="2"/><label offset="1"/><stationRef name="Dokk1" mdr="2"/><stationRef name="Aarhus H" mr="2" md="0.8"/><autoStation name="Kongsvang" mdr="2"/><stationRef name="Viby Jylland" mdr="2"/><point station="Viby Jylland" md="2.8"/><autoStation name="Rosenhøj"/><label/><autoStation name="Øllegårdsvej"/><autoStation name="G. Clausensvej"/><autoStation name="Tranbjerg"/><autoStation name="Nørrevænget"/><autoStation name="Mølleparken"/><autoStation name="Mårslet"/><autoStation name="Vilhelmsborg"/><autoStation name="Beder"/><autoStation name="Malling"/><autoStation name="Assedrup"/><label/><autoStation name="Rude Havvej"/><stationRef name="Odder"/>
+    </trainLine>
+    <trainLine name="74" color="#08A2AD" via="Langå">
+      <stationRef name="Struer" mr="2"/><label offset="1"/><stationRef name="Vinderup"/><stationRef name="Skive"/><stationRef name="Højslev"/><label offset="1"/><stationRef name="Stoholm"/><stationRef name="Viborg"/><stationRef name="Rødkærsbro"/><label offset="1"/><stationRef name="Bjerringbro"/><stationRef name="Ulstrup"/><label offset="1"/><point x="1630" y="2290" ml="1" mu="1"/><stationRef name="Langå" ml="1"/><stationRef name="Hadsten" ml="1" md="0.4"/><label offset="-4"/><stationRef name="Hinnerup" ml="1" md="0.4"/><stationRef name="Aarhus H" ml="1" mu="1.4"/>
+    </trainLine>
+    <trainLine name="75" color="#223A76">
+      <stationRef name="Aalborg" mr="2" mu="0.5"/><label offset="-3"/><stationRef name="Aalborg Vestby" mr="2"/><stationRef name="Lindholm" mr="2" md="0.4"/><stationRef name="Brønderslev" mr="2"/><label offset="-1"/><stationRef name="Vrå" mr="2"/><stationRef name="Hjørring" mr="2"/><stationRef name="Sindal" md="2"/><stationRef name="Tolne" md="2"/><label/><stationRef name="Kvissel" md="2"/><stationRef name="Frederikshavn" md="2"/><stationRef name="Strandby"/><label/><stationRef name="Rimmen"/><stationRef name="Jerup"/><stationRef name="Napstjært"/><stationRef name="Ålbæk"/><stationRef name="Bunken"/><label/><stationRef name="Hulsig"/><stationRef name="Frederikshavnsvej"/><stationRef name="Skagen"/>
+    </trainLine>
+    <trainLine name="76" color="#223a76">
+      <stationRef name="Aalborg" mr="1" mu="0.5"/><label offset="-1"/><stationRef name="Aalborg Vestby" mr="1"/><stationRef name="Lindholm" mr="1" md="0.4"/><stationRef name="Brønderslev" mr="1"/><label offset="1"/><stationRef name="Vrå" mr="1"/><stationRef name="Hjørring" mr="1"/><stationRef name="Kvægtorvet" mu="1"/><label/><stationRef name="Teglgårdsvej" mu="1"/><stationRef name="Herregårdsparken" mu="1"/><stationRef name="Vellingshøj" mu="1"/><stationRef name="Vidstrup" mu="1"/><label/><stationRef name="Sønderby" mu="1"/><stationRef name="Tornby" mu="1"/><stationRef name="Horne"/><stationRef name="Emmersbæk"/><label/><stationRef name="Lilleheden"/><stationRef name="Hirtshals"/>
+    </trainLine>
+
+    <trainLine name="81" color="#F04E23">
+      <stationRef name="Fredericia" ml="0.7" md="2.1"/><point x="1360" y="3330" ml="4.6" md="6"/><label offset="3"/><stationRef name="Kolding" md="6"/><stationRef name="Lunderskov" md="6"/><point station="Lunderskov" ml="6.4" md="6"/><point station="Vamdrup" mu="0.4"/><stationRef name="Vamdrup"/><label/><stationRef name="Vojens"/><stationRef name="Rødekro"/><label/><stationRef name="Tinglev"/><stationRef name="Padborg"/><label offset="1"/><stationRef name="Flensburg"/>
+    </trainLine>
+    <trainLine name="82" color="#08A2AD">
+      <stationRef name="Esbjerg" md="6"/><stationRef name="Jerne" md="6"/><label offset="2"/><stationRef name="Tjæreborg" md="6"/><stationRef name="Bramming" md="6"/><point station="Bramming" mr="6" md="6"/><stationRef name="Sejstrup"/><stationRef name="Gredstedbro"/><stationRef name="Ribe Nørremark"/><label/><stationRef name="Ribe"/><stationRef name="Hviding"/><stationRef name="Rejsby"/><label/><stationRef name="Brøns"/><stationRef name="Skærbæk"/><stationRef name="Døstrup Sønderjylland"/><label/><stationRef name="Bredebro"/><stationRef name="Visby"/><stationRef name="Tønder Nord"/><label/><stationRef name="Tønder"/><stationRef name="Süderlügum"/><stationRef name="Uphusum"/><label/><stationRef name="Niebüll"/>
+    </trainLine>
+    <trainLine name="83" color="#08A2AD">
+      <stationRef name="Herning" mdl="2"/><autoStation name="Herning &#10;Messecenter" a="t" mdl="2"/><autoStation name="Studsgård" a="b" mdl="2"/><label/><autoStation name="Kibæk" a="t" mdl="2"/><autoStation name="Troldhede" a="b" mdl="2"/><stationRef name="Borris" mdl="2"/><label/><stationRef name="Skjern"/><stationRef name="Tarm"/><label/><stationRef name="Ølgod"/><stationRef name="Gårde"/><stationRef name="Tistrup"/><label/><stationRef name="Sig"/><stationRef name="Varde Nord"/><stationRef name="Varde"/><label offset="-1"/><stationRef name="Varde Kaserne"/><stationRef name="Guldager"/><stationRef name="Gjesing"/><label offset="-1"/><stationRef name="Spangsbjerg"/><stationRef name="Esbjerg" md="3"/>
+    </trainLine>
+    <trainLine name="84" color="#17253F">
+      <stationRef name="Nørre Nebel"/><stationRef name="Lunde Jylland"/><label/><stationRef name="Løftgård"/><stationRef name="Outrup"/><stationRef name="Henne"/><stationRef name="Dyreby"/><stationRef name="Jegum"/><stationRef name="Vrøgum"/><label/><stationRef name="Baunhøj"/><stationRef name="Oksbøl"/><stationRef name="Billum"/><stationRef name="Janderup"/><stationRef name="Hyllerslev"/><stationRef name="Boulevarden"/><label/><stationRef name="Varde Vest"/><stationRef name="Frisvadvej" ml="1"/><stationRef name="Varde" ml="1"/><label offset="1"/><stationRef name="Varde Kaserne" ml="1"/><stationRef name="Guldager" ml="1"/><stationRef name="Gjesing" ml="1"/><label offset="1"/><stationRef name="Spangsbjerg" ml="1"/><stationRef name="Esbjerg" ml="1" md="3"/>
+    </trainLine>
+    <trainLine name="85" color="#50B848">
+      <stationRef name="Aarhus H" ml="1" mu="0.4"/><stationRef name="Viby Jylland" mul="1"/><label offset="-1"/><stationRef name="Skanderborg" mul="1"/><stationRef name="Horsens" mul="1"/><label offset="1"/><stationRef name="Hedensted" mul="1"/><stationRef name="Vejle" ml="2" md="0.6"/><stationRef name="Brejning" ml="2" md="0.8"/><autoStation name="Børkop" a="l" mdl="2"/><label offset="1"/><point x="1390" y="3280" ml="2" md="0.8"/><stationRef name="Fredericia" ml="2" md="2"/><point x="1360" y="3330" ml="5" md="5"/><stationRef name="Taulov" md="5"/><label offset="-1"/><stationRef name="Kolding" md="5"/><stationRef name="Lunderskov" md="5"/><stationRef name="Vejen" md="5"/><stationRef name="Brørup" md="5"/><label offset="-1"/><stationRef name="Holsted" md="5"/><stationRef name="Gørding" md="5"/><stationRef name="Bramming" md="5"/><label/><stationRef name="Esbjerg" md="5"/>
+    </trainLine>
+
+    <trainLine name="90" color="#08A2AD">
+      <stationRef name="Vejle" mul="3"/><stationRef name="Vejle Sygehus"/><label offset="-1"/><stationRef name="Jelling"/><stationRef name="Give"/><stationRef name="Thyregod"/><label offset="-1"/><stationRef name="Brande"/><stationRef name="Herning"/><stationRef name="Vildbjerg"/><label/><stationRef name="Aulum"/><stationRef name="Holstebro"/><label/><stationRef name="Hjerm"/><stationRef name="Struer"/>
+    </trainLine>
+    <trainLine name="91" color="#08A2AD">
+      <stationRef name="Thisted"/><stationRef name="Sjørring"/><label/><stationRef name="Snedsted"/><stationRef name="Hørdum"/><stationRef name="Bedsted Thy"/><label/><stationRef name="Hurup Thy"/><stationRef name="Ydby"/><stationRef name="Lyngs"/><label/><stationRef name="Hvidbjerg"/><stationRef name="Uglev"/><stationRef name="Oddesund Nord"/><label/><stationRef name="Humlum"/><stationRef name="Struer" mu="1"/>
+    </trainLine>
+    <trainLine name="92" color="#17253F">
+      <stationRef name="Holstebro" ml="2"/><stationRef name="Bur" ml="1" mu="1"/><label/><stationRef name="Vemb" mu="2"/><stationRef name="Ulfborg"/><stationRef name="Tim"/><label/><stationRef name="Hee"/><stationRef name="Ringkøbing"/><stationRef name="Lem"/><label/><stationRef name="Skjern" mu="1"/>
+    </trainLine>
+    <trainLine name="93" color="#17253f">
+      <stationRef name="Vemb" ml="1" mu="2"/><stationRef name="Amstrup" ml="1" mu="2"/><stationRef name="Bækmarksbro" ml="2" mu="2"/><label/><stationRef name="Sinkbæk"/><stationRef name="Fåre"/><stationRef name="Ramme"/><stationRef name="Bonnet"/><stationRef name="Armose"/><label/><stationRef name="Lemvig"/><stationRef name="Balleby"/><stationRef name="Klinkby"/><stationRef name="Nejrup"/><stationRef name="Strande"/><stationRef name="Victoria Street"/><label/><stationRef name="Vrist"/><stationRef name="Harboøre"/><stationRef name="Rønland"/><stationRef name="Sprogøvej"/><stationRef name="Thyborøn Kirke"/><label/><stationRef name="Thyborøn"/>
+    </trainLine>
+  </lines>
+  <background>
+    <sea points="l t, l b, 600 b, 600 3600, 300 3300, 300 1800, 400 1900, 500 1900, 600 2000, 650 2000, 900 1750, 900 2000, 1100 2000, 1100 1300, 800 1300, 550 1550, 550 1850, 450 1850, 300 1700, 300 1500, 1300 500, 1770 500, 2020 250, 2120 250, 1870 500, 1870 1900, 1930 1950, 2300 1950, 2300 2000, 1720 2580, 1720 3030, 1400 3350, 1400 4000, 1940 4540, 2380 4540, 2400 4560, 2400 4700, r 4700, r t, 4950 t, 4950 2620, 4450 2620, 4400 2670, 4400 3250, 4350 3300, 3900 3300, 3850 3250, 3850 2900, 3730 2780, 3730 t"/>
+    <river points="1050 1350, 1900 1350"/>
+    <river points="2850 4000, 3250 4400"/>
+    <island zone="FYN" points="1480 3330, 1480 3580, 1550 3650, 1550 3850, 1700 4000, 2150 4000, 2200 3950, 2200 3300, 2150 3250, 1560 3250"/>
+    <island zone="0" points="2900 3100, 3100 3300, 3100 3500, 3190 3590, 3410 3590, 3550 3730, 3600 3680, 3600 3600, 3500 3500, 3400 3500, 3300 3400, 3300 3370, 3420 3250, 3600 3250, 3650 3200, 3650 3150, 3500 3000, 3500 2500, 3450 2450, 3150 2450, 3000 2600, 3000 2650, 3100 2750, 3100 3100, 3070 3130, 3070 2800, 3000 2800, 3000 3000, 2950 3050, 2900 3050"/>
+    <island zone="100" points="3100 3500, 3100 3300, 2900 3100, 2900 3050, 2750 3050, 2750 2900, 2950 2700, 2950 2600, 2700 2600, 2250 3050, 2250 3100, 2400 3250, 2400 3500"/>
+    <island zone="200" points="2400 3500, 3100 3500, 3190 3590, 3410 3590, 3550 3730, 3380 3900, 2700 3900, 2400 3600"/>
+    <island zone="200" points="2630 4350, 2500 4220, 2500 4100, 2550 4050, 2700 4050, 2750 4100, 2900 4100, 3050 3950, 3100 3950, 3150 4000, 3150 4200, 3000 4350"/>
+    <boundary points="l t, l 4015, 1500 4015, 1900 4415, 3700 4415, 3700 t"/>
+    <zone name="SYDV" color="1" points="l t, l b, r b, r t"/>
+    <zone name="SYDØ" color="3" points="700 t, 700 2800, 1020 3120, 1020 3500, 2500 3500, 2500 t"/>
+    <zone name="SYDS" color="2" points="l b, l 3600, 920 3600, 1020 3500, 2500 3500, 2500 b"/>
+    <zone name="NT" color="3" points="l t, l 2500, 2200 2500, 2200 t"/>
+    <zone name="MTV" color="2" points="l 1580, 650 1580, 650 1950, 1200 2500, 1200 2630, 350 2630, 50 2330, l 2330"/>
+    <zone name="MTØ" color="1" points="1200 2500, 1550 2150, 1700 2150, 1950 1900, 2500 1900, 2500 3100, 1400 3100, 1200 2900"/>
+    <zone name="0" color="1"/>
+    <zone name="100" color="2"/>
+    <zone name="200" color="3" points="3030 3870, 3030 3980, 3090 3980, 3090 3870"/><!-- Create a dummy rectangle on Storstrøm Bridge for this island-only zone, otherwise it will think there's an extra zone between Vordingborg and Nørre Alslev -->
+    <zone name="FYN" color="1" points="2180 3300, 2440 3300, 2440 3360, 2180 3360"/><!-- Create a dummy rectangle on Stora Bältsbron for this island-only zone, otherwise it will think there's an extra zone between Nyborg and Korsør -->
+  </background>
+</place>

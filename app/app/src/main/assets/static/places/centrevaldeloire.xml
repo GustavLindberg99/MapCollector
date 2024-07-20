@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<place boxpos="tl">
+    <stations>
+        <station name="Le Mans" x="200" y="900" a="l"/>
+        <station name="Nogent-le-Rotrou" x="600" y="500" a="l"/>
+        <station name="La Loupe" x="810" y="500" a="t"/>
+        <station name="Courville-sur-Eure" x="950" y="500" a="t"/>
+        <station name="Chartres" x="1160" y="500"/>
+        <station name="La Villette-St-Prest" x="1210" y="450" a="l"/>
+        <station name="Jouy" x="1260" y="400" a="l"/>
+        <station name="St-Piat" x="1310" y="350" a="l"/>
+        <station name="Maintenon" x="1360" y="300" a="l"/>
+        <station name="Épernon" x="1410" y="250" a="l"/>
+        <station name="Gazeran" x="1460" y="200" a="l"/>
+        <station name="Rambouillet" x="1510" y="150" a="l"/>
+        <station name="Versailles Chantiers" x="1560" y="100" a="l"/>
+        <station name="Paris Montparnasse" x="1610" y="50" a="l"/>
+
+        <station name="Lucé" x="1110" y="550"/>
+        <station name="La Taye" x="1060" y="600"/>
+        <station name="Bailleau-le-Pin" x="1010" y="650"/>
+        <station name="Magny-Blandainville" x="960" y="700"/>
+        <station name="Illiers-Combray" x="910" y="750"/>
+        <station name="Brou" x="860" y="800"/>
+        <station name="Arrou" x="810" y="850"/>
+        <station name="Courtalain-St-Pellerin" x="740" y="850" a="l"/>
+
+        <station name="Paris &#10;Austerlitz" x="1650" y="50" a="t"/>
+        <station name="Dourdan" x="1550" y="250" a="l"/>
+        <station name="Auneau" x="1350" y="450"/>
+        <station name="Voves" x="1230" y="570"/>
+        <station name="Bonneval" x="1230" y="640"/>
+        <station name="Châteaudun" x="1230" y="710"/>
+        <station name="Cloyes-sur-le-Loir" x="1230" y="780"/>
+        <station name="Fréteval-Morée" x="1230" y="850"/>
+        <station name="Pezou" x="1180" y="900"/>
+        <station name="Vendôme" x="1110" y="970"/>
+        <station name="St-Amand-de-Vendôme" x="1060" y="1020" a="l"/>
+        <station name="Château-Renault" x="1010" y="1070" a="l"/>
+        <station name="Monnaie" x="960" y="1120"/>
+        <station name="Notre-Dame-&#10;d'Oé" x="910" y="1170"/>
+        <station name="&#10;Tours" x="860" y="1220"/>
+
+        <station name="St-Antoine-du-Rocher" x="750" y="1110" a="l"/>
+        <station name="Neuillé Pont Pierre" x="640" y="1000" a="l"/>
+        <station name="St-Paterne-&#10;Racan" x="540" y="900" a="t"/>
+        <station name="Château-du-Loir" x="430" y="900" a="t"/>
+        <station name="Écommoy" x="320" y="900" a="b"/>
+
+        <station name="St-Genouph" x="790" y="1220" a="t"/>
+        <station name="Savonnières" x="720" y="1220" a="b"/>
+        <station name="Cinq-Mars-&#10;la-Pile" x="650" y="1220" a="t"/>
+        <station name="Langeais" x="580" y="1220" a="b"/>
+        <station name="St-Patrice" x="510" y="1220" a="t"/>
+        <station name="La Chapelle-&#10;sur-Loire" x="440" y="1220" a="b"/>
+        <station name="Port-Boulet" x="370" y="1220" a="t"/>
+        <station name="Saumur" x="300" y="1220" a="b"/>
+        <station name="Angers &#10;St-Laud" x="230" y="1220" a="t"/>
+        <station name="Ancenis" x="160" y="1220" a="b"/>
+        <station name="Nantes" x="90" y="1220" a="l"/>
+
+        <station name="Étampes" x="1650" y="200"/>
+        <station name="Guillerval" x="1650" y="290"/>
+        <station name="Cercottes" x="1650" y="790"/>
+        <station name="Les Aubrais" x="1650" y="900"/>
+        <station name="Orléans" x="1650" y="970"/>
+
+        <station name="La Chapelle-&#10;St-Mesmin" x="1595" y="970" a="b"/>
+        <station name="Chaingy-&#10;Fourneaux-&#10;Plage" x="1545" y="970" a="t"/>
+        <station name="St-Ay" x="1495" y="970" a="b"/>
+        <station name="Meung-sur-&#10;Loire" x="1445" y="970" a="t"/>
+        <station name="Baule" x="1395" y="970" a="b"/>
+        <station name="Beaugency" x="1345" y="970" a="t"/>
+        <station name="Mer" x="1295" y="970" a="b"/>
+        <station name="Suèvres" x="1230" y="970" a="t"/>
+        <station name="Blois-Chambord" x="1155" y="1045"/>
+        <station name="Onzain-Chaumont Sur Loire" x="1105" y="1095"/>
+        <station name="Amboise" x="1055" y="1145"/>
+        <station name="St-Pierre-des-Corps" x="980" y="1220"/>
+
+        <station name="Vierzon" x="1680" y="1420"/>
+        <station name="Mennetou-&#10;sur-Cher" x="1630" y="1420" a="t"/>
+        <station name="Villefranche-&#10;sur-Cher" x="1590" y="1420" a="b"/>
+        <station name="&#10;Gièvres" x="1540" y="1420" a="l"/>
+        <station name="Selles-&#10;sur-Cher" x="1450" y="1420" a="b"/>
+        <station name="St-Aignan-&#10;Noyers" x="1405" y="1420" a="t"/>
+        <station name="Thésée" x="1360" y="1420" a="b"/>
+        <station name="Montrichard" x="1315" y="1420" a="t"/>
+        <station name="Chissay-en-&#10;Touraine" x="1270" y="1420" a="b"/>
+        <station name="Chenonceaux" x="1225" y="1420" a="t"/>
+        <station name="Bléré-la-&#10;Croix" x="1180" y="1420" a="b"/>
+        <station name="St-Martin-le-Beau" x="1130" y="1370"/>
+        <station name="Azay-sur-Cher" x="1080" y="1320"/>
+        <station name="Véretz-Montlouis" x="1030" y="1270"/>
+
+        <station name="St-Cyr-en-Val" x="1680" y="1000"/>
+        <station name="La Ferté-St-Aubin" x="1680" y="1070"/>
+        <station name="Lamotte-Beuvron" x="1680" y="1140"/>
+        <station name="Nouan-le-Fuzelier" x="1680" y="1210"/>
+        <station name="Salbris" x="1680" y="1280"/>
+        <station name="Theillay" x="1680" y="1350"/>
+
+        <station name="Bourges" x="1930" y="1670" a="l"/>
+        <station name="St-Germain-&#10;du-Puy" x="2000" y="1670" a="t"/>
+        <station name="Avord" x="2070" y="1670" a="t"/>
+        <station name="Bengy" x="2140" y="1670" a="t"/>
+        <station name="Nérondes" x="2210" y="1670" a="t"/>
+        <station name="La Guerche-&#10;sur-l'Aubois" x="2280" y="1670" a="t"/>
+
+        <station name="Paris Gare de Lyon" x="1690" y="50"/>
+        <station name="Nemours-St-Pierre" x="1990" y="350"/>
+        <station name="Gien" x="2040" y="950" a="l"/>
+        <station name="Briare" x="2240" y="950"/>
+        <station name="Cosne" x="2350" y="1250"/>
+        <station name="Nevers" x="2350" y="1670"/>
+
+        <station name="Aubigny-sur-Nère" x="2040" y="1100"/>
+
+        <station name="Chabris" x="1540" y="1490" a="l"/>
+        <station name="Varennes-sur-Fouzon" x="1540" y="1560" a="l"/>
+        <station name="Valençay" x="1540" y="1630" a="l"/>
+
+        <station name="Reuilly" x="1680" y="1490" a="l"/>
+        <station name="Ste-Lizaigne" x="1680" y="1560" a="l"/>
+        <station name="Issoudun" x="1680" y="1630" a="l"/>
+        <station name="Neuvy-Pailloux" x="1680" y="1700" a="l"/>
+        <station name="Châteauroux" x="1680" y="1770"/>
+        <station name="Limoges-Bénédictins" x="1680" y="2470"/>
+
+        <station name="St-Florent-sur-Cher" x="1880" y="1720"/>
+        <station name="Montluçon" x="1880" y="2350"/>
+
+        <station name="Joué-lès-Tours" x="860" y="1290"/>
+        <station name="Ballan" x="810" y="1340" a="l"/>
+        <station name="Druye" x="760" y="1390" a="l"/>
+        <station name="Azay-le-Rideau" x="710" y="1440" a="l"/>
+        <station name="Rivarennes" x="660" y="1490" a="l"/>
+        <station name="Chinon" x="610" y="1540" a="l"/>
+
+        <station name="Monts" x="860" y="1360"/>
+        <station name="Poitiers" x="860" y="2060" a="l"/>
+
+        <station name="Esvres-sur-Indre" x="1010" y="1440"/>
+        <station name="Loches" x="1010" y="1770" a="l"/>
+
+        <station name="St-Gaultier" x="1390" y="2060" a="b"/>
+        <station name="Le Blanc" x="1257" y="2060" a="b"/>
+        <station name="St-Savin" x="1125" y="2060" a="b"/>
+        <station name="Chauvigny" x="992" y="2060" a="b"/>
+
+        <station name="Civray" x="1825" y="1720" a="b"/>
+        <station name="Avail" x="1735" y="1630" a="t"/>
+
+        <station name="Épuisay" x="1060" y="920" a="t"/>
+        <station name="Savigny-&#10;sur-Braye" x="1010" y="920" a="b"/>
+        <station name="Sargé-sur-&#10;Braye" x="960" y="920" a="t"/>
+        <station name="Cormenon" x="910" y="920" a="b"/>
+        <station name="Mondoubleau" x="860" y="920" a="l"/>
+    </stations>
+    <lines>
+        <trainLine name="1.1" color="#3A53A3">
+            <stationRef name="Paris Austerlitz"/><stationRef name="Étampes"/><label offset="1"/><stationRef name="Guillerval"/><autoStation name="Monnerville"/><autoStation name="Angerville"/><autoStation name="Boisseaux"/><autoStation name="Toury"/><autoStation name="Château-Gaillard"/><autoStation name="Artenay"/><autoStation name="Chevilly"/><stationRef name="Cercottes"/><label offset="1"/><stationRef name="Les Aubrais"/><stationRef name="Orléans" mu="1"/>
+        </trainLine>
+        <trainLine name="1.1x" color="#ED028C">
+            <stationRef name="Paris Austerlitz" ml="1"/><label offset="-24"/><label offset="36"/><stationRef name="Les Aubrais" ml="1"/><stationRef name="Orléans" ml="1" mu="1"/>
+        </trainLine>
+        <trainLine name="1.2" color="#3A53A3">
+            <stationRef name="Orléans"/><stationRef name="St-Cyr-en-Val"/><label offset="-2"/><stationRef name="La Ferté-St-Aubin"/><stationRef name="Lamotte-Beuvron"/><stationRef name="Nouan-le-Fuzelier"/><stationRef name="Salbris"/><label offset="-2"/><stationRef name="Theillay"/><stationRef name="Vierzon"/><stationRef name="Reuilly"/><label offset="1"/><stationRef name="Ste-Lizaigne"/><stationRef name="Issoudun"/><label/><stationRef name="Neuvy-Pailloux"/><stationRef name="Châteauroux"/>
+        </trainLine>
+        <trainLine name="1.3" color="#3A53A3">
+            <stationRef name="Vierzon" ml="1"/><stationRef name="Reuilly" ml="1"/><label offset="-1"/><stationRef name="Ste-Lizaigne" ml="1"/><stationRef name="Issoudun" ml="1"/><label offset="-2"/><stationRef name="Neuvy-Pailloux" ml="1"/><stationRef name="Châteauroux" ml="1"/><autoStation name="Luant" ml="1"/><autoStation name="Lothiers" ml="1"/><label/><autoStation name="Chabenet" ml="1"/><autoStation name="Argenton-sur-Creuse" ml="1"/><autoStation name="Éguzon" ml="1"/><label/><autoStation name="St-Sébastien" ml="1"/><autoStation name="La Souterraine" ml="1"/><autoStation name="St-Sulpice-Laurière" ml="1"/><label/><autoStation name="Ambazac" ml="1"/><stationRef name="Limoges-Bénédictins" ml="1"/>
+        </trainLine>
+        <trainLine name="1.4" color="#3A53A3">
+            <stationRef name="Orléans" mr="1.4"/><stationRef name="St-Cyr-en-Val" mr="1" mu="0.4"/><label/><stationRef name="La Ferté-St-Aubin" mr="1"/><stationRef name="Lamotte-Beuvron" mr="1"/><stationRef name="Nouan-le-Fuzelier" mr="1"/><stationRef name="Salbris" mr="1"/><label/><stationRef name="Theillay" mr="1"/><stationRef name="Vierzon" mr="1"/><autoStation name="Vierzon-Forges" mr="1"/><autoStation name="Foëcy" mr="1"/><label/><autoStation name="Mehun-sur-Yèvre" mr="1"/><autoStation name="Marmagne" mr="1"/><stationRef name="Bourges" mr="1"/><stationRef name="St-Germain-du-Puy"/><stationRef name="Avord"/><stationRef name="Bengy"/><label offset="-1"/><stationRef name="Nérondes"/><stationRef name="La Guerche-sur-l'Aubois"/><stationRef name="Nevers"/>
+        </trainLine>
+        <trainLine name="1.4x" color="#ED028C">
+            <stationRef name="Paris Austerlitz" mr="1"/><label offset="-20"/><label offset="40"/><stationRef name="Les Aubrais" mr="1"/><point station="Orléans" mr="1" mu="1.8"/><point station="St-Cyr-en-Val" mr="2" mu="0.8"/><label offset="-8.5"/><stationRef name="Salbris" mr="2"/><label offset="-1.5"/><stationRef name="Vierzon" mr="2" mu="0.4"/><label offset="1.3"/><stationRef name="Bourges" mr="1.4" mu="1"/><label offset="-2"/><stationRef name="Nevers" mu="1"/>
+        </trainLine>
+
+        <trainLine name="2.1" color="#3A53A3">
+            <stationRef name="Orléans" ml="1"/><stationRef name="La Chapelle-St-Mesmin"/><stationRef name="Chaingy-Fourneaux-Plage"/><stationRef name="St-Ay"/><stationRef name="Meung-sur-Loire"/><stationRef name="Baule"/><stationRef name="Beaugency"/><stationRef name="Mer"/><label offset="1"/><stationRef name="Suèvres"/><autoStation name="Ménars"/><autoStation name="La Chaussée-St-Victor"/><stationRef name="Blois-Chambord"/><autoStation name="Chouzy"/><stationRef name="Onzain-Chaumont Sur Loire"/><autoStation name="Veuves-Monteaux"/><autoStation name="Limeray"/><stationRef name="Amboise"/><autoStation name="Noizay"/><autoStation name="Montlouis sur Loire"/><stationRef name="St-Pierre-des-Corps"/><label/><stationRef name="Tours"/><label offset="1"/><stationRef name="Saumur"/><stationRef name="Angers St-Laud"/><stationRef name="Ancenis"/><label/><stationRef name="Nantes"/>
+        </trainLine>
+        <trainLine name="2.1x" color="#ED028C">
+            <stationRef name="Paris Austerlitz" ml="2"/><label offset="-26"/><label offset="34"/><stationRef name="Les Aubrais" ml="2"/><point x="1650" y="940" ml="2" md="2"/><point x="1620" y="970" mr="1" mu="1"/><label offset="7.8"/><point station="Suèvres" ml="0.4" mu="1"/><stationRef name="Blois-Chambord" mul="1"/><stationRef name="Onzain-Chaumont Sur Loire" mul="1"/><stationRef name="Amboise" mul="1"/><stationRef name="St-Pierre-des-Corps" ml="0.4" mu="1"/><label offset="1.5"/><stationRef name="Tours" mr="0.5" mu="1"/>
+        </trainLine>
+        <trainLine name="2.2" color="#3A53A3">
+            <stationRef name="Nevers" md="1"/><label offset="2"/><stationRef name="Avord" md="1"/><stationRef name="Bourges" mr="0.6" md="1"/><label offset="1.8"/><point station="Vierzon" mr="0.6" md="1"/><stationRef name="Vierzon" ml="2" md="1"/><label/><stationRef name="Mennetou-sur-Cher" md="1"/><stationRef name="Villefranche-sur-Cher" md="1"/><stationRef name="Gièvres" ml="2" md="1"/><label/><stationRef name="Selles-sur-Cher" md="1"/><stationRef name="St-Aignan-Noyers" md="1"/><stationRef name="Thésée" md="1"/><label/><stationRef name="Montrichard" md="1"/><stationRef name="Chissay-en-Touraine" md="1"/><stationRef name="Chenonceaux" md="1"/><label/><stationRef name="Bléré-la-Croix" md="1"/><stationRef name="St-Martin-le-Beau" md="1"/><label/><stationRef name="Azay-sur-Cher" md="1"/><stationRef name="Véretz-Montlouis" md="1"/><stationRef name="St-Pierre-des-Corps" md="1"/><label offset="-2"/><stationRef name="Tours" mr="0.5" md="1"/>
+        </trainLine>
+        <trainLine name="2.3" color="#3A53A3">
+            <stationRef name="Tours" mr="1" md="2"/><stationRef name="Joué-lès-Tours" mr="1"/><point station="Joué-lès-Tours" mr="1" md="1"/><autoStation name="Montbazon"/><label/><autoStation name="Veigné"/><stationRef name="Esvres-sur-Indre"/><autoStation name="Truyes"/><label/><autoStation name="Cormery"/><autoStation name="Courçay"/><autoStation name="Reignac"/><label/><autoStation name="Chambourg" a="l"/><stationRef name="Loches"/>
+        </trainLine>
+        <busLine name="2.4" color="#2EAB49">
+            <stationRef name="Loches" mr="1"/><autoStation name="Perrusson" a="b"/><label/><autoStation name="St-Jean-&#10;St-Germain" a="t"/><autoStation name="Verneuil" a="b"/><autoStation name="Bridoré" a="t"/><autoStation name="Fléré-la-&#10;Rivière" a="b"/><autoStation name="Châtillon" a="t"/><autoStation name="Clion sur &#10;Indre" a="b"/><autoStation name="Le &#10;Tranger" a="t"/><label/><autoStation name="Palluau" a="b"/><autoStation name="St-Genou" a="t"/><autoStation name="Buzançais" a="b"/><autoStation name="St-&#10;Lactencin" a="t"/><autoStation name="Villedieu" a="b"/><autoStation name="Mehun" a="t"/><autoStation name="Niherne" a="b"/><label/><autoStation name="Surins" a="t"/><stationRef name="Châteauroux" ml="2"/>
+        </busLine>
+        <trainLine name="2.5" color="#3A53A3">
+            <stationRef name="Tours" md="2"/><stationRef name="Monts"/><label/><autoStation name="Villeperdue"/><autoStation name="Ste-Maure-&#10;Noyant" a="l"/><autoStation name="Maillé" a="l"/><label/><autoStation name="Port-de-Piles" a="l"/><autoStation name="Les Ormes-sur-Vienne" a="l"/><autoStation name="Dangé-St-Romain" a="l"/><label/><autoStation name="Ingrandes-sur-Vienne" a="l"/><autoStation name="Châtellerault" a="l"/><autoStation name="Futuroscope" a="l"/><label/><stationRef name="Poitiers"/>
+        </trainLine>
+        <trainLine name="2.6" color="#3A53A3">
+            <stationRef name="Angers St-Laud" md="1"/><stationRef name="Saumur" md="1"/><stationRef name="Port-Boulet" md="1"/><stationRef name="La Chapelle-sur-Loire" md="1"/><stationRef name="St-Patrice" md="1"/><label offset="-1"/><stationRef name="Langeais" md="1"/><stationRef name="Cinq-Mars-la-Pile" md="1"/><stationRef name="Savonnières" md="1"/><stationRef name="St-Genouph" md="1"/><stationRef name="Tours" ml="0.5" md="1"/>
+        </trainLine>
+        <trainLine name="2.7" color="#3A53A3">
+            <stationRef name="Tours" ml="1" md="2"/><stationRef name="Joué-lès-Tours" ml="1"/><point station="Joué-lès-Tours" ml="1" md="1"/><stationRef name="Ballan"/><label/><stationRef name="Druye"/><stationRef name="Azay-le-Rideau"/><stationRef name="Rivarennes"/><label/><stationRef name="Chinon"/>
+        </trainLine>
+        <trainLine name="2.8" color="#3A53A3">
+            <stationRef name="Le Mans" mr="2" mu="1"/><label/><stationRef name="Écommoy" mr="1" mu="1"/><stationRef name="Château-du-Loir" mr="1" mu="1"/><stationRef name="St-Paterne-Racan" mr="1" mu="1"/><label/><stationRef name="Neuillé Pont Pierre" mr="1" mu="1"/><stationRef name="St-Antoine-du-Rocher" mr="1" mu="1"/><label/><stationRef name="Tours" mu="2"/>
+        </trainLine>
+        <trainLine name="2.9" color="#3A53A3">
+            <stationRef name="Chartres" md="1"/><label/><stationRef name="Voves" ml="1"/><label offset="1"/><stationRef name="Bonneval" ml="1"/><stationRef name="Châteaudun" ml="1"/><stationRef name="Cloyes-sur-le-Loir" ml="1"/><label offset="1"/><stationRef name="Fréteval-Morée" ml="1"/><stationRef name="Pezou" ml="1"/><label offset="1"/><stationRef name="Vendôme" ml="1"/><label/><stationRef name="St-Amand-de-Vendôme" ml="1"/><stationRef name="Château-Renault" ml="1"/><stationRef name="Monnaie" ml="1"/><stationRef name="Notre-Dame-d'Oé" ml="1"/><label/><stationRef name="Tours" mr="1" mu="2"/>
+        </trainLine>
+        <trainLine name="2.10" color="#3A53A3">
+            <stationRef name="Paris Austerlitz" ml="3"/><point x="1650" y="150" ml="3" md="3"/><label/><stationRef name="Dourdan"/><label/><stationRef name="Auneau"/><label/><stationRef name="Voves"/><label offset="-1"/><stationRef name="Bonneval"/><stationRef name="Châteaudun"/><stationRef name="Cloyes-sur-le-Loir"/><label offset="-1"/><stationRef name="Fréteval-Morée" md="0.4"/><stationRef name="Pezou" ml="0.3" md="0.7"/><label offset="-1"/><stationRef name="Vendôme" ml="0.3" md="0.7"/>
+        </trainLine>
+
+        <trainLine name="3.1" color="#3A53A3">
+            <stationRef name="Chartres" ml="1" md="1"/><label/><stationRef name="Lucé"/><stationRef name="La Taye"/><stationRef name="Bailleau-le-Pin"/><label/><stationRef name="Magny-Blandainville"/><stationRef name="Illiers-Combray"/><stationRef name="Brou"/><label/><stationRef name="Arrou"/><stationRef name="Courtalain-St-Pellerin"/>
+        </trainLine>
+        <trainLine name="3.2" color="#3A53A3">
+            <stationRef name="Paris Montparnasse"/><stationRef name="Versailles Chantiers"/><label/><stationRef name="Rambouillet"/><stationRef name="Gazeran"/><stationRef name="Épernon"/><label/><stationRef name="Maintenon"/><stationRef name="St-Piat"/><stationRef name="Jouy"/><label/><stationRef name="La Villette-St-Prest"/><stationRef name="Chartres"/><label/><autoStation name="Amilly &#10;Ouerray" a="t"/><autoStation name="St-Aubin-St-Luperce" a="b"/><stationRef name="Courville-sur-Eure"/><label/><autoStation name="Pontgouin" a="b"/><stationRef name="La Loupe"/><autoStation name="Bretoncelles" a="b"/><label/><autoStation name="Condé-sur-Huisne" a="t"/><stationRef name="Nogent-le-Rotrou"/><autoStation name="Le Theil-la-Rouge"/><label/><autoStation name="La Ferté-Bernard"/><autoStation name="Sceaux-Boëssé"/><autoStation name="Connerré-Beillé"/><label/><autoStation name="Montfort-le-Gesnois"/><autoStation name="St-Mars-la-Brière"/><autoStation name="Champagné"/><label/><stationRef name="Le Mans" mr="2" mu="2"/>
+        </trainLine>
+
+        <trainLine name="4.1" color="#3A53A3">
+            <stationRef name="Bourges" mdl="1"/><stationRef name="St-Florent-sur-Cher"/><label/><autoStation name="Lunery"/><autoStation name="Châteauneuf-sur-Cher"/><label/><autoStation name="Bigny"/><autoStation name="St-Amand-Montrond-Orval"/><autoStation name="Urçay"/><label/><autoStation name="Vallon-en-Sully"/><autoStation name="Magnette"/><autoStation name="Les Trillers"/><label/><stationRef name="Montluçon"/>
+        </trainLine>
+        <busLine name="4.2" color="#2EAB49">
+            <stationRef name="Bourges" ml="1.4"/><autoStation name="Le Subdray" a="l" mul="1"/><stationRef name="St-Florent-sur-Cher" mul="1"/><label/><stationRef name="Civray" mul="1"/><autoStation name="Chârost"/><stationRef name="Avail"/><label/><stationRef name="Issoudun" mr="1"/><label offset="2"/><stationRef name="Neuvy-Pailloux" mr="1"/><autoStation name="Montierchaume" mr="1"/><autoStation name="Déols" mr="1"/><stationRef name="Châteauroux" mr="1"/>
+        </busLine>
+        <busLine name="4.3" color="#2EAB49">
+            <stationRef name="Poitiers" mr="1"/><label/><stationRef name="Chauvigny"/><stationRef name="St-Savin"/><label/><stationRef name="Le Blanc"/><stationRef name="St-Gaultier" ml="1"/><label offset="-2"/><stationRef name="Châteauroux" ml="2" md="1"/>
+        </busLine>
+
+        <busLine name="5" color="#2EAB49">
+            <stationRef name="Vendôme" ml="1.7" mu="0.7"/><label/><stationRef name="Épuisay" ml="1"/><stationRef name="Savigny-sur-Braye"/><stationRef name="Sargé-sur-Braye"/><label/><stationRef name="Cormenon"/><stationRef name="Mondoubleau"/>
+        </busLine>
+
+        <trainLine name="6.1x" color="#ED028C">
+            <stationRef name="Paris Gare de Lyon"/><label/><stationRef name="Nemours-St-Pierre"/><autoStation name="Montargis"/><autoStation name="Nogent-sur-Vernisson"/><label/><point x="1990" y="900"/><stationRef name="Gien"/><stationRef name="Briare"/><point x="2350" y="1060"/><stationRef name="Cosne"/><label/><autoStation name="Tracy-Sancerre"/><autoStation name="Pouilly-sur-Loire"/><autoStation name="La Charité-sur-Loire"/><label/><autoStation name="Pougues-les-Eaux"/><autoStation name="Fourchambault"/><stationRef name="Nevers" mu="2"/>
+        </trainLine>
+        <busLine name="6.2" color="#2EAB49">
+            <stationRef name="Cosne" mdl="1"/><autoStation name="Bannay"/><autoStation name="St-Satur"/><label/><autoStation name="Sancerre"/><stationRef name="Bourges" mr="2" mu="2"/>
+        </busLine>
+        <busLine name="6.3" color="#2EAB49">
+            <stationRef name="Gien" md="1"/><autoStation name="Coullons"/><label/><autoStation name="Argent-sur-Sauldre"/><stationRef name="Aubigny-sur-Nère"/>
+        </busLine>
+
+        <trainLine name="7" color="#3A53A3">
+            <stationRef name="Salbris" ml="1"/><autoStation name="La Ferté-Imbault" a="l" ml="1"/><autoStation name="Selles-St-Denis" a="l" ml="1"/><autoStation name="Loreux" a="l" ml="1"/><autoStation name="Villeherviers" a="l" ml="1"/><autoStation name="Faubourg-d'Orléans" a="l" ml="1"/><label/><autoStation name="Romorantin-Blanc-Argent" a="l" ml="1"/><autoStation name="Les Quatre-Roues" a="l" ml="1"/><autoStation name="Base Aérienne" a="l" ml="1"/><autoStation name="Pruniers" a="l" ml="1"/><stationRef name="Gièvres" ml="1"/><stationRef name="Chabris" ml="1"/><label/><stationRef name="Varennes-sur-Fouzon" ml="1"/><stationRef name="Valençay" ml="1"/>
+        </trainLine>
+
+        <walkingLine>
+            <stationRef name="Paris Montparnasse"/>
+            <stationRef name="Paris Austerlitz"/>
+            <stationRef name="Paris Gare de Lyon"/>
+        </walkingLine>
+    </lines>
+    <background>
+        <river points="650 1250, 715 1185, 1050 1185, 1250 985, 2200 985, 2300 1085, 2300 1650, 2350 1700, r 1700"/>
+        <river points="l 1250, 980 1250, 1180 1450, 1690 1450, 1850 1610, 1850 1720, 1900 1770, 1900 2300, 1850 2350, 1850 b"/>
+        <boundary points="1410 225, 1610 425, 2125 425, 2300 600, 2300 1800, 2000 2100, 1800 2100, 1750 2150, 1320 2150, 770 1600, 600 1600, 350 1350, 350 1100, 500 950, 500 775, 1050 225"/>
+    </background>
+</place>

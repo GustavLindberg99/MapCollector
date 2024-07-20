@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/newGameButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/newbutton"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/exitGame"/>
+
+        <ImageButton
+            android:id="@+id/pauseButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/pause"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/pause"/>
+
+        <ImageButton
+            android:id="@+id/fastForwardButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/fast_forward"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/fastForward"/>
+
+        <ImageButton
+            android:id="@+id/helpButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/help"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/help"/>
+
+        <ImageButton
+            android:id="@+id/aboutButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/info"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/about"/>
+
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

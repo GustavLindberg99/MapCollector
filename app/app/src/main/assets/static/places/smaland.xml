@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<place>
+  <stations>
+    <station name="Halmstad" x="50" y="1200"/>
+    <station name="Oskarström" x="100" y="1150"/>
+    <station name="Torup" x="150" y="1100"/>
+    <station name="Kinnared" x="200" y="1050"/>
+    <station name="Landeryd" x="250" y="1000"/>
+    <station name="Smålandsstenar" x="300" y="950" a="l"/>
+    <station name="Reftele" x="350" y="900" a="l"/>
+    <station name="Bredaryd" x="400" y="850" a="l"/>
+    <station name="Forsheda" x="450" y="800" a="l"/>
+    <station name="Värnamo" x="500" y="750" a="l"/>
+    <station name="Klevshult" x="500" y="680" a="l"/>
+    <station name="Skillingaryd" x="500" y="610" a="l"/>
+    <station name="Vaggeryd" x="500" y="540" a="l"/>
+    <station name="Jönköping" x="500" y="220" a="l"/>
+    <station name="Huskvarna" x="580" y="220" a="t"/>
+    <station name="Tenhult" x="660" y="220" a="t"/>
+    <station name="Forserum" x="740" y="220" a="t"/>
+
+    <station name="Hok" x="600" y="440"/>
+    <station name="Malmbäck" x="700" y="340"/>
+    <station name="Nässjö" x="820" y="220" a="t"/>
+    <station name="Aneby" x="860" y="180"/>
+    <station name="Tranås" x="910" y="130"/>
+    <station name="Boxholm" x="950" y="90"/>
+
+    <station name="Motala" x="700" y="50" a="t"/>
+    <station name="Skänninge" x="845" y="50" a="t"/>
+    <station name="Mjölby" x="990" y="50" a="t"/>
+    <station name="Mantorp" x="1103" y="50" a="t"/>
+
+    <station name="Stensjön" x="870" y="270"/>
+    <station name="Björköby" x="920" y="320"/>
+    <station name="Ekenässjön" x="970" y="370"/>
+    <station name="Vetlanda" x="1020" y="420"/>
+
+    <station name="Brinellskolan" x="950" y="220" a="t"/>
+    <station name="Ormaryd" x="1020" y="220" a="b"/>
+    <station name="Eksjö" x="1090" y="220" a="t"/>
+
+    <station name="Rörstorp" x="580" y="830"/>
+    <station name="Bor" x="660" y="910" a="l"/>
+    <station name="Rydaholm" x="740" y="990" a="l"/>
+
+    <station name="Bodafors" x="820" y="420"/>
+    <station name="Sävsjö" x="820" y="550"/>
+    <station name="Stockaryd" x="820" y="680"/>
+    <station name="Lammhult" x="820" y="810"/>
+    <station name="Moheda" x="820" y="940"/>
+    <station name="Alvesta" x="820" y="1070" a="l"/>
+    <station name="Gemla" x="900" y="1070" a="t"/>
+    <station name="Växjö" x="980" y="1070" a="t"/>
+    <station name="Hovmantorp" x="1080" y="1170"/>
+    <station name="Lessebo" x="1180" y="1270" a="l"/>
+    <station name="Emmaboda" x="1300" y="1270" a="t"/>
+    <station name="Örsjö" x="1360" y="1270" a="b"/>
+    <station name="Nybro" x="1420" y="1270" a="t"/>
+    <station name="Trekanten" x="1470" y="1270" a="b"/>
+    <station name="Smedby" x="1540" y="1270" a="b"/>
+    <station name="Kalmar" x="1590" y="1270"/>
+
+    <station name="Blomstermåla" x="1400" y="1080" a="l"/>
+    <station name="Tannefors" x="1400" y="120" a="l"/>
+    <station name="Kisa" x="1400" y="290" a="l"/>
+    <station name="Linköping" x="1330" y="50" a="t"/>
+    <station name="Norrköping" x="1670" y="50" a="t"/>
+
+    <station name="Åtvidaberg" x="1500" y="220"/>
+    <station name="Gamleby" x="1500" y="430"/>
+    <station name="Västervik" x="1590" y="520"/>
+
+    <station name="Vislanda" x="820" y="1120" a="l"/>
+    <station name="Diö" x="820" y="1190" a="l"/>
+    <station name="Älmhult" x="820" y="1240" a="l"/>
+    <station name="Killeberg" x="820" y="1300" a="l"/>
+    <station name="Osby" x="820" y="1360" a="l"/>
+    <station name="Hästveda" x="820" y="1410" a="l"/>
+    <station name="Ballingslöv" x="820" y="1480" a="l"/>
+    <station name="Hässleholm" x="820" y="1530" a="l"/>
+    <station name="Höör" x="720" y="1630"/>
+    <station name="Eslöv" x="620" y="1730"/>
+    <station name="Lund C" x="520" y="1830"/>
+    <station name="Malmö C" x="400" y="1830" a="l"/>
+
+    <station name="Bergåsa" x="1380" y="1530"/>
+    <station name="Karlskrona" x="1430" y="1580"/>
+
+    <station name="Holmsjö" x="1300" y="1450"/>
+    <station name="Vissefjärda" x="1300" y="1360"/>
+  </stations>
+  <lines>
+    <trainLine name="Ø" color="#8e9091">
+      <stationRef name="Malmö C" mr="1"/><stationRef name="Lund C" mr="1"/><stationRef name="Eslöv" mr="1"/><label/><stationRef name="Höör" mr="1"/><stationRef name="Hässleholm" mr="1"/><label offset="-1"/><stationRef name="Osby" mr="1"/><stationRef name="Älmhult" mr="1"/><label offset="-1"/><stationRef name="Alvesta" mr="1" md="1"/><label offset="-7"/><stationRef name="Växjö" md="1"/><stationRef name="Hovmantorp" ml="1"/><label offset="1"/><stationRef name="Lessebo" ml="1"/><stationRef name="Emmaboda"/><stationRef name="Nybro"/><label offset="1"/><stationRef name="Kalmar"/>
+    </trainLine>
+    <trainLine name="ÖG" color="#faa633">
+      <branch>
+        <stationRef name="Tranås" mur="1"/><label/><stationRef name="Boxholm"/>
+      </branch>
+      <branch>
+        <stationRef name="Motala"/><label/><stationRef name="Skänninge"/>
+      </branch>
+      <stationRef name="Mjölby"/><stationRef name="Mantorp"/><label/><autoStation name="Vikingstad" a="t"/><stationRef name="Linköping"/><autoStation name="Linghem" a="t"/><label/><autoStation name="Kimstad" a="t"/><stationRef name="Norrköping"/>
+    </trainLine>
+
+    <trainLine name="79" color="#ee1c25">
+      <stationRef name="Jönköping" mr="1" mu="1"/><stationRef name="Huskvarna" mu="1"/><stationRef name="Tenhult" mu="1"/><label offset="-1"/><stationRef name="Forserum" mu="1"/><stationRef name="Nässjö" mu="1"/><point station="Nässjö" mr="1" mu="1"/><stationRef name="Aneby"/><label/><stationRef name="Tranås"/>
+    </trainLine>
+    <trainLine name="83" color="#ee1c25">
+      <stationRef name="Västervik"/><autoStation name="Tjustskolan"/><label/><stationRef name="Gamleby"/><autoStation name="Överrums bruk"/><autoStation name="Falerum"/><stationRef name="Åtvidaberg"/><label/><autoStation name="Basthagen"/><stationRef name="Tannefors" mdr="1"/><stationRef name="Linköping" mdr="1"/>
+    </trainLine>
+    <trainLine name="84" color="#ee1c25">
+      <stationRef name="Kalmar" mu="1"/><label/><stationRef name="Blomstermåla" mu="1"/><autoStation name="Högsby" a="l"/><label/><autoStation name="Berga" a="l"/><autoStation name="Hultsfred" a="l"/><autoStation name="Vimmerby" a="l"/><label/><autoStation name="Astrid Lindgrens värld" a="l"/><stationRef name="Kisa"/><autoStation name="Rimforsa" a="l"/><label/><stationRef name="Tannefors" md="1.4"/><stationRef name="Linköping" md="1.4"/>
+    </trainLine>
+    <trainLine name="85" color="#ee1c25">
+      <stationRef name="Jönköping" mr="1"/><stationRef name="Huskvarna"/><stationRef name="Tenhult"/><label offset="1"/><stationRef name="Forserum"/><stationRef name="Nässjö"/><stationRef name="Brinellskolan"/><label/><stationRef name="Ormaryd"/><stationRef name="Eksjö"/>
+    </trainLine>
+    <trainLine name="86" color="#ee1c25">
+      <stationRef name="Halmstad"/><stationRef name="Oskarström"/><label/><stationRef name="Torup"/><stationRef name="Kinnared"/><stationRef name="Landeryd"/><label/><stationRef name="Smålandsstenar"/><stationRef name="Reftele"/><stationRef name="Bredaryd"/><label/><stationRef name="Forsheda"/><stationRef name="Värnamo"/><label offset="1"/><stationRef name="Klevshult"/><stationRef name="Skillingaryd"/><label offset="1"/><stationRef name="Vaggeryd"/><stationRef name="Hok"/><label/><stationRef name="Malmbäck"/><stationRef name="Nässjö" ml="1" md="1"/>
+    </trainLine>
+    <trainLine name="87" color="#ee1c25">
+      <stationRef name="Växjö" mu="1"/><stationRef name="Gemla" mu="1"/><label/><stationRef name="Alvesta" mu="1"/><label/><stationRef name="Rydaholm" mu="1"/><stationRef name="Bor" mu="1"/><stationRef name="Rörstorp" mr="1"/><label/><stationRef name="Värnamo" mr="1"/><label offset="-1"/><stationRef name="Klevshult" mr="1"/><stationRef name="Skillingaryd" mr="1"/><label offset="-1"/><stationRef name="Vaggeryd" mr="1"/><autoStation name="Månsarp" a="l" mr="1"/><label/><autoStation name="Taberg" a="l" mr="1"/><autoStation name="Norrahammar" a="l" mr="1"/><autoStation name="Hovslätt" a="l" mr="1"/><label/><autoStation name="Rocksjön" a="l" mr="1"/><stationRef name="Jönköping" mr="1" md="1"/>
+    </trainLine>
+    <trainLine name="88" color="#ee1c25">
+      <stationRef name="Nässjö" mr="1" md="1"/><stationRef name="Stensjön"/><stationRef name="Björköby"/><label/><stationRef name="Ekenässjön"/><stationRef name="Vetlanda"/>
+    </trainLine>
+    <trainLine name="89" color="#ee1c25">
+      <stationRef name="Nässjö" md="1"/><label/><stationRef name="Bodafors"/><stationRef name="Sävsjö"/><stationRef name="Stockaryd"/><label/><stationRef name="Lammhult"/><stationRef name="Moheda"/><label/><stationRef name="Alvesta" mu="2"/><label offset="-2"/><stationRef name="Gemla" mu="2"/><stationRef name="Växjö" mu="2"/>
+    </trainLine>
+    <trainLine name="92" color="#ee1c25">
+      <stationRef name="Hässleholm"/><stationRef name="Ballingslöv"/><label offset="1"/><stationRef name="Hästveda"/><stationRef name="Osby"/><stationRef name="Killeberg"/><stationRef name="Älmhult"/><stationRef name="Diö"/><label offset="1"/><stationRef name="Vislanda"/><stationRef name="Alvesta"/><label offset="2"/><stationRef name="Gemla"/><stationRef name="Växjö"/>
+    </trainLine>
+    <trainLine name="97" color="#ee1c25">
+      <stationRef name="Emmaboda" md="2"/><label/><stationRef name="Vissefjärda"/><stationRef name="Holmsjö"/><label/><stationRef name="Bergåsa"/><stationRef name="Karlskrona"/>
+    </trainLine>
+    <trainLine name="98" color="#ee1c25">
+      <stationRef name="Kalmar" md="1"/><stationRef name="Smedby" md="1"/><label offset="1"/><stationRef name="Trekanten" md="1"/><stationRef name="Nybro" md="1"/><stationRef name="Örsjö" md="1"/><stationRef name="Emmaboda" md="1"/><stationRef name="Lessebo" ml="1.4" md="1"/><label offset="1"/><stationRef name="Hovmantorp" ml="1.7" md="0.7"/><stationRef name="Växjö" ml="0.4" md="2"/>
+    </trainLine>
+  </lines>
+  <background width="1900">
+    <sea points="l b, r b, r 0, 1800 0, 1600 200, 1600 1500, 1500 1600, 1000 1600, 900 1700, 900 1900, 380 1900, 380 1700, 30 1350, 30 t, l t"/>
+    <sea points="460 t, 460 180, 480 200, 520 200, 540 180, 540 t"/><!-- Vättern -->
+    <boundary points="r 320, 1370 320, 1150 100, 480 100, 280 300, 280 1080, 460 1260, 1060 1260, 1200 1400, r 1400"/>
+    <zone name="Jönköping" color="1" points="l t, l b, r b, r t"/>
+    <zone name="Kronoberg" color="3" points="l 1050, 750 1050, 800 1000, 800 800, 900 700, r 700, r b, l b"/>
+    <zone name="Kalmar" color="2" points="r t, r b, 1200 b, 1200 t"/>
+  </background>
+</place>

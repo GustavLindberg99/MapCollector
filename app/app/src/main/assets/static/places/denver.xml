@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<place>
+  <stations>
+    <station name="Union Station" x="600" y="550" a="left" w="3" h="2"/>
+
+    <station name="41st/Fox" x="600" y="420" a="left"/>
+    <station name="Pecos &#10;Junction" x="600" y="350" a="right"/>
+    <station name="Clear Creek/&#10;Federal" x="550" y="300" a="top"/>
+    <station name="Wheat Ridge-Ward" x="270" y="300" a="left"/>
+    <station name="Westminster" x="600" y="230" a="top"/>
+
+    <station name="Ball Arena-Elitch Gardens" x="600" y="620" a="left"/>
+    <station name="Empower Field at Mile High" x="600" y="690" a="left"/>
+    <station name="Auraria West" x="600" y="750" a="left"/>
+    <station name="Decatur-&#10;Federal" x="550" y="800" a="right"/>
+    <station name="Jeffco &#10;Government &#10;Center-&#10;Golden" x="50" y="800" a="top"/>
+
+    <station name="30th/Downing" x="750" y="540" a="right"/>
+    <station name="20th/Welton" x="870" y="660" a="right"/>
+    <station name="18th/California" x="870" y="710" a="right"/>
+    <station name="16th/California" x="870" y="740" a="right"/>
+    <station name="18th/Stout" x="850" y="700" a="left"/>
+    <station name="16th/Stout" x="850" y="730" a="left"/>
+    <station name="Theatre District-Convention Center" x="850" y="800" a="right"/>
+    <station name="Colfax at &#10;Auraria" x="820" y="830" a="bottom"/>
+    <station name="10th/Osage" x="700" y="850" a="right"/>
+    <station name="Alameda" x="700" y="920" a="right"/>
+    <station name="I25/Broadway" x="700" y="990" a="right"/>
+    <station name="Evans" x="650" y="1040" a="left"/>
+    <station name="Englewood" x="650" y="1140" a="left"/>
+    <station name="Oxford-City of Sheridan" x="650" y="1240" a="left"/>
+    <station name="Littleton Downtown" x="650" y="1340" a="left"/>
+    <station name="Littleton-Mineral" x="650" y="1440" a="left" default=""/>
+
+    <station name="Louisiana/Pearl" x="750" y="1040" a="right"/>
+    <station name="University of Denver" x="800" y="1090" a="right"/>
+    <station name="Colorado" x="850" y="1140" a="right"/>
+    <station name="Yale" x="900" y="1190" a="right"/>
+    <station name="Southmoor" x="950" y="1240" a="left"/>
+    <station name="Belleview" x="1020" y="1310" a="right"/>
+    <station name="Orchard" x="1020" y="1380" a="right"/>
+    <station name="Arapahoe at Village Center" x="1020" y="1450" a="right"/>
+    <station name="Dry Creek" x="1020" y="1520" a="right"/>
+    <station name="County Line" x="1020" y="1590" a="right"/>
+    <station name="Lincoln" x="1020" y="1660" a="right"/>
+    <station name="Sky Ridge" x="1020" y="1730" a="right"/>
+    <station name="Lone Tree City Center" x="1020" y="1800" a="right"/>
+    <station name="RidgeGate Parkway" x="1020" y="1870" a="right"/>
+
+    <station name="Dayton" x="1090" y="1240" a="right"/>
+    <station name="Nine Mile" x="1190" y="1140" a="right"/>
+    <station name="Iliff" x="1190" y="1060" a="right"/>
+    <station name="Florida" x="1190" y="980" a="right"/>
+    <station name="Fitzsimons" x="1190" y="590" a="right"/>
+
+    <station name="48th/Brighton - National Western Center" x="650" y="420" a="right"/>
+    <station name="Commerce City-72nd" x="700" y="370" a="right"/>
+    <station name="Eastlake-124th" x="700" y="130" a="right"/>
+
+    <station name="38th/Blake" x="680" y="470" a="top"/>
+    <station name="40th/Colorado" x="870" y="470" a="top"/>
+    <station name="Central Park" x="970" y="470" a="top"/>
+    <station name="Peoria" x="1070" y="470" a="top"/>
+    <station name="40th Ave/Airport Blvd &#10;Gateway Park" x="1150" y="450" a="right"/>
+    <station name="61st/Pena" x="1200" y="400" a="right"/>
+    <station name="Denver Airport" x="1250" y="350" a="right"/>
+  </stations>
+  <lines>
+    <trainLine name="A" color="#52C1E9">
+      <stationRef name="Union Station" mr="1"/><stationRef name="38th/Blake" mr="1"/><label/><stationRef name="40th/Colorado"/><stationRef name="Central Park"/><stationRef name="Peoria"/><point x="1130" y="470"/><stationRef name="40th Ave/Airport Blvd Gateway Park"/><label/><stationRef name="61st/Pena"/><stationRef name="Denver Airport"/>
+    </trainLine>
+    <trainLine name="B" color="#4B9C2E">
+      <stationRef name="Union Station"/><label offset="1"/><stationRef name="41st/Fox"/><stationRef name="Pecos Junction"/><label/><stationRef name="Westminster"/>
+    </trainLine>
+    <trainLine name="D" color="#007935">
+      <oneWay>
+        <stationRef name="18th/California"/>
+        <point x="870" y="700"/>
+      </oneWay>
+      <oneWay>
+        <stationRef name="16th/California"/>
+        <stationRef name="18th/Stout"/>
+      </oneWay>
+      <oneWay>
+        <point x="850" y="740"/>
+        <stationRef name="16th/Stout"/>
+      </oneWay>
+      <stationRef name="Theatre District-Convention Center"/><stationRef name="Colfax at Auraria"/><label offset="1"/><point x="720" y="830" ml="1"/><stationRef name="10th/Osage" ml="1"/><stationRef name="Alameda" ml="1"/><stationRef name="I25/Broadway" ml="1" mu="0.3"/><stationRef name="Evans" mu="1.3"/><label/><stationRef name="Englewood"/><stationRef name="Oxford-City of Sheridan"/><stationRef name="Littleton Downtown"/><label/><stationRef name="Littleton-Mineral"/>
+    </trainLine>
+    <trainLine name="E" color="#691F75">
+      <stationRef name="Union Station"/><stationRef name="Ball Arena-Elitch Gardens"/><label offset="-1"/><stationRef name="Empower Field at Mile High"/><stationRef name="Auraria West"/><label/><stationRef name="10th/Osage"/><stationRef name="Alameda"/><stationRef name="I25/Broadway" mu="0.4"/><point station="I25/Broadway"/><stationRef name="Louisiana/Pearl"/><stationRef name="University of Denver"/><label offset="-1"/><stationRef name="Colorado"/><stationRef name="Yale"/><stationRef name="Southmoor"/><label/><stationRef name="Belleview" ml="0.5" mu="0.5"/><stationRef name="Orchard" ml="0.5"/><stationRef name="Arapahoe at Village Center" ml="0.5"/><stationRef name="Dry Creek" ml="0.5"/><stationRef name="County Line" ml="0.5"/><label offset="-1"/><stationRef name="Lincoln" ml="0.5"/><stationRef name="Sky Ridge" ml="0.5"/><label/><stationRef name="Lone Tree City Center" ml="0.5"/><stationRef name="RidgeGate Parkway" ml="0.5"/>
+    </trainLine>
+    <trainLine name="G" color="#F5B321">
+      <stationRef name="Union Station" ml="1"/><label offset="-1"/><stationRef name="41st/Fox" ml="1"/><stationRef name="Pecos Junction" ml="1"/><label/><stationRef name="Clear Creek/Federal" ml="1"/><autoStation name="60th/Sheridan &#10;Arvada Gold Strike" a="b"/><autoStation name="Olde Town Arvada" a="t"/><autoStation name="Arvada Ridge" a="b"/><label/><stationRef name="Wheat Ridge-Ward"/>
+    </trainLine>
+    <trainLine name="H" color="#0055B7">
+      <oneWay>
+        <stationRef name="18th/California" ml="1"/>
+        <point x="870" y="700" ml="1" md="1"/>
+      </oneWay>
+      <oneWay>
+        <stationRef name="16th/California" ml="1" mu="1"/>
+        <stationRef name="18th/Stout" mr="1" md="1"/>
+      </oneWay>
+      <oneWay>
+        <point x="850" y="740" mr="1" mu="1"/>
+        <stationRef name="16th/Stout" mr="1"/>
+      </oneWay>
+      <stationRef name="Theatre District-Convention Center" mdrr="1"/><stationRef name="Colfax at Auraria" mr="0.4" md="1"/><label offset="-1"/><point x="720" y="830" ml="0.6" md="1"/><point station="10th/Osage" mr="1" mu="0.6"/><stationRef name="10th/Osage" mr="1"/><stationRef name="Alameda" mr="1"/><stationRef name="I25/Broadway" mr="1" mu="0.4"/><stationRef name="Louisiana/Pearl" mur="1"/><stationRef name="University of Denver" mur="1"/><label offset="1"/><stationRef name="Colorado" mur="1"/><stationRef name="Yale" mur="1"/><stationRef name="Southmoor" mur="1"/><label/><stationRef name="Dayton" mul="1"/><stationRef name="Nine Mile" ml="1" mu="0.4"/><stationRef name="Iliff" ml="1"/><label offset="1"/><stationRef name="Florida" ml="1"/>
+    </trainLine>
+    <trainLine name="L" color="#FECE00">
+      <stationRef name="30th/Downing" mr="1"/><autoStation name="27th/Welton" mr="1"/><autoStation name="25th/Welton" mr="1"/><label/><stationRef name="20th/Welton" mr="1"/>
+      <oneWay>
+        <stationRef name="18th/California" mr="1"/>
+        <point x="870" y="700" mr="1" mu="1"/>
+      </oneWay>
+      <oneWay>
+        <stationRef name="16th/California" mr="1" md="1"/>
+        <stationRef name="18th/Stout" ml="1" mu="1"/>
+      </oneWay>
+      <oneWay>
+        <point x="850" y="740" ml="1" md="1"/>
+        <stationRef name="16th/Stout" ml="1"/>
+      </oneWay>
+    </trainLine>
+    <trainLine name="N" color="#8E3DA2">
+      <stationRef name="Union Station" ml="0.4"/><point x="650" y="500" mu="0.4"/><stationRef name="48th/Brighton - National Western Center"/><label/><stationRef name="Commerce City-72nd"/><autoStation name="Original Thornton-88th"/><autoStation name="Thornton Crossroads-104th"/><autoStation name="Northglenn-112th"/><label/><stationRef name="Eastlake-124th"/>
+    </trainLine>
+    <trainLine name="R" color="#C3D600">
+      <stationRef name="Peoria" md="1"/><label/><stationRef name="Fitzsimons" md="1"/><autoStation name="Colfax"/><autoStation name="13th Avenue"/><label/><autoStation name="2nd/Abilene"/><autoStation name="Aurora Metro Center"/><stationRef name="Florida"/><label offset="1"/><stationRef name="Iliff"/><stationRef name="Nine Mile"/><stationRef name="Dayton"/><label/><stationRef name="Belleview" mr="0.5" mu="0.5"/><stationRef name="Orchard" mr="0.5"/><stationRef name="Arapahoe at Village Center" mr="0.5"/><stationRef name="Dry Creek" mr="0.5"/><stationRef name="County Line" mr="0.5"/><label offset="1"/><stationRef name="Lincoln" mr="0.5"/>
+    </trainLine>
+    <trainLine name="W" color="#0091B3">
+      <stationRef name="Union Station" ml="1"/><stationRef name="Ball Arena-Elitch Gardens" ml="1"/><label offset="1"/><stationRef name="Empower Field at Mile High" ml="1"/><stationRef name="Auraria West" ml="1"/><label/><stationRef name="Decatur-Federal" ml="1"/><autoStation name="Knox" a="b"/><autoStation name="Perry" a="t"/><label/><autoStation name="Sheridan" a="b"/><autoStation name="Lamar" a="t"/><autoStation name="Lakewood-&#10;Wadsworth" a="b"/><label/><autoStation name="Garrison" a="t"/><autoStation name="Oak" a="b"/><autoStation name="Federal &#10;Center" a="t"/><label/><autoStation name="Red Rocks &#10;College" a="b"/><stationRef name="Jeffco Government Center-Golden"/>
+    </trainLine>
+  </lines>
+  <background>
+    <zone name="C" color="1" points="l t, l b, r b, r t"/>
+    <zone name="B" color="2" points="70 330, 200 200, 750 200, 950 400, 1050 400, 1250 600, 1250 750, 1100 900, 1100 1200, 1000 1300, 100 1300, 70 1270"/>
+    <zone name="A" color="1" points="370 430, 470 330, 600 330, 700 430, 880 430, 1000 550, 1000 800, 780 1020, 490 1020, 370 900"/>
+    <zone name="Airport" color="2" points="1230 330, 1230 370, 1270 370, 1270 330"/>
+  </background>
+</place>

@@ -1,0 +1,249 @@
+/* Constructor */
+.newGameView {
+    display: flex;
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
+    padding: 8px;
+}
+
+.placeListParent {
+    width: calc(100% - 400px);
+    height: calc(100% - 16px);
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width:650px) and (min-height:401px) {    /*Tall and narrow windows*/
+    .newGameView {
+        flex-direction: column;
+    }
+
+    .placeListParent {
+        width: 100%;
+        max-height: calc(100% - 14em);
+        flex: 1;
+    }
+
+    .placeListParent.everythingEnabled {
+        max-height: calc(100% - 11em);
+    }
+
+    .boxHolder {
+        width: 100%;
+        height: 14em;
+        position: relative;
+        top: 10px;
+    }
+
+    .boxHolder.everythingEnabled{
+        height: 11em;
+    }
+}
+
+@media(min-width:651px), (max-height:400px){    /*Wide or low windows*/
+    .placeListParent {
+        min-width: 50%;
+    }
+
+    .boxHolder {
+        width: 400px;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+
+/* #createPlaceMarkerWithBubble() */
+.placeMarker {
+    position: absolute;
+}
+
+.placeMarker > svg {
+    position: absolute;
+    left: -6px;
+    top: -28px;
+    width: 12px;
+    height: 28px;
+    z-index: 0;
+}
+
+.placeMarker > div {
+    position: absolute;
+    left: -10px;
+    bottom: 10px;
+    padding: 8px;
+    display: none;
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+    z-index: 3;
+    white-space: nowrap;
+    animation: fadeEffect 0.5s;
+}
+
+.placeMarker:hover > div {
+    display: block;
+}
+
+.placeMarker > div h3, .placeMarker > div a {
+    margin: 0px;
+    margin-right: calc(1em + 4px);
+}
+
+.placeMarker > div h5{
+    margin:0px;
+    margin-top:4px;
+}
+
+.placeMarker > div p{
+    margin:0px;
+}
+
+.placeMarker > div h3 > img, .placeMarker > div a > img{
+    width:1em;
+    height:1em;
+    float:left;
+    margin-right:4px;
+}
+
+
+/* #createPlaceList() */
+.placeListArea {
+    display: flex;
+    position: relative;
+    flex: 1;
+    margin-right: 8px;
+}
+
+.placeList {
+    background-color: white;
+    border: solid #888 1px;
+    overflow-x: auto;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+    flex: 1;
+    background-color: rgb(181, 222, 243);
+}
+
+.worldMap {
+    width: 2000px;
+    height: 1001px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform-origin: left top;
+}
+
+.worldMap:active {
+    cursor: move;
+}
+
+
+/* createLegend() */
+.clickToStartLegend {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 8px;
+}
+
+.clickToStartLegend p {
+    margin: 2px 0px;
+}
+
+.clickToStartLegend p:first-child {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.clickToStartLegend span {
+    white-space: nowrap;
+}
+
+@media(max-width:800px) and (max-height:500px) {    /*Low and narrow windows*/
+    .clickToStart > p+p {
+        display: none;
+    }
+}
+
+
+/* createPlaceInformationBox() and createGameVariantBox() */
+.box {
+    border: solid #ccc 1px;
+    margin-top: calc(0.5em + 6px);
+    margin-bottom: 6px;
+    padding: 8px;
+}
+
+.box > * {
+    position: relative;
+    top: -0.5em;
+}
+
+.box > h3:first-child {
+    display: inline;
+    position: relative;
+    top: calc(-8px - 0.5em);
+    font-weight: normal;
+    margin: 0px;
+    padding: 2px;
+    font-size: 1em;
+    background-color: var(--background-color-light);
+}
+
+.box form label {
+    display: block;
+}
+
+.box form input:disabled+span {
+    opacity: 0.5;
+}
+
+.box table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.box table td {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.box.gameVariantBox h4, .box.gameVariantBox h5, .box.gameVariantBox h6 {
+    font-weight: normal;
+    margin: 0px;
+    font-size: 1em;
+}
+
+.box.placeInformationBox th, .box.placeInformationBox td {
+    font-weight: normal;
+    text-align: left;
+    white-space: nowrap;
+}
+
+@media(max-width:650px) and (min-height:401px){    /*Tall and narrow windows*/
+    .box form {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media(min-width:491px) and (max-height:320px) {    /*Wide and very low windows*/
+    .everythingEnabled > .box.gameVariantBox > div {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media(max-height:400px) {    /*Low windows*/
+    .box.placeInformationBox {
+        display: none;
+    }
+}
+
+@media(max-width:650px) and (min-height:401px){    /*Tall and narrow windows*/
+    .box.placeInformationBox {
+        display: none;
+    }
+}

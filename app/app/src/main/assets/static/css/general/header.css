@@ -1,0 +1,248 @@
+header, footer {
+    display: flex;
+    background-color: var(--background-color);
+    padding: 10px;
+}
+
+header {
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+div.spacer{
+    flex:1;
+}
+
+header #logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+
+header #logo img {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+header #logo > div {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+header #logo > div > span:first-child {
+    color: var(--color1);
+}
+
+header #logo > div > span+span {
+    color: var(--color2);
+}
+
+nav {
+    display: flex;
+    background-color: var(--background-color);
+    flex: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav > ul.links {
+    flex: 1;
+}
+
+nav > ul > li {
+    position: relative;
+    margin-right: 15px;
+}
+
+nav > ul > li > a, nav > ul > li > a:visited, nav > ul > li > a:hover {
+    color: var(--color2);
+    padding-bottom: 3px;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+nav > ul > li > a > img:not([height]) {
+    width: 1em;
+    height: 1em;
+}
+
+nav > ul > li > a.thisPage {
+    background-color: var(--color1-transparent);
+}
+
+nav > ul > li.dropdown > a {
+    position: relative;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    transform: rotate(90deg);
+    padding-right: 20px;
+}
+
+nav > ul > li.dropdown > a:before {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 0px;
+    top: 0.5em;
+    content: "";
+    background-image: url("/MapCollector/images/downarrow.svg");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 8px 8px;
+}
+
+nav > ul > li.dropdown > ul {
+    visibility: hidden;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+nav > ul > li.dropdown > ul > li > a, nav > ul > li.dropdown > ul > li > a:hover {
+    display: block;
+    font-size: 1em;
+    color: var(--color2);
+    text-decoration: none;
+    padding: 0px;
+    border-radius: 0px;
+}
+
+nav > ul > li.dropdown > ul > li > a > img, nav > ul > li.dropdown > ul > li > a > span {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0.2em;
+}
+
+nav > ul > li.dropdown > ul > li > a > p {
+    vertical-align: middle;
+    margin: 0.2em;
+    margin-left: 2.1em;
+}
+
+#menuButton {
+    background-color: transparent;
+    border: none;
+}
+
+#menuButton img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/*Large windows*/
+@media(min-width: 875px) {
+    #menuButton {
+        display: none;
+    }
+
+    nav > ul.links > li > a {
+        font-size: 1.5em;
+    }
+
+    nav > ul.menus > li > a {
+        font-size: 1.1em;
+    }
+
+    .navButtonWithImage > span {
+        display: none;
+    }
+
+    nav > ul > li.dropdown > ul {
+        position: absolute;
+        right: 0px;
+        top: 1.8em;
+        padding: 0.5em;
+        background-color: #71b87c;
+        border-radius: 8px;
+        border-top-right-radius: 0px;
+        z-index: 10;
+        transition: max-height 0.5s ease-out;
+        overflow: hidden;
+        max-height: 0px;
+    }
+
+    nav > ul > li:hover > a.thisPage, nav > ul > li:hover > a {
+        background-color: rgba(75, 156, 46, 1);
+    }
+
+    nav > ul > li.dropdown:hover ul {
+        visibility: visible;
+        max-height: 100vh;
+    }
+}
+
+/*Small windows*/
+@media(max-width: 875px) {
+    nav:not(.visible) {
+        visibility: hidden;
+        max-height: 0px;
+    }
+
+    nav.visible {
+        visibility: visible;
+        max-height: 100vh;
+        transition: max-height 0.5s ease-out;
+    }
+
+    nav {
+        position: absolute;
+        right: 0px;
+        top: 4em;
+        padding: 8px;
+        flex-direction: column;
+        border-bottom-left-radius: 8px;
+        z-index: 9;
+        overflow: hidden;
+    }
+
+    nav > ul {
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    nav > ul > li {
+        padding: 0.7em 0px;
+    }
+
+    nav > ul > li > a {
+        font-size: 1.5em;
+    }
+
+    nav > ul > li.dropdown:not(.visible) > ul {
+        display: none;
+        visibility: hidden;
+    }
+
+    nav > ul > li.dropdown.visible > ul {
+        display: block;
+        visibility: visible;
+    }
+
+    nav > ul > li.dropdown:not(.visible) > a:before {
+        transform: rotate(270deg);
+    }
+
+    .navButtonWithImage > img {
+        display: none;
+    }
+}
+
+/*Phones*/
+@media(max-device-width:480px) {
+    nav > ul > li.dropdown > ul > li {
+        font-size: 1.2em;
+        margin :8px;
+    }
+}

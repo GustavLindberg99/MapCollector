@@ -1,0 +1,81 @@
+/* Constructor */
+.gameViewContainer {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    max-height: 76vh;
+    border: solid #808080 1px;
+    background-color: var(--background-color-light);
+    overflow: hidden;
+}
+
+.gameView {
+    position: relative;
+    flex: 1;
+    height: 100%;
+    border-left: solid #808080 1px;
+    overflow: hidden;
+}
+
+.mainScrollArea {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.mainScrollArea > svg {
+    display: block;    /* Otherwise there will be a small part at the bottom below the SVG element but still in the scoll area */
+    transform-origin: top left;
+    background-color: white;
+}
+
+.mainScrollArea > svg:active {
+    cursor: move;
+}
+
+.mainScrollArea > svg text {
+    cursor: default;
+    font-family: sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (max-width:500px) and (min-height:271px) {    /*Tall and narrow windows*/
+    .gameView{
+        width:100%;
+        height:58vh;
+        border-left:none;
+        border-top:solid #808080 1px;
+    }
+
+    .gameViewContainer{
+        flex-direction: column;
+    }
+}
+
+
+/* #createMapList() */
+.mapListViews {
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    width:35%;
+    height:100%;
+    overflow:hidden;
+    background-color: var(--background-color-light);
+    resize:horizontal;
+}
+
+@media (max-width:500px) and (min-height:271px) {    /*Tall and narrow windows*/
+    .mapListViews {
+        justify-content: flex-start;
+        width: 100%;
+        height: 32vh;
+        min-height: calc(50px + 15vh);
+        resize: vertical;
+    }
+}

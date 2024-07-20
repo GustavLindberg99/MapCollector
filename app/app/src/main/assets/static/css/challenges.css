@@ -1,0 +1,97 @@
+.challengeHolder{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.challenge{
+    width:200px;
+    margin:4px;
+    padding:8px;
+    border:solid gray 1px;
+}
+
+.challenge > h3{
+    margin-top:0px;
+    padding-left:1.2rem;
+    background-repeat:no-repeat;
+    background-size:1rem 1rem;
+}
+
+.challenge.easy > h3{
+    background-image:url("/MapCollector/images/easybadge.svg");
+}
+
+.challenge.medium > h3{
+    background-image:url("/MapCollector/images/mediumbadge.svg");
+}
+
+.challenge.difficult > h3{
+    background-image:url("/MapCollector/images/difficultbadge.svg");
+}
+
+p.completedChallengeMessage{
+    font-weight:bold;
+    color:green;
+}
+
+.progressBar{
+    position:relative;
+    width:100%;
+    height:16px;
+    border:solid black 1px;
+}
+
+span.progressBar{
+    display:inline-block;
+    width:60px;
+}
+
+.progressBar.small{
+    height:8px;
+}
+
+span.progressBar.small{
+    width:20px;
+}
+
+.progressBar > span{
+    display:block;
+    height:100%;
+}
+
+.progressBar.easyProgressBar > span{
+    background-color:#c28217;
+}
+
+.progressBar.mediumProgressBar > span{
+    background-color:#9497a2;
+}
+
+.progressBar.difficultProgressBar > span{
+    background-color:#f8b64c;
+}
+
+.challengeList.levelSelected .toggleChallengeButton{
+    opacity:0.3;
+}
+
+.challengeList.easySelected .toggleChallengeButton#easyChallengeButton, .challengeList.mediumSelected .toggleChallengeButton#mediumChallengeButton, .challengeList.difficultSelected .toggleChallengeButton#difficultChallengeButton{
+    opacity:1;
+    font-weight:bold;
+}
+
+.challengeList.levelSelected .challenge{
+    display:none;
+}
+
+.challengeList.easySelected .challenge.easy.completedChallenge, .challengeList.mediumSelected .challenge.medium.completedChallenge, .challengeList.difficultSelected .challenge.difficult.completedChallenge{
+    display:block;
+}
+
+.challengeList.notCompletedSelected #notCompletedChallengeButton .show, .challengeList:not(.notCompletedSelected) #notCompletedChallengeButton .hide{
+    display:none;
+}
+
+.challengeList.notCompletedSelected .challenge:not(.notCompletedChallenge){
+    display:none;
+}

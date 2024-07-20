@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Map Collector</string>
+    <string name="exitGame">Lämna spelet</string>
+    <string name="pause">Paus</string>
+    <string name="fastForward">Snabbspola till destinationen</string>
+    <string name="help">Hjälp</string>
+    <string name="about">Om Map Collector</string>
+    <string name="myAccount">Mitt konto</string>
+    <string name="email">E-post</string>
+    <string name="password">Lösenord</string>
+    <string name="logIn">Logga in</string>
+    <string name="invalidEmail">Vänligen ange en giltig e-postadress.</string>
+    <string name="passwordMissing">Vänligen ange ditt lösenord.</string>
+    <string name="noInternet">Kunde inte nå servern. Kontrollera din internetanslutning och försök igen.</string>
+    <string name="error">Ett fel har uppstått: %s</string>
+    <string name="loginSucceeded">Du är nu inloggad.</string>
+    <string name="profilePicture">Profilbild</string>
+    <string name="statistics">Statistik</string>
+    <string name="account">Konto</string>
+    <string name="editProfile">Ändra profil</string>
+    <string name="deleteAccount">Ta bort ditt konto</string>
+    <string name="logOut">Logga ut</string>
+    <string name="logOutConfirmation">Vill du verkligen logga ut?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nej</string>
+    <string name="score">Poäng: %d</string>
+    <string name="numberOfMaps">Antal samlade maps: %d</string>
+    <string name="winningRate">Vinstprocent: %d%%</string>
+    <string name="completedChallenges">Slutförda utmaningar:</string>
+    <string name="easyChallenges">Lätta utmaningar</string>
+    <string name="mediumChallenges">Mellan-utmaningar</string>
+    <string name="difficultChallenges">Svåra utmaningar</string>
+    <string name="viewDetails">Se detaljer</string>
+    <string name="ok">OK</string>
+    <string name="aboutString"><![CDATA[Version %1$s<br/><br/><a href="%2$s">%2$s</a><br/><br/>Ikonerna gjorda av %5$s och %6$s från %3$s är licensierade enligt %4$s. Vissa ikoner har ändrats.<br/><br/>%7$s och %8$s är licensierade enligt %9$s.<br/><br/>Världskarta %10$s.]]></string>
+    <string name="signUp"><![CDATA[Har du inget konto? <a href="%s">Skapa ett gratis.</a>]]></string>
+    <string name="logoutSucceeded">Du är nu utloggad.</string>
+</resources>

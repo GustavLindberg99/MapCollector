@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<place boxpos="bl" similarLines="name">
+  <stations>
+    <station name="Wachusett" x="525" y="350" a="l"/>
+    <station name="Waltham" x="1475" y="1300" a="l"/>
+
+    <station name="West Medford" x="2150" y="990" a="l"/>
+    <station name="Wedgemere" x="2150" y="900" a="l"/>
+    <station name="Winchester Center" x="2150" y="790" a="l"/>
+    <station name="Mishawum" x="2150" y="680" a="l"/>
+    <station name="Anderson/Woburn" x="2150" y="570" a="l"/>
+    <station name="Wilmington" x="2150" y="460" a="l"/>
+    <station name="North Billerica" x="2010" y="320" a="l"/>
+    <station name="Lowell" x="1940" y="250" a="l"/>
+
+    <station name="Alewife" x="1960" y="1200" a="l"/>
+    <station name="Davis" x="1910" y="1250" a="l"/>
+    <station name="&#10;Porter" x="1860" y="1300" a="l"/>
+    <station name="Central" x="1860" y="1420" a="l"/>
+    <station name="Kendall/MIT" x="1900" y="1460" a="l"/>
+    <station name="Charles/MGH" x="2010" y="1570" a="l"/>
+    <station name="&#10;Park St" x="2100" y="1570"/>
+    <station name="Downtown Crossing" x="2200" y="1570"/>
+    <station name="Boston South Station" x="2340" y="1710"/>
+    <station name="Broadway" x="2340" y="1790" a="l"/>
+    <station name="Andrew" x="2340" y="1870" a="l"/>
+    <station name="JFK/UMass" x="2340" y="1950"/>
+    <station name="Savin Hill" x="2295" y="1995" a="l"/>
+    <station name="Fields Corner" x="2260" y="2030" a="l"/>
+    <station name="Ashmont" x="2190" y="2100" a="l"/>
+    <station name="Mattapan" x="1840" y="2450"/>
+
+    <station name="Boston College" x="980" y="1520" a="l"/>
+    <station name="BU Central" x="1570" y="1520"/>
+
+    <station name="Riverside" x="1270" y="2120" a="l"/>
+
+    <station name="Cleveland Circle" x="1080" y="1670" a="l"/>
+    <station name="St. Mary's St" x="1630" y="1670" a="b"/>
+    <station name="&#10;Kenmore" x="1720" y="1670"/>
+    <station name="Hynes &#10;Convention &#10;Center" x="1770" y="1670" a="t"/>
+
+    <station name="Heath St" x="1450" y="2080"/>
+    <station name="Prudential" x="1800" y="1730"/>
+    <station name="Copley" x="1860" y="1670" a="t"/>
+    <station name="Arlington" x="1930" y="1670" a="b"/>
+    <station name="Boylston" x="2000" y="1670" a="b"/>
+    <station name="Government Center" x="2100" y="1470" a="l"/>
+    <station name="Haymarket" x="2150" y="1420" a="l"/>
+    <station name="&#10;Boston North Station" x="2150" y="1300" a="l"/>
+    <station name="Science Park/&#10;West End" x="2100" y="1250" a="l"/>
+    <station name="Lechmere" x="2050" y="1200"/>
+    <station name="Union Sq" x="2000" y="1200" a="b"/>
+    <station name="Magoun Sq" x="2050" y="1100" a="l"/>
+    <station name="Medford/Tufts" x="2120" y="1030" a="l"/>
+
+    <station name="Community &#10;College" x="2220" y="1230"/>
+    <station name="Malden Center" x="2220" y="1006"/>
+    <station name="Oak Grove" x="2220" y="950"/>
+    <station name="Ballardvale" x="2220" y="390"/>
+    <station name="Andover" x="2220" y="320"/>
+    <station name="Lawrence" x="2220" y="250"/>
+    <station name="Bradford" x="2220" y="180"/>
+    <station name="Haverhill" x="2220" y="110"/>
+
+    <station name="Chelsea" x="2290" y="1300" a="b"/>
+    <station name="River Works" x="2580" y="1010"/>
+    <station name="Lynn" x="2645" y="945"/>
+    <station name="Swampscott" x="2710" y="880"/>
+    <station name="Salem" x="2775" y="815"/>
+    <station name="Beverly" x="2840" y="750"/>
+    <station name="Rockport" x="3340" y="250"/>
+    <station name="Newburyport" x="2840" y="220" a="l"/>
+
+    <station name="Bowdoin" x="2040" y="1410" a="l"/>
+    <station name="State St" x="2200" y="1470"/>
+    <station name="Wonderland" x="2500" y="1170"/>
+
+    <station name="&#10;Back Bay" x="2060" y="1710"/>
+    <station name="Ruggles" x="1910" y="1860" a="l"/>
+    <station name="Forest &#10;Hills" x="1500" y="2270" a="t"/>
+    <station name="Needham &#10;Heights" x="940" y="2270" a="l"/>
+
+    <station name="Lansdowne" x="1740" y="1710" a="b"/>
+    <station name="Boston Landing" x="1420" y="1390"/>
+    <station name="Worcester" x="80" y="1390" a="b"/>
+
+    <station name="Fairmount" x="1590" y="2460"/>
+    <station name="Hyde Park" x="1490" y="2410" a="l"/>
+    <station name="Readville" x="1490" y="2460" a="l"/>
+    <station name="Windsor Gardens" x="1160" y="2790"/>
+    <station name="Plimptonville" x="1105" y="2845"/>
+    <station name="Foxboro" x="1105" y="2890"/>
+    <station name="Walpole" x="1050" y="2900"/>
+    <station name="Norfolk" x="995" y="2955"/>
+    <station name="Forge Park/I495" x="885" y="3065"/>
+
+    <station name="Route &#10;128" x="1490" y="2560"/>
+    <station name="Canton &#10;Junction" x="1490" y="2660" a="l"/>
+    <station name="Stoughton" x="1640" y="2810"/>
+    <station name="Mansfield" x="1490" y="3060"/>
+    <station name="Wickford Junction" x="1490" y="3440"/>
+
+    <station name="North Quincy" x="2340" y="2070" a="l"/>
+    <station name="Quincy Center" x="2340" y="2300" a="l"/>
+    <station name="Braintree" x="2340" y="2440" a="l"/>
+    <station name="South Weymouth" x="2440" y="2540"/>
+    <station name="Abington" x="2540" y="2640"/>
+    <station name="Whitman" x="2640" y="2740"/>
+    <station name="Hanson" x="2740" y="2840"/>
+    <station name="Halifax" x="2840" y="2940"/>
+    <station name="Kingston" x="2840" y="3080" a="b"/>
+
+    <station name="Brockton" x="2340" y="2815" a="l"/>
+    <station name="Middleborough/&#10;Lakeville" x="2340" y="3190" a="l"/>
+    <station name="Wareham Village" x="2440" y="3290" a="l"/>
+    <station name="Buzzards Bay" x="2960" y="3290"/>
+    <station name="Bourne" x="3000" y="3330"/>
+    <station name="Hyannis" x="3140" y="3370"/>
+
+    <station name="Weymouth Landing/&#10;East Braintree" x="2440" y="2400" a="b"/>
+    <station name="Nantasket Junction" x="2930" y="2400"/>
+    <station name="Cohasset" x="3040" y="2510"/>
+    <station name="Greenbush" x="3040" y="2710"/>
+  </stations>
+  <lines>
+    <trainLine name="B" color="#008445">
+      <stationRef name="Boston College"/><label/><autoStation name="South St" a="t"/><autoStation name="Chestnut &#10;Hill Ave" a="b"/><autoStation name="Chiswick &#10;Rd" a="t"/><label/><autoStation name="Suther&#xad;land Rd" a="b"/><autoStation name="Washington &#10;St" a="t"/><autoStation name="Warren St" a="b"/><label/><autoStation name="Allston &#10;St" a="t"/><autoStation name="Griggs St" a="b"/><autoStation name="Harvard &#10;Ave" a="t"/><label/><autoStation name="Packards &#10;Corner" a="b"/><autoStation name="Babcock St" a="t"/><autoStation name="Pleasant &#10;St" a="b"/><label/><autoStation name="Saint &#10;Paul St" a="t"/><autoStation name="BU West" a="b"/><stationRef name="BU Central"/><label/><autoStation name="BU East"/><autoStation name="Blandford St" a="l"/><label/><stationRef name="Kenmore" ml="1" mu="1"/><stationRef name="Hynes Convention Center" mu="1"/><label offset="-2"/><stationRef name="Copley" mu="1"/><stationRef name="Arlington" mu="1"/><stationRef name="Boylston" ml="0.4" mu="1"/><label offset="-3"/><stationRef name="Park St" ml="1" mu="0.4"/><label offset="-3"/><stationRef name="Government Center" ml="1" md="1"/>
+    </trainLine>
+    <trainLine name="C" color="#008445">
+      <stationRef name="Cleveland Circle"/><label/><autoStation name="Englewood &#10;Ave" a="t"/><autoStation name="Dean Rd" a="b"/><autoStation name="Tappan St" a="t"/><label/><autoStation name="Washington &#10;Sq" a="b"/><autoStation name="Fairbanks &#10;St" a="t"/><autoStation name="Brandon &#10;Hall" a="b"/><label/><autoStation name="Summit &#10;Ave" a="t"/><autoStation name="Coolidge &#10;Corner" a="b"/><autoStation name="St. Paul St" a="t"/><label/><autoStation name="Kent St" a="b"/><autoStation name="Hawes St" a="t"/><stationRef name="St. Mary's St"/><label/><stationRef name="Kenmore" ml="1"/><stationRef name="Hynes Convention Center"/><label/><stationRef name="Copley"/><stationRef name="Arlington"/><stationRef name="Boylston"/><label offset="-1"/><stationRef name="Park St"/><label offset="-1"/><stationRef name="Government Center" md="1"/>
+    </trainLine>
+    <trainLine name="D" color="#008445">
+      <stationRef name="Riverside"/><label/><autoStation name="Woodland" a="l"/><autoStation name="Waban" a="l"/><autoStation name="Eliot" a="l"/><label/><autoStation name="Newton Highlands" a="l"/><autoStation name="Newton Centre" a="l"/><autoStation name="Chestnut Hill" a="l"/><label/><autoStation name="Reservoir" a="l"/><autoStation name="Beaconsfield" a="l"/><autoStation name="Brookline Hills" a="l"/><label/><autoStation name="Brookline Village" a="l"/><autoStation name="Longwood" a="l"/><autoStation name="Fenway" a="l"/><label/><stationRef name="Kenmore" ml="1" md="1"/><stationRef name="Hynes Convention Center" md="1"/><label offset="2"/><stationRef name="Copley" md="1"/><stationRef name="Arlington" md="1"/><stationRef name="Boylston" mr="0.4" md="1"/><label offset="1"/><stationRef name="Park St" mr="1" md="0.4"/><label offset="1"/><stationRef name="Government Center" mr="1" md="1"/><point station="Government Center" mr="1" mu="2"/><label offset="-1"/><stationRef name="Haymarket" ml="1"/><label offset="2"/><stationRef name="Boston North Station" ml="1"/><label offset="-1"/><stationRef name="Science Park/West End" ml="0.7" md="0.3"/><stationRef name="Lechmere" ml="0.7" md="0.3"/><label/><stationRef name="Union Sq" md="0.3"/>
+    </trainLine>
+    <trainLine name="E" color="#008445">
+      <stationRef name="Heath St"/><autoStation name="Back of the Hill"/><label/><autoStation name="Riverway"/><autoStation name="Mission Park"/><autoStation name="Fenwood Rd"/><label/><autoStation name="Brigham Circle"/><autoStation name="Longwood Medical Area"/><autoStation name="Museum of Fine Arts"/><label/><autoStation name="Northeastern"/><autoStation name="Symphony"/><stationRef name="Prudential"/><label offset="1"/><point station="Copley" ml="2" md="2"/><stationRef name="Copley" md="2"/><stationRef name="Arlington" md="2"/><stationRef name="Boylston" mr="0.8" md="2"/><label offset="3"/><stationRef name="Park St" mr="2" md="0.8"/><label offset="3"/><stationRef name="Government Center" mr="2" md="1"/><point station="Government Center" mr="2" mu="1.6"/><label offset="1"/><point station="Haymarket" md="0.4"/><stationRef name="Haymarket"/><label/><stationRef name="Boston North Station"/><point station="Boston North Station" mu="0.4"/><label offset="1"/><stationRef name="Science Park/West End" mu="0.4"/><stationRef name="Lechmere" mu="0.4"/><autoStation name="East Somerville" a="l"/><autoStation name="Gilman Sq" a="l"/><label/><stationRef name="Magoun Sq"/><autoStation name="Ball Sq" a="l"/><stationRef name="Medford/Tufts"/>
+    </trainLine>
+    <trainLine name="BL" color="#0f4b91">
+      <stationRef name="Bowdoin"/><label/><stationRef name="Government Center"/><label/><stationRef name="State St"/><autoStation name="Aquarium"/><label/><autoStation name="Maverick"/><autoStation name="Airport"/><autoStation name="Wood Island"/><label/><autoStation name="Orient Heights"/><autoStation name="Suffolk Downs"/><autoStation name="Beachmont"/><label/><autoStation name="Revere Beach"/><stationRef name="Wonderland"/>
+    </trainLine>
+    <trainLine name="OL" color="#f18b21">
+      <stationRef name="Forest Hills"/><autoStation name="Green St" a="l"/><autoStation name="Stony Brook" a="l"/><label offset="-3"/><autoStation name="Jackson Sq" a="l"/><autoStation name="Roxbury Crossing" a="l"/><stationRef name="Ruggles"/><autoStation name="Massachusetts Ave" a="l"/><stationRef name="Back Bay"/><autoStation name="Tufts &#10;Medical Center"/><label/><autoStation name="Chinatown"/><stationRef name="Downtown Crossing" mr="1" mu="1"/><label/><stationRef name="State St" mr="1"/><label/><stationRef name="Haymarket" mr="1"/><label offset="-2"/><stationRef name="Boston North Station" mr="1"/><label offset="1"/><stationRef name="Community College" mr="1"/><autoStation name="Sullivan Square" mr="1"/><label offset="1"/><autoStation name="Assembly" mr="1"/><autoStation name="Wellington" mr="1"/><stationRef name="Malden Center" mr="1"/><label offset="1"/><stationRef name="Oak Grove" mr="1"/>
+    </trainLine>
+    <trainLine name="RL" color="#e12726">
+      <stationRef name="Alewife" mu="1"/><stationRef name="Davis" mu="1"/><label/><stationRef name="Porter" mu="1"/><autoStation name="Harvard" a="l" mu="1"/><label/><stationRef name="Central" mu="1"/><stationRef name="Kendall/MIT" mu="1"/><stationRef name="Charles/MGH" mu="1"/><stationRef name="Park St" ml="2" mu="1"/><label/><stationRef name="Downtown Crossing" mu="1"/><label/><stationRef name="Boston South Station" mu="1"/><stationRef name="Broadway"/><label/><stationRef name="Andrew"/><stationRef name="JFK/UMass"/>
+      <branch>
+        <stationRef name="North Quincy"/><label offset="3"/><autoStation name="Wollaston" a="l"/><stationRef name="Quincy Center"/><autoStation name="Quincy Adams" a="l"/><label/><stationRef name="Braintree"/>
+      </branch>
+      <branch>
+        <label/><stationRef name="Savin Hill"/><stationRef name="Fields Corner"/><autoStation name="Shawmut" a="l"/><label/><stationRef name="Ashmont" mr="0.35" mu="0.35"/>
+      </branch>
+    </trainLine>
+    <trainLine name="M" color="#e12726">
+      <stationRef name="Ashmont" ml="0.35" md="0.35"/><label/><autoStation name="Cedar Grove"/><autoStation name="Butler"/><autoStation name="Milton"/><label/><autoStation name="Central Ave"/><autoStation name="Valley Rd"/><autoStation name="Capen St"/><label/><stationRef name="Mattapan"/>
+    </trainLine>
+
+    <trainLine name="CF" color="#006595">
+      <stationRef name="Boston South Station" mr="2" mu="1"/><label offset="4"/><stationRef name="Braintree" mr="2"/><label offset="-1"/><stationRef name="Brockton" mr="2"/><label offset="-1"/><stationRef name="Middleborough/Lakeville" mr="2"/><stationRef name="Wareham Village" mr="2"/><label/><stationRef name="Buzzards Bay"/><stationRef name="Bourne"/><point x="3040" y="3370"/><label/><stationRef name="Hyannis"/>
+    </trainLine>
+    <trainLine name="FB" color="#85276b">
+      <stationRef name="Boston North Station" ml="2"/><label offset="3"/><stationRef name="Porter" ml="1"/><label/><autoStation name="Belmont" a="t"/><autoStation name="Waverley" a="b"/><stationRef name="Waltham"/><label/><autoStation name="Brandeis/Roberts" a="l"/><autoStation name="Kendal Green" a="l"/><autoStation name="Hastings" a="l"/><label/><autoStation name="Silver Hill" a="l"/><autoStation name="Lincoln" a="l"/><autoStation name="Concord" a="l"/><label/><autoStation name="West Concord" a="l"/><autoStation name="South Acton" a="l"/><autoStation name="Littleton/I495" a="l"/><label/><autoStation name="Ayer" a="l"/><autoStation name="Shirley" a="l"/><autoStation name="North Leominster" a="l"/><label/><autoStation name="Fitchburg" a="l"/><stationRef name="Wachusett"/>
+    </trainLine>
+    <trainLine name="FM" color="#85276b" via="Fairmount">
+      <stationRef name="Boston South Station" ml="1" md="1"/><label/><autoStation name="Newmarket" a="l"/><autoStation name="Uphams Corner"/><label/><autoStation name="Four Corners/&#10;Geneva"/><autoStation name="Talbot Ave"/><label/><autoStation name="Morton St"/><autoStation name="Blue Hill Ave"/><label/><stationRef name="Fairmount"/><stationRef name="Readville" mr="3"/>
+    </trainLine>
+    <trainLine name="FR" color="#85276b">
+      <stationRef name="Boston South Station" ml="2" md="1"/><label offset="2"/><point station="Back Bay" mr="1.8" md="1"/><stationRef name="Back Bay" mdr="2"/><stationRef name="Ruggles" mdr="2"/><label offset="-1"/><stationRef name="Forest Hills" mdr="2"/><point x="1490" y="2280" md="2.8"/><label offset="-2"/><stationRef name="Hyde Park"/><stationRef name="Readville"/><label/><autoStation name="Endicott" a="l"/><autoStation name="Dedham Corporate Center" a="l"/><autoStation name="Islington"/><label/><autoStation name="Norwood Depot"/><autoStation name="Norwood Central"/><stationRef name="Windsor Gardens"/><label/><stationRef name="Plimptonville"/>
+      <branch>
+        <label/><stationRef name="Foxboro"/>
+      </branch>
+      <branch>
+        <stationRef name="Walpole"/><stationRef name="Norfolk"/><label/><autoStation name="Franklin/Dean College"/><stationRef name="Forge Park/I495"/>
+      </branch>
+    </trainLine>
+    <trainLine name="GR" color="#85276b">
+      <stationRef name="Boston South Station" mr="4" mu="1"/><stationRef name="JFK/UMass" mr="4"/><label offset="-5"/><stationRef name="Quincy Center" mr="4"/><stationRef name="Weymouth Landing/East Braintree" mr="4"/><autoStation name="East Weymouth" a="t"/><label/><autoStation name="West Hingham" a="b"/><stationRef name="Nantasket Junction"/><stationRef name="Cohasset"/><label/><autoStation name="North Scituate"/><stationRef name="Greenbush"/>
+    </trainLine>
+    <trainLine name="H" color="#85276b">
+      <stationRef name="Boston North Station" mr="1" mu="1.4"/><label offset="-1"/><point station="Community College" mu="0.4"/><label offset="-4"/><stationRef name="Malden Center"/><label offset="-1"/><stationRef name="Oak Grove"/><autoStation name="Wyoming Hill"/><label/><autoStation name="Melrose/Cedar Park"/><autoStation name="Melrose Highlands"/><autoStation name="Greenwood"/><label/><autoStation name="Wakefield"/><autoStation name="Reading"/><autoStation name="North Wilmington"/><label/><stationRef name="Ballardvale"/><stationRef name="Andover"/><stationRef name="Lawrence"/><label/><stationRef name="Bradford"/><stationRef name="Haverhill"/>
+    </trainLine>
+    <trainLine name="K" color="#85276b">
+      <stationRef name="Boston South Station" mr="3" mu="1"/><stationRef name="JFK/UMass" mr="3"/><label offset="-3"/><stationRef name="Quincy Center" mr="3"/><stationRef name="Braintree" mr="3"/><label offset="-1"/><stationRef name="South Weymouth" mr="3"/><stationRef name="Abington" mr="3"/><stationRef name="Whitman" mr="3"/><label offset="-1"/><stationRef name="Hanson" mr="3"/><stationRef name="Halifax" mr="3"/><label/><stationRef name="Kingston" mr="3"/>
+    </trainLine>
+    <trainLine name="L" color="#85276b">
+      <stationRef name="Boston North Station" mu="1.4"/><stationRef name="West Medford"/><label/><stationRef name="Wedgemere"/><stationRef name="Winchester Center"/><stationRef name="Mishawum"/><label/><stationRef name="Anderson/Woburn"/><stationRef name="Wilmington"/><label/><stationRef name="North Billerica"/><stationRef name="Lowell"/>
+    </trainLine>
+    <trainLine name="ML" color="#85276b">
+      <stationRef name="Boston South Station" mr="1" mu="1"/><stationRef name="JFK/UMass" mr="1"/><label offset="1"/><stationRef name="Quincy Center" mr="1"/><stationRef name="Braintree" mr="1"/><autoStation name="Holbrook/Randolph" a="l" mr="1"/><label offset="1"/><autoStation name="Montello" a="l" mr="1"/><stationRef name="Brockton" mr="1"/><autoStation name="Campello" a="l" mr="1"/><label offset="1"/><autoStation name="Bridgewater" a="l" mr="1"/><stationRef name="Middleborough/Lakeville" mr="1"/>
+    </trainLine>
+    <trainLine name="NE" color="#85276b">
+      <stationRef name="Boston South Station" ml="1"/><label offset="4"/><point station="Back Bay" mr="1.4"/><stationRef name="Back Bay" mdr="1"/><stationRef name="Ruggles" mdr="1"/><label offset="1"/><stationRef name="Forest Hills" mdr="1"/><label/><autoStation name="Roslindale &#10;Village" a="t" mdr="1"/><autoStation name="Bellevue" a="b" mdr="1"/><autoStation name="Highland" a="t" mdr="1"/><label/><autoStation name="West &#10;Roxbury" a="b" mdr="1"/><autoStation name="Hersey" a="t" mdr="1"/><autoStation name="Needham &#10;Junction" a="b" mdr="1"/><label/><autoStation name="Needham &#10;Center" a="t" mdr="1"/><stationRef name="Needham Heights" mdr="1"/>
+    </trainLine>
+    <trainLine name="NP" color="#85276b">
+      <stationRef name="Boston North Station" mr="2"/><label offset="-1"/><stationRef name="Chelsea"/><label offset="-1"/><stationRef name="River Works"/><stationRef name="Lynn"/><stationRef name="Swampscott"/><label offset="-1"/><stationRef name="Salem"/><stationRef name="Beverly"/><autoStation name="North Beverly" a="l"/><label/><autoStation name="Hamilton/Wenham" a="l"/><autoStation name="Ipswich" a="l"/><autoStation name="Rowley" a="l"/><label/><stationRef name="Newburyport"/>
+    </trainLine>
+    <trainLine name="PR" color="#85276b">
+      <stationRef name="Boston South Station" ml="3" md="2"/><label/><point station="Back Bay" mr="2.2" md="2"/><stationRef name="Back Bay" mdr="3"/><stationRef name="Ruggles" mdr="3"/><label offset="-4"/><point x="1490" y="2280" mr="1" md="3.2"/><label offset="-2.5"/><stationRef name="Readville" mr="1"/><stationRef name="Route 128" mr="1"/><label offset="-1"/><stationRef name="Canton Junction" mr="1"/><autoStation name="Sharon" mr="1"/><stationRef name="Mansfield" mr="1"/><label/><autoStation name="Attleboro" mr="1"/><autoStation name="South Attleboro" mr="1"/><autoStation name="Providence" mr="1"/><label/><autoStation name="TF Green Airport" mr="1"/><stationRef name="Wickford Junction" mr="1"/>
+    </trainLine>
+    <trainLine name="R" color="#85276b">
+      <stationRef name="Boston North Station" mr="2" md="1"/><label offset="1"/><stationRef name="Chelsea" mr="0.4" md="1"/><label offset="1"/><stationRef name="River Works" mdr="1"/><stationRef name="Lynn" mdr="1"/><stationRef name="Swampscott" mdr="1"/><label offset="1"/><stationRef name="Salem" mdr="1"/><stationRef name="Beverly" mdr="1"/><autoStation name="Montserrat" mdr="1"/><label/><autoStation name="Prides Crossing" mdr="1"/><autoStation name="Beverly Farms" mdr="1"/><autoStation name="Manchester" mdr="1"/><label/><autoStation name="West Gloucester" mdr="1"/><autoStation name="Gloucester" mdr="1"/><label/><stationRef name="Rockport" mdr="1"/>
+    </trainLine>
+    <trainLine name="S" color="#85276b">
+      <stationRef name="Boston South Station" ml="4" md="3"/><label offset="-3"/><point station="Back Bay" mr="2.6" md="3"/><stationRef name="Back Bay" mdr="4"/><stationRef name="Ruggles" mdr="4"/><label offset="-8"/><point x="1490" y="2280" mr="2" md="3.6"/><label offset="2"/><stationRef name="Hyde Park" mr="2"/><stationRef name="Readville" mr="2"/><stationRef name="Route 128" mr="2"/><label offset="1"/><stationRef name="Canton Junction" mr="2"/><autoStation name="Canton Center" mr="2"/><label/><stationRef name="Stoughton" mr="2"/>
+    </trainLine>
+    <trainLine name="WO" color="#85276b">
+      <stationRef name="Boston South Station" ml="1" mu="1"/><label offset="5"/><stationRef name="Back Bay" mu="1"/><label/><stationRef name="Lansdowne" ml="1" mu="1"/><stationRef name="Boston Landing"/><label/><autoStation name="Newtonville" a="b"/><autoStation name="West Newton" a="t"/><autoStation name="Auburndale" a="b"/><label/><autoStation name="Wellesley Farms" a="t"/><autoStation name="Wellesley &#10;Hills" a="b"/><autoStation name="Wellesley &#10;Square" a="t"/><label/><autoStation name="Natick Center" a="b"/><autoStation name="West &#10;Natick" a="t"/><autoStation name="Framingham" a="t"/><label/><autoStation name="Ashland" a="b"/><autoStation name="Southborough" a="t"/><autoStation name="Westborough" a="b"/><label/><autoStation name="Grafton" a="t"/><stationRef name="Worcester"/>
+    </trainLine>
+  </lines>
+  <background>
+    <sea points="r t, 3200 t, 3200 200, 3400 200, 3400 350, 2400 1350, 2400 2300, 2450 2350, 3000 2350, 3050 2400, 3050 3300, 3050 3350, 3250 3350, 3250 3250, 3300 3200, 3300 3400, 2970 3400, 2970 3330, 2900 3400, 1650 3400, 1650 3300, 1550 3300, 1550 b, r b"/>
+    <river points="r 1470, 2250 1470, 2170 1390, 2170 1300, 2100 1230, 2000 1230, 1930 1300, 1930 1450, 1880 1500, 1700 1500, 1550 1350, 1100 1350, 1000 1450, l 1450"/>
+    <zone name="8" color="1" points="r t, r b, l b, l t"/>
+    <zone name="9" color="2" points="r b, r 2900, 3100 2900, 3100 3350, 1500 3350, 900 3950"/>
+    <zone name="10" color="1" points="1600 b, 1600 3400, 1500 3400, 900 4000"/>
+    <zone name="7" color="2" points="r 3000, 2500 3000, 2250 3250, 720 3250, 220 2750, 220 1250, 1420 50, 2450 50, 2700 300, r 300"/>
+    <zone name="6" color="1" points="r 2900, 2530 2900, 2330 3100, 720 3100, 320 2700, 320 1250, 1370 200, 2450 200, 2660 410, r 410"/>
+    <zone name="5" color="2" points="r 2650, 2850 2650, 2650 2850, 2500 2850, 2370 2980, 780 2980, 500 2700, 500 1250, 1460 290, 2450 290, 2660 500, r 500"/>
+    <zone name="4" color="1" points="r 2550, 2800 2550, 2650 2700, 2550 2700, 2330 2920, 800 2920, 600 2720, 600 1400, 1650 350, 2450 350, 2760 660, r 660"/>
+    <zone name="3" color="2" points="r 2300, 2800 2300, 2800 2400, 2600 2600, 2000 2600, 1830 2770, 900 2770, 800 2670, 800 1350, 1720 430, 2450 430, 3000 980, r 980"/>
+    <zone name="2" color="1" points="r 2250, 2650 2250, 2650 2400, 2550 2500, 2000 2500, 1900 2600, 1000 2600, 850 2450, 850 1500, 900 1450, 1000 1450, 1100 1350, 1200 1350, 2050 500, 2250 500, 3250 1500, r 1500"/>
+    <zone name="1" color="2" points="r 2200, 2550 2200, 2350 2400, 2000 2400, 1900 2500, 1550 2500, 1450 2400, 1300 2400, 900 2000, 900 1520, 950 1470, 1180 1470, 1300 1350, 1450 1350, 2080 720, 2230 720, 3230 1720, r 1720"/>
+    <zone name="1A" color="1" points="r 2250, 2100 2250, 1870 2480, 1580 2480, 1550 2450, 1550 2350, 1400 2200, 1300 2200, 950 1850, 950 1530, 980 1500, 1250 1500, 1380 1370, 1750 1370, 2250 870, 2300 870, 3300 1870, r 1870"/>
+  </background>
+</place>

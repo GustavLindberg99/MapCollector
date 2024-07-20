@@ -1,0 +1,35 @@
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes dropdownEffet {
+    from {max-height: 0px;}
+    to {max-height: 1000px;}
+}
+
+@keyframes notification {
+    0% {
+        transform: rotate(-40deg);
+    }
+    50% {
+        transform: rotate(40deg);
+    }
+    100% {
+        transform: rotate(-40deg);
+    }
+}
+
+img[src*="/images/bell.svg"] {
+    animation: notification 0.5s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+img[src*="images/loading.svg"] {
+    animation: spin 1s linear infinite;
+}

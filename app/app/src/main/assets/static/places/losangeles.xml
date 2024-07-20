@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<place>
+  <stations>
+    <station name="Chatsworth" x="740" y="550" a="t"/>
+    <station name="Sherman Way" x="740" y="810"/>
+    <station name="Canoga" x="790" y="860" a="l"/>
+
+    <station name="North Hollywood" x="1560" y="860"/>
+    <station name="Vermont/Sunset" x="1800" y="1100"/>
+
+    <station name="Wilshire/Western" x="1660" y="1330" a="l"/>
+    <station name="Wilshire/Vermont" x="1800" y="1330"/>
+    <station name="Westlake/MacArthur Park" x="1850" y="1380" a="l"/>
+    <station name="7th St/Metro Center" x="1900" y="1430" a="l"/>
+    <station name="Pershing &#10;Square" x="1970" y="1430" a="b"/>
+    <station name="Civic Center/&#10;Grand Park" x="2030" y="1370" a="t"/>
+
+    <station name="Pico" x="1850" y="1480"/>
+    <station name="Expo/&#10;Crenshaw" x="1430" y="1480" a="t"/>
+    <station name="Westchester/Veterans" x="1430" y="1900"/>
+    <station name="Downtown &#10;Santa &#10;Monica" x="660" y="1480" a="b"/>
+
+    <station name="&#10;Willowbrook/&#10;Rosa Parks" x="1850" y="2160" a="l"/>
+    <station name="5th St" x="1870" y="2650"/>
+    <station name="Pacific Av" x="1830" y="2650" a="l"/>
+    <station name="1st St" x="1870" y="2720"/>
+    <station name="Downtown Long Beach" x="1830" y="2720" a="l"/>
+
+    <station name="Norwalk" x="2110" y="2160" a="t"/>
+    <station name="Aviation/LAX" x="1430" y="2160" a="l"/>
+    <station name="Mariposa" x="1380" y="2210"/>
+    <station name="Redondo Beach" x="1380" y="2320"/>
+
+    <station name="APU/Citrus College" x="2750" y="750"/>
+    <station name="Lake" x="2240" y="750" a="l"/>
+    <station name="Memorial Park" x="2190" y="800" a="l"/>
+    <station name="Chinatown" x="2190" y="1300"/>
+    <station name="&#10;Union &#10;Station" x="2170" y="1370"/>
+    <station name="Little Tokyo/&#10;Arts District" x="2090" y="1400" a="b"/>
+    <station name="Historic &#10;Broadway" x="2020" y="1400" a="b"/>
+    <station name="Grand Av Arts/&#10;Bunker Hill" x="1930" y="1400" a="t"/>
+    <station name="Pico/Aliso" x="2250" y="1450"/>
+    <station name="Atlantic" x="2450" y="1650"/>
+  </stations>
+  <lines>
+    <trainLine name="A" color="#0072BD">
+      <stationRef name="APU/Citrus College"/><autoStation name="Azusa &#10;Downtown" a="t"/><label/><autoStation name="Irwindale" a="b"/><autoStation name="Duarte/&#10;City of Hope" a="t"/><autoStation name="Monrovia" a="b"/><label/><autoStation name="Arcadia" a="t"/><autoStation name="Sierra &#10;Madre Villa" a="b"/><autoStation name="Allen" a="t"/><label/><stationRef name="Lake"/><stationRef name="Memorial Park"/><autoStation name="Del Mar"/><label/><autoStation name="Fillmore"/><autoStation name="South Pasadena"/><autoStation name="Highland Park"/><label/><autoStation name="Southwest Museum"/><autoStation name="Heritage Sq"/><autoStation name="Lincoln/Cypress"/><stationRef name="Chinatown"/><label/><point x="2190" y="1350"/><stationRef name="Union Station"/><point x="2140" y="1400" ml="1" md="1"/><stationRef name="Little Tokyo/Arts District" md="1"/><label offset="-1"/><stationRef name="Historic Broadway" md="1"/><stationRef name="Grand Av Arts/Bunker Hill" mr="0.4" md="1"/><stationRef name="7th St/Metro Center" mdr="1"/><stationRef name="Pico" mdr="1"/><autoStation name="Grand/LATTC" mdr="1"/><label/><autoStation name="San Pedro St" mdr="1"/><autoStation name="Washington" mdr="1"/><autoStation name="Vernon" mdr="1"/><label/><autoStation name="Slauson" mdr="1"/><autoStation name="Florence" mdr="1"/><autoStation name="Firestone" mdr="1"/><label/><autoStation name="103rd St/Watts Towers" mdr="1"/><stationRef name="Willowbrook/Rosa Parks" mdr="1"/><autoStation name="Compton" mdr="1"/><label/><autoStation name="Artesia" mdr="1"/><autoStation name="Del Amo" mdr="1"/><autoStation name="Wardlow" mdr="1"/><label/><autoStation name="Willow St" mdr="1"/><autoStation name="Pacific Coast Hwy" mdr="1"/><autoStation name="Anaheim St" mdr="1"/><label/><point x="1850" y="2630" mdr="1"/><oneWay><stationRef name="Pacific Av" mdr="1"/><stationRef name="5th St" mdr="1"/></oneWay><oneWay><stationRef name="Downtown Long Beach" mdr="1"/><stationRef name="1st St" mdr="1"/></oneWay>
+    </trainLine>
+    <trainLine name="B" color="#ee1d23">
+      <stationRef name="North Hollywood"/><autoStation name="Universal City/Studio City"/><label/><autoStation name="Hollywood/Highland"/><autoStation name="Hollywood/Vine"/><autoStation name="Hollywood/Western"/><label/><stationRef name="Vermont/Sunset" mdr="1"/><autoStation name="Vermont/Santa Monica" mr="0.7"/><autoStation name="Vermont/Beverly" mr="0.7"/><label/><stationRef name="Wilshire/Vermont" mr="0.7" mu="1.7"/><stationRef name="Westlake/MacArthur Park" mr="0.7" mu="1.7"/><stationRef name="7th St/Metro Center" mr="0.4" mu="2"/><stationRef name="Pershing Square" ml="0.4" mu="2"/><stationRef name="Civic Center/Grand Park" ml="0.4" mu="2"/><label offset="1"/><stationRef name="Union Station" mu="2"/>
+    </trainLine>
+    <trainLine name="C" color="#6bc067">
+      <stationRef name="Norwalk"/><autoStation name="Lakewood Bl" a="b"/><label/><autoStation name="Long Beach Bl" a="t"/><stationRef name="Willowbrook/Rosa Parks"/><autoStation name="Avalon" a="t"/><label/><autoStation name="Harbor &#10;Fwy" a="b"/><autoStation name="Vermont/&#10;Athens" a="t"/><autoStation name="Crenshaw" a="b"/><label/><autoStation name="Hawthorne/&#10;Lennox" a="t"/><stationRef name="Aviation/LAX"/><stationRef name="Mariposa"/><autoStation name="El Segundo"/><label/><autoStation name="Douglas"/><stationRef name="Redondo Beach"/>
+    </trainLine>
+    <trainLine name="D" color="#a05ea6">
+      <stationRef name="Wilshire/Western" mu="1"/><autoStation name="Wilshire/&#10;Normandie" a="t" mu="1"/><label/><stationRef name="Wilshire/Vermont" mu="1"/><stationRef name="Westlake/MacArthur Park" mu="1"/><stationRef name="7th St/Metro Center" mu="1"/><stationRef name="Pershing Square" mu="1"/><stationRef name="Civic Center/Grand Park" mu="1"/><label offset="-1"/><stationRef name="Union Station" mu="1"/>
+    </trainLine>
+    <trainLine name="E" color="#FDB914">
+      <stationRef name="Atlantic"/><autoStation name="East LA Civic Center"/><label/><autoStation name="Maravilla"/><autoStation name="Indiana"/><autoStation name="Sota"/><label/><autoStation name="Mariachi Plaza"/><stationRef name="Pico/Aliso"/><point x="2140" y="1450"/><stationRef name="Little Tokyo/Arts District"/><label offset="1"/><stationRef name="Historic Broadway"/><stationRef name="Grand Av Arts/Bunker Hill"/><stationRef name="7th St/Metro Center"/><stationRef name="Pico"/><label/><autoStation name="LATTC/Ortho &#10;Institute" a="b"/><autoStation name="Jefferson/USC" a="t"/><autoStation name="Expo Park/USC" a="b"/><label/><autoStation name="Expo/&#10;Vermont" a="t"/><autoStation name="Expo/&#10;Western" a="b"/><stationRef name="Expo/Crenshaw"/><label/><autoStation name="Farmdale" a="b"/><autoStation name="Expo/&#10;La Brea" a="t"/><autoStation name="La Cienega/&#10;Jefferson" a="b"/><label/><autoStation name="Culver City" a="t"/><autoStation name="Palms" a="b"/><autoStation name="Westwood/&#10;Rancho Park" a="t"/><label/><autoStation name="Expo/&#10;Sepulveda" a="b"/><autoStation name="Expo/&#10;Bundy" a="t"/><autoStation name="26th St/&#10;Bergamot" a="b"/><label/><autoStation name="17th St/SMC" a="t"/><stationRef name="Downtown Santa Monica"/>
+    </trainLine>
+    <busLine name="G" color="#f47921">
+      <stationRef name="Chatsworth" md="1"/><autoStation name="Nordhoff"/><label/><autoStation name="Roscoe"/><stationRef name="Sherman Way"/><stationRef name="Canoga"/><label/><autoStation name="De Soto" a="t"/><autoStation name="Pierce College" a="b"/><autoStation name="Tampa" a="t"/><label/><autoStation name="Reseda" a="b"/><autoStation name="Balboa" a="t"/><autoStation name="Woodley" a="b"/><label/><autoStation name="Sepulveda" a="t"/><autoStation name="Van Nuys" id="Van Nuys (G line)" a="b"/><autoStation name="Woodman" a="t"/><label/><autoStation name="Valley College" a="b"/><autoStation name="Laurel Canyon" a="t"/><stationRef name="North Hollywood" ml="1"/>
+    </busLine>
+    <trainLine name="K" color="#E770AB">
+      <stationRef name="Expo/Crenshaw" md="1"/><autoStation name="Martin Luther King Jr"/><autoStation name="Leimert Park"/><autoStation name="Hyde Park"/><label/><autoStation name="Fairview Heights"/><autoStation name="Downtown Inglewood"/><stationRef name="Westchester/Veterans"/>
+    </trainLine>
+  </lines>
+  <background>
+    <sea points="l t, 200 t, 200 1150, 3200 4150, l b"/>
+    <river points="1800 b, 1800 2430, 1950 2280, 1950 1750, 2200 1500, 2200 1280, 1800 880, 1160 880, 1060 780, 600 780"/>
+    <river points="2050 b, 2050 2200, 2550 1700, 2550 1550, 2350 1350, 2350 900"/>
+    <river points="2100 b, 2100 3000, 2300 2800, 2300 2550, 2400 2450, 2470 2450, 2570 2350, 2570 2150, 2950 1770, 3080 1770, 4130 720"/>
+    <zone name="Los Angeles County" color="1" points="r t, r b, l b, l t"/>
+    <zone name="Ventura County" color="2" points="0 t, 640 t, 640 700, 0 1340"/>
+    <zone name="San Luis Obispo County" color="1" points="l t, 300 t, 300 230, l 230"/>
+    <zone name="Santa Barbara County" color="3" points="0 230, 300 230, 360 290, 360 620, 0 980"/>
+    <zone name="Orange County" color="2" points="1750 b, 1750 3300, 2250 2800, 2250 2250, 2300 2200, 2400 2200, 2600 2400, r 2400, r b"/>
+    <zone name="San Diego County" color="1" points="2100 b, 2100 3300, 2600 2800, r 2800, r b"/>
+    <zone name="San Bernardino County" color="2" points="r 1100, 2800 1100, 2700 1200, 2700 1400, 2800 1500, 2800 2000, r 2000"/>
+    <zone name="Riverside County" color="3" points="r 2800, 3000 2800, 2400 2200, 2800 1800, 2900 1800, 3000 1700, r 1700"/>
+  </background>
+  <extra id="region">
+    <stations>
+      <station name="San Luis Obispo" x="240" y="120" a="l"/>
+      <station name="Goleta" x="240" y="400" a="l"/>
+      <station name="Ventura" x="390" y="550" a="l"/>
+      <station name="Ventura East" x="410" y="500"/>
+      <station name="Oxnard" x="460" y="550" a="b"/>
+      <station name="Camarillo" x="530" y="550" a="b"/>
+      <station name="Moorpark" x="600" y="550" a="t"/>
+      <station name="Simi Valley" x="670" y="550" a="b"/>
+      <station name="Northridge" x="1083" y="550" a="t"/>
+      <station name="Van Nuys" x="1427" y="550" a="t"/>
+      <station name="Burbank/Bob Hope &#10;Airport" x="1770" y="550" a="t"/>
+
+      <station name="Lancaster" x="1870" y="90"/>
+      <station name="Burbank Downtown" x="1870" y="650"/>
+      <station name="Glendale" x="1870" y="930"/>
+
+      <station name="San Bernardino" x="3140" y="1370"/>
+
+      <station name="Commerce" x="2320" y="1900"/>
+      <station name="Norwalk/Santa Fe Springs" x="2320" y="2160"/>
+      <station name="Buena Park" x="2320" y="2230"/>
+      <station name="Fullerton" x="2320" y="2300" a="l"/>
+      <station name="Anaheim" x="2320" y="2430" a="l"/>
+      <station name="Orange" x="2320" y="2570"/>
+      <station name="Santa Ana" x="2320" y="2635"/>
+      <station name="Tustin" x="2320" y="2705"/>
+      <station name="Irvine" x="2320" y="2775"/>
+      <station name="Laguna Niguel/Mission Viejo" x="2320" y="2845"/>
+      <station name="San Juan Capistrano" x="2320" y="2915"/>
+      <station name="San Clemente" x="2320" y="2985"/>
+      <station name="San Clemente Pier" x="2320" y="3055"/>
+      <station name="Oceanside" x="2320" y="3125"/>
+      <station name="San Diego" x="2570" y="3375"/>
+
+      <station name="Corona West" x="2590" y="2300"/>
+      <station name="Corona North Main" x="2773" y="2117"/>
+      <station name="Riverside La Sierra" x="2957" y="1933"/>
+      <station name="Riverside &#10;Downtown" x="3140" y="1750"/>
+      <station name="Perris South" x="3440" y="1730"/>
+    </stations>
+    <lines>
+      <trainLine name="AV" color="#61a844">
+        <stationRef name="Lancaster" mr="2"/><autoStation name="Palmdale" mr="2"/><label/><autoStation name="Vincent Grade/Acton" mr="2"/><autoStation name="Via Princessa" mr="2"/><autoStation name="Santa Clarita" mr="2"/><label/><autoStation name="Newhall" mr="2"/><autoStation name="Sylmar/San Fernando" mr="2"/><autoStation name="Sun Valley" mr="2"/><label/><stationRef name="Burbank Downtown" mr="2" mu="0.4"/><label offset="-2"/><stationRef name="Glendale" mr="2" mu="0.8"/><label offset="-2"/><point x="2170" y="1230" mr="3" md="0.2"/><stationRef name="Union Station" mr="3"/>
+      </trainLine>
+      <trainLine name="IE" color="#bc2154">
+        <stationRef name="Oceanside" mr="2"/><stationRef name="San Clemente Pier" mr="2"/><stationRef name="San Clemente" mr="2"/><label offset="2"/><stationRef name="San Juan Capistrano" mr="2"/><stationRef name="Laguna Niguel/Mission Viejo" mr="2"/><label offset="2"/><stationRef name="Irvine" mr="2"/><stationRef name="Tustin" mr="2"/><label offset="2"/><stationRef name="Santa Ana" mr="2"/><stationRef name="Orange" mr="2"/><point x="2320" y="2565" mr="2" mu="0.6"/><label/><autoStation name="Anaheim Canyon" mdr="1"/><stationRef name="Corona West" mdr="1"/><label offset="-1"/><stationRef name="Corona North Main" mdr="1"/><stationRef name="Riverside La Sierra" mdr="1"/><label offset="-1"/><stationRef name="Riverside Downtown" mr="1" md="0.4"/><label/><stationRef name="San Bernardino" mr="1"/>
+      </trainLine>
+      <trainLine name="OC" color="#d76126">
+        <stationRef name="Union Station" mr="2" md="1"/><label offset="-1"/><point x="2170" y="1600" mr="2" md="0.6"/><point x="2320" y="1750" mr="1" mu="0.4"/><label offset="-2"/><stationRef name="Commerce" mr="1"/><stationRef name="Norwalk/Santa Fe Springs" mr="1"/><stationRef name="Buena Park" mr="1"/><stationRef name="Fullerton" mr="1"/><label offset="-1"/><stationRef name="Anaheim" mr="1"/><stationRef name="Orange" mr="1"/><stationRef name="Santa Ana" mr="1"/><label/><stationRef name="Tustin" mr="1"/><stationRef name="Irvine" mr="1"/><label/><stationRef name="Laguna Niguel/Mission Viejo" mr="1"/><stationRef name="San Juan Capistrano" mr="1"/><label/><stationRef name="San Clemente" mr="1"/><stationRef name="San Clemente Pier" mr="1"/><stationRef name="Oceanside" mr="1"/>
+      </trainLine>
+      <trainLine name="PS" color="#023b5a">
+        <stationRef name="San Luis Obispo"/><autoStation name="Grover Beach" a="l"/><label/><autoStation name="Guadalupe" a="l"/><autoStation name="Surf" a="l"/><stationRef name="Goleta"/><label/><autoStation name="Santa Barbara" a="l"/><autoStation name="Carpinteria" a="l"/><stationRef name="Ventura"/><label/><stationRef name="Oxnard"/><stationRef name="Camarillo"/><stationRef name="Moorpark"/><stationRef name="Simi Valley"/><stationRef name="Chatsworth"/><label offset="-11"/><stationRef name="Van Nuys"/><stationRef name="Burbank/Bob Hope Airport"/><label offset="-1"/><point station="Burbank Downtown"/><label offset="2"/><stationRef name="Glendale"/><label offset="2"/><point x="2170" y="1230" mr="1" md="1"/><stationRef name="Union Station" mr="1"/><label offset="-3"/><point x="2170" y="1600" mr="1" md="1"/><point x="2320" y="1750"/><label offset="-17"/><stationRef name="Norwalk/Santa Fe Springs"/><stationRef name="Fullerton"/><label offset="1"/><stationRef name="Anaheim"/><stationRef name="Santa Ana"/><label offset="-1.5"/><stationRef name="Irvine"/><label offset="-1.5"/><stationRef name="San Juan Capistrano"/><label offset="-1.5"/><stationRef name="San Clemente Pier"/><stationRef name="Oceanside"/><label/><autoStation name="Carlsbad"/><autoStation name="Solana Beach"/><autoStation name="Sorrento Valley"/><label/><autoStation name="Old Town"/><stationRef name="San Diego"/>
+      </trainLine>
+      <trainLine name="PV" color="#7aadd4">
+        <stationRef name="Union Station" mr="3" md="1"/><label offset="1"/><point x="2170" y="1600" mr="3" md="0.2"/><point x="2320" y="1750" mr="2" mu="0.8"/><label offset="-13"/><stationRef name="Norwalk/Santa Fe Springs" mr="2"/><stationRef name="Buena Park" mr="2"/><stationRef name="Fullerton" mr="2"/><label/><stationRef name="Corona West"/><label offset="1"/><stationRef name="Corona North Main"/><stationRef name="Riverside La Sierra"/><label offset="1"/><stationRef name="Riverside Downtown"/><point x="3160" y="1730"/><autoStation name="Riverside &#10;Hunter &#10;Park/UCR" a="t"/><label/><autoStation name="Moreno Valley/&#10;March Field" a="b"/><autoStation name="Perris &#10;Downtown" a="t"/><stationRef name="Perris South"/>
+      </trainLine>
+      <trainLine name="RS" color="#742f8b">
+        <stationRef name="Union Station" mr="4" md="1"/><label offset="3"/><point x="2170" y="1600" mr="4" mu="0.2"/><point x="2320" y="1750" mr="3.8" mu="0.4"/><autoStation name="Montbello/&#10;Commerce" a="t" mu="0.4"/><label/><autoStation name="Industry" a="b" mu="0.4"/><autoStation name="Pomona &#10;Downtown" a="t" mu="0.4"/><autoStation name="Ontario &#10;East" a="b" mu="0.4"/><label/><autoStation name="Jurupa Valley/&#10;Pedley" a="t" mu="0.4"/><stationRef name="Riverside Downtown" ml="1" mu="0.4"/>
+      </trainLine>
+      <trainLine name="SB" color="#823033">
+        <stationRef name="Union Station" mr="4"/><autoStation name="Cal State LA" a="t"/><label/><autoStation name="El Monte" a="b"/><autoStation name="Baldwin Park" a="t"/><autoStation name="Covina" a="b"/><label/><autoStation name="Pomona North" a="t"/><autoStation name="Claremont" a="b"/><autoStation name="Montclair" a="t"/><label/><autoStation name="Upland" a="b"/><autoStation name="Rancho Cucamonga" a="t"/><autoStation name="Fontana" a="b"/><label/><autoStation name="Rialto" a="t"/><stationRef name="San Bernardino"/>
+      </trainLine>
+      <trainLine name="VC" color="#ecaa1f">
+        <stationRef name="Ventura East" mu="1"/><label/><stationRef name="Oxnard" mu="1"/><stationRef name="Camarillo" mu="1"/><stationRef name="Moorpark" mu="1"/><stationRef name="Simi Valley" mu="1"/><stationRef name="Chatsworth" mu="1"/><label offset="-1"/><stationRef name="Northridge" mu="1"/><stationRef name="Van Nuys" mu="1"/><stationRef name="Burbank/Bob Hope Airport" mr="0.4" mu="1"/><label offset="1"/><stationRef name="Burbank Downtown" mr="1" mu="0.4"/><label/><stationRef name="Glendale" mr="1" mu="0.4"/><label/><point x="2170" y="1230" mr="2" md="0.6"/><stationRef name="Union Station" mr="2"/>
+      </trainLine>
+    </lines>
+  </extra>
+</place>

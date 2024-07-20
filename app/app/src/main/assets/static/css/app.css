@@ -1,0 +1,12 @@
+section[role=application] {
+    margin: 0px;
+    border: 0px;
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+}
+
+.gameViewContainer {
+    height: 100vh;
+    min-height: 100vh;
+}

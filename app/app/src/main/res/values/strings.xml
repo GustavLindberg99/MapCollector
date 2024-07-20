@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Map Collector</string>
+    <string name="exitGame">Exit game</string>
+    <string name="pause">Pause</string>
+    <string name="fastForward">Fast forward to destination</string>
+    <string name="help">Help</string>
+    <string name="about">About Map Collector</string>
+    <string name="myAccount">My account</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="logIn">Log in</string>
+    <string name="invalidEmail">Please enter a valid e-mail address.</string>
+    <string name="passwordMissing">Please enter your password.</string>
+    <string name="noInternet">Could not reach the server. Check your internet connection and try again.</string>
+    <string name="error">An error occurred: %s</string>
+    <string name="loginSucceeded">You are now logged in.</string>
+    <string name="profilePicture">Profile picture</string>
+    <string name="statistics">Statistics</string>
+    <string name="account">Account</string>
+    <string name="editProfile">Edit profile</string>
+    <string name="deleteAccount">Delete account</string>
+    <string name="logOut">Log out</string>
+    <string name="logOutConfirmation">Do you really want to log out?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="score">Score: %d</string>
+    <string name="numberOfMaps">Number of collected maps: %d</string>
+    <string name="winningRate">Winning rate: %d%%</string>
+    <string name="completedChallenges">Completed challenges:</string>
+    <string name="easyChallenges">Easy challenges</string>
+    <string name="mediumChallenges">Medium challenges</string>
+    <string name="difficultChallenges">Difficult challenges</string>
+    <string name="viewDetails">View details</string>
+    <string name="ok">OK</string>
+    <string name="aboutString"><![CDATA[Version %1$s<br/><br/><a href="%2$s">%2$s</a><br/><br/>Icons made by %5$s and %6$s from %3$s are licensed under %4$s. Some of the icons have been modified.<br/><br/>%7$s and %8$s are licensed under the %9$s.<br/><br/>World map from %10$s.]]></string>
+    <string name="signUp"><![CDATA[Don\'t have an account? <a href="%s">Sign up for free.</a>]]></string>
+    <string name="logoutSucceeded">You are now logged out.</string>
+</resources>

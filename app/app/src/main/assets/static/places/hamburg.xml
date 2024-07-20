@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<place>
+    <stations>
+        <station name="Pinneberg" x="570" y="1340"/>
+        <station name="Thesdorf" x="620" y="1390"/>
+        <station name="Halstenbek" x="670" y="1440"/>
+        <station name="Krupunder" x="720" y="1490"/>
+        <station name="Elbgaustraße" x="770" y="1540"/>
+        <station name="Eidelstedt" x="820" y="1590"/>
+        <station name="Stellingen" x="880" y="1650"/>
+        <station name="Langenfelde" x="925" y="1695"/>
+        <station name="&#10;Diebsteich" x="970" y="1740"/>
+        <station name="&#10;Holsten&#xad;straße" x="1040" y="1740"/>
+        <station name="Stern&#xad;schanze" x="1160" y="1740" a="bottom"/>
+        <station name="Dammtor" x="1310" y="1740" a="top"/>
+        <station name="Hamburg &#10;Hbf" x="1630" y="1840" a="t"/>
+        <station name="Berliner &#10;Tor" x="1800" y="1840" a="t"/>
+
+        <station name="Wedel" x="500" y="1520"/>
+        <station name="Iserbrook" x="500" y="1700"/>
+        <station name="Blankenese" x="550" y="1750" a="left"/>
+        <station name="Hochkamp" x="640" y="1750" a="t"/>
+        <station name="Klein &#10;Flottbek" x="700" y="1750" a="b"/>
+        <station name="Othmarschen" x="760" y="1750" a="t"/>
+        <station name="Bahrenfeld" x="850" y="1750" a="b"/>
+        <station name="Ottensen" x="910" y="1750" a="t"/>
+        <station name="Altona" x="970" y="1810"/>
+        <station name="Königstraße" x="970" y="1880" a="left"/>
+        <station name="Reeperbahn" x="1020" y="1930" a="bottom"/>
+        <station name="Landungsbrücken" x="1160" y="1930"/>
+        <station name="Stadthausbrücke" x="1250" y="1840" a="top"/>
+        <station name="&#10;Jungfernstieg" x="1360" y="1840" a="left"/>
+        <station name="Meßberg" x="1460" y="1940" a="left"/>
+        <station name="Steinstraße" x="1530" y="1940" a="bottom"/>
+
+        <station name="Mönckebergstraße" x="1490" y="1900" a="top"/>
+        <station name="Rathaus" x="1390" y="1900" a="left"/>
+        <station name="Rödingsmarkt" x="1310" y="1980" a="bottom"/>
+        <station name="Baumwall" x="1210" y="1980" a="left"/>
+        <station name="St. Pauli" x="1160" y="1870" a="left"/>
+        <station name="Feldstraße" x="1160" y="1810" a="left"/>
+        <station name="Schlump" x="1210" y="1690" w="1" h="1"/>
+        <station name="Hoheluft&#xad;brücke" x="1260" y="1640"/>
+        <station name="Eppendorfer Baum" x="1310" y="1590" a="left"/>
+        <station name="Kellinghusenstraße" x="1360" y="1540" a="left" w="1" h="1"/>
+        <station name="Sierichstraße" x="1477" y="1540" a="bottom"/>
+        <station name="Borgweg" x="1595" y="1540" a="top"/>
+        <station name="Saarlandstraße" x="1713" y="1540" a="bottom"/>
+        <station name="Barmbek" x="1830" y="1540" w="1" h="1"/>
+        <station name="Habicht&#xad;straße" x="1830" y="1490"/>
+        <station name="Dehnhaide" x="1830" y="1580" a="left"/>
+        <station name="Hamburger Straße" x="1830" y="1620" a="left"/>
+        <station name="Mundsburg" x="1830" y="1660" a="left"/>
+        <station name="Uhlandstraße" x="1830" y="1700" a="left"/>
+
+        <station name="Norderstedt Mitte" x="1315" y="1025"/>
+        <station name="Richtweg" x="1338" y="1048"/>
+        <station name="Garstedt" x="1375" y="1085"/>
+        <station name="Ochsenzoll" x="1398" y="1108"/>
+        <station name="Kiwittsmoor" x="1420" y="1130" a="left"/>
+        <station name="Langenhorn Nord" x="1458" y="1168" a="left"/>
+        <station name="Langenhorn Markt" x="1480" y="1190" a="left"/>
+        <station name="Fuhlsbüttel Nord" x="1503" y="1213" a="left"/>
+        <station name="Fuhlsbüttel" x="1540" y="1250" a="left"/>
+        <station name="Klein Borstel" x="1563" y="1273" a="left"/>
+        <station name="Sengelmannstraße" x="1548" y="1352" a="left"/>
+        <station name="Alsterdorf" x="1501" y="1399" a="left"/>
+        <station name="Lattenkamp" x="1454" y="1446" a="left"/>
+        <station name="Hudtwalckerstraße" x="1407" y="1493" a="left"/>
+        <station name="Klosterstern" x="1360" y="1610"/>
+        <station name="Hallerstraße" x="1360" y="1680"/>
+        <station name="Stephansplatz" x="1360" y="1770"/>
+
+        <station name="Gänsemarkt" x="1320" y="1800" a="left"/>
+        <station name="Messehallen" x="1295" y="1775" a="left"/>
+        <station name="Christuskirche" x="1160" y="1640" a="left"/>
+        <station name="Emilienstraße" x="1110" y="1590" a="left"/>
+        <station name="Osterstraße" x="1110" y="1540" a="left"/>
+        <station name="Lutterothstraße" x="1110" y="1490" a="left"/>
+        <station name="Hagenbecks Tierpark" x="1110" y="1440" a="left"/>
+        <station name="Hagendeel" x="1110" y="1390" a="left"/>
+        <station name="Niendorf Markt" x="1110" y="1340" a="left"/>
+        <station name="Joachim-Mähl-Straße" x="1110" y="1290" a="left"/>
+        <station name="Schippelsweg" x="1110" y="1240" a="left"/>
+        <station name="Niendorf Nord" x="1110" y="1190" a="left"/>
+
+        <station name="Überseequartier" x="1410" y="2030" a="b"/>
+        <station name="HafenCity &#10;Universität" x="1520" y="2030" a="t"/>
+        <station name="Hammerbrook" x="1630" y="1935" a="l"/>
+        <station name="&#10;Elbbrücken" x="1630" y="2030" a="l"/>
+        <station name="Veddel" x="1630" y="2100" a="l"/>
+        <station name="Wilhelmsburg" x="1630" y="2170" a="l"/>
+        <station name="Harburg" x="1630" y="2240" a="l"/>
+        <station name="Harburg &#10;Rathaus" x="1560" y="2310" a="bottom"/>
+        <station name="Heimfeld" x="1490" y="2310" a="top"/>
+        <station name="Neuwiedenthal" x="1420" y="2310" a="bottom"/>
+        <station name="Neugraben" x="1345" y="2310" a="top"/>
+        <station name="Fischbek" x="1270" y="2310" a="bottom"/>
+        <station name="Neu &#10;Wulmstorf" x="1210" y="2310" a="top"/>
+        <station name="Buxtehude" x="1140" y="2310" a="bottom"/>
+        <station name="Neukloster" x="1080" y="2250"/>
+        <station name="Horneburg" x="1020" y="2190"/>
+        <station name="Dollern" x="930" y="2190" a="top"/>
+        <station name="Agathenburg" x="840" y="2190" a="bottom"/>
+        <station name="Stade" x="750" y="2190" a="top"/>
+
+        <station name="Burgstraße" x="1895" y="1840" a="bottom"/>
+        <station name="Hammer Kirche" x="1980" y="1840" a="top"/>
+        <station name="Rauhes &#10;Haus" x="2040" y="1840" a="bottom"/>
+        <station name="Horner &#10;Rennbahn" x="2105" y="1840" a="top"/>
+        <station name="Legienstraße" x="2190" y="1840" a="bottom"/>
+        <station name="Billstedt" x="2250" y="1840" a="top"/>
+        <station name="Merkenstraße" x="2320" y="1840" a="bottom"/>
+        <station name="Steinfurther &#10;Allee" x="2390" y="1840" a="top"/>
+        <station name="Mümmelmannsberg" x="2460" y="1840"/>
+
+        <station name="Lohmühlenstraße" x="1730" y="1740" a="left"/>
+        <station name="Lübecker &#10;Straße" x="1830" y="1740" w="1" h="1"/>
+        <station name="Wartenau" x="1858" y="1712"/>
+        <station name="Ritterstraße" x="1892" y="1678"/>
+        <station name="Wandsbeker &#10;Chaussee" x="1930" y="1640" w="1" h="1"/>
+        <station name="Wandsbek &#10;Markt" x="1930" y="1590"/>
+        <station name="Straßburger &#10;Straße" x="1930" y="1540"/>
+        <station name="Alter &#10;Teichweg" x="1930" y="1490"/>
+        <station name="Wandsbek-Gartenstadt" x="1880" y="1440" w="1" h="1"/>
+        <station name="Trabrennbahn" x="1880" y="1370" a="left"/>
+        <station name="Farmsen" x="1880" y="1300" a="left"/>
+        <station name="Oldenfelde" x="1880" y="1230" a="left"/>
+        <station name="Berne" x="1880" y="1160" a="left"/>
+        <station name="Meiendorfer Weg" x="1880" y="1090" a="left"/>
+        <station name="Volksdorf" x="1880" y="1020" a="left"/>
+        <station name="Buckhorn" x="1880" y="950" a="left"/>
+        <station name="Hoisbüttel" x="1880" y="880" a="left"/>
+        <station name="Ohlstedt" x="1880" y="810" a="left"/>
+        <station name="Buchenkamp" x="1940" y="960" a="top"/>
+        <station name="Ahrensburg &#10;West" x="2010" y="960" a="bottom"/>
+        <station name="Ahrensburg &#10;Ost" x="2110" y="960" a="top"/>
+        <station name="Schmalenbeck" x="2180" y="960" a="bottom"/>
+        <station name="Kiekut" x="2250" y="960" a="top"/>
+        <station name="Großhansdorf" x="2320" y="960"/>
+
+        <station name="&#10;Hasselbrook" x="1930" y="1740"/>
+        <station name="Friedrichs&#xad;berg" x="1880" y="1590" a="bottom"/>
+        <station name="Alte Wöhr" x="1752" y="1462" a="left"/>
+        <station name="Rübenkamp" x="1673" y="1383" a="left"/>
+        <station name="Ohlsdorf" x="1595" y="1305"/>
+        <station name="Hamburg Airport" x="1455" y="1305" a="left"/>
+        <station name="Kornweg" x="1595" y="1235"/>
+        <station name="Hoheneichen" x="1595" y="1165"/>
+        <station name="Wellingsbüttel" x="1595" y="1095"/>
+        <station name="Poppenbüttel" x="1595" y="1025"/>
+
+        <station name="Bergedorf" x="2245" y="2255" a="bottom"/>
+        <station name="Reinbek" x="2315" y="2255" a="top"/>
+        <station name="Wohltorf" x="2385" y="2255" a="bottom"/>
+        <station name="Aumühle" x="2455" y="2255" a="top"/>
+    </stations>
+    <lines>
+        <trainLine name="U1" color="#176fc1">
+            <branch>
+                <stationRef name="Großhansdorf"/><stationRef name="Kiekut"/><label/><stationRef name="Schmalenbeck"/><stationRef name="Ahrensburg Ost"/><stationRef name="Ahrensburg West"/><label/><stationRef name="Buchenkamp"/>
+            </branch>
+            <branch>
+                <stationRef name="Ohlstedt"/><stationRef name="Hoisbüttel"/><label/><stationRef name="Buckhorn"/>
+            </branch>
+            <stationRef name="Volksdorf"/><stationRef name="Meiendorfer Weg"/><label/><stationRef name="Berne"/><stationRef name="Oldenfelde"/><stationRef name="Farmsen"/><label/><stationRef name="Trabrennbahn"/><stationRef name="Wandsbek-Gartenstadt"/><label/><stationRef name="Alter Teichweg"/><stationRef name="Straßburger Straße"/><label/><stationRef name="Wandsbek Markt"/><stationRef name="Wandsbeker Chaussee"/><stationRef name="Ritterstraße"/><label/><stationRef name="Wartenau"/><stationRef name="Lübecker Straße"/><stationRef name="Lohmühlenstraße"/><label/><point station="Hamburg Hbf" mr="3" mu="3"/><stationRef name="Hamburg Hbf" mu="3"/><point station="Hamburg Hbf" ml="0.4" mu="3"/><label/><stationRef name="Steinstraße" ml="3.4"/><stationRef name="Meßberg" mr="3"/><stationRef name="Jungfernstieg" mu="3"/><label/><stationRef name="Stephansplatz"/><stationRef name="Hallerstraße"/><label/><stationRef name="Klosterstern"/><stationRef name="Kellinghusenstraße"/><stationRef name="Hudtwalckerstraße"/><label/><stationRef name="Lattenkamp"/><stationRef name="Alsterdorf"/><stationRef name="Sengelmannstraße"/><label/><point station="Ohlsdorf" ml="1" md="1"/><stationRef name="Ohlsdorf" ml="1" mu="1"/><stationRef name="Klein Borstel"/><stationRef name="Fuhlsbüttel"/><label/><stationRef name="Fuhlsbüttel Nord"/><stationRef name="Langenhorn Markt"/><stationRef name="Langenhorn Nord"/><label/><stationRef name="Kiwittsmoor"/><stationRef name="Ochsenzoll"/><stationRef name="Garstedt"/><label/><stationRef name="Richtweg"/><stationRef name="Norderstedt Mitte"/>
+        </trainLine>
+        <trainLine name="U2" color="#ed1c24">
+            <stationRef name="Mümmelmannsberg"/><stationRef name="Steinfurther Allee"/><label/><stationRef name="Merkenstraße"/><stationRef name="Billstedt"/><stationRef name="Legienstraße"/><label offset="1"/><stationRef name="Horner Rennbahn"/><stationRef name="Rauhes Haus"/><stationRef name="Hammer Kirche"/><label offset="1"/><stationRef name="Burgstraße"/><stationRef name="Berliner Tor"/><label/><stationRef name="Hamburg Hbf"/><label/><stationRef name="Jungfernstieg"/><stationRef name="Gänsemarkt"/><stationRef name="Messehallen"/><stationRef name="Schlump"/><label/><stationRef name="Christuskirche"/><stationRef name="Emilienstraße"/><stationRef name="Osterstraße"/><label/><stationRef name="Lutterothstraße"/><stationRef name="Hagenbecks Tierpark"/><stationRef name="Hagendeel"/><label/><stationRef name="Niendorf Markt"/><stationRef name="Joachim-Mähl-Straße"/><stationRef name="Schippelsweg"/><label/><stationRef name="Niendorf Nord"/>
+        </trainLine>
+        <trainLine name="U3" color="#fddd04">
+            <stationRef name="Wandsbek-Gartenstadt"/><label/><stationRef name="Habichtstraße"/><stationRef name="Barmbek"/><stationRef name="Dehnhaide"/><stationRef name="Hamburger Straße"/><label/><stationRef name="Mundsburg"/><stationRef name="Uhlandstraße"/><stationRef name="Lübecker Straße"/><label/><point x="1830" y="1810" mu="2"/><stationRef name="Berliner Tor" mu="2"/><label offset="4"/><stationRef name="Hamburg Hbf" mu="2"/><label/><point x="1570" y="1900" ml="2"/><stationRef name="Mönckebergstraße"/><stationRef name="Rathaus"/><stationRef name="Rödingsmarkt"/><label/><stationRef name="Baumwall"/><stationRef name="Landungsbrücken" mdr="1"/><stationRef name="St. Pauli" mr="0.7"/><label/><stationRef name="Feldstraße" mr="0.7"/><stationRef name="Sternschanze" mdr="1"/><point station="Sternschanze" mur="1"/><stationRef name="Schlump"/><stationRef name="Hoheluftbrücke"/><label/><stationRef name="Eppendorfer Baum"/><stationRef name="Kellinghusenstraße"/><label/><stationRef name="Sierichstraße"/><stationRef name="Borgweg"/><stationRef name="Saarlandstraße"/><label/><stationRef name="Barmbek"/>
+        </trainLine>
+        <trainLine name="U4" color="#00aaaf">
+            <stationRef name="Billstedt" md="1"/><stationRef name="Legienstraße" md="1"/><label offset="-1"/><stationRef name="Horner Rennbahn" md="1"/><stationRef name="Rauhes Haus" md="1"/><stationRef name="Hammer Kirche" md="1"/><label offset="-1"/><stationRef name="Burgstraße" md="1"/><stationRef name="Berliner Tor" md="1"/><label offset="-2"/><stationRef name="Hamburg Hbf" md="1"/><label offset="-2"/><stationRef name="Jungfernstieg" md="1"/><point x="1340" y="1860" md="1"/><point x="1340" y="1960"/><label/><stationRef name="Überseequartier"/><stationRef name="HafenCity Universität"/><label/><stationRef name="Elbbrücken" ml="2"/>
+        </trainLine>
+
+        <trainLine name="S1" color="#33b540">
+            <branch>
+                <stationRef name="Poppenbüttel"/><label/><stationRef name="Wellingsbüttel"/><stationRef name="Hoheneichen"/><label/><stationRef name="Kornweg"/>
+            </branch>
+            <branch>
+                <stationRef name="Hamburg Airport"/><label/>
+            </branch>
+            <stationRef name="Ohlsdorf"/><stationRef name="Rübenkamp"/><label/><stationRef name="Alte Wöhr"/><stationRef name="Barmbek"/><stationRef name="Friedrichsberg"/><stationRef name="Wandsbeker Chaussee"/><label/><stationRef name="Hasselbrook"/><autoStation name="Landwehr" a="l"/><point x="1830" y="1840" mr="1" mu="1"/><stationRef name="Berliner Tor" mu="1"/><label offset="2"/><stationRef name="Hamburg Hbf" mu="1"/><label offset="2"/><stationRef name="Jungfernstieg" mu="1"/><stationRef name="Stadthausbrücke" mr="1" mu="1"/><stationRef name="Landungsbrücken"/><label offset="1"/><stationRef name="Reeperbahn"/><stationRef name="Königstraße" ml="1" mu="1"/><stationRef name="Altona" ml="1"/><stationRef name="Ottensen" ml="1"/><stationRef name="Bahrenfeld"/><label/><stationRef name="Othmarschen"/><stationRef name="Klein Flottbek"/><stationRef name="Hochkamp"/><label/><stationRef name="Blankenese"/><stationRef name="Iserbrook"/><autoStation name="Sülldorf"/><label/><autoStation name="Rissen"/><stationRef name="Wedel"/>
+        </trainLine>
+        <trainLine name="S2" color="#b51c4d">
+            <stationRef name="Altona" mr="1"/><label/><stationRef name="Holstenstraße" mr="1"/><stationRef name="Sternschanze"/><stationRef name="Dammtor"/><label offset="7"/><point x="1530" y="1740" ml="2"/><stationRef name="Hamburg Hbf" md="2"/><label offset="4"/><stationRef name="Berliner Tor" md="2"/><point x="1830" y="1840" mr="2" md="2"/><label/><autoStation name="Rothenburgsort"/><autoStation name="Tiefstack"/><autoStation name="Billwerder-Moorfleet"/><label/><autoStation name="Mittlerer Landweg"/><autoStation name="Allermöhe"/><autoStation name="Nettelnburg"/><label/><stationRef name="Bergedorf"/><stationRef name="Reinbek"/><stationRef name="Wohltorf"/><label/><stationRef name="Aumühle"/>
+        </trainLine>
+        <trainLine name="S3" color="#5e2590" via="Jungfernstieg">
+            <stationRef name="Pinneberg"/><label/><stationRef name="Thesdorf"/><stationRef name="Halstenbek"/><stationRef name="Krupunder"/><label/><stationRef name="Elbgaustraße"/><stationRef name="Eidelstedt"/><label offset="-1"/><stationRef name="Stellingen"/><stationRef name="Langenfelde"/><stationRef name="Diebsteich"/><label offset="-1"/><stationRef name="Altona"/><stationRef name="Königstraße" mu="1.4"/><stationRef name="Reeperbahn" mr="0.4" mu="1"/><label offset="1"/><stationRef name="Landungsbrücken" ml="0.4" mu="1"/><stationRef name="Stadthausbrücke" mr="0.6" mu="2"/><stationRef name="Jungfernstieg" mu="2"/><label offset="-3"/><point station="Hamburg Hbf" ml="6.8" mu="2"/><stationRef name="Hamburg Hbf" ml="1.4" md="3.4"/><point station="Hamburg Hbf" ml="1" md="3.8"/><label offset="-1"/><stationRef name="Hammerbrook" ml="1"/><stationRef name="Elbbrücken" ml="1"/><stationRef name="Veddel" ml="1"/><label offset="-1"/><stationRef name="Wilhelmsburg" ml="1"/><stationRef name="Harburg" ml="1" mu="0.4"/><label offset="-1"/><stationRef name="Harburg Rathaus" ml="0.4" mu="1"/><stationRef name="Heimfeld" mu="1"/><stationRef name="Neuwiedenthal" mu="1"/><label offset="1"/><stationRef name="Neugraben" mu="1"/>
+        </trainLine>
+        <trainLine name="S5" color="#0093C1" via="Dammtor">
+            <stationRef name="Elbgaustraße" mur="1"/><stationRef name="Eidelstedt" mur="1"/><label offset="1"/><stationRef name="Stellingen" mur="1"/><stationRef name="Langenfelde" mur="1"/><stationRef name="Diebsteich" mr="0.4" mu="1"/><label/><stationRef name="Holstenstraße" mr="1" mu="1"/><stationRef name="Sternschanze" mu="1"/><stationRef name="Dammtor" mu="1"/><label offset="5"/><point x="1530" y="1740" ml="4.4" mu="1"/><stationRef name="Hamburg Hbf" ml="0.7" md="2.7"/><point station="Hamburg Hbf" md="3.4"/><label offset="1"/><stationRef name="Hammerbrook"/><stationRef name="Elbbrücken"/><stationRef name="Veddel"/><label offset="1"/><stationRef name="Wilhelmsburg"/><stationRef name="Harburg"/><label offset="1"/><stationRef name="Harburg Rathaus"/><stationRef name="Heimfeld"/><stationRef name="Neuwiedenthal"/><label offset="-1"/><stationRef name="Neugraben"/><stationRef name="Fischbek"/><stationRef name="Neu Wulmstorf"/><label/><stationRef name="Buxtehude"/><stationRef name="Neukloster"/><label/><stationRef name="Horneburg"/><stationRef name="Dollern"/><stationRef name="Agathenburg"/><label/><stationRef name="Stade"/>
+        </trainLine>
+
+        <walkingLine>
+            <stationRef name="Dammtor"/>
+            <stationRef name="Stephansplatz"/>
+        </walkingLine>
+        <walkingLine>
+            <stationRef name="Rathaus"/>
+            <stationRef name="Jungfernstieg"/>
+        </walkingLine>
+    </lines>
+    <background>
+        <river points="l 1990, 900 1990, 1110 2200, 1950 2200"/>
+        <river points="960 2050, 1800 2050, 2070 2320, r 2320"/>
+        <river points="1150 0, 480 670, 0 670"/>
+        <sea points="l 2350, 50 2350, 100 2300, 100 300, 170 230, 170 t, l t"/>
+        <sea points="r t, 1100 t, 1100 50, 1150 100, 2200 100, 2240 60, 2290 60, 2290 200, r 200"/>
+        <island points="30 t, 30 230, 60 230, 60 90, 150 90, 150 70, 60 70, 60 t" zone=""/>
+        <island points="2300 20, 2400 20, 2400 40, 2300 40" zone=""/>
+        <boundary points="360 1150, 300 1090, 300 670, 480 670, 750 400, 900 400, 1050 250, 1850 250, 2200 600, 2600 600, 2700 700, 2700 2320, r 2320, r 2500, 2020 2500, 1700 2820, 1600 2820, 1180 2400, 550 2400, 460 2310, 460 1990, 360 1890"/>
+        <zone name="E" color="1" points="l t, r t, r b, l b"/>
+        <zone name="D" color="2" points="l 900, 330 900, 580 650, 700 650, 800 550, 1250 550, 1400 400, 1930 400, 2630 1100, 2630 2000, 2700 2070, 2700 2320, 2650 2370, 2400 2370, 2300 2470, 1900 2470, 1790 2580, 1580 2580, 1400 2400, 800 2400, 800 2200, 400 1800, l 1800"/>
+        <zone name="C" color="1" points="420 1100, 520 1000, 520 880, 550 850, 1150 850, 1400 600, 2080 600, 2500 1020, 2500 2250, 2400 2350, 2140 2350, 2040 2450, 1600 2450, 1520 2370, 1220 2370, 900 2050, 720 2050, 420 1750"/>
+        <zone name="B" color="2" points="450 1750, 450 1300, 800 950, 1080 950, 1250 780, 2200 780, 2470 1050, 2470 2130, 2280 2320, 2140 2320, 2040 2420, 1600 2420, 1520 2340, 1220 2340, 900 2020, 720 2020"/>
+        <zone name="A" color="1" points="600 1550, 970 1180, 1490 1180, 1590 1080, 1700 1080, 1900 1280, 2000 1280, 2420 1700, 2420 1900, 2270 2050, 2000 2050, 1850 2200, 1110 2200, 900 1990, 790 1990, 600 1800"/>
+    </background>
+    <extra id="region">
+        <stations>
+            <station name="Neumünster" x="960" y="310" a="left"/>
+            <station name="Boostedt" x="1000" y="350"/>
+            <station name="Großenaspe" x="1040" y="390"/>
+            <station name="Wiemersdorf" x="1080" y="430"/>
+            <station name="Bad Bramstedt" x="1120" y="470"/>
+            <station name="Bad Bramstedt Kurhaus" x="1120" y="520"/>
+            <station name="Lentföhrden" x="1120" y="570"/>
+            <station name="Nützen" x="1120" y="620"/>
+            <station name="Dodenhof" x="1120" y="670"/>
+            <station name="Holstentherme" x="1070" y="720"/>
+            <station name="Kaltenkirchen" x="1020" y="770"/>
+            <station name="Kaltenkirchen Süd" x="1020" y="820"/>
+            <station name="Henstedt-Ulzburg" x="1020" y="870"/>
+            <station name="Ulzburg Süd" x="1070" y="920" a="left"/>
+            <station name="Tanneneck" x="1020" y="970" a="left"/>
+            <station name="Ellerau" x="970" y="1020" a="left"/>
+            <station name="Quickborn" x="920" y="1070" a="left"/>
+            <station name="Quickborn Süd" x="870" y="1120" a="left"/>
+            <station name="Hasloh" x="820" y="1170"/>
+            <station name="Bönningstedt" x="820" y="1240"/>
+            <station name="Burgwedel" x="820" y="1310"/>
+            <station name="Schnelsen" x="820" y="1380"/>
+            <station name="Hörgensweg" x="820" y="1450"/>
+            <station name="Eidelstedt Zentrum" x="820" y="1520"/>
+
+            <station name="Meeschensee" x="1120" y="970" a="b"/>
+            <station name="Friedrichsgabe" x="1260" y="970"/>
+
+            <station name="Barmstedt Brunnenstraße" x="830" y="870" a="left"/>
+            <station name="Voßloch" x="780" y="920"/>
+            <station name="Bokholt" x="730" y="970"/>
+            <station name="Sparrieshoop" x="680" y="1020"/>
+            <station name="Langenmoor" x="630" y="1020" a="bottom"/>
+            <station name="Elmshorn" x="570" y="1020" a="left"/>
+
+            <station name="Flensburg" x="720" y="20"/>
+            <station name="Tarp" x="720" y="80"/>
+            <station name="Jübek" x="720" y="140"/>
+            <station name="Schleswig" x="770" y="190" a="bottom"/>
+            <station name="Owschlag" x="840" y="190" a="top"/>
+            <station name="Rendsburg" x="910" y="190"/>
+            <station name="Nortorf" x="960" y="240"/>
+
+            <station name="Kiel Hbf" x="1160" y="110"/>
+            <station name="Flintbek" x="1110" y="160"/>
+            <station name="Bordesholm" x="1060" y="210"/>
+            <station name="Einfeld" x="1010" y="260"/>
+
+            <station name="Wester&#xad;land" x="40" y="80" a="bottom"/>
+            <station name="Keitum" x="80" y="80" a="top"/>
+            <station name="Morsum" x="140" y="80" a="bottom"/>
+            <station name="Klanxbüll" x="200" y="80" a="top"/>
+            <station name="Niebüll" x="260" y="80"/>
+            <station name="Langenhorn" x="295" y="115"/>
+            <station name="Bredstedt" x="330" y="150"/>
+            <station name="Husum" x="330" y="220"/>
+            <station name="Friedrichstadt" x="330" y="290"/>
+            <station name="Lunden" x="330" y="360"/>
+            <station name="Heide" x="330" y="430"/>
+            <station name="Meldorf" x="330" y="500" a="l"/>
+            <station name="St Michaelisdonn" x="330" y="570" a="l"/>
+            <station name="Burg" x="330" y="640" a="l"/>
+            <station name="Wilster" x="330" y="710" a="l"/>
+            <station name="Itzehoe" x="330" y="780" a="l"/>
+            <station name="Kremperheide" x="330" y="850" a="l"/>
+            <station name="Krempe" x="380" y="900" a="l"/>
+            <station name="Glückstadt" x="450" y="900"/>
+            <station name="Herzhorn" x="500" y="950" a="l"/>
+            <station name="Brokstedt" x="830" y="440"/>
+            <station name="Wrist" x="700" y="570"/>
+            <station name="Dauenhof" x="570" y="700" a="left"/>
+            <station name="Horst" x="570" y="860" a="left"/>
+            <station name="Tornesch" x="570" y="1130" a="left"/>
+            <station name="Prisdorf" x="570" y="1240" a="left"/>
+
+            <station name="Hammah" x="660" y="2190" a="left"/>
+            <station name="Himmelpforten" x="600" y="2130" a="left"/>
+            <station name="Hechthausen" x="540" y="2070" a="left"/>
+            <station name="Hemmoor" x="480" y="2010"/>
+            <station name="Wingst" x="390" y="2010" a="top"/>
+            <station name="Cadenberge" x="300" y="2010" a="bottom"/>
+            <station name="Otterndorf" x="210" y="2010" a="top"/>
+            <station name="Cuxhaven" x="120" y="2010" a="bottom"/>
+
+            <station name="Apensen" x="1070" y="2310" a="top"/>
+            <station name="Ruschwedel" x="1010" y="2310" a="bottom"/>
+            <station name="Harsefeld" x="950" y="2310" a="top"/>
+            <station name="Bargstedt" x="880" y="2310" a="bottom"/>
+            <station name="Brest-Aspe" x="820" y="2310" a="top"/>
+            <station name="Kutenholz" x="760" y="2310" a="bottom"/>
+            <station name="Hesedorf" x="690" y="2310" a="top"/>
+            <station name="Bremervörde" x="630" y="2310" a="bottom"/>
+            <station name="Oerel" x="570" y="2310" a="top"/>
+            <station name="Heinschenwalde" x="500" y="2310" a="bottom"/>
+            <station name="Frelsdorf" x="440" y="2310" a="top"/>
+            <station name="Geestenseth" x="380" y="2310" a="bottom"/>
+            <station name="Wehdel" x="310" y="2310" a="top"/>
+            <station name="Sellstedt" x="250" y="2310" a="bottom"/>
+            <station name="Bremerhaven-&#10;Wulsdorf" x="190" y="2310" a="top"/>
+            <station name="Bremerhaven &#10;Hbf" x="130" y="2310" a="bottom"/>
+
+            <station name="Schwarzenbek" x="2525" y="2255" a="bottom"/>
+            <station name="Müssen" x="2595" y="2255" a="top"/>
+            <station name="&#10;Büchen" x="2665" y="2255"/>
+            <station name="Boizenburg" x="2800" y="2255"/>
+            <station name="Pritzier" x="3000" y="2055"/>
+            <station name="Rostock Hbf" x="3000" y="250"/>
+
+            <station name="Wandsbek" x="2060" y="1640"/>
+            <station name="Tonndorf" x="2060" y="1370"/>
+            <station name="Rahlstedt" x="2060" y="1130"/>
+            <station name="Ahrensburg" x="2060" y="890"/>
+            <station name="Gartenholz" x="2060" y="810"/>
+            <station name="Bargteheide" x="2060" y="730"/>
+            <station name="Kupfermühle" x="2060" y="650"/>
+            <station name="Bad Oldesloe" x="2060" y="570"/>
+            <station name="Reinfeld" x="2060" y="490"/>
+            <station name="Lübeck Hbf" x="2160" y="390"/>
+
+            <station name="Lübeck Hochschulstadtteil" x="2210" y="440"/>
+            <station name="Lübeck Flughafen" x="2260" y="490"/>
+            <station name="Ratzeburg" x="2665" y="895"/>
+            <station name="Mölln" x="2665" y="1575"/>
+            <station name="Lauenburg" x="2620" y="2300"/>
+            <station name="Echem" x="2575" y="2345"/>
+
+            <station name="Fresenburg" x="1920" y="570" a="top"/>
+            <station name="Wakendorf" x="1780" y="570" a="bottom"/>
+            <station name="Altengörs" x="1650" y="440"/>
+            <station name="Bad Segeberg" x="1520" y="310" a="top"/>
+            <station name="Fahrenkrug" x="1380" y="310" a="bottom"/>
+            <station name="Wahlstedt" x="1240" y="310" a="top"/>
+            <station name="Rickling" x="1100" y="310" a="bottom"/>
+
+            <station name="Maschen" x="1780" y="2390" a="bottom"/>
+            <station name="Stelle" x="1905" y="2390" a="top"/>
+            <station name="Ashausen" x="2030" y="2390" a="bottom"/>
+            <station name="Winsen" x="2155" y="2390" a="top"/>
+            <station name="Radbruch" x="2280" y="2390" a="bottom"/>
+            <station name="Bardowick" x="2405" y="2390" a="top"/>
+            <station name="&#10;Lüneburg" x="2530" y="2390" a="left"/>
+            <station name="Bienenbüttel" x="2580" y="2440" a="left"/>
+            <station name="Bad Bevensen" x="2580" y="2550" a="left"/>
+            <station name="Uelzen" x="2510" y="2620"/>
+
+            <station name="Wendisch &#10;Evern" x="2620" y="2390" a="bottom"/>
+            <station name="Vastorf" x="2690" y="2390" a="top"/>
+            <station name="Bavendorf" x="2760" y="2390" a="bottom"/>
+            <station name="Dahlenburg" x="2830" y="2390" a="top"/>
+            <station name="Neetzendorf" x="2900" y="2390" a="bottom"/>
+            <station name="Göhrde" x="2970" y="2390" a="top"/>
+            <station name="Leitstade" x="3040" y="2390" a="bottom"/>
+            <station name="Hitzacker" x="3110" y="2390" a="top"/>
+            <station name="Dannenberg Ost" x="3180" y="2390"/>
+
+            <station name="Hittfeld" x="1630" y="2320" a="l"/>
+            <station name="Klecken" x="1630" y="2410" a="l"/>
+            <station name="Buchholz" x="1580" y="2460"/>
+            <station name="Sprötze" x="1510" y="2460" a="b"/>
+            <station name="Tostedt" x="1440" y="2460" a="t"/>
+            <station name="Lauenbrück" x="1385" y="2515" a="b"/>
+            <station name="Scheeßel" x="1315" y="2515" a="t"/>
+            <station name="Rotenburg" x="1245" y="2515" a="left"/>
+            <station name="Sottrum" x="1190" y="2570" a="left"/>
+            <station name="Ottersberg" x="1135" y="2625" a="left"/>
+            <station name="Sagehorn" x="1080" y="2680" a="left"/>
+            <station name="Bremen-Oberneuland" x="1025" y="2735" a="left"/>
+            <station name="Bremen Hbf" x="970" y="2790" a="left"/>
+
+            <station name="Bremen &#10;Mahndorf" x="1116" y="2790" a="top"/>
+            <station name="Achim" x="1262" y="2790" a="bottom"/>
+            <station name="Langwedel" x="1408" y="2790" a="top"/>
+            <station name="Visselhövede" x="1554" y="2790" a="bottom"/>
+            <station name="Munster" x="1870" y="2620" a="left"/>
+            <station name="Brockhöfe" x="2083" y="2620" a="bottom"/>
+            <station name="Ebstorf" x="2297" y="2620" a="top"/>
+
+            <station name="Suerhop" x="1580" y="2495"/>
+            <station name="Holm-Seppensen" x="1580" y="2530"/>
+            <station name="Büsenbachtal" x="1580" y="2565"/>
+            <station name="Handeloh" x="1580" y="2600"/>
+            <station name="Wintermoor" x="1580" y="2635"/>
+            <station name="Schneverdingen" x="1580" y="2670"/>
+            <station name="Wolterdingen" x="1620" y="2710" a="left"/>
+            <station name="Soltau Nord" x="1660" y="2750" a="left"/>
+            <station name="Soltau" x="1700" y="2790"/>
+            <station name="Dorfmark" x="1740" y="2830"/>
+            <station name="Bad Fallingbostel" x="1780" y="2870"/>
+            <station name="Walsrode" x="1820" y="2910" a="left"/>
+            <station name="Hodenhagen" x="1860" y="2950" a="left"/>
+            <station name="Schwarmstedt" x="1900" y="2990" a="left"/>
+            <station name="Lindwedel" x="1940" y="3030" a="left"/>
+            <station name="Mellendorf" x="1980" y="3070" a="left"/>
+            <station name="Langenhagen Mitte" x="2020" y="3110"/>
+            <station name="Hannover Hbf" x="2020" y="3180"/>
+        </stations>
+        <lines>
+            <trainLine name="A1" color="#f68712">
+                <stationRef name="Ulzburg Süd" mdl="2"/><label/><stationRef name="Tanneneck"/><stationRef name="Ellerau"/><stationRef name="Quickborn"/><label/><stationRef name="Quickborn Süd"/><stationRef name="Hasloh" mur="2"/><stationRef name="Bönningstedt" mur="2"/><label/><stationRef name="Burgwedel" mur="2"/><stationRef name="Schnelsen" mur="2"/><stationRef name="Hörgensweg" mur="2"/><label/><stationRef name="Eidelstedt Zentrum" mur="2"/><stationRef name="Eidelstedt" mur="2"/>
+            </trainLine>
+            <trainLine name="A2" color="#f68712">
+                <stationRef name="Neumünster" mdr="1"/><stationRef name="Boostedt"/><label/><stationRef name="Großenaspe"/><stationRef name="Wiemersdorf"/><stationRef name="Bad Bramstedt"/><label/><stationRef name="Bad Bramstedt Kurhaus"/><stationRef name="Lentföhrden"/><stationRef name="Nützen"/><stationRef name="Dodenhof"/><label/><stationRef name="Holstentherme"/><stationRef name="Kaltenkirchen"/><label/><stationRef name="Kaltenkirchen Süd"/><stationRef name="Henstedt-Ulzburg"/><stationRef name="Ulzburg Süd"/><label/><stationRef name="Meeschensee"/><autoStation name="Haslohfurth" a="t"/><autoStation name="Quickborner &#10;Straße" a="b"/><stationRef name="Friedrichsgabe"/><label/><autoStation name="Moorbekhalle"/><stationRef name="Norderstedt Mitte" mul="1"/>
+            </trainLine>
+            <trainLine name="A3" color="#f68712">
+                <stationRef name="Ulzburg Süd" mdl="1"/><stationRef name="Henstedt-Ulzburg" mdl="1"/><autoStation name="Alveslohe" a="t" mdl="1"/><label/><autoStation name="Langeln" a="b" mdl="1"/><autoStation name="Barmstedt" a="t" mdl="1"/><stationRef name="Barmstedt Brunnenstraße" mdl="1"/><label/><stationRef name="Voßloch"/><stationRef name="Bokholt"/><stationRef name="Sparrieshoop"/><label/><stationRef name="Langenmoor"/><stationRef name="Elmshorn"/>
+            </trainLine>
+
+            <trainLine name="RE1" color="#231f20">
+                <stationRef name="Hamburg Hbf" mr="1" md="6"/><label offset="1"/><point x="1830" y="1840" mr="4.6" md="6"/><label/><stationRef name="Bergedorf" ml="0.4" md="1"/><stationRef name="Schwarzenbek" md="1"/><label/><stationRef name="Müssen" md="1"/><stationRef name="Büchen" md="1"/><autoStation name="Schwanheide" a="t" md="1"/><stationRef name="Boizenburg" ml="1" md="1"/><label/><autoStation name="Brahlstorf"/><stationRef name="Pritzier"/><label/><autoStation name="Hagenow Land"/><autoStation name="Holthusen"/><label/><autoStation name="Schwerin Süd"/><autoStation name="Schwerin Hbf"/><label/><stationRef name="Rostock Hbf"/>
+            </trainLine>
+            <trainLine name="RE3" color="#231f20">
+                <stationRef name="Hamburg Hbf" mr="4" md="7"/><label offset="5"/><stationRef name="Harburg" mr="4"/><point station="Harburg" mr="4" md="4"/><label offset="1"/><point station="Maschen"/><label offset="-1"/><stationRef name="Winsen"/><label offset="-1"/><stationRef name="Lüneburg"/><stationRef name="Bienenbüttel"/><label/><stationRef name="Bad Bevensen"/><stationRef name="Uelzen"/>
+            </trainLine>
+            <trainLine name="RB31" color="#231f20">
+                <stationRef name="Hamburg Hbf" mr="5" md="7"/><label offset="7"/><stationRef name="Harburg" mr="5"/><point station="Harburg" mr="5" md="3.6"/><autoStation name="Meckelfeld" mur="1"/><label offset="1"/><stationRef name="Maschen" mr="0.4" mu="1"/><stationRef name="Stelle" mu="1"/><label offset="0.5"/><stationRef name="Ashausen" mu="1"/><stationRef name="Winsen" mu="1"/><stationRef name="Radbruch" mu="1"/><label offset="0.5"/><stationRef name="Bardowick" mu="1"/><stationRef name="Lüneburg" mu="1"/>
+            </trainLine>
+            <trainLine name="RB32" color="#231f20">
+                <stationRef name="Lüneburg" mr="1"/><stationRef name="Wendisch Evern"/><label/><stationRef name="Vastorf"/><stationRef name="Bavendorf"/><stationRef name="Dahlenburg"/><label/><stationRef name="Neetzendorf"/><stationRef name="Göhrde"/><stationRef name="Leitstade"/><label/><stationRef name="Hitzacker"/><stationRef name="Dannenberg Ost"/>
+            </trainLine>
+            <trainLine name="RB33" color="#231f20">
+                <stationRef name="Buxtehude" ml="2.4"/><label/><stationRef name="Apensen"/><stationRef name="Ruschwedel"/><stationRef name="Harsefeld"/><label/><stationRef name="Bargstedt"/><stationRef name="Brest-Aspe"/><stationRef name="Kutenholz"/><label/><stationRef name="Hesedorf"/><stationRef name="Bremervörde"/><stationRef name="Oerel"/><label/><stationRef name="Heinschenwalde"/><stationRef name="Frelsdorf"/><stationRef name="Geestenseth"/><label/><stationRef name="Wehdel"/><stationRef name="Sellstedt"/><stationRef name="Bremerhaven-Wulsdorf"/><label/><stationRef name="Bremerhaven Hbf"/>
+            </trainLine>
+            <trainLine name="RB37" color="#231f20">
+                <stationRef name="Bremen Hbf" mr="1"/><label/><stationRef name="Bremen Mahndorf"/><stationRef name="Achim"/><stationRef name="Langwedel"/><label/><stationRef name="Visselhövede"/><stationRef name="Soltau" ml="1"/><stationRef name="Munster" ml="1"/><label/><stationRef name="Brockhöfe"/><stationRef name="Ebstorf"/><label/><stationRef name="Uelzen" ml="1"/>
+            </trainLine>
+            <trainLine name="RB38" color="#231f20">
+                <stationRef name="Buchholz" md="1"/><stationRef name="Suerhop"/><label/><stationRef name="Holm-Seppensen"/><stationRef name="Büsenbachtal"/><stationRef name="Handeloh"/><label/><stationRef name="Wintermoor"/><stationRef name="Schneverdingen"/><stationRef name="Wolterdingen"/><label/><stationRef name="Soltau Nord"/><stationRef name="Soltau"/><stationRef name="Dorfmark"/><label/><stationRef name="Bad Fallingbostel"/><stationRef name="Walsrode"/><stationRef name="Hodenhagen"/><label/><stationRef name="Schwarmstedt"/><stationRef name="Lindwedel"/><stationRef name="Mellendorf"/><label/><stationRef name="Langenhagen Mitte" ml="0.5" mu="0.5"/><stationRef name="Hannover Hbf" ml="0.5"/>
+            </trainLine>
+            <trainLine name="RE4" color="#231f20">
+                <stationRef name="Hamburg Hbf" mr="3" md="7"/><label offset="3"/><stationRef name="Harburg" mr="3"/><label offset="3"/><point station="Klecken" mr="3" mu="3"/><stationRef name="Buchholz"/><stationRef name="Tostedt"/><label offset="1"/><point station="Lauenbrück"/><stationRef name="Rotenburg"/><label offset="1"/><stationRef name="Bremen Hbf"/>
+            </trainLine>
+            <trainLine name="RB41" color="#231f20">
+                <stationRef name="Hamburg Hbf" mr="2" md="7"/><label offset="1"/><stationRef name="Harburg" mr="2"/><stationRef name="Hittfeld" mr="2"/><label offset="1"/><stationRef name="Klecken" mr="2" mu="3.4"/><stationRef name="Buchholz" ml="0.4" mu="1"/><stationRef name="Sprötze" mu="1"/><stationRef name="Tostedt" ml="0.4" mu="1"/><label offset="-0.5"/><stationRef name="Lauenbrück" ml="0.4" mu="1"/><stationRef name="Scheeßel" mu="1"/><stationRef name="Rotenburg" ml="0.4" mu="1"/><stationRef name="Sottrum" mul="1"/><stationRef name="Ottersberg" mul="1"/><label offset="-0.5"/><stationRef name="Sagehorn" mul="1"/><stationRef name="Bremen-Oberneuland" mul="1"/><stationRef name="Bremen Hbf" mul="1"/>
+            </trainLine>
+            <trainLine name="RE5" color="#231f20">
+                <stationRef name="Hamburg Hbf" mr="1" md="7"/><label offset="-1"/><stationRef name="Harburg" mr="1"/><point station="Harburg" mr="1" md="0.4"/><point station="Harburg Rathaus" mr="0.4" md="1"/><label offset="2"/><stationRef name="Buxtehude" ml="0.4" md="1"/><stationRef name="Horneburg" ml="0.4" md="1"/><label/><stationRef name="Stade" md="1"/><stationRef name="Hammah" mdr="1"/><label/><stationRef name="Himmelpforten"/><stationRef name="Hechthausen"/><stationRef name="Hemmoor"/><label/><stationRef name="Wingst"/><stationRef name="Cadenberge"/><stationRef name="Otterndorf"/><label/><stationRef name="Cuxhaven"/>
+            </trainLine>
+            <trainLine name="RE6" color="#231f20">
+                <stationRef name="Altona" ml="2" mu="2"/><point station="Diebsteich" ml="2" md="5"/><label offset="-7"/><point station="Pinneberg" ml="5" md="2"/><label offset="4"/><stationRef name="Elmshorn" ml="5"/><point station="Elmshorn" ml="5" mu="5"/><label offset="-1"/><point station="Glückstadt"/><point station="Krempe"/><point station="Kremperheide"/><label offset="1"/><stationRef name="Itzehoe"/><label offset="1"/><stationRef name="Heide"/><stationRef name="Lunden"/><label/><stationRef name="Friedrichstadt"/><stationRef name="Husum"/><stationRef name="Bredstedt"/><stationRef name="Langenhorn"/><stationRef name="Niebüll"/><stationRef name="Klanxbüll"/><stationRef name="Morsum"/><label/><stationRef name="Keitum"/><stationRef name="Westerland"/>
+            </trainLine>
+            <trainLine name="RB61" color="#231f20">
+                <stationRef name="Hamburg Hbf" ml="2.6" mu="2"/><point x="1530" y="1740" ml="2.6" mu="2"/><label offset="-1"/><stationRef name="Dammtor" mu="2"/><point station="Diebsteich" ml="7.6" mu="2"/><label offset="-5"/><stationRef name="Pinneberg" ml="4" md="1.6"/><stationRef name="Prisdorf" ml="4"/><label offset="2"/><stationRef name="Tornesch" ml="4"/><stationRef name="Elmshorn" ml="4"/><point station="Elmshorn" ml="4" mu="5.4"/><label offset="-0.5"/><stationRef name="Herzhorn" mur="1"/><stationRef name="Glückstadt" mr="0.4" mu="1"/><stationRef name="Krempe" mr="0.4" mu="1"/><stationRef name="Kremperheide" mr="1" mu="0.4"/><label offset="-1"/><stationRef name="Itzehoe" mr="1"/>
+            </trainLine>
+            <trainLine name="RB62" color="#231f20">
+                <stationRef name="Itzehoe" ml="1"/><stationRef name="Wilster" ml="1"/><stationRef name="Burg" ml="1"/><label offset="-1"/><stationRef name="St Michaelisdonn" ml="1"/><stationRef name="Meldorf" ml="1"/><stationRef name="Heide" ml="1"/>
+            </trainLine>
+            <trainLine name="RE7" color="#231f20">
+                <stationRef name="Hamburg Hbf" ml="1.9" mu="2.7"/><point x="1530" y="1740" ml="2.2" mu="3"/><label offset="0.5"/><stationRef name="Dammtor" mu="3"/><point station="Diebsteich" ml="5.8" mu="3"/><label offset="-3.5"/><stationRef name="Pinneberg" ml="2" md="0.8"/><label offset="-2"/><stationRef name="Elmshorn" ml="2"/><label offset="-5"/><point station="Dauenhof" ml="2" md="0.6"/><label offset="-10"/><label offset="9"/><stationRef name="Neumünster" mul="1"/><label/><stationRef name="Nortorf" mul="1"/><stationRef name="Rendsburg"/><stationRef name="Owschlag"/><stationRef name="Schleswig"/><label/><stationRef name="Jübek"/><stationRef name="Tarp"/><label/><stationRef name="Flensburg"/>
+            </trainLine>
+            <trainLine name="RE70" color="#231f20">
+                <stationRef name="Hamburg Hbf" ml="1.2" mu="3.4"/><point x="1530" y="1740" ml="1.8" mu="4"/><label offset="2"/><stationRef name="Dammtor" mu="4"/><point station="Diebsteich" ml="5.4" mu="4"/><label offset="-1.5"/><stationRef name="Pinneberg" ml="1" md="0.4"/><label offset="-4"/><stationRef name="Elmshorn" ml="1"/><label offset="-7"/><point station="Dauenhof" ml="1" md="1"/><label offset="1"/><stationRef name="Wrist"/><stationRef name="Brokstedt"/><label offset="1"/><stationRef name="Neumünster"/><stationRef name="Einfeld"/><stationRef name="Bordesholm"/><label/><stationRef name="Flintbek"/><stationRef name="Kiel Hbf"/>
+            </trainLine>
+            <trainLine name="RB71" color="#231f20">
+                <stationRef name="Altona" ml="1" mu="1"/><point station="Diebsteich" ml="1" md="3.2"/><label offset="-3"/><stationRef name="Pinneberg" ml="3" md="1.2"/><stationRef name="Prisdorf" ml="3"/><label/><stationRef name="Tornesch" ml="3"/><stationRef name="Elmshorn" ml="3"/><label offset="5"/><stationRef name="Horst" ml="3"/><stationRef name="Dauenhof" ml="3" md="0.2"/><label offset="-2"/><stationRef name="Wrist" mul="2"/>
+            </trainLine>
+            <trainLine name="RE8" color="#231f20">
+                <stationRef name="Hamburg Hbf" mr="1" md="3"/><label offset="-3.5"/><point x="1830" y="1840" ml="1.6" md="3"/><point station="Hasselbrook" mr="1.4"/><point x="1960" y="1740"/><label offset="1"/><point station="Wandsbek"/><label offset="-13"/><label offset="35.5"/><stationRef name="Bad Oldesloe"/><stationRef name="Reinfeld" mu="1.4"/><label offset="-1"/><stationRef name="Lübeck Hbf" ml="1.9" md="0.5"/>
+            </trainLine>
+            <trainLine name="RE80" color="#231f20">
+                <stationRef name="Hamburg Hbf" mr="1" md="4"/><label offset="-1.5"/><point x="1830" y="1840" ml="1.2" md="4"/><point station="Hasselbrook" mr="1.8" md="1"/><point x="1960" y="1740" mr="0.4" md="1"/><label/><point station="Wandsbek" mr="1" md="0.4"/><label offset="1"/><stationRef name="Ahrensburg" mr="1"/><label offset="-4"/><stationRef name="Bad Oldesloe" mr="1"/><stationRef name="Reinfeld" mr="1" mu="1"/><label offset="1"/><stationRef name="Lübeck Hbf" ml="0.5" md="0.5"/>
+            </trainLine>
+            <trainLine name="RB81" color="#231f20">
+                <stationRef name="Hamburg Hbf" mr="1" md="5"/><label/><point x="1830" y="1840" ml="0.8" md="5"/><stationRef name="Hasselbrook" mr="2.2" md="2"/><point x="1960" y="1740" mr="0.8" md="2"/><label offset="-1"/><stationRef name="Wandsbek" mr="2" md="0.8"/><stationRef name="Tonndorf" mr="2"/><label offset="-3"/><stationRef name="Rahlstedt" mr="2"/><stationRef name="Ahrensburg" mr="2"/><stationRef name="Gartenholz" mr="2"/><label offset="-2"/><stationRef name="Bargteheide" mr="2"/><stationRef name="Kupfermühle" mr="2"/><stationRef name="Bad Oldesloe" mr="2"/>
+            </trainLine>
+            <trainLine name="RB82" color="#231f20">
+                <stationRef name="Bad Oldesloe" ml="1"/><stationRef name="Fresenburg"/><label/><stationRef name="Wakendorf"/><stationRef name="Altengörs"/><stationRef name="Bad Segeberg"/><label/><stationRef name="Fahrenkrug"/><stationRef name="Wahlstedt"/><stationRef name="Rickling"/><label/><stationRef name="Neumünster" mr="1.4"/>
+            </trainLine>
+            <trainLine name="RE83" color="#231f20">
+                <stationRef name="Lübeck Hbf" mr="0.5" md="0.5"/><label/><stationRef name="Lübeck Hochschulstadtteil"/><stationRef name="Lübeck Flughafen"/><label/><stationRef name="Ratzeburg"/><label/><stationRef name="Mölln"/><label/><stationRef name="Büchen"/><stationRef name="Lauenburg"/><label/><stationRef name="Echem"/><stationRef name="Lüneburg" mr="1" mu="1"/>
+            </trainLine>
+
+            <walkingLine>
+                <stationRef name="Dammtor"/>
+                <stationRef name="Stephansplatz"/>
+            </walkingLine>
+            <walkingLine>
+                <stationRef name="Rathaus"/>
+                <stationRef name="Jungfernstieg"/>
+            </walkingLine>
+        </lines>
+        <background>
+            <zone name="F" color="2" points="l b, l t, 900 t, 900 400, 800 500, 580 500, 80 1000, l 1000, l 1990, 535 1990, 585 2040, 585 2470, 1360 2470, 1580 2690, 1730 2690, 1830 2590, 2310 2590, 2480 2420, 2980 2420, 3080 2320, r 2320, r b"/>
+        </background>
+    </extra>
+</place>

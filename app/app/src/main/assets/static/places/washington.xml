@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<place boxpos="bl">
+  <stations>
+    <station name="Ashburn" x="50" y="250"/>
+
+    <station name="Vienna" x="300" y="800" a="bottom"/>
+    <station name="Dunn Loring" x="400" y="800" a="bottom"/>
+    <station name="West Falls &#10;Church" x="500" y="800" a="bottom"/>
+    <station name="East Falls &#10;Church" x="600" y="800" a="bottom"/>
+    <station name="Ballston - &#10;Marymount University" x="700" y="800" a="top"/>
+    <station name="Virginia Square - &#10;George Mason University" x="800" y="800" a="bottom"/>
+    <station name="Clarendon" x="900" y="800" a="top"/>
+    <station name="Court House" x="1000" y="800" a="bottom"/>
+    <station name="Rosslyn" x="1100" y="800"/>
+    <station name="Foggy Bottom - &#10;GWU" x="1150" y="750" a="top"/>
+    <station name="Farragut West" x="1250" y="750"/>
+    <station name="McPherson &#10;Square" x="1300" y="800"/>
+    <station name="Metro Center" x="1300" y="870" w="3" h="1" a="left"/>
+    <station name="Federal Triangle" x="1300" y="970" a="left"/>
+    <station name="Smithsonian" x="1300" y="1020" a="left"/>
+    <station name="L'Enfant Plaza" x="1350" y="1070" w="2" h="3" a="left"/>
+    <station name="Federal &#10;Center SW" x="1420" y="1070" a="top"/>
+    <station name="Capitol South" x="1490" y="1070" a="bottom"/>
+    <station name="Eastern &#10;Market" x="1560" y="1070" a="top"/>
+    <station name="Potomac Ave" x="1630" y="1070" a="bottom"/>
+    <station name="Stadium-Armory" x="1700" y="1070"/>
+    <station name="New Carrollton" x="1950" y="820"/>
+
+    <station name="Benning Rd" x="1750" y="1120" a="left"/>
+    <station name="Capitol Heights" x="1850" y="1120" a="top"/>
+    <station name="Addison Road" x="1950" y="1120" a="bottom"/>
+    <station name="Morgan Blvd" x="2050" y="1120" a="top"/>
+    <station name="Largo Town Center" x="2150" y="1120"/>
+
+    <station name="Shady Grove" x="580" y="50"/>
+    <station name="Farragut North" x="1230" y="700"/>
+    <station name="Judiciary Sq" x="1450" y="870" a="top"/>
+    <station name="Union Station" x="1530" y="870"/>
+    <station name="NoMa - Gallaudet University" x="1600" y="800"/>
+    <station name="Rhode Island Ave" x="1600" y="720"/>
+    <station name="Brookland - Catholic University of America" x="1600" y="640"/>
+    <station name="Takoma" x="1600" y="480" a="left"/>
+    <station name="Silver Spring" x="1600" y="400" a="left"/>
+    <station name="Forest Glen" x="1600" y="320" a="left"/>
+    <station name="Wheaton" x="1600" y="240" a="left"/>
+    <station name="Glenmont" x="1600" y="160" a="left"/>
+
+    <station name="Branch Ave" x="1750" y="1470"/>
+    <station name="Archives" x="1350" y="970"/>
+    <station name="&#10;Gallery Place" x="1350" y="870" w="2" h="1"/>
+    <station name="Mount Vernon Sq" x="1400" y="820"/>
+    <station name="Shaw - Howard &#10;University" x="1400" y="750"/>
+    <station name="U Street" x="1400" y="680"/>
+    <station name="Columbia Heights" x="1400" y="610" a="left"/>
+    <station name="Georgia Ave - Petworth" x="1450" y="560" a="left"/>
+    <station name="Fort Totten" x="1600" y="560" w="1" h="1"/>
+    <station name="Greenbelt" x="1800" y="360"/>
+
+    <station name="Arlington Cemetery" x="1100" y="1020" a="left"/>
+    <station name="Pentagon" x="1250" y="1170" a="left"/>
+    <station name="Pentagon City" x="1250" y="1240" a="left"/>
+    <station name="Crystal City" x="1250" y="1310" a="left"/>
+    <station name="Ronald Reagan Washington National Airport" x="1250" y="1380" a="left"/>
+    <station name="Braddock Rd" x="1250" y="1450" a="left"/>
+    <station name="King Street - Old Town" x="1250" y="1520" a="left"/>
+    <station name="Eisenhower Ave" x="1250" y="1590"/>
+    <station name="Huntington" x="1250" y="1660"/>
+    <station name="Van Dorn Street" x="1180" y="1590" a="left"/>
+    <station name="Franconia-Springfield" x="1110" y="1660" a="left"/>
+  </stations>
+  <lines>
+    <trainLine name="RD" color="#ef4143">
+      <stationRef name="Shady Grove"/><label/><autoStation name="Rockville"/><autoStation name="Twinbrook"/><autoStation name="White Flint"/><label/><autoStation name="Grosvenor-Strathmore"/><autoStation name="Medical Center"/><autoStation name="Bethesda"/><label/><autoStation name="Friendship Heights"/><autoStation name="Tenleytown - American University"/><autoStation name="Van Ness - UDC"/><label/><autoStation name="Cleveland Park"/><autoStation name="Woodley Park"/><autoStation name="Dupont Circle"/><label/><stationRef name="Farragut North"/><point x="1230" y="800"/><label/><stationRef name="Metro Center"/><stationRef name="Gallery Place"/><label/><stationRef name="Judiciary Sq"/><stationRef name="Union Station"/><label/><stationRef name="NoMa - Gallaudet University"/><stationRef name="Rhode Island Ave"/><stationRef name="Brookland - Catholic University of America"/><label/><stationRef name="Fort Totten"/><stationRef name="Takoma"/><label/><stationRef name="Silver Spring"/><stationRef name="Forest Glen"/><stationRef name="Wheaton"/><label/><stationRef name="Glenmont"/>
+    </trainLine>
+    <trainLine name="BL" color="#0d76bd">
+      <stationRef name="Franconia-Springfield" ml="1"/><label/><stationRef name="Van Dorn Street" ml="1"/><stationRef name="King Street - Old Town" ml="1"/><label offset="1"/><stationRef name="Braddock Rd" ml="1"/><stationRef name="Ronald Reagan Washington National Airport" ml="1"/><stationRef name="Crystal City" ml="1"/><label offset="1"/><stationRef name="Pentagon City" ml="1"/><stationRef name="Pentagon" ml="1"/><label/><stationRef name="Arlington Cemetery" md="1" mdr="1"/><label/><stationRef name="Rosslyn" mdr="1"/><stationRef name="Foggy Bottom - GWU" mddr="1"/><stationRef name="Farragut West" mddl="1"/><stationRef name="McPherson Square" mdll="1"/><stationRef name="Metro Center" ml="1"/><label offset="-2"/><stationRef name="Federal Triangle" ml="1"/><stationRef name="Smithsonian" mdll="1"/><stationRef name="L'Enfant Plaza" mddl="1"/><stationRef name="Federal Center SW" md="1"/><stationRef name="Capitol South" md="1"/><label/><stationRef name="Eastern Market" md="1"/><stationRef name="Potomac Ave" md="1"/><stationRef name="Stadium-Armory" md="1"/><stationRef name="Benning Rd" md="1"/><label offset="-1"/><stationRef name="Capitol Heights" md="1"/><stationRef name="Addison Road" md="1"/><stationRef name="Morgan Blvd" md="1"/><label offset="-1"/><stationRef name="Largo Town Center" md="1"/>
+    </trainLine>
+    <trainLine name="OR" color="#f69320">
+      <stationRef name="Vienna" mu="1"/><stationRef name="Dunn Loring" mu="1"/><label/><stationRef name="West Falls Church" mu="1"/><stationRef name="East Falls Church" mu="1"/><stationRef name="Ballston - Marymount University" mu="1"/><label offset="-1"/><stationRef name="Virginia Square - George Mason University" mu="1"/><stationRef name="Clarendon" mu="1"/><stationRef name="Court House" mu="1"/><label offset="-1"/><stationRef name="Rosslyn" muul="1"/><stationRef name="Foggy Bottom - GWU" muul="1"/><stationRef name="Farragut West" muur="1"/><stationRef name="McPherson Square" murr="1"/><stationRef name="Metro Center" mr="1"/><label offset="2"/><stationRef name="Federal Triangle" mr="1"/><stationRef name="Smithsonian" murr="1"/><stationRef name="L'Enfant Plaza" muur="1"/><stationRef name="Federal Center SW" mu="1"/><stationRef name="Capitol South" mu="1"/><stationRef name="Eastern Market" mu="1"/><stationRef name="Potomac Ave" mu="1"/><label/><stationRef name="Stadium-Armory" mu="1"/><autoStation name="Minnesota Ave" mu="1"/><autoStation name="Deanwood" mu="1"/><label/><autoStation name="Cheverly" mu="1"/><autoStation name="Landover" mu="1"/><stationRef name="New Carrollton" mu="1"/>
+    </trainLine>
+    <trainLine name="YL" color="#ffd107">
+      <stationRef name="Huntington"/><label/><stationRef name="Eisenhower Ave"/><stationRef name="King Street - Old Town"/><label offset="-1"/><stationRef name="Braddock Rd"/><stationRef name="Ronald Reagan Washington National Airport"/><stationRef name="Crystal City"/><label offset="-1"/><stationRef name="Pentagon City"/><stationRef name="Pentagon"/><label/><stationRef name="L'Enfant Plaza" md="0.5" ml="0.5"/><stationRef name="Archives" ml="0.5"/><label offset="1"/><stationRef name="Gallery Place" ml="0.5"/><point station="Gallery Place" ml="0.5" mu="0.4"/><stationRef name="Mount Vernon Sq" md="0.5" mul="1"/>
+    </trainLine>
+    <trainLine name="GR" color="#08a84e">
+      <stationRef name="Branch Ave"/><label/><autoStation name="Suitland"/><autoStation name="Naylor Rd"/><autoStation name="Southern Ave"/><label/><autoStation name="Congress Heights"/><autoStation name="Anacostia"/><autoStation name="Navy Yard - Ballpark"/><label/><autoStation name="Waterfront"/><stationRef name="L'Enfant Plaza" md="0.5" mr="0.5"/><stationRef name="Archives" mr="0.5"/><label offset="-1"/><stationRef name="Gallery Place" mr="0.5"/><stationRef name="Mount Vernon Sq" md="0.5"/><stationRef name="Shaw - Howard University"/><label offset="-1"/><stationRef name="U Street"/><stationRef name="Columbia Heights"/><stationRef name="Georgia Ave - Petworth"/><label offset="1"/><stationRef name="Fort Totten"/><autoStation name="West Hyattsville"/><autoStation name="Prince George's Plaza"/><label/><autoStation name="College Park - University of Maryland"/><stationRef name="Greenbelt"/>
+    </trainLine>
+    <trainLine name="SV" color="#a5a5a5">
+      <stationRef name="Ashburn"/><autoStation name="Loudoun Gateway"/><label/><autoStation name="Washington Dulles International Airport"/><autoStation name="Innovation Center"/><autoStation name="Herndon"/><label/><autoStation name="Reston Town Center"/><autoStation name="Wiehle–Reston East"/><autoStation name="Spring Hill"/><label/><autoStation name="Greensboro"/><autoStation name="Tysons Corner"/><autoStation name="McLean"/><label/><stationRef name="East Falls Church"/><stationRef name="Ballston - Marymount University"/><label offset="1"/><stationRef name="Virginia Square - George Mason University"/><stationRef name="Clarendon"/><stationRef name="Court House"/><label offset="1"/><stationRef name="Rosslyn"/><stationRef name="Foggy Bottom - GWU"/><stationRef name="Farragut West"/><stationRef name="McPherson Square"/><stationRef name="Metro Center"/><label/><stationRef name="Federal Triangle"/><stationRef name="Smithsonian"/><stationRef name="L'Enfant Plaza"/><stationRef name="Federal Center SW"/><stationRef name="Capitol South"/><stationRef name="Eastern Market"/><label/><stationRef name="Potomac Ave"/><stationRef name="Stadium-Armory"/><point station="Stadium-Armory" mr="0.4"/><stationRef name="Benning Rd" mr="0.4"/><label offset="1"/><stationRef name="Capitol Heights"/><stationRef name="Addison Road"/><stationRef name="Morgan Blvd"/><label offset="1"/><stationRef name="Largo Town Center"/>
+    </trainLine>
+
+    <walkingLine>
+      <stationRef name="Farragut West"/>
+      <stationRef name="Farragut North"/>
+    </walkingLine>
+  </lines>
+  <background>
+    <river points="350 0, 1150 800, 1150 1050, 1400 1300, 1400 b"/>
+    <river points="1400 1300, 1500 1200, 1600 1200, 1720 1080, 1720 780, 1900 600, 1900 0"/>
+    <zone name="3" color="1" points="l t, l b, r b, r t"/>
+    <zone name="2" color="2" points="480 500, 480 930, 1180 1630, 1800 1630, 2100 1330, 2100 500, 1900 300, 1400 300, 1320 220, 760 220"/>
+    <zone name="DC" color="1" points="900 380, 815 465, 1150 800, 1150 1050, 1400 1300, 1800 1300, 1900 1200, 1900 1100, 1620 820, 1620 470, 1530 380"/>
+  </background>
+</place>

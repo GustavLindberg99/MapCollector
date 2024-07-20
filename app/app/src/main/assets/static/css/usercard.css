@@ -1,0 +1,43 @@
+form#searchUserForm {
+    margin-bottom: 8px;
+}
+
+#contactList, #searchResults {
+    position: relative;
+}
+
+#contactList:has(.loadingView), #searchResults:has(.loadingView) {
+    min-height: 128px;
+}
+
+.xd-body #contactList, .xd-body #searchResults {
+    width: 384px;
+    height: 128px;
+    overflow-y: auto;
+}
+
+.userCard {
+    display: flex;
+    margin-bottom: 8px;
+    align-items: center;
+}
+
+.userCard a:visited {
+    color: blue;
+}
+
+.userCard img.profilePicture {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 8px;
+}
+
+.userCard h5, .userCard p {
+    font-size: 0.8rem;
+    margin-top: 0rem;
+    margin-bottom: 0.15rem;
+}
+
+.userCard h5 span {
+    font-weight: normal;
+}
