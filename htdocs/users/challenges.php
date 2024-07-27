@@ -11,6 +11,28 @@ $statistics = $user === null ? null : $user->statistics();
 if($user !== null && !$user->profileVisibleTo($loggedInUser)){
     showHttpError(401);
 }
+
+//This can't be in include/user/challenges.php because the User class needs stuff from that file and needs to be initialized in order to know which language to translate the strings to.
+define('CHALLENGE_DESCRIPTIONS', [
+    0x001 => QObject::tr('Collect at least %n maps in total', null, CHALLENGE_VALUES[0x001]),
+    0x002 => QObject::tr('Collect at least %n maps in total', null, CHALLENGE_VALUES[0x002]),
+    0x003 => QObject::tr('Collect at least %n maps in total', null, CHALLENGE_VALUES[0x003]),
+    0x011 => QObject::tr('Win %n games in a row', null, CHALLENGE_VALUES[0x011]),
+    0x012 => QObject::tr('Win %n games in a row', null, CHALLENGE_VALUES[0x012]),
+    0x013 => QObject::tr('Win %n games in a row', null, CHALLENGE_VALUES[0x013]),
+    0x014 => QObject::tr('Win %n difficult games in a row', null, CHALLENGE_VALUES[0x014]),
+    0x021 => QObject::tr('Win a multiplayer game'),
+    0x022 => QObject::tr('Win a multiplayer game against someone who has a higher score than you'),
+    0x031 => QObject::tr('Play Map Collector %n days in a row', null, CHALLENGE_VALUES[0x031]),
+    0x032 => QObject::tr('Play Map Collector %n days in a row', null, CHALLENGE_VALUES[0x032]),
+    0x033 => QObject::tr('Play Map Collector %n days in a row', null, CHALLENGE_VALUES[0x033]),
+    0x101 => QObject::tr('Collect all maps and have at least %n seconds left', null, CHALLENGE_VALUES[0x101]),
+    0x102 => QObject::tr('Collect all maps and have at least %n seconds left', null, CHALLENGE_VALUES[0x102]),
+    0x103 => QObject::tr('Collect all maps and have at least %n seconds left', null, CHALLENGE_VALUES[0x103]),
+    0x111 => sprintf(QObject::tr('Collect all maps and have at least $%d left'), CHALLENGE_VALUES[0x111]),
+    0x112 => sprintf(QObject::tr('Collect all maps and have at least $%d left'), CHALLENGE_VALUES[0x112]),
+    0x113 => sprintf(QObject::tr('Collect all maps and have at least $%d left'), CHALLENGE_VALUES[0x113])
+]);
 ?>
 
 <!DOCTYPE html>

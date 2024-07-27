@@ -11,8 +11,8 @@ android {
         applicationId "tk.mapcollector"
         minSdk 26
         targetSdk 34
-        versionCode 14    //Increment this by 1 at each new version
-        versionName "7.0.0"    //Change this to the appropriate number at each new version
+        versionCode 15    //Increment this by 1 at each new version
+        versionName "7.0.1"    //Change this to the appropriate number at each new version
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
