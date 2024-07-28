@@ -274,7 +274,7 @@
         <source>You have %n maps out of %1.</source>
         <translation>
             <numerusform>Du har %n map av %1.</numerusform>
-            <numerusform>Du har %n map av %1.</numerusform>
+            <numerusform>Du har %n maps av %1.</numerusform>
         </translation>
     </message>
     <message numerus="yes">

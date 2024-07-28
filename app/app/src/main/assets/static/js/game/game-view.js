@@ -379,7 +379,7 @@ export default class GameView{
             if(linesAndViaStations.length > 1){
                 lineStyle = `background-color: ${line.color}; color: ${textColorOnBackground(line.color)}; border: 1px solid ${rgbToHex(red / 2, green / 2, blue / 2)}`;
             }
-            let result = `<button id="gotoButton${i}" style="width: 100%; ${lineStyle}">`;
+            let result = `<button id="gotoButton${i}" class="gotoButton" style="width: 100%; ${lineStyle}">`;
             result += linesAndViaStations.length > 1 ? line.name : QObject.tr("Go");
             if(viaStation !== null){
                 result += " " + QObject.tr("(via %1)").arg(viaStation.name);
@@ -392,7 +392,7 @@ export default class GameView{
             result += "</button>";
             return result;
         })).join("<br/>");
-        const cancelButton = "<button id=\"cancelGoto\" style=\"width: 100%\">" + QObject.tr("Cancel") + "</button>";
+        const cancelButton = "<button id=\"cancelGoto\" class=\"gotoButton\" style=\"width: 100%\">" + QObject.tr("Cancel") + "</button>";
 
         const marker = [...this.#globalStationMarkers.values(), ...this.#stationMarkers.values()].map(it => new Map(it)).find(it => it.has(end)).get(end);
         const color = getComputedStyle(document.documentElement).getPropertyValue("--background-color-light");

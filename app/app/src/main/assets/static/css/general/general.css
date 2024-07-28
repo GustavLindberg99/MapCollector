@@ -59,7 +59,7 @@ article form p, article form li {
     text-align: left;
 }
 
-footer+div:not(.xd-overlay) {    /*Selects the link to FreeWebHostingArea.com. Don't abuse this.*/
+footer+div:not(.xd-overlay, [data-tippy-root]) {    /*Selects the link to FreeWebHostingArea.com. Don't abuse this.*/
     max-width: fit-content;    /*The div shouldn't be wider than necessary because otherwise it won't work to click on stuff next to it*/
     max-width: -moz-fit-content;    /*Same as above but for Firefox (Firefox is the only good browser that doesn't support the above right now, see https://caniuse.com/#feat=intrinsic-width )*/
 }

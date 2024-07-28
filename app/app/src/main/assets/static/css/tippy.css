@@ -16,3 +16,6 @@
 .tippy-box[data-placement^='right'] > .tippy-arrow::before {
   border-right-color: var(--background-color-light);
 }
+[data-tippy-root] {
+  max-width: 45vw;    /* Otherwise there's a risk that it will overflow to the right off the page */
+}

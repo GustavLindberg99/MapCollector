@@ -58,6 +58,14 @@
 }
 
 
+/* #selectLine() */
+@media (max-device-width:480px){    /*Phones*/
+    .gotoButton {
+        padding: 0.5em;
+    }
+}
+
+
 /* #createMapList() */
 .mapListViews {
     display:flex;

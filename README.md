@@ -163,13 +163,12 @@ If you're logged in in the Android app, you will get a notification when someone
 
 ## Other
 ### Supported browsers
-Map Collector supports the following browsers:
+Map Collector supports the following browsers (includes both desktop and mobile versions):
 
-- Google Chrome version 126 and later ([download](https://www.google.com/chrome/))
+- Google Chrome version 126 and later ([download](https://www.google.com/chrome/)) (also includes other Chromium-based browsers)
 - Mozilla Firefox version 128 and later ([download](https://www.mozilla.org/en-US/firefox/new/))
 - Microsoft Edge version 126 and later ([download](https://www.microsoft.com/en-us/edge))
-- Opera version 111 and later ([download](https://www.opera.com/download))
-- Kiwi version 124 and later ([download](https://play.google.com/store/apps/details?id=com.kiwibrowser.browser))
+- Opera version 111 and later ([download](https://www.opera.com/download)) (does <em>not</em> include Opera Mini)
 - On Android you can also play in the [app](https://play.google.com/store/apps/details?id=tk.mapcollector).
 
 Map Collector may work on other browsers too, but these are the browsers that it's been tested on and that it's guaranteed to work on.

@@ -17,10 +17,10 @@ export function createZoomBox() /*: HTMLElement */ {
     const zoomBox = document.createElement("div");
     zoomBox.className = "zoomBox";
 
-    const zoomOutButton = document.createElement("button");
-    zoomOutButton.textContent = "-";
-    zoomOutButton.title = QObject.tr("Zoom out");
-    zoomBox.appendChild(zoomOutButton);
+    const zoomInButton = document.createElement("button");
+    zoomInButton.textContent = "+";
+    zoomInButton.title = QObject.tr("Zoom in");
+    zoomBox.appendChild(zoomInButton);
 
     const rangeInput = document.createElement("input");
     rangeInput.type = "range";
@@ -28,10 +28,10 @@ export function createZoomBox() /*: HTMLElement */ {
     rangeInput.max = 100;
     zoomBox.appendChild(rangeInput);
 
-    const zoomInButton = document.createElement("button");
-    zoomInButton.textContent = "+";
-    zoomInButton.title = QObject.tr("Zoom in");
-    zoomBox.appendChild(zoomInButton);
+    const zoomOutButton = document.createElement("button");
+    zoomOutButton.textContent = "-";
+    zoomOutButton.title = QObject.tr("Zoom out");
+    zoomBox.appendChild(zoomOutButton);
 
     return zoomBox;
 }
