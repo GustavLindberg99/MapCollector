@@ -83,17 +83,17 @@ class DialogActivity : AppCompatActivity(){
             }
 
             if(ok != null){
-                builder.setPositiveButton(ok, {_: DialogInterface?, _: Int ->
+                builder.setPositiveButton(ok, {_, _ ->
                     webView?.evaluateJavascript("xdialog.onok?.()", null)
                 })
             }
             if(cancel != null){
-                builder.setNeutralButton(cancel, {_: DialogInterface?, _: Int ->
+                builder.setNeutralButton(cancel, {_, _ ->
                     webView?.evaluateJavascript("xdialog.oncancel?.()", null)
                 })
             }
             if(delete != null){
-                builder.setNegativeButton(delete, {_: DialogInterface?, _: Int ->
+                builder.setNegativeButton(delete, {_, _ ->
                     webView?.evaluateJavascript("xdialog.ondelete?.()", null)
                 })
             }

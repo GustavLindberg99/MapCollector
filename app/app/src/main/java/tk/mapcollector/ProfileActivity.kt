@@ -131,7 +131,7 @@ class ProfileActivity: AppCompatActivity(){
             AlertDialog.Builder(this, R.style.AlertDialogTheme)
                 .setTitle(R.string.logOut)
                 .setMessage(R.string.logOutConfirmation)
-                .setPositiveButton(R.string.yes, {_: DialogInterface?, _: Int ->
+                .setPositiveButton(R.string.yes, {_, _ ->
                     Toast.makeText(this, R.string.logoutSucceeded, Toast.LENGTH_SHORT).show()
 
                     val intent = Intent()

@@ -2,7 +2,7 @@
 require_once($_SERVER['DOCUMENT_ROOT'] . '/include/setup.php');
 
 //Version and app name
-define('VERSION', '7.0.2');
+define('VERSION', '7.0.3');
 define('APPNAME', 'Map Collector');
 define('STYLEDAPPNAME', '<span>Map</span><span>Collector</span>');
 define('COPYRIGHTSTART', 2019);

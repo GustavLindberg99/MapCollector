@@ -8,6 +8,7 @@ import android.net.Uri
 import android.os.Bundle
 import android.webkit.WebView
 import android.widget.ImageButton
+import androidx.activity.OnBackPressedCallback
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
@@ -54,6 +55,11 @@ class MainActivity : AppCompatActivity(){
         newGameButton.setOnClickListener {
             this._webView.evaluateJavascript("window.ToolbarButton.NewGameButton.onclick?.()", null)
         }
+        this.onBackPressedDispatcher.addCallback(this, object: OnBackPressedCallback(true){
+            public override fun handleOnBackPressed(){
+                newGameButton.callOnClick()
+            }
+        })
         pauseButton.setOnClickListener {
             this.setPauseButtonPressed(this._setPressedTimer == null)
             this._webView.evaluateJavascript("window.ToolbarButton.PauseButton.onclick?.()", null)
