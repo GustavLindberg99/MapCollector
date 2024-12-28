@@ -5,7 +5,6 @@ import {QObject} from "https://gustavlindberg99.github.io/QtLinguistWeb/qtransla
 import {Box} from "https://unpkg.com/@flatten-js/core@1.4.8/dist/main.mjs";
 typechecked.add(Box);
 
-import {refreshUI} from "../utils/async-utils.js";
 import {deviceIsMobile} from "../utils/utils.js";
 
 /**
@@ -53,7 +52,7 @@ function isScrollable(element /*: Element */) /*: Boolean */ {
 /**
  * On desktop devices, makes it possible to scroll an element by dragging it. On mobile devices, does nothing since this feature is already enabled by default.
  *
- * @param element   The element to make drag scrollable.
+ * @param element   The child element of the element with overflow:scroll.
  */
 export function makeDragScrollable(element /*: Element */) /*: void */ {
     if(!deviceIsMobile()){    //On mobile devices they're already drag scrollable by default
@@ -106,8 +105,8 @@ const defaultYs /*: Map<Element, Number | null> */ = new Map();
  * @param maxZoom           The maximum zoom value.
  * @param defaultX          The default scroll x.
  * @param defaultY          The default scroll y.
- * @param defaultWidth      The width of the visible area at default zoom. If null, set the default zoom to 1
- * @param defaultHeight     The height of the visible area at default zoom. If null, set the default zoom to 1
+ * @param defaultWidth      The width of the visible area at default zoom. If null, set the default zoom to 1.
+ * @param defaultHeight     The height of the visible area at default zoom. If null, set the default zoom to 1.
  * @param elementToScale    Must be a direct child of element. If non-null, only scale elementToScale, the other children of element are just moved.
  */
 export function makeZoomable(
@@ -204,6 +203,8 @@ export function resetZoom(element /*: Element */) /*: void */ {
     const defaultHeight = defaultHeights.get(element);
     const defaultX = defaultXs.get(element);
     const defaultY = defaultYs.get(element);
+    const minZoom = minZooms.get(element);
+    const maxZoom = maxZooms.get(element);
     if(defaultWidth === undefined || defaultHeight === undefined || defaultX === undefined || defaultY === undefined){
         throw new DOMException("Calling resetZoom on element that makeZoomable hasn't been called on");
     }
@@ -220,6 +221,7 @@ export function resetZoom(element /*: Element */) /*: void */ {
     if(defaultZoom === Infinity){
         defaultZoom = 1;
     }
+    defaultZoom = Math.max(Math.min(defaultZoom, maxZoom), minZoom);
 
     setZoom(element, defaultZoom);
     if(defaultX !== null){
