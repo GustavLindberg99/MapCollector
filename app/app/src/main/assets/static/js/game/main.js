@@ -40,6 +40,7 @@ async function main(){
         new Place(QObject.tr("Lisbon"), "portugal.svg", "lisbon.xml", 39, -8, Place.Level.Easy, "https://www.metrolisboa.pt/", 105, 15, [
             new Place(QObject.tr("Lisbon (with tram)"), "portugal.svg", "lisbon.xml:tram", 39, -8, Place.Level.Medium, "https://www.metrolisboa.pt/", 120, 25)
         ]),
+        new Place(QObject.tr("London"), "united_kingdom.svg", "london.xml", 51, 0, Place.Level.Difficult, "https://tfl.gov.uk/", 120, 50),
         new Place(QObject.tr("Los Angeles"), "united_states.svg", "losangeles.xml", 34, -118, Place.Level.Easy, "https://www.metro.net/", 150, 15, [
             new Place(QObject.tr("Los Angeles Region"), "united_states.svg", "losangeles.xml:region", 34, -118, Place.Level.Medium, "https://www.metro.net/", 180, 50)
         ]),

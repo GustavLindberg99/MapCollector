@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<place similarLines="name">
+  <stations>
+    <station name="Harrow &amp; &#10;Wealdstone" x="500" y="210"/>
+    <station name="Kenton" x="500" y="245"/>
+    <station name="South &#10;Kenton" x="500" y="280" a="l"/>
+    <station name="North Wembley" x="500" y="315" a="l"/>
+    <station name="Wembley Central" x="500" y="350" a="l"/>
+    <station name="Stonebridge Park" x="500" y="385" a="l"/>
+    <station name="Harlesden" x="500" y="420" a="l"/>
+    <station name="Willesden Junction" x="500" y="455" a="l"/>
+    <station name="Kensal Green" x="525" y="480" a="l"/>
+    <station name="Queen's Park" x="550" y="505" a="l"/>
+
+    <station name="Hammersmith" x="525" y="835" a="b"/>
+    <station name="Goldhawk Road" x="525" y="800" a="l"/>
+    <station name="Shepherd's Bush Market" x="525" y="765" a="l"/>
+    <station name="Wood &#10;Lane" x="525" y="730" a="l"/>
+    <station name="Latimer Road" x="570" y="685"/>
+    <station name="Ladbroke Grove" x="590" y="665" a="l"/>
+    <station name="Westbourne Park" x="610" y="645" a="l"/>
+    <station name="Royal Oak" x="630" y="625" a="l"/>
+    <station name="Paddington" x="650" y="605" a="l"/>
+    <station name="Edgware &#10;Road" x="700" y="605" a="t"/>
+    <station name="&#10;Baker &#10;Street" x="850" y="605" a="l" w="3" h="3"/>
+    <station name="Great &#10;Portland &#10;Street" x="920" y="605" a="t"/>
+    <station name="Euston &#10;Square" x="990" y="605" a="t"/>
+    <station name="King's Cross &amp; &#10;St Pancras &#10;International" x="1060" y="605" a="t"/>
+    <station name="Farringdon" x="1130" y="605" a="b"/>
+    <station name="Barbican" x="1200" y="605" a="t"/>
+    <station name="&#10;Moorgate" x="1275" y="605" a="l"/>
+    <station name="Liverpool &#10;Street" x="1340" y="605" a="t" w="1" h="3"/>
+    <station name="Aldgate &#10;East" x="1440" y="605" a="t"/>
+    <station name="White&#xad;chapel" x="1490" y="605" a="b"/>
+    <station name="Stepney &#10;Green" x="1540" y="605" a="b"/>
+    <station name="Mile &#10;End" x="1590" y="605" a="b"/>
+    <station name="Bow Road" x="1640" y="605" a="t"/>
+    <station name="Bromley-&#10;by-Bow" x="1690" y="605" a="b"/>
+    <station name="West Ham" x="1740" y="605" a="t"/>
+    <station name="Plaistow" x="1790" y="605" a="b"/>
+    <station name="Upton &#10;Park" x="1840" y="605" a="t"/>
+    <station name="East Ham" x="1890" y="605" a="b"/>
+    <station name="Barking" x="1940" y="605"/>
+    <station name="Upminster" x="2140" y="405"/>
+
+    <station name="Aldgate" x="1390" y="655" a="l"/>
+    <station name="Tower Hill" x="1390" y="690"/>
+    <station name="Monument" x="1345" y="735"/>
+    <station name="Cannon Street" x="1295" y="785"/>
+    <station name="Mansion &#10;House" x="1245" y="835" a="b"/>
+    <station name="Blackfriars" x="1190" y="835" a="t"/>
+    <station name="Temple" x="1135" y="835" a="b"/>
+    <station name="Embankment" x="1050" y="835" a="t"/>
+    <station name="Westminster" x="985" y="835" a="b"/>
+    <station name="St James' &#10;Park" x="920" y="835" a="b"/>
+    <station name="Victoria" x="850" y="835" a="b"/>
+    <station name="Sloane &#10;Square" x="800" y="835" a="b"/>
+    <station name="South &#10;Kensington" x="750" y="835" a="t"/>
+    <station name="Gloucester &#10;Road" x="700" y="835" a="b"/>
+    <station name="Earl's &#10;Court" x="670" y="835" a="t"/>
+    <station name="Barons &#10;Court" x="570" y="835" a="t"/>
+    <station name="Turnham &#10;Green" x="400" y="835" a="t"/>
+    <station name="Richmond" x="250" y="985"/>
+    <station name="Acton &#10;Town" x="300" y="835" a="t"/>
+    <station name="Hatton Cross" x="100" y="1035"/>
+    <station name="Heathrow &#10;Terminals 2 &amp; 3" x="0" y="1035" a="t"/>
+    <station name="Heathrow &#10;Terminal 4" x="-10" y="1105" a="b"/>
+    <station name="Heathrow &#10;Terminal 5" x="-50" y="1035" a="l"/>
+
+    <station name="Ealing Common" x="270" y="805" a="l"/>
+    <station name="Park Royal" x="350" y="670" a="l"/>
+    <station name="Alperton" x="380" y="640"/>
+    <station name="South Harrow" x="380" y="295" a="l"/>
+
+    <station name="Wimbledon" x="670" y="1150" a="l"/>
+    <station name="High Street &#10;Kensington" x="670" y="780" a="l"/>
+    <station name="Bayswater" x="670" y="670" a="l"/>
+
+    <station name="Uxbridge" x="50" y="265" a="l"/>
+    <station name="Hillingdon" x="100" y="265" a="b"/>
+    <station name="Ickenham" x="150" y="265" a="t"/>
+    <station name="Ruislip" x="200" y="265" a="b"/>
+    <station name="Ruislip Manor" x="250" y="265" a="t"/>
+    <station name="Eastcote" x="300" y="265" a="b"/>
+    <station name="Rayners &#10;Lane" x="350" y="265" a="t"/>
+
+    <station name="Amersham" x="0" y="15" a="l"/>
+    <station name="Chesham" x="10" y="-25" a="t"/>
+    <station name="Chalfont &amp; &#10;Latimer" x="50" y="15" a="b"/>
+    <station name="Watford" x="200" y="-55"/>
+    <station name="Moor Park" x="200" y="15"/>
+    <station name="Harrow-&#10;on-the-Hill" x="450" y="265" a="t"/>
+    <station name="Northwick Park" x="510" y="265"/>
+    <station name="Stanmore" x="600" y="215"/>
+    <station name="Wembley Park" x="600" y="355"/>
+    <station name="Finchley Road" x="750" y="505" a="l"/>
+    <station name="Swiss Cottage" x="780" y="535" a="l"/>
+
+    <station name="West Ruislip" x="220" y="520" a="l"/>
+    <station name="Hanger Lane" x="370" y="670"/>
+    <station name="Ealing Broadway" x="270" y="720" a="l"/>
+    <station name="North &#10;Acton" x="420" y="720" a="b"/>
+    <station name="East &#10;Acton" x="470" y="720" a="b"/>
+    <station name="White &#10;City" x="520" y="720" a="t"/>
+    <station name="Shepherd's &#10;Bush" x="570" y="720" a="b"/>
+    <station name="Holland &#10;Park" x="620" y="720" a="b"/>
+    <station name="Notting Hill Gate" x="670" y="720"/>
+    <station name="Queensway" x="720" y="670" a="t"/>
+    <station name="Lancaster &#10;Gate" x="760" y="670" a="t"/>
+    <station name="Marble &#10;Arch" x="800" y="670" a="b"/>
+    <station name="Bond &#10;Street" x="850" y="670" a="b"/>
+    <station name="Regent's &#10;Park" x="895" y="650"/>
+    <station name="Oxford &#10;Circus" x="895" y="670" a="b"/>
+    <station name="&#10;Tottenham &#10;Court Road" x="995" y="670" a="l"/>
+    <station name="&#10;Holborn" x="1060" y="670"/>
+    <station name="Chancery &#10;Lane" x="1135" y="670" a="t"/>
+    <station name="St Paul's" x="1205" y="670" a="b"/>
+    <station name="Bank" x="1275" y="670"/>
+    <station name="Bethnal &#10;Green" x="1465" y="570" a="t"/>
+    <station name="Stratford" x="1740" y="455"/>
+    <station name="Leyton" x="1740" y="420"/>
+    <station name="Leytonstone" x="1740" y="385"/>
+    <station name="Fairlop" x="1955" y="170"/>
+    <station name="Hainault" x="1955" y="140"/>
+    <station name="Woodford" x="1740" y="140" a="l"/>
+    <station name="Epping" x="1740" y="-35" a="l"/>
+
+    <station name="Green Park" x="850" y="735" a="l"/>
+    <station name="Piccadilly &#10;Circus" x="895" y="735" a="b"/>
+    <station name="Leicester Square" x="995" y="735"/>
+
+    <station name="Stockwell" x="850" y="1100"/>
+    <station name="Brixton" x="900" y="1150"/>
+
+    <station name="Charing Cross" x="995" y="780"/>
+    <station name="Waterloo" x="1050" y="900" a="l"/>
+    <station name="Kennington" x="1000" y="950" a="t"/>
+    <station name="Nine Elms" x="820" y="950" a="b"/>
+    <station name="Battersea &#10;Power &#10;Station" x="765" y="950" a="l"/>
+
+    <station name="&#10;London Bridge" x="1275" y="900"/>
+    <station name="Canada Water" x="1445" y="900"/>
+
+    <station name="Morden" x="650" y="1300"/>
+    <station name="Elephant &amp; &#10;Castle" x="1050" y="950" a="b"/>
+    <station name="Borough" x="1225" y="950"/>
+
+    <station name="Warren Street" x="955" y="630"/>
+    <station name="Old Street" x="1245" y="575" a="t"/>
+    <station name="Angel" x="1140" y="575" a="t"/>
+    <station name="Euston" x="955" y="550"/>
+    <station name="Camden Town" x="955" y="500" a="l"/>
+    <station name="Chalk Farm" x="930" y="475" a="l"/>
+    <station name="Belsize Park" x="905" y="450" a="l"/>
+    <station name="Hampstead" x="880" y="425" a="l"/>
+    <station name="Golders Green" x="855" y="400" a="l"/>
+    <station name="Brent Cross" x="830" y="375" a="l"/>
+    <station name="Hendon Central" x="805" y="350" a="l"/>
+    <station name="Colindale" x="780" y="325" a="l"/>
+    <station name="Burnt Oak" x="755" y="300" a="l"/>
+    <station name="Edgware" x="730" y="275" a="l"/>
+
+    <station name="Kentish Town" x="955" y="465"/>
+    <station name="Tufnell Park" x="955" y="430"/>
+    <station name="Archway" x="955" y="395"/>
+    <station name="Highgate" x="955" y="360"/>
+    <station name="East Finchley" x="955" y="325"/>
+    <station name="Finchley Central" x="955" y="290"/>
+    <station name="Mill Hill East" x="930" y="265" a="l"/>
+    <station name="West Finchley" x="955" y="255"/>
+    <station name="Woodside Park" x="955" y="220"/>
+    <station name="Totteridge &amp; Whetstone" x="955" y="185"/>
+    <station name="High Barnet" x="955" y="150"/>
+
+    <station name="Caledonian &#10;Road" x="1060" y="505" a="l"/>
+    <station name="Highbury &amp; Islington" x="1120" y="545"/>
+    <station name="Finsbury Park" x="1120" y="445"/>
+    <station name="Cockfosters" x="1120" y="165" a="l"/>
+    <station name="Walthamstow Central" x="1220" y="345"/>
+  </stations>
+  <lines>
+    <trainLine name="Bakerloo" color="#B06010">
+      <stationRef name="Harrow &amp; Wealdstone"/><stationRef name="Kenton"/><stationRef name="South Kenton"/><stationRef name="North Wembley"/><stationRef name="Wembley Central"/><stationRef name="Stonebridge Park"/><label/><stationRef name="Harlesden"/><stationRef name="Willesden Junction" mu="1"/><stationRef name="Kensal Green" mu="1"/><stationRef name="Queen's Park" mu="1"/><autoStation name="Kilburn Park" a="l" mu="1"/><autoStation name="Maida Vale" a="l" mu="1"/><autoStation name="Warwick Avenue" a="l" mu="1"/><stationRef name="Paddington" mu="1"/><stationRef name="Edgware Road" mu="1"/><autoStation name="Marylebone" mu="1" a="t"/><stationRef name="Baker Street" muur="1" ml="1"/><stationRef name="Regent's Park" mu="2.4" ml="1"/><stationRef name="Oxford Circus" ml="1" mu="2"/><stationRef name="Piccadilly Circus" ml="1" md="1"/><point x="940" y="780" ml="2"/><label/><stationRef name="Charing Cross" mr="1"/><stationRef name="Embankment" mu="1"/><stationRef name="Waterloo"/><autoStation name="Lambeth North"/><stationRef name="Elephant &amp; Castle" mu="1"/>
+    </trainLine>
+    <trainLine name="Central" color="#DE2826">
+      <stationRef name="Ealing Broadway"/><autoStation name="West &#10;Acton" a="b"/><label/><stationRef name="North Acton"/><stationRef name="East Acton"/><stationRef name="White City"/><stationRef name="Shepherd's Bush"/><stationRef name="Holland Park"/><stationRef name="Notting Hill Gate" ml="2"/><stationRef name="Queensway" ml="2"/><stationRef name="Lancaster Gate"/><stationRef name="Marble Arch"/><stationRef name="Bond Street"/><stationRef name="Oxford Circus"/><stationRef name="Tottenham Court Road"/><stationRef name="Holborn"/><stationRef name="Chancery Lane"/><stationRef name="St Paul's"/><stationRef name="Bank"/><stationRef name="Liverpool Street"/><point x="1375" y="570" mu="1" mr="1"/><stationRef name="Bethnal Green" mu="1"/><point x="1500" y="605" mu="1"/><stationRef name="Mile End" mu="1"/><point station="Mile End" mu="1" mr="1"/><stationRef name="Stratford"/><stationRef name="Leyton"/><stationRef name="Leytonstone"/><autoStation name="Wanstead"/><autoStation name="Redbridge"/><autoStation name="Gants Hill"/><label/><autoStation name="Newbury Park"/><autoStation name="Barkingside"/><stationRef name="Fairlop"/><stationRef name="Hainault"/>
+    </trainLine>
+    <trainLine name="Central" color="#DE2826">
+      <stationRef name="West Ruislip" mu="1"/><autoStation name="Ruislip Gardens" a="l" mu="1"/><autoStation name="South Ruislip" a="l" mu="1"/><autoStation name="Northolt" a="l" mu="1"/><autoStation name="Greenford" a="l" mu="1"/><autoStation name="Perivale" a="l" mu="1"/><stationRef name="Hanger Lane" mu="1"/><label/><stationRef name="North Acton" mu="1"/><stationRef name="East Acton" mu="1"/><stationRef name="White City" mu="1"/><stationRef name="Shepherd's Bush" mu="1"/><stationRef name="Holland Park" mu="1"/><stationRef name="Notting Hill Gate" ml="2" muul="1"/><stationRef name="Queensway" ml="2" muul="1"/><stationRef name="Lancaster Gate" mu="1"/><stationRef name="Marble Arch" mu="1"/><stationRef name="Bond Street" mu="1"/><stationRef name="Oxford Circus" mu="1"/><stationRef name="Tottenham Court Road" mu="1"/><stationRef name="Holborn" mu="1"/><stationRef name="Chancery Lane" mu="1"/><stationRef name="St Paul's" mu="1"/><stationRef name="Bank" muul="1"/><stationRef name="Liverpool Street" mul="1"/><point x="1375" y="570" mu="1" mr="1" muul="1"/><stationRef name="Bethnal Green" mu="1" muur="1"/><point x="1500" y="605" mu="1" muur="1"/><stationRef name="Mile End" mu="2"/><point station="Mile End" mu="1" mr="1" muul="1"/><stationRef name="Stratford" mull="1"/><stationRef name="Leyton" ml="1"/><stationRef name="Leytonstone" ml="1"/><autoStation name="Snaresbrook" ml="1" a="l"/><label/><autoStation name="South Woodford" ml="1" a="l"/><stationRef name="Woodford" ml="1"/><autoStation name="Buckhurst Hill" ml="1" a="l"/><autoStation name="Loughton" ml="1" a="l"/><autoStation name="Debden" ml="1" a="l"/><autoStation name="Theydon Bois" ml="1" a="l"/><stationRef name="Epping" ml="1" a="l"/>
+    </trainLine>
+    <trainLine name="Central" color="#DE2826">
+      <stationRef name="Hainault" ml="1"/><autoStation name="Grange &#10;Hill" a="t"/><label/><autoStation name="Chigwell" a="b"/><autoStation name="Roding &#10;Valley" a="t"/><stationRef name="Woodford"/>
+    </trainLine>
+    <trainLine name="Circle" color="#FECF00">
+      <stationRef name="Hammersmith" mr="1"/><stationRef name="Goldhawk Road" mr="1"/><stationRef name="Shepherd's Bush Market" mr="1"/><stationRef name="Wood Lane" mdrr="1"/><stationRef name="Latimer Road" mdr="1"/><stationRef name="Ladbroke Grove" mdr="1"/><stationRef name="Westbourne Park" mdr="1"/><stationRef name="Royal Oak" mdr="1"/><stationRef name="Paddington" mddr="1"/><stationRef name="Edgware Road" md="1"/><stationRef name="Baker Street" md="1"/><stationRef name="Great Portland Street" md="1"/><stationRef name="Euston Square" md="1"/><stationRef name="King's Cross &amp; St Pancras International" md="1"/><stationRef name="Farringdon" md="1"/><stationRef name="Barbican" md="1"/><stationRef name="Moorgate" md="1"/><stationRef name="Liverpool Street" md="1"/><point station="Liverpool Street" md="1" mr="1"/><stationRef name="Aldgate"/><label/><stationRef name="Tower Hill"/><stationRef name="Monument"/><stationRef name="Cannon Street"/><stationRef name="Mansion House"/><stationRef name="Blackfriars"/><stationRef name="Temple"/><stationRef name="Embankment" mr="1"/><stationRef name="Westminster"/><stationRef name="St James' Park"/><stationRef name="Victoria"/><stationRef name="Sloane Square"/><stationRef name="South Kensington"/><stationRef name="Gloucester Road"/><point x="670" y="805"/><stationRef name="High Street Kensington"/><label offset="-1"/><stationRef name="Notting Hill Gate"/><stationRef name="Bayswater" mu="3"/><point x="640" y="640" mr="3"/><point x="640" y="615" mdrr="3"/><stationRef name="Paddington" mddr="3"/><stationRef name="Edgware Road" md="3"/>
+    </trainLine>
+    <trainLine name="District" color="#00793F">
+      <branch>
+        <stationRef name="Richmond" md="1"/><autoStation name="Kew Gardens" md="1"/><label/><autoStation name="Gunnersbury" md="1"/>
+      </branch>
+      <branch>
+        <stationRef name="Ealing Broadway" md="1"/><label/><stationRef name="Ealing Common" md="1"/><stationRef name="Acton Town" md="1"/><autoStation name="Chiswick &#10;Park" a="b" md="1"/>
+      </branch>
+      <stationRef name="Turnham Green" md="1"/><autoStation name="Stamford &#10;Brook" a="b" md="1"/><autoStation name="Ravenscourt &#10;Park" a="t" md="1"/><stationRef name="Hammersmith" md="1"/><stationRef name="Barons Court" md="1"/><autoStation name="West &#10;Kensington" a="b" md="1" ml="1"/><stationRef name="Earl's Court" md="1" ml="2"/><stationRef name="Gloucester Road" md="1"/><stationRef name="South Kensington" md="1"/><stationRef name="Sloane Square" md="1"/><stationRef name="Victoria" md="1"/><stationRef name="St James' Park" md="1"/><stationRef name="Westminster" md="1"/><stationRef name="Embankment" md="1" mr="1"/><stationRef name="Temple" md="1"/><stationRef name="Blackfriars" md="1"/><stationRef name="Mansion House" mddr="1"/><stationRef name="Cannon Street" mdr="1"/><stationRef name="Monument" mdr="1"/><stationRef name="Tower Hill" mdrr="1"/><point x="1390" y="655" md="1" mr="1"/><label/><stationRef name="Aldgate East" md="1"/><stationRef name="Whitechapel" md="1"/><stationRef name="Stepney Green" md="1"/><stationRef name="Mile End" md="1"/><stationRef name="Bow Road" md="1"/><stationRef name="Bromley-by-Bow" md="1"/><stationRef name="West Ham" md="1"/><stationRef name="Plaistow" md="1"/><stationRef name="Upton Park" md="1"/><stationRef name="East Ham" md="1"/><stationRef name="Barking" md="1"/><autoStation name="Upney" md="1"/><autoStation name="Becontree" md="1"/><autoStation name="Dagenham Heathway" md="1"/><autoStation name="Dagenham East" md="1"/><autoStation name="Elm Park" md="1"/><autoStation name="Hornchurch" md="1"/><autoStation name="Upminster Bridge" md="1"/><stationRef name="Upminster" md="1"/>
+    </trainLine>
+    <trainLine name="District" color="#00793F">
+      <stationRef name="Wimbledon" ml="1" a="l"/><autoStation name="Wimbledon Park" ml="1" a="l"/><autoStation name="Southfields" ml="1" a="l"/><label/><autoStation name="East Putney" ml="1" a="l"/><autoStation name="Putney Bridge" ml="1" a="l"/><autoStation name="Parsons Green" ml="1" a="l"/><autoStation name="Fulham Broadway" ml="1" a="l"/><autoStation name="West Brompton" ml="1" md="3" a="l"/><stationRef name="Earl's Court" ml="1" md="3"/><stationRef name="High Street Kensington" ml="1"/><label offset="1"/><stationRef name="Notting Hill Gate" ml="1"/><stationRef name="Bayswater" mu="3" mdll="1"/><point x="640" y="640" mr="3" mdll="1"/><point x="640" y="615" mdrr="2"/><stationRef name="Paddington" mddr="2"/><stationRef name="Edgware Road" md="2"/>
+    </trainLine>
+    <trainLine name="Hammersmith &amp; City" color="#EE9AAC">
+      <stationRef name="Hammersmith"/><stationRef name="Goldhawk Road"/><label/><stationRef name="Shepherd's Bush Market"/><stationRef name="Wood Lane"/><stationRef name="Latimer Road"/><stationRef name="Ladbroke Grove"/><stationRef name="Westbourne Park"/><stationRef name="Royal Oak"/><stationRef name="Paddington"/><stationRef name="Edgware Road"/><stationRef name="Baker Street"/><stationRef name="Great Portland Street"/><stationRef name="Euston Square"/><stationRef name="King's Cross &amp; St Pancras International"/><stationRef name="Farringdon"/><stationRef name="Barbican"/><stationRef name="Moorgate"/><stationRef name="Liverpool Street"/><stationRef name="Aldgate East"/><stationRef name="Whitechapel"/><stationRef name="Stepney Green"/><stationRef name="Mile End"/><stationRef name="Bow Road"/><stationRef name="Bromley-by-Bow"/><stationRef name="West Ham"/><stationRef name="Plaistow"/><stationRef name="Upton Park"/><stationRef name="East Ham"/><stationRef name="Barking"/>
+    </trainLine>
+    <trainLine name="Jubilee" color="#7B858C">
+      <stationRef name="Stanmore"/><autoStation name="Canons Park"/><autoStation name="Queensbury"/><label/><autoStation name="Kingsbury"/><stationRef name="Wembley Park"/><autoStation name="Neasden" a="l"/><autoStation name="Dollis Hill" a="l"/><autoStation name="Willesden Green" a="l"/><autoStation name="Kilburn" a="l"/><autoStation name="West Hampstead" a="l"/><stationRef name="Finchley Road"/><stationRef name="Swiss Cottage"/><autoStation name="St John's Wood" a="l"/><stationRef name="Baker Street" mu="1" ml="1"/><stationRef name="Bond Street" mu="2" ml="1"/><point station="Green Park" ml="1"/><stationRef name="Green Park" md="1"/><label/><point x="950" y="835" md="2" mr="1"/><stationRef name="Westminster" md="2"/><stationRef name="Waterloo" ml="2"/><point station="Waterloo" ml="1" md="1"/><autoStation name="Southwark" md="1" a="b"/><stationRef name="London Bridge" md="1"/><autoStation name="Bermondsey" a="t" md="1"/><stationRef name="Canada Water" mr="2" md="1"/><label/><autoStation name="Canary Wharf" mr="2" md="1"/><autoStation name="North Greenwich" mr="2" md="1"/><autoStation name="Canning Town" mr="2" md="1"/><stationRef name="West Ham" mr="1" md="2"/><label/><stationRef name="Stratford" mr="1"/>
+    </trainLine>
+    <trainLine name="Metropolitan" color="#871B55">
+      <branch>
+        <branch>
+          <stationRef name="Watford"/><autoStation name="Croxley"/>
+        </branch>
+        <branch>
+          <branch>
+            <stationRef name="Amersham"/>
+          </branch>
+          <branch>
+            <stationRef name="Chesham"/>
+          </branch>
+          <stationRef name="Chalfont &amp; Latimer"/><autoStation name="Chorleywood" a="t"/><autoStation name="Rickmansworth" a="b"/>
+        </branch>
+        <stationRef name="Moor Park"/><autoStation name="Northwood"/><autoStation name="Northwood Hills"/><autoStation name="Pinner"/><autoStation name="North Harrow"/>
+      </branch>
+      <branch>
+        <stationRef name="Uxbridge"/><stationRef name="Hillingdon"/><stationRef name="Ickenham"/><stationRef name="Ruislip"/><stationRef name="Ruislip Manor"/><stationRef name="Eastcote"/><stationRef name="Rayners Lane"/><autoStation name="West Harrow" a="b"/>
+      </branch>
+      <stationRef name="Harrow-on-the-Hill"/><stationRef name="Northwick Park" mr="1.4"/><label/><autoStation name="Preston &#10;Road" a="l" mur="1"/><stationRef name="Wembley Park" mur="1"/><stationRef name="Finchley Road" mur="1"/><stationRef name="Baker Street" muur="1"/><stationRef name="Great Portland Street" mu="1"/><stationRef name="Euston Square" mu="1"/><stationRef name="King's Cross &amp; St Pancras International" mu="1"/><stationRef name="Farringdon" mu="1"/><stationRef name="Barbican" mu="1"/><stationRef name="Moorgate" mu="1"/><stationRef name="Liverpool Street" mu="1"/><point station="Liverpool Street" muur="1"/><label/><stationRef name="Aldgate" mur="1"/>
+    </trainLine>
+    <trainLine name="Northern" color="#221E1F" via="Charing Cross">
+      <stationRef name="Battersea Power Station"/><stationRef name="Nine Elms"/><label/><stationRef name="Kennington" ml="1"/><stationRef name="Waterloo" ml="1"/><stationRef name="Embankment" mdll="1" mu="1"/><stationRef name="Charing Cross" mdll="1" mr="1"/><point station="Charing Cross" mdll="1" mu="1"/><label/><stationRef name="Leicester Square" md="1" ml="1"/><stationRef name="Tottenham Court Road" mu="2" ml="1"/><autoStation name="Goodge Street" mu="1"/><stationRef name="Warren Street" mu="1"/><stationRef name="Euston"/><autoStation name="Mornington Crescent" a="l"/><stationRef name="Camden Town"/>
+      <branch>
+        <stationRef name="Chalk Farm"/><stationRef name="Belsize Park"/><stationRef name="Hampstead"/><stationRef name="Golders Green"/><stationRef name="Brent Cross"/><stationRef name="Hendon Central"/><stationRef name="Colindale"/><stationRef name="Burnt Oak"/><stationRef name="Edgware"/>
+      </branch>
+      <branch>
+        <stationRef name="Kentish Town"/><stationRef name="Tufnell Park"/><stationRef name="Archway"/><stationRef name="Highgate"/><stationRef name="East Finchley"/><stationRef name="Finchley Central"/>
+        <branch>
+          <stationRef name="Mill Hill East"/>
+        </branch>
+        <branch>
+          <stationRef name="West Finchley"/><stationRef name="Woodside Park"/><stationRef name="Totteridge &amp; Whetstone"/><stationRef name="High Barnet"/>
+        </branch>
+      </branch>
+    </trainLine>
+    <trainLine name="Northern" color="#221E1F" via="Bank">
+      <stationRef name="Morden"/><autoStation name="South Wimbledon"/><autoStation name="Colliers Wood"/><autoStation name="Tooting Broadway"/><autoStation name="Tooting Bec"/><autoStation name="Balham"/><autoStation name="Clapham South"/><autoStation name="Clapham Common" a="l"/><autoStation name="Clapham North" a="l"/><stationRef name="Stockwell"/><label/><autoStation name="Oval"/><stationRef name="Kennington"/><stationRef name="Elephant &amp; Castle"/><stationRef name="Borough"/><stationRef name="London Bridge"/><point station="London Bridge" mu="1" mr="1"/><stationRef name="Bank" mr="1"/><stationRef name="Moorgate" mr="1" mu="2"/><stationRef name="Old Street" mr="1" mu="2"/><label/><stationRef name="Angel" mu="2"/><point x="1110" y="605" mu="2"/><stationRef name="King's Cross &amp; St Pancras International" mu="2"/><point x="1010" y="605" mu="2" ml="1"/><stationRef name="Euston" mr="1"/><stationRef name="Camden Town" murr="1"/>
+      <branch>
+        <stationRef name="Chalk Farm" mur="1"/><stationRef name="Belsize Park" mur="1"/><stationRef name="Hampstead" mur="1"/><stationRef name="Golders Green" mur="1"/><stationRef name="Brent Cross" mur="1"/><stationRef name="Hendon Central" mur="1"/><stationRef name="Colindale" mur="1"/><stationRef name="Burnt Oak" mur="1"/><stationRef name="Edgware" mur="1"/>
+      </branch>
+      <branch>
+        <stationRef name="Kentish Town" mr="1"/><stationRef name="Tufnell Park" mr="1"/><stationRef name="Archway" mr="1"/><stationRef name="Highgate" mr="1"/><stationRef name="East Finchley" mr="1"/><stationRef name="Finchley Central" murr="1"/>
+        <branch>
+          <stationRef name="Mill Hill East" mur="1"/>
+        </branch>
+        <branch>
+          <stationRef name="West Finchley" mr="1"/><stationRef name="Woodside Park" mr="1"/><stationRef name="Totteridge &amp; Whetstone" mr="1"/><stationRef name="High Barnet" mr="1"/>
+        </branch>
+      </branch>
+    </trainLine>
+    <trainLine name="Piccadilly" color="#1B3E94">
+      <branch>
+        <branch>
+          <stationRef name="Heathrow Terminal 5" md="2"/><stationRef name="Heathrow Terminals 2 &amp; 3" md="2"/><label/>
+        </branch>
+        <branch>
+          <oneWay>
+            <stationRef name="Heathrow Terminal 4" md="2"/>
+            <point x="-10" y="1045" md="2"/>
+          </oneWay>
+          <oneWay>
+            <point x="30" y="1105" md="2"/>
+            <stationRef name="Heathrow Terminals 2 &amp; 3" md="2"/>
+          </oneWay>
+        </branch>
+        <stationRef name="Hatton Cross" md="2" a="l"/><autoStation name="Hounslow West" md="2" a="l"/><autoStation name="Hounslow Central" md="2" a="l"/><autoStation name="Hounslow East" md="2" a="l"/><autoStation name="Osterley" md="2" a="l"/><autoStation name="Boston Manor" md="2" a="l"/><autoStation name="Northfields" md="2" a="l"/><autoStation name="South Ealing" md="2" a="l"/>
+      </branch>
+      <branch>
+        <stationRef name="Uxbridge" md="1"/><stationRef name="Hillingdon" md="1"/><stationRef name="Ickenham" md="1"/><stationRef name="Ruislip" md="1"/><stationRef name="Ruislip Manor" md="1"/><stationRef name="Eastcote" md="1"/><stationRef name="Rayners Lane" md="1"/><stationRef name="South Harrow" md="1"/><autoStation name="Sudbury Hill" a="l"/><label/><autoStation name="Sudbury Town" a="l"/><stationRef name="Alperton" mu="1"/><stationRef name="Park Royal" ml="1"/><autoStation name="North Ealing" mu="1" a="l"/><point x="270" y="750" ml="1"/><label offset="0.5"/><stationRef name="Ealing Common" md="1" mdll="1"/><point station="Acton Town" md="1" mddl="1"/>
+      </branch>
+      <stationRef name="Acton Town" md="2"/><stationRef name="Turnham Green" md="2"/><stationRef name="Hammersmith" md="2"/><stationRef name="Barons Court" md="2"/><stationRef name="Earl's Court" md="2" ml="2"/><stationRef name="Gloucester Road" md="2"/><stationRef name="South Kensington" md="2"/><autoStation name="Knightsbridge" md="2"/><autoStation name="Hyde Park Corner" md="2" a="l"/><stationRef name="Green Park" md="1" mr="1"/><point station="Green Park" mr="2"/><stationRef name="Piccadilly Circus"/><label/><stationRef name="Leicester Square"/><autoStation name="Covent Garden"/><stationRef name="Holborn" ml="1" md="1"/><autoStation name="Russell &#10;Square" ml="1"/><stationRef name="King's Cross &amp; St Pancras International" ml="1" mu="4"/><stationRef name="Caledonian Road" ml="1"/><autoStation name="Holloway Road" a="l" ml="1"/><autoStation name="Arsenal" a="l" ml="1"/><stationRef name="Finsbury Park" ml="1"/><autoStation name="Manor House" a="l" ml="1"/><autoStation name="Turnpike Lane" a="l" ml="1"/><autoStation name="Wood Green" a="l" ml="1"/><autoStation name="Bounds Green" a="l" ml="1"/><autoStation name="Arnos Grove" a="l" ml="1"/><label/><autoStation name="Southgate" a="l" ml="1"/><autoStation name="Oakwood" a="l" ml="1"/><stationRef name="Cockfosters" ml="1"/>
+    </trainLine>
+    <trainLine name="Victoria" color="#00A0DD">
+      <stationRef name="Brixton" mr="1"/><stationRef name="Stockwell" mr="1"/><label offset="1"/><autoStation name="Vauxhall" mr="1"/><autoStation name="Pimlico" mr="1"/><stationRef name="Victoria" mu="1" mr="1"/><label/><point station="Green Park" md="2.4" mr="1"/><stationRef name="Green Park" md="1.4" mr="2"/><point x="895" y="690" md="5.4" ml="2"/><stationRef name="Oxford Circus" mu="2" ml="2"/><point x="915" y="650" ml="3" mu="1"/><point x="935" y="650" ml="1" mu="1"/><stationRef name="Warren Street" ml="1" mu="1"/><point station="Euston" ml="1" md="3"/><stationRef name="Euston" mr="1" md="1"/><point station="Euston" mr="3.4" md="1"/><point x="1010" y="605" mu="2" ml="1" muur="1"/><stationRef name="King's Cross &amp; St Pancras International" mu="3"/><stationRef name="Highbury &amp; Islington" mu="3"/><label/><stationRef name="Finsbury Park"/><autoStation name="Seven Sisters"/><autoStation name="Tottenham Hale"/><autoStation name="Blackhorse Road"/><stationRef name="Walthamstow Central"/>
+    </trainLine>
+    <trainLine name="Waterloo &amp; City" color="#6FC7AF">
+      <stationRef name="Waterloo" mr="1"/><point x="1050" y="895" mr="1"/><label/><stationRef name="Bank" md="1"/>
+    </trainLine>
+
+    <walkingLine>
+      <stationRef name="Kenton"/>
+      <stationRef name="Northwick Park" mr="1.4"/>
+    </walkingLine>
+    <walkingLine>
+      <stationRef name="White City"/>
+      <stationRef name="Wood Lane"/>
+    </walkingLine>
+    <walkingLine>
+      <stationRef name="Bank"/>
+      <stationRef name="Monument"/>
+    </walkingLine>
+    <walkingLine>
+      <stationRef name="Park Royal" ml="1"/>
+      <stationRef name="Hanger Lane" mu="1"/>
+    </walkingLine>
+    <walkingLine>
+      <stationRef name="Euston"/>
+      <stationRef name="Euston Square"/>
+    </walkingLine>
+  </lines>
+  <background>
+    <river points="l 1150, 50 1150, 290 910, 490 910, 580 1000, 680 1000, 750 930, 900 930, 950 880, 1500 880, 1550 830, 1550 780, 1600 730, r 730"/>
+    <zone name="6" color="2" points="l t, l b, r b, r t"/>
+    <zone name="7" color="1" points="220 t, 220 10, 100 130, l 130, l t"/>
+    <zone name="8" color="2" points="100 t, 100 0, 50 50, l 50, l t"/>
+    <zone name="9" color="1" points="l 30, 20 30, 50 0, 50 t, l t"/>
+    <zone name="5" color="1" points="400 80, 330 150, 280 200, 280 480, 110 650, 110 1100, 360 1350, 1250 1350, 2050 550, 2050 150, 1980 80"/>
+    <zone name="4" color="2" points="530 230, 500 230, 480 250, 480 300, 350 430, 350 570, 140 780, 140 1050, 410 1320, 1250 1320, 1980 590, 1980 150, 1950 120, 1500 120, 1400 220, 1050 220, 1000 170, 850 170, 730 290, 630 290, 570 230"/>
+    <zone name="3" color="1" points="500 370, 410 460, 410 630, 380 650, 330 650, 230 750, 230 900, 620 1290, 1220 1290, 1920 590, 1920 550, 1770 400, 1500 400, 1400 300, 830 300, 760 370"/>
+    <zone name="2" color="2" points="530 410, 430 510, 430 850, 580 1000, 680 1000, 730 1050, 730 1140, 830 1240, 1200 1240, 1760 680, 1760 460, 1730 430, 990 430, 970 410"/>
+    <zone name="1" color="1" points="650 590, 640 600, 640 800, 740 900, 740 950, 790 1000, 1200 1000, 1470 730, 1470 600, 1410 540, 950 540, 900 590"/>
+  </background>
+</place>

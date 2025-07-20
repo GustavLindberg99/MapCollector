@@ -5,7 +5,7 @@ import {QObject} from "https://gustavlindberg99.github.io/QtLinguistWeb/qtransla
 
 import {staticDomain} from "../utils/ajax-utils.js";
 import {wait} from "../utils/async-utils.js";
-import {textColorOnBackground} from "../utils/graphic-utils.js";
+import {getTextWidth, textColorOnBackground} from "../utils/graphic-utils.js";
 import {deviceIsMobile, getEaster} from "../utils/utils.js";
 
 import BusLine from "./bus-line.js";
@@ -306,6 +306,12 @@ function createMapElement(map /*: LineWithMaps */) /*: HTMLElement */ {
     lineLabel.style.backgroundColor = map.color;
     lineLabel.style.color = textColorOnBackground(map.color);
     lineLabel.textContent = map.name;
+    for(let i = 25; i >= 5; i--){
+        if(getTextWidth(map.name, "sans-serif", `${i}px`, true) < 90){
+            lineLabel.style.fontSize = `${i}px`;
+            break;
+        }
+    }
     result.appendChild(lineLabel);
 
     const stationsLabel = document.createElement("div");

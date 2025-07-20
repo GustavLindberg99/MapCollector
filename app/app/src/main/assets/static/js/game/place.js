@@ -165,6 +165,8 @@ export default class Place{
             return QObject.tr("Portugal");
         case "sweden.svg":
             return QObject.tr("Sweden");
+        case "united_kingdom.svg":
+            return QObject.tr("United Kingdom");
         case "united_states.svg":
             return QObject.tr("United States");
         }
