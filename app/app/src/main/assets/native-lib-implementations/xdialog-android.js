@@ -1,9 +1,9 @@
 "use strict";
 
 const xdialog = {
-    onok /*: function | null */: null,
-    oncancel /*: function | null */: null,
-    ondelete /*: function | null */: null,
+    onok /*: (() => void) | null */: null,
+    oncancel /*: (() => void) | null */: null,
+    ondelete /*: (() => void) | null */: null,
 
     open(params = {}){
         let buttons;

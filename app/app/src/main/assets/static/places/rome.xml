@@ -71,6 +71,6 @@
     <zone name="1" color="1" points="l t, l b, r b, r t"/>
     <zone name="2" color="2" points="l t, l -800, r -800, r t"/>
     <river points="550 t, 550 -180, 450 -80, 450 b"/>
-    <sea points="l -300, -300 750, 700 1750, 700 b, l b"/>
+    <sea points="l t, -1000 t, -1000 50, 700 1750, 700 b, l b"/>
   </background>
 </place>

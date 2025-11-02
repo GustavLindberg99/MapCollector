@@ -1,0 +1,22 @@
+{
+  "name": "mapcollector",
+  "version": "7.2.0",
+  "description": "A fun game to explore public transportation systems from around the world",
+  "author": "Gustav Lindberg",
+  "scripts": {
+    "build": "npx tsc -p src && npx uglifyjs-folder app/app/src/main/assets/static/js -o app/app/src/main/assets/static/js -x .js -e"
+  },
+  "dependencies": {
+    "@flatten-js/core": "1.6.x",
+    "@types/lodash": "4.17.x",
+    "@types/peerjs": "0.0.x",
+    "@types/tippy.js": "6.3.x",
+    "@types/toastify-js": "1.12.x",
+    "@types/xdialog": "3.4.x",
+    "colorjs.io": "0.5.x",
+    "i18next": "25.6.x",
+    "svg-pan-zoom": "3.6.x",
+    "typescript": "5.8.x",
+    "uglifyjs-folder": "3.3.x"
+  }
+}

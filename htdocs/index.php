@@ -36,6 +36,9 @@ $loggedInUser = LoggedInUser::userFromCookies();
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js" async crossorigin></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" <?= ASYNC_CSS ?>/>
 
+    <!-- Svg-pan-zoom (library allowing to pan and zoom the mapsheet) -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.2/dist/svg-pan-zoom.min.js"></script>
+
     <!-- Game -->
     <script type="module" src="<?= STATIC_DOMAIN ?>/js/game/main.js" async crossorigin></script>
     <link rel="stylesheet" type="text/css" href="<?= STATIC_DOMAIN ?>/css/game/main.css" <?= ASYNC_CSS ?>/>

@@ -92,6 +92,6 @@
     <zone name="10km" color="2" points="l t, 1900 t, 1900 1490, 1500 1890, l 1890"/>
     <zone name="Budapest" color="1" points="0 625, 400 225, 1200 225, 1400 425, 1400 1250, 1100 1550, 200 1550, 0 1350"/>
     <river points="355 t, 355 b"/>
-    <river points="355 1170, 430 1245, 430 b"/>
+    <river points="355 1170, 430 1245, 430 2400, 355 2475"/>
   </background>
 </place>

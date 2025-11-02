@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<place boxpos="tl">
+<place>
     <stations>
         <station name="Le Mans" x="200" y="900" a="l"/>
         <station name="Nogent-le-Rotrou" x="600" y="500" a="l"/>

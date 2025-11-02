@@ -18,23 +18,17 @@
     overflow: hidden;
 }
 
-.mainScrollArea {
+svg.mapArea {
     width: 100%;
     height: 100%;
-    overflow: auto;
-}
-
-.mainScrollArea > svg {
-    display: block;    /* Otherwise there will be a small part at the bottom below the SVG element but still in the scoll area */
-    transform-origin: top left;
     background-color: white;
 }
 
-.mainScrollArea > svg:active {
+svg.mapArea:active {
     cursor: move;
 }
 
-.mainScrollArea > svg text {
+svg.mapArea text {
     cursor: default;
     font-family: sans-serif;
     -webkit-touch-callout: none;

@@ -14,8 +14,8 @@ libUrls = [
     "https://cdn.jsdelivr.net/gh/xxjapp/xdialog@3/xdialog.min.js",
     "https://cdn.jsdelivr.net/gh/xxjapp/xdialog@3/xdialog.min.css",
     "https://cdn.jsdelivr.net/npm/lodash@4.17.21/+esm",
-    "https://gustavlindberg99.github.io/Typecheck.js/min/typecheck-v1.min.js",
-    "https://gustavlindberg99.github.io/QtLinguistWeb/qtranslator-v1.min.js"
+    "https://unpkg.com/i18next@25.6.0/dist/esm/i18next.js",
+    "https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.2/dist/svg-pan-zoom.min.js"
 ]
 
 # Create an empty libs folder (if it already exists, delete everything in it so that if we stop using a library it gets removed automatically)

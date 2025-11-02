@@ -1,3 +1,5 @@
 /backup.sql
 /htdocs/google*.html
 /htdocs/secret/
+/node_modules
+/package-lock.json

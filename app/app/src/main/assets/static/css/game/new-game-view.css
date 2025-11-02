@@ -54,25 +54,9 @@
 
 
 /* #createPlaceMarkerWithBubble() */
-.placeMarker {
+.placeMarkerBubble {
     position: absolute;
-}
-
-.placeMarker > svg {
-    position: absolute;
-    left: -6px;
-    top: -28px;
-    width: 12px;
-    height: 28px;
-    z-index: 0;
-}
-
-.placeMarker > div {
-    position: absolute;
-    left: -10px;
-    bottom: 10px;
     padding: 8px;
-    display: none;
     background-color: white;
     border: solid black 2px;
     border-radius: 5px;
@@ -82,25 +66,21 @@
     animation: fadeEffect 0.5s;
 }
 
-.placeMarker:hover > div {
-    display: block;
-}
-
-.placeMarker > div h3, .placeMarker > div a {
+.placeMarkerBubble h3, .placeMarkerBubble a {
     margin: 0px;
     margin-right: calc(1em + 4px);
 }
 
-.placeMarker > div h5{
+.placeMarkerBubble h5 {
     margin:0px;
     margin-top:4px;
 }
 
-.placeMarker > div p{
+.placeMarkerBubble p {
     margin:0px;
 }
 
-.placeMarker > div h3 > img, .placeMarker > div a > img{
+.placeMarkerBubble h3 > img, .placeMarkerBubble  a > img{
     width:1em;
     height:1em;
     float:left;
@@ -110,33 +90,18 @@
 
 /* #createPlaceList() */
 .placeListArea {
-    display: flex;
-    position: relative;
-    flex: 1;
-    margin-right: 8px;
-}
-
-.placeList {
-    background-color: white;
     border: solid #888 1px;
-    overflow-x: auto;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-    position: relative;
-    flex: 1;
+    width: calc(100% - 8px);
+    height: 100%;
     background-color: rgb(181, 222, 243);
 }
 
 .worldMap {
     width: 2000px;
     height: 1001px;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    transform-origin: left top;
 }
 
-.worldMap:active {
+.placeListArea:active {
     cursor: move;
 }
 

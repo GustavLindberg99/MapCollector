@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<place boxpos="br">
+<place>
   <stations>
     <station name="Strömstad" x="150" y="70"/>
     <station name="Skee" x="150" y="140"/>
