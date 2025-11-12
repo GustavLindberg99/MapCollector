@@ -1,6 +1,6 @@
 {
   // To install dependencies, run `npm install` from the root folder of this git repo.
-  // To build TypeScript and run unit tests, run `npm run build && npm run test` from the root folder of this git repo.
+  // To build, run `npm run build` from the root folder of this git repo. This will always build the website, and will build the Android app if an Android device is connected.
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
@@ -41,11 +41,10 @@
     "types": [                                           /* Specify type package names to be included without being referenced in a source file. */
       "../node_modules/@types/tippy.js/index.d.ts",
       "../node_modules/@types/xdialog/index.d.ts",
-      "../node_modules/@types/progressbar.js/index.d.ts",
       "../node_modules/@types/toastify-js/index.d.ts",
       "../node_modules/svg-pan-zoom/dist/svg-pan-zoom.d.ts",
       "../node_modules/@types/peerjs/index.d.ts",
-      "./game/android.d.ts",
+      "./android.d.ts",
     ],
     "allowUmdGlobalAccess": true,                        /* Allow accessing UMD globals from modules. */
     // "resolveJsonModule": true,                        /* Enable importing .json files */
@@ -112,6 +111,5 @@
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true,                                /* Skip type checking all .d.ts files. */
-    "moduleDetection": "force"                           /* Compile all files as modules. */
   }
 }

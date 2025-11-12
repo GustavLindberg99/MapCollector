@@ -37,7 +37,8 @@ try{
         'status' => 'success',
         'email' => $user->email(),
         'password' => $user->password(),
-        'userId' => $user->id()
+        'userId' => $user->id(),
+        'userName' => $user->name()
     ]);
 }
 catch(PDOException $e){

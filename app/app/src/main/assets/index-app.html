@@ -10,16 +10,16 @@
     <script type="text/javascript" src="libs/peerjs.min.js"></script>
 
     <!-- Tippy.js (library for showing bubbles). The CSS is Map Collector's own customization of the tippy bubble. -->
-    <script type="text/javascript" src="libs/core@2"></script>
-    <script type="text/javascript" src="libs/tippy.js@6"></script>
+    <script type="text/javascript" src="libs/popper.min.js"></script>
+    <script type="text/javascript" src="libs/tippy-bundle.umd.min.js"></script>
     <link rel="stylesheet" type="text/css" href="static/css/tippy.css"/>
 
     <!-- In the app, don't use the actual Xdialog and Toastify libraries, but rather functions with the same signature but that integrate with native Android features. These are implemented in plain JavaScript in order not to confuse the TypeScript compiler. -->
-    <script type="text/javascript" src="native-lib-implementations/xdialog-android.js"></script>
-    <script type="text/javascript" src="native-lib-implementations/toastify-android.js"></script>
+    <script type="text/javascript" src="static/js/native-lib-implementations/xdialog-android.js"></script>
+    <script type="text/javascript" src="static/js/native-lib-implementations/toastify-android.js"></script>
 
     <!-- Svg-pan-zoom (library allowing to pan and zoom the mapsheet) -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.2/dist/svg-pan-zoom.min.js"></script>
+    <script type="text/javascript" src="libs/svg-pan-zoom.min.js"></script>
 
     <!-- Game -->
     <script type="module" src="static/js/game/main.js"></script>

@@ -21,13 +21,14 @@ import org.json.JSONObject
 import java.util.Locale
 import java.util.regex.Pattern
 
-class LogInActivity: AppCompatActivity() {
-    private val _logInButton: Button by lazy {this.findViewById(R.id.logInButton)}
+class LogInActivity : AppCompatActivity() {
+    private val _logInButton: Button by lazy { this.findViewById(R.id.logInButton) }
     private var _errorView: TextView? = null
 
-    protected override fun onCreate(savedInstanceState: Bundle?){
+    protected override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         this.setContentView(R.layout.activity_log_in)
+        this.supportActionBar!!.elevation = 0.0f
         this.title = Html.fromHtml(
             String.format("<font color='0x000000'>%s</font>", this.getString(R.string.logIn)),
             HtmlCompat.FROM_HTML_MODE_LEGACY
@@ -42,7 +43,10 @@ class LogInActivity: AppCompatActivity() {
 
         val signUpLink: TextView = this.findViewById(R.id.signUpLink)
         signUpLink.text = Html.fromHtml(
-            String.format(this.getString(R.string.signUp), "https://mapcollector.eu5.org/users/signup.php"),
+            String.format(
+                this.getString(R.string.signUp),
+                "https://mapcollector.eu5.org/users/signup.php"
+            ),
             HtmlCompat.FROM_HTML_MODE_LEGACY
         )
         signUpLink.movementMethod = LinkMovementMethod.getInstance()
@@ -55,13 +59,13 @@ class LogInActivity: AppCompatActivity() {
      * @param email     The email address to log in with.
      * @param password  The (unhashed) password to log in with.
      */
-    private fun logIn(email: String, password: String){
-        val emailRegex = Pattern.compile("^[a-z0-9._%+-]+@[a-z0-9._-]+\\.[a-z]{2,}$", Pattern.CASE_INSENSITIVE)
-        if(!emailRegex.matcher(email).find()){
+    private fun logIn(email: String, password: String) {
+        val emailRegex =
+            Pattern.compile("^[a-z0-9._%+-]+@[a-z0-9._-]+\\.[a-z]{2,}$", Pattern.CASE_INSENSITIVE)
+        if (!emailRegex.matcher(email).find()) {
             this.showError(this.getString(R.string.invalidEmail))
             return
-        }
-        else if(password.isEmpty()){
+        } else if (password.isEmpty()) {
             this.showError(this.getString(R.string.passwordMissing))
             return
         }
@@ -69,17 +73,17 @@ class LogInActivity: AppCompatActivity() {
         _logInButton.isEnabled = false
 
         var language = Locale.getDefault().language.substring(0, 2)
-        if(language !in arrayOf("en", "fr", "sv")){
+        if (language !in arrayOf("en", "fr", "sv")) {
             language = "en"
         }
 
         val queue: RequestQueue = Volley.newRequestQueue(this)
-        val request = object: StringRequest(
+        val request = object : StringRequest(
             Request.Method.POST,
             "https://mapcollector.eu5.org/$language/ajax/applogin.php",
-            {this.processResponse(it)},
-            {this.showError(this.getString(R.string.noInternet))}
-        ){
+            { this.processResponse(it) },
+            { this.showError(this.getString(R.string.noInternet)) }
+        ) {
             override fun getParams() = mapOf("email" to email, "password" to password)
             override fun getHeaders() = mapOf("Content-Type" to "application/x-www-form-urlencoded")
         }
@@ -91,10 +95,10 @@ class LogInActivity: AppCompatActivity() {
      *
      * @param response  The response body that the server sent.
      */
-    private fun processResponse(response: String){
-        try{
+    private fun processResponse(response: String) {
+        try {
             val data = JSONObject(response)
-            if(data.getString("status") != "success") {
+            if (data.getString("status") != "success") {
                 this.showError(data.getString("message"))
                 return
             }
@@ -102,24 +106,29 @@ class LogInActivity: AppCompatActivity() {
             val email = data.getString("email")
             val hashedPassword = data.getString("password")
             val userId = data.getInt("userId")
-            val profilePictureUrl = "https://mapcollector.eu5.org/users/profilepicture.php?uid=$userId"
+            val userName = data.getString("userName")
+            val profilePictureUrl =
+                "https://mapcollector.eu5.org/users/profilepicture.php?uid=$userId"
 
             val queue: RequestQueue = Volley.newRequestQueue(this)
-            val request = ProfilePicture.ProfilePictureRequest(profilePictureUrl, queue, {profilePicture: ProfilePicture ->
-                Toast.makeText(this, R.string.loginSucceeded, Toast.LENGTH_SHORT).show()
+            val request = ProfilePicture.ProfilePictureRequest(
+                profilePictureUrl,
+                queue,
+                { profilePicture: ProfilePicture ->
+                    Toast.makeText(this, R.string.loginSucceeded, Toast.LENGTH_SHORT).show()
 
-                val intent = Intent()
-                intent.putExtra(Preferences.Preference.EMAIL, email)
-                intent.putExtra(Preferences.Preference.HASHED_PASSWORD, hashedPassword)
-                intent.putExtra(Preferences.Preference.USER_ID, userId)
-                intent.putExtra(Preferences.Preference.PROFILE_PICTURE, profilePicture)
-                this.setResult(RESULT_OK, intent)
+                    val intent = Intent()
+                    intent.putExtra(Preferences.Preference.EMAIL, email)
+                    intent.putExtra(Preferences.Preference.HASHED_PASSWORD, hashedPassword)
+                    intent.putExtra(Preferences.Preference.USER_ID, userId)
+                    intent.putExtra(Preferences.Preference.USER_NAME, userName)
+                    intent.putExtra(Preferences.Preference.PROFILE_PICTURE, profilePicture)
+                    this.setResult(RESULT_OK, intent)
 
-                this.finish()
-            })
+                    this.finish()
+                })
             queue.add(request)
-        }
-        catch(e: JSONException) {
+        } catch (e: JSONException) {
             this.showError(String.format(this.getString(R.string.error), e.message))
         }
     }
@@ -129,9 +138,9 @@ class LogInActivity: AppCompatActivity() {
      *
      * @param errorMessage  The error message to display.
      */
-    private fun showError(errorMessage: String){
+    private fun showError(errorMessage: String) {
         val errorView = this._errorView ?: TextView(this)
-        if(this._errorView == null){
+        if (this._errorView == null) {
             errorView.setTextColor(Color.RED)
             errorView.movementMethod = LinkMovementMethod.getInstance()
             errorView.setLinkTextColor(Color.BLUE)

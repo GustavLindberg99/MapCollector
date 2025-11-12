@@ -289,7 +289,7 @@ export default class PlaceParser{
      * @return A new Station object corresponding to the station represented by the node.
      */
     #stationFromXml(stationNode: Element, place: Place): Station {
-        const name = stationNode.getAttribute("name-" + document.documentElement.lang) ?? stationNode.getAttribute("name");
+        const name = stationNode.getAttribute("name-" + (window.Android?.lang() ?? document.documentElement.lang)) ?? stationNode.getAttribute("name");
         let x: string | null;
         let y: string | null;
         if(stationNode.tagName.toLowerCase() === "autostation"){

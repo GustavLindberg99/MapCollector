@@ -13,12 +13,14 @@ async function main(): Promise<void> {
 
     //In the app, the user ID is set with GET parameters instead of a meta tag, so put it in a meta tag so that it's easy to get it in other places.
     if(window.Android){
-        const userId = new URLSearchParams(location.search).get("uid") ?? "0";
-        if(userId !== "0"){
-            const userIdMeta = document.createElement("meta");
-            userIdMeta.name = "user-id";
-            userIdMeta.content = userId;
-            document.head.appendChild(userIdMeta);
+        for(let param of ["userId", "userName", "profilePicture"]){
+            const value = new URLSearchParams(location.search).get("userId");
+            if(value !== null){
+                const meta = document.createElement("meta");
+                meta.name = param;
+                meta.content = value;
+                document.head.appendChild(meta);
+            }
         }
     }
 

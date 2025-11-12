@@ -10,7 +10,7 @@ export function initTranslations(): void {
     const englishPluralTranslations = lodash.mapValues(frenchPluralTranslations, (value, key) => key);
 
     i18next.init({
-        lng: document.documentElement.lang,
+        lng: window.Android?.lang() ?? document.documentElement.lang,
         resources: {
             en: {
                 translation: {

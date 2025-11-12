@@ -18,15 +18,16 @@ import com.android.volley.toolbox.JsonObjectRequest
 import com.android.volley.toolbox.Volley
 import java.util.Timer
 import kotlin.concurrent.timer
+import androidx.core.net.toUri
 
-class MainActivity : AppCompatActivity(){
-    private val _webView: WebView by lazy {this.findViewById(R.id.webView)}
-    private val _myAccountButton: ImageButton by lazy {this.findViewById(R.id.myAccountButton)}
+class MainActivity : AppCompatActivity() {
+    private val _webView: WebView by lazy { this.findViewById(R.id.webView) }
+    private val _myAccountButton: ImageButton by lazy { this.findViewById(R.id.myAccountButton) }
     private val _buttonDrawables = mutableMapOf<ImageButton, Drawable>()
 
     private var _setPressedTimer: Timer? = null
 
-    protected override fun onCreate(savedInstanceState: Bundle?){
+    protected override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         this.setContentView(R.layout.activity_main)
 
@@ -34,6 +35,7 @@ class MainActivity : AppCompatActivity(){
         val actionBar = this.supportActionBar!!
         actionBar.setCustomView(R.layout.action_bar)
         actionBar.setDisplayShowCustomEnabled(true)
+        actionBar.elevation = 0.0f
 
         //Initialize the buttons (needs to come before initializing the web view because when the web view gets loaded the buttons will be disabled)
         val newGameButton: ImageButton = this.initializeToolbarButton(R.id.newGameButton)
@@ -55,8 +57,8 @@ class MainActivity : AppCompatActivity(){
         newGameButton.setOnClickListener {
             this._webView.evaluateJavascript("window.ToolbarButton.NewGameButton.onclick?.()", null)
         }
-        this.onBackPressedDispatcher.addCallback(this, object: OnBackPressedCallback(true){
-            public override fun handleOnBackPressed(){
+        this.onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
+            public override fun handleOnBackPressed() {
                 newGameButton.callOnClick()
             }
         })
@@ -65,10 +67,18 @@ class MainActivity : AppCompatActivity(){
             this._webView.evaluateJavascript("window.ToolbarButton.PauseButton.onclick?.()", null)
         }
         fastForwardButton.setOnClickListener {
-            this._webView.evaluateJavascript("window.ToolbarButton.FastForwardButton.onclick?.()", null)
+            this._webView.evaluateJavascript(
+                "window.ToolbarButton.FastForwardButton.onclick?.()",
+                null
+            )
         }
         helpButton.setOnClickListener {
-            this.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/GustavLindberg99/MapCollector/blob/master/README.md")))
+            this.startActivity(
+                Intent(
+                    Intent.ACTION_VIEW,
+                    "https://github.com/GustavLindberg99/MapCollector/blob/master/README.md".toUri()
+                )
+            )
         }
         aboutButton.setOnClickListener {
             DialogActivity.openAlertDialog(
@@ -98,8 +108,10 @@ class MainActivity : AppCompatActivity(){
         //Initialize the my account button
         val profilePicture = preferences.getProfilePicture()
         profilePicture?.applyToImageView(this._myAccountButton)
-        val logInLauncher = this.registerForActivityResult(ActivityResultContracts.StartActivityForResult(), {this.logInOrOut(it.data)})
-        this._myAccountButton.setOnClickListener {this.openAccountActivity(logInLauncher)}
+        val logInLauncher = this.registerForActivityResult(
+            ActivityResultContracts.StartActivityForResult(),
+            { this.logInOrOut(it.data) })
+        this._myAccountButton.setOnClickListener { this.openAccountActivity(logInLauncher) }
     }
 
     protected override fun onResume() {
@@ -120,22 +132,21 @@ class MainActivity : AppCompatActivity(){
      * @param button    The button to enable or disable.
      * @param disabled  True to disable the button, false to enable the button.
      */
-    public fun setToolbarButtonDisabled(button: ImageButton, disabled: Boolean){
+    public fun setToolbarButtonDisabled(button: ImageButton, disabled: Boolean) {
         button.isEnabled = !disabled
         val drawable = this._buttonDrawables[button]!!
-        if(disabled){
+        if (disabled) {
             val grayDrawable = drawable.constantState!!.newDrawable().mutate()
             val matrix = ColorMatrix()
             matrix.setSaturation(0f)
             grayDrawable.colorFilter = ColorMatrixColorFilter(matrix)
             button.setImageDrawable(grayDrawable)
             button.alpha = 0.6f
-        }
-        else{
+        } else {
             button.setImageDrawable(drawable)
             button.alpha = 1.0f
         }
-        if(button.id == R.id.pauseButton){
+        if (button.id == R.id.pauseButton) {
             this.setPauseButtonPressed(false)
         }
     }
@@ -145,11 +156,11 @@ class MainActivity : AppCompatActivity(){
      *
      * @param pressed   True if it should be pressed, false otherwise.
      */
-    private fun setPauseButtonPressed(pressed: Boolean){
+    private fun setPauseButtonPressed(pressed: Boolean) {
         val pauseButton: ImageButton = this.findViewById(R.id.pauseButton)
         this._setPressedTimer?.cancel()
         this._setPressedTimer = null
-        if(pressed){
+        if (pressed) {
             this._setPressedTimer = timer(action = {
                 runOnUiThread {
                     pauseButton.isPressed = true
@@ -177,10 +188,10 @@ class MainActivity : AppCompatActivity(){
      *
      * @param logInLauncher The launcher to send the results to.
      */
-    private fun openAccountActivity(logInLauncher: ActivityResultLauncher<Intent>){
+    private fun openAccountActivity(logInLauncher: ActivityResultLauncher<Intent>) {
         val preferences = Preferences(this)
         val isLoggedIn = preferences.isLoggedIn()
-        if(isLoggedIn){
+        if (isLoggedIn) {
             val intent = Intent(this, ProfileActivity::class.java)
             val queue: RequestQueue = Volley.newRequestQueue(this)
 
@@ -189,30 +200,30 @@ class MainActivity : AppCompatActivity(){
                 "https://mapcollector.eu5.org/ajax/get-statistics.php",
                 null,
                 {
-                    val userName = it.optString(ProfileActivity.USER_NAME, this.getString(R.string.myAccount))
+                    val userName =
+                        it.optString(ProfileActivity.USER_NAME, this.getString(R.string.myAccount))
                     intent.putExtra(ProfileActivity.USER_NAME, userName)
-                    for(name in arrayOf(
+                    for (name in arrayOf(
                         ProfileActivity.Statistics.SCORE,
                         ProfileActivity.Statistics.NUMBER_OF_MAPS,
                         ProfileActivity.Statistics.WINNING_RATE,
                         ProfileActivity.Statistics.EASY_CHALLENGES,
                         ProfileActivity.Statistics.MEDIUM_CHALLENGES,
                         ProfileActivity.Statistics.DIFFICULT_CHALLENGES
-                    )){
+                    )) {
                         val value = it.optInt(name, -1)
-                        if(value != -1){
+                        if (value != -1) {
                             intent.putExtra(name, value)
                         }
                     }
                     logInLauncher.launch(intent)
                 },
                 //If there's an error, just launch it without extras, the activity will take care of reporting the error. We need to launch it anyway otherwise it's not possible to log out.
-                {logInLauncher.launch(intent)}
+                { logInLauncher.launch(intent) }
             )
 
             queue.add(request)
-        }
-        else{
+        } else {
             val intent = Intent(this, LogInActivity::class.java)
             logInLauncher.launch(intent)
         }
@@ -223,25 +234,25 @@ class MainActivity : AppCompatActivity(){
      *
      * @param intent    The intent with the log in/log out data.
      */
-    private fun logInOrOut(intent: Intent?){
+    private fun logInOrOut(intent: Intent?) {
         val logOut = intent?.getBooleanExtra(ProfileActivity.LOGGED_OUT, false) ?: false
-        if(logOut){
+        if (logOut) {
             val preferences = Preferences(this)
             preferences.logOut()
             preferences.loadLoggedInPage(this, this._webView)
             this._myAccountButton.setImageResource(R.drawable.user)
-        }
-        else {
+        } else {
             val email = intent?.getStringExtra(Preferences.Preference.EMAIL)
             val hashedPassword = intent?.getStringExtra(Preferences.Preference.HASHED_PASSWORD)
             val userId = intent?.getIntExtra(Preferences.Preference.USER_ID, 0) ?: 0
+            val userName = intent?.getStringExtra(Preferences.Preference.USER_NAME)
             val profilePicture =
                 intent?.getProfilePictureExtra(Preferences.Preference.PROFILE_PICTURE)
 
             //They can be null if the user is already logged in and just viewed their profile, in which case do nothing
-            if(email != null && hashedPassword != null && userId != 0 && profilePicture != null) {
+            if (email != null && hashedPassword != null && userId != 0 && userName != null && profilePicture != null) {
                 val preferences = Preferences(this)
-                preferences.logIn(email, hashedPassword, userId, profilePicture)
+                preferences.logIn(email, hashedPassword, userId, userName, profilePicture)
                 preferences.loadLoggedInPage(this, this._webView)
                 profilePicture.applyToImageView(this._myAccountButton)
             }

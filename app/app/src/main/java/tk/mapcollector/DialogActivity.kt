@@ -20,8 +20,8 @@ import androidx.activity.result.ActivityResultLauncher
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.text.HtmlCompat
 
-class DialogActivity : AppCompatActivity(){
-    companion object{
+class DialogActivity : AppCompatActivity() {
+    companion object {
         private const val TITLE = "title"
         private const val BODY = "body"
         private const val DEPENDENCIES = "dependencies"
@@ -38,7 +38,13 @@ class DialogActivity : AppCompatActivity(){
          * @param body              The body of the dialog.
          * @param dependencies      HTML code containing <script> and <link rel="stylesheet"> tags to be used in the activity dialog. Does nothing for an AlertDialog.
          */
-        fun openActivityDialog(context: Context, dialogLauncher: ActivityResultLauncher<Intent>, title: String, body: String, dependencies: String?){
+        fun openActivityDialog(
+            context: Context,
+            dialogLauncher: ActivityResultLauncher<Intent>,
+            title: String,
+            body: String,
+            dependencies: String?
+        ) {
             val intent = Intent(context, DialogActivity::class.java)
             intent.putExtra(TITLE, title)
             intent.putExtra(BODY, body)
@@ -58,15 +64,32 @@ class DialogActivity : AppCompatActivity(){
          * @param delete        The text to display as Delete button, or null if there is no Delete button.
          * @param icon          Base 64 encoded image to use as icon, or null if no icon should be used.
          */
-        fun openAlertDialog(context: Context, webView: WebView?, title: String, body: String, ok: String?, cancel: String?, delete: String?, icon: String?){
+        fun openAlertDialog(
+            context: Context,
+            webView: WebView?,
+            title: String,
+            body: String,
+            ok: String?,
+            cancel: String?,
+            delete: String?,
+            icon: String?
+        ) {
             val textView = TextView(context)
             textView.text = HtmlCompat.fromHtml(body, HtmlCompat.FROM_HTML_MODE_LEGACY)
             textView.setTextColor(Color.BLACK)
             textView.setLinkTextColor(Color.BLUE)
             textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 15f)
             val value = TypedValue()
-            if(context.theme.resolveAttribute(androidx.appcompat.R.attr.dialogPreferredPadding, value, true)){
-                val padding = TypedValue.complexToDimensionPixelSize(value.data, context.resources.displayMetrics)
+            if (context.theme.resolveAttribute(
+                    androidx.appcompat.R.attr.dialogPreferredPadding,
+                    value,
+                    true
+                )
+            ) {
+                val padding = TypedValue.complexToDimensionPixelSize(
+                    value.data,
+                    context.resources.displayMetrics
+                )
                 textView.setPadding(padding, dpToPx(8.0), padding, 0)
             }
             textView.movementMethod = LinkMovementMethod.getInstance()
@@ -75,25 +98,25 @@ class DialogActivity : AppCompatActivity(){
                 .setTitle(title)
                 .setView(textView)
 
-            if(icon != null){
+            if (icon != null) {
                 val decodedData = Base64.decode(icon, Base64.DEFAULT)
                 val bitmap = BitmapFactory.decodeByteArray(decodedData, 0, decodedData.size)
                 val drawable = BitmapDrawable(context.resources, bitmap)
                 builder.setIcon(drawable)
             }
 
-            if(ok != null){
-                builder.setPositiveButton(ok, {_, _ ->
+            if (ok != null) {
+                builder.setPositiveButton(ok, { _, _ ->
                     webView?.evaluateJavascript("xdialog.onok?.()", null)
                 })
             }
-            if(cancel != null){
-                builder.setNeutralButton(cancel, {_, _ ->
+            if (cancel != null) {
+                builder.setNeutralButton(cancel, { _, _ ->
                     webView?.evaluateJavascript("xdialog.oncancel?.()", null)
                 })
             }
-            if(delete != null){
-                builder.setNegativeButton(delete, {_, _ ->
+            if (delete != null) {
+                builder.setNegativeButton(delete, { _, _ ->
                     webView?.evaluateJavascript("xdialog.ondelete?.()", null)
                 })
             }
@@ -105,16 +128,17 @@ class DialogActivity : AppCompatActivity(){
          *
          * @param webView   The web view to send the Javascript result to.
          */
-        public fun closeDialog(webView: WebView){
+        public fun closeDialog(webView: WebView) {
             this._alertDialog?.cancel()
             this._alertDialog = null
             webView.evaluateJavascript("xdialog.oncancel?.()", null)
         }
     }
 
-    protected override fun onCreate(savedInstanceState: Bundle?){
+    protected override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         this.setContentView(R.layout.activity_dialog)
+        this.supportActionBar!!.elevation = 0.0f
 
         val title = this.intent.getStringExtra(TITLE)!!
         val body = this.intent.getStringExtra(BODY)!!
@@ -125,30 +149,25 @@ class DialogActivity : AppCompatActivity(){
             HtmlCompat.FROM_HTML_MODE_LEGACY
         )
 
-        val htmlCode = "<!DOCTYPE html><html><head><meta charset=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/>$dependencies</head><body><section role=\"application\">$body</section></body></html>"
+        val htmlCode =
+            "<!DOCTYPE html><html><head><meta charset=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/>$dependencies</head><body><section role=\"application\">$body</section></body></html>"
 
         val webView: WebView = this.findViewById(R.id.dialogWebView)
         webView.setWebViewClient(AssetWebViewClient(this, webView))
-        webView.loadDataWithBaseURL("https://appassets.androidplatform.net/assets/index-app.html", htmlCode, "text/html", "utf-8", "")
-        webView.addJavascriptInterface(object{
+        webView.loadDataWithBaseURL(
+            "https://appassets.androidplatform.net/assets/index-app.html",
+            htmlCode,
+            "text/html",
+            "utf-8",
+            ""
+        )
+        webView.addJavascriptInterface(object : AbstractWebAppInterface(this) {
             @JavascriptInterface
-            public fun close(data: String?){
+            public fun close(data: String?) {
                 val intent = Intent()
                 intent.putExtra(DATA, data)
                 this@DialogActivity.setResult(RESULT_OK, intent)
                 this@DialogActivity.finish()
-            }
-
-            @JavascriptInterface
-            public fun email(): String? {
-                val preferences = Preferences(this@DialogActivity)
-                return preferences.email()
-            }
-
-            @JavascriptInterface
-            public fun hashedPassword(): String? {
-                val preferences = Preferences(this@DialogActivity)
-                return preferences.hashedPassword()
             }
         }, "Android")
     }

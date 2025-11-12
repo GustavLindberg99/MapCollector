@@ -20,7 +20,7 @@ export function createUserCard(
     isContact: boolean,
     playCallbackOrUrl: ((userId: number, userName: string) => void) | string
 ): HTMLElement {
-    const isCurrentUser = userId.toString() === document.querySelector<HTMLMetaElement>("meta[name=user-id]")?.content;
+    const isCurrentUser = userId.toString() === document.querySelector<HTMLMetaElement>("meta[name=userId]")?.content;
 
     const userCard = document.createElement("div");
     userCard.className = "userCard uid" + userId;

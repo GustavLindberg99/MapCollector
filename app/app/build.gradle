@@ -1,3 +1,5 @@
+import groovy.json.JsonSlurper
+
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
@@ -5,14 +7,17 @@ plugins {
 
 android {
     namespace 'tk.mapcollector'
-    compileSdk 35
+    compileSdk = 36
 
     defaultConfig {
+        def inputFile = new File("../package.json")
+        def packageJson = new JsonSlurper().parseText(inputFile.text)
+
         applicationId "tk.mapcollector"
         minSdk 26
-        targetSdk 35
-        versionCode 23    //Increment this by 1 at each new version
-        versionName "7.2.0"    //Change this to the appropriate number at each new version
+        targetSdk 36
+        versionCode packageJson.androidVersion
+        versionName packageJson.version
 
         vectorDrawables {
             useSupportLibrary true
@@ -29,9 +34,16 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    packagingOptions {
+        resources.excludes.add("META-INF/*")
+    }
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    // Makes sure that BuildConfig is available, otherwise there will be very strange errors,
+    // see https://stackoverflow.com/a/76124393/4284627
+    android.buildFeatures.buildConfig = true
 }
 
 dependencies {
@@ -47,15 +59,34 @@ dependencies {
     implementation libs.volley
     implementation libs.androidsvg.aar
     implementation libs.activity.ktx
+    implementation libs.httpclient
 }
 
-tasks.register('jslibs', Exec) {
-    commandLine 'python', layout.projectDirectory.file('jslibs.py')
+tasks.register('jslibs', Copy) {
+    def libsFolder = "src/main/assets/libs"
+
+    delete libsFolder
+    project.mkdir libsFolder
+
+    def lodashFile = new File("app/" + libsFolder + "/+esm")
+    new URL("https://cdn.jsdelivr.net/npm/lodash@4.17.21/+esm").withInputStream { i -> lodashFile.withOutputStream { it << i } }
+
+    from "../../node_modules/@flatten-js/core/dist/main.mjs"
+    from "../../node_modules/@popperjs/core/dist/umd/popper.min.js"
+    from "../../node_modules/i18next/dist/esm/i18next.js"
+    from "../../node_modules/peerjs/dist/peerjs.min.js"
+    from "../../node_modules/svg-pan-zoom/dist/svg-pan-zoom.min.js"
+    from "../../node_modules/tippy.js/dist/tippy-bundle.umd.min.js"
+    into libsFolder
 }
 
 gradle.projectsEvaluated {
-    assembleDebug.dependsOn jslibs
-    assembleRelease.dependsOn jslibs
+    mergeDebugAssets.dependsOn jslibs
+    mergeReleaseAssets.dependsOn jslibs
+    tasks.findByName("lintVitalAnalyzeDebug")?.dependsOn jslibs
+    tasks.findByName("lintVitalAnalyzeRelease")?.dependsOn jslibs
+    tasks.findByName("generateDebugLintVitalReportModel")?.dependsOn jslibs
+    tasks.findByName("generateReleaseLintVitalReportModel")?.dependsOn jslibs
 }
 
 java {

@@ -3,13 +3,13 @@ package tk.mapcollector
 import android.webkit.JavascriptInterface
 import android.webkit.WebView
 import android.widget.ImageButton
-import android.widget.Toast
 import androidx.activity.result.contract.ActivityResultContracts
 import org.apache.commons.text.StringEscapeUtils
-import java.util.Locale
 
-@SuppressWarnings("unused")    //Otherwise it will warn about methods that are used in Javascript but not in Kotlin
-class WebAppInterface(private val _activity: MainActivity, private val _webView: WebView){
+/**
+ * Javascript interface that is used only in the main activity.
+ */
+class WebAppInterface(private val _activity: MainActivity, private val _webView: WebView): AbstractWebAppInterface(_activity){
     private val _dialogLauncher = this._activity.registerForActivityResult(ActivityResultContracts.StartActivityForResult(), {
         val data = it.data?.getStringExtra(DialogActivity.DATA)
         if(data == null){
@@ -20,30 +20,6 @@ class WebAppInterface(private val _activity: MainActivity, private val _webView:
             this._webView.evaluateJavascript("xdialog.onactivityresult?.($dataAsString)", null)
         }
     })
-
-    /**
-     * Gets the language that the app should be displayed in.
-     *
-     * @return The two-letter code of the language.
-     */
-    @JavascriptInterface
-    public fun lang(): String {
-        val language = Locale.getDefault().language.substring(0, 2)
-        if(language in arrayOf("en", "fr", "sv")){
-            return language
-        }
-        return "en"
-    }
-
-    /**
-     * Shows a native Android toast message.
-     *
-     * @param text  The text to display.
-     */
-    @JavascriptInterface
-    public fun showToast(text: String){
-        Toast.makeText(this._activity, text, Toast.LENGTH_LONG).show()
-    }
 
     /**
      * Opens a dialog box. If ok, cancel and delete are all null, shows it as an activity, otherwise shows it as an AlertDialog.
@@ -102,28 +78,6 @@ class WebAppInterface(private val _activity: MainActivity, private val _webView:
             val button = this.toolbarButtonFromId(buttonId)
             this._activity.setToolbarButtonDisabled(button, disabled)
         }
-    }
-
-    /**
-     * Gets the user's email address.
-     *
-     * @return The user's email address, or null if not logged in.
-     */
-    @JavascriptInterface
-    public fun email(): String? {
-        val preferences = Preferences(this._activity)
-        return preferences.email()
-    }
-
-    /**
-     * Gets the user's hashed password.
-     *
-     * @return The user's hashed password, or null if not logged in.
-     */
-    @JavascriptInterface
-    public fun hashedPassword(): String? {
-        val preferences = Preferences(this._activity)
-        return preferences.hashedPassword()
     }
 
     /**

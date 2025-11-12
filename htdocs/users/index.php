@@ -26,9 +26,7 @@ catch(PDOException $e){
         [QObject::tr('users'), QObject::tr('list'), QObject::tr('contacts')]
     ); ?>
 
-    <?php if($loggedInUser !== null){ ?>
-        <meta name="user-id" content="<?= $loggedInUser->id() ?>"/>
-    <?php } ?>
+    <?php insertUserInfoMetaTag(); ?>
 
     <title>Map Collector - <?= QObject::htr('Users') ?></title>
 

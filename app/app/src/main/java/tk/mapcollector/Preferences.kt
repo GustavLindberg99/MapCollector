@@ -3,18 +3,21 @@ package tk.mapcollector
 import android.content.Context
 import android.webkit.WebView
 import android.widget.ImageButton
+import org.apache.http.client.utils.URIBuilder
 import java.net.CookieHandler
 import java.net.CookieManager
 import java.net.HttpCookie
 import java.net.URI
 
-class Preferences(private val _context: Context){
-    private val _sharedPreferences = this._context.getSharedPreferences("preferences", Context.MODE_PRIVATE)
+class Preferences(private val _context: Context) {
+    private val _sharedPreferences =
+        this._context.getSharedPreferences("preferences", Context.MODE_PRIVATE)
 
-    public object Preference{
+    public object Preference {
         const val EMAIL = "email"
         const val HASHED_PASSWORD = "password"
         const val USER_ID = "userId"
+        const val USER_NAME = "userName"
         const val PROFILE_PICTURE = "profilePicture"
     }
 
@@ -26,11 +29,18 @@ class Preferences(private val _context: Context){
      * @param userId            The user's ID.
      * @param profilePicture    The user's profile picture.
      */
-    public fun logIn(email: String, hashedPassword: String, userId: Int, profilePicture: ProfilePicture){
+    public fun logIn(
+        email: String,
+        hashedPassword: String,
+        userId: Int,
+        userName: String,
+        profilePicture: ProfilePicture
+    ) {
         this._sharedPreferences.edit()
             .putString(Preference.EMAIL, email)
             .putString(Preference.HASHED_PASSWORD, hashedPassword)
             .putInt(Preference.USER_ID, userId)
+            .putString(Preference.USER_NAME, userName)
             .putProfilePicture(Preference.PROFILE_PICTURE, profilePicture)
             .apply()
     }
@@ -38,11 +48,12 @@ class Preferences(private val _context: Context){
     /**
      * Saves to the preferences that the user is logged out. Does not update the web view, that needs to be done separately.
      */
-    public fun logOut(){
+    public fun logOut() {
         this._sharedPreferences.edit()
             .remove(Preference.EMAIL)
             .remove(Preference.HASHED_PASSWORD)
             .remove(Preference.USER_ID)
+            .remove(Preference.USER_NAME)
             .remove(Preference.PROFILE_PICTURE)
             .apply()
     }
@@ -62,9 +73,22 @@ class Preferences(private val _context: Context){
      * @param activity  The main activity. Used for disabling the buttons.
      * @param webView   The web view to load the homepage in.
      */
-    public fun loadLoggedInPage(activity: MainActivity, webView: WebView){
+    public fun loadLoggedInPage(activity: MainActivity, webView: WebView) {
         val userId = this._sharedPreferences.getInt(Preference.USER_ID, 0)
-        webView.loadUrl("https://appassets.androidplatform.net/assets/index-app.html?uid=$userId")
+        val userName = this._sharedPreferences.getString(Preference.USER_NAME, null)
+        val profilePicture =
+            this._sharedPreferences.getProfilePicture(Preference.PROFILE_PICTURE, null)
+        val url = URIBuilder("https://appassets.androidplatform.net/assets/index-app.html")
+        if (userId != 0) {
+            url.addParameter("userId", userId.toString())
+        }
+        if (userName != null) {
+            url.addParameter("userName", userName)
+        }
+        if (profilePicture != null) {
+            url.addParameter("profilePicture", profilePicture.url)
+        }
+        webView.loadUrl(url.build().toString())
 
         //Disable the buttons
         val newGameButton: ImageButton = activity.findViewById(R.id.newGameButton)
@@ -79,10 +103,9 @@ class Preferences(private val _context: Context){
         val uri = URI("https://mapcollector.eu5.org/")
         val email = this.email()
         val hashedPassword = this.hashedPassword()
-        if(email == null || hashedPassword == null){
+        if (email == null || hashedPassword == null) {
             cookieManager.cookieStore.removeAll()
-        }
-        else{
+        } else {
             cookieManager.cookieStore.add(uri, HttpCookie("email", email))
             cookieManager.cookieStore.add(uri, HttpCookie("password", hashedPassword))
         }
@@ -103,8 +126,8 @@ class Preferences(private val _context: Context){
      *
      * @param profilePicture    The profile picture to set.
      */
-    public fun setProfilePicture(profilePicture: ProfilePicture){
-        if(this.getProfilePicture() == null){
+    public fun setProfilePicture(profilePicture: ProfilePicture) {
+        if (this.getProfilePicture() == null) {
             return
         }
         this._sharedPreferences.edit()
@@ -124,5 +147,6 @@ class Preferences(private val _context: Context){
      *
      * @return The user's hashed password, or null if not logged in.
      */
-    public fun hashedPassword(): String? = this._sharedPreferences.getString(Preference.HASHED_PASSWORD, null)
+    public fun hashedPassword(): String? =
+        this._sharedPreferences.getString(Preference.HASHED_PASSWORD, null)
 }

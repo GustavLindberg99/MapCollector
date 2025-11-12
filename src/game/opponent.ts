@@ -88,7 +88,7 @@ export default class Opponent{
      * @param allPlaces An array with all places. Used to determine which Place object to play in when an invitation is received.
      */
     static initializePeer(allPlaces: ReadonlyArray<Place>): void {
-        const myId = document.querySelector<HTMLMetaElement>("meta[name=user-id]")?.content ?? null;
+        const myId = document.querySelector<HTMLMetaElement>("meta[name=userId]")?.content ?? null;
         if(myId !== null){
             Opponent.#peer = new Peer(`gustavlindberg99-mapcollector-${myId}-${new Date().getTime()}`);
             sendRequest(ajaxDomain() + "/ajax/multiplayer.php", new URLSearchParams({"setId": Opponent.#peer.id}));
@@ -132,7 +132,7 @@ export default class Opponent{
             }).showToast();
             return null;
         }
-        const peerJsIds: ReadonlyArray<string> = await response.json();
+        const peerJsIds: ReadonlyArray<string> = Object.assign([], await response.json());
         let connections: Array<PeerJs.DataConnection> | null = [];
         this.disconnect();
 
@@ -149,12 +149,11 @@ export default class Opponent{
                     return;
                 }
 
-                const profilePictureImg = document.querySelector<HTMLImageElement>("a[href='/users/profile.php'] img")!!;
                 this.#send({
                     action: "invite",
-                    userId: document.querySelector<HTMLMetaElement>("meta[name=user-id]")!!.content,
-                    userName: profilePictureImg.alt,
-                    profilePicture: profilePictureImg.src,
+                    userId: document.querySelector<HTMLMetaElement>("meta[name=userId]")!!.content,
+                    userName: document.querySelector<HTMLMetaElement>("meta[name=userName]")?.content ?? "Needs to update the app",
+                    profilePicture: document.querySelector<HTMLMetaElement>("meta[name=profilePicture]")!!.content,
                     place: this.#place.filename,
                     useMoney: this.#place.playingWithMoney!!
                 }, connection);

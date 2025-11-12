@@ -41,3 +41,5 @@ function main(): void {
 }
 
 window.addEventListener("load", main);
+
+export {};

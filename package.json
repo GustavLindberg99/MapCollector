@@ -1,10 +1,12 @@
 {
   "name": "mapcollector",
-  "version": "7.2.0",
+  "version": "7.2.1",
+  "androidVersion": 24,
   "description": "A fun game to explore public transportation systems from around the world",
   "author": "Gustav Lindberg",
   "scripts": {
-    "build": "npx tsc -p src && npx uglifyjs-folder app/app/src/main/assets/static/js -o app/app/src/main/assets/static/js -x .js -e"
+    "preinstall": "cmd /c exit || sudo apt install android-sdk && sudo chown -R $(whoami):$(whoami) /usr/lib/android-sdk && mkdir -p /usr/lib/android-sdk/licenses && echo -e \\nd56f5187479451eabf01fb78af6dfcb131a6481e > /usr/lib/android-sdk/licenses/android-sdk-license && echo -e \\n84831b9409646a918e30573bab4c9c91346d8abd > /usr/lib/android-sdk/licenses/android-sdk-preview-license && echo -e \\n601085b94cd77f0b54ff86406957099ebe79c4d6 > /usr/lib/android-sdk/licenses/android-googletv-license && echo -e \\n33b6a2b64607f11b759f320ef9dff4ae5c47d97a > /usr/lib/android-sdk/licenses/google-gdk-license && echo -e \\nd975f751698a77b662f1254ddbeed3901e976f5a > /usr/lib/android-sdk/licenses/intel-android-extra-license && echo -e \\ne9acab5b5fbb560a72cfaecce8946896ff6aab9d > /usr/lib/android-sdk/licenses/mips-android-sysimage-license",
+    "build": "npx tsc -p src && npx uglifyjs-folder app/app/src/main/assets/static/js -o app/app/src/main/assets/static/js -x .js -e && adb shell true && cd app && ( ./gradlew --stop || gradlew.bat --stop ) && ( ANDROID_HOME=/usr/lib/android-sdk ./gradlew assembleDebug || gradlew.bat assembleDebug ) && adb install app/build/outputs/apk/debug/app-debug.apk && adb shell monkey -p tk.mapcollector 1"
   },
   "dependencies": {
     "@flatten-js/core": "1.6.x",
@@ -15,7 +17,9 @@
     "@types/xdialog": "3.4.x",
     "colorjs.io": "0.5.x",
     "i18next": "25.6.x",
+    "peerjs": "1.5.x",
     "svg-pan-zoom": "3.6.x",
+    "tippy.js": "6.3.x",
     "typescript": "5.8.x",
     "uglifyjs-folder": "3.3.x"
   }

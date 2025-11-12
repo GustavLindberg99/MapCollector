@@ -234,7 +234,7 @@ export default class Player{
 
         if(won){
             dialogText += "<br/><br/>";
-            const isLoggedIn = document.querySelector("meta[name=user-id]") !== null;
+            const isLoggedIn = document.querySelector("meta[name=userId]") !== null;
             if(isLoggedIn){
                 dialogText += i18next.t("Your statistics have been saved.");
             }

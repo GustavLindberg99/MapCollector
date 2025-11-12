@@ -24,33 +24,43 @@ private const val IS_SVG = "isSvg"
 private const val DATA = "data"
 private const val URL = "url"
 
-class ProfilePicture(private var _isSvg: Boolean, private var _data: String?, public val url: String){
+class ProfilePicture(
+    private var _isSvg: Boolean,
+    private var _data: String?,
+    public val url: String
+) {
     public class ProfilePictureRequest(
         private val _url: String,
         private val _queue: RequestQueue,
         private val _listener: (ProfilePicture) -> Unit
-    ): Request<ProfilePicture>(Method.GET, _url, {_listener(ProfilePicture(false, null, _url))}){
+    ) : Request<ProfilePicture>(
+        Method.GET,
+        _url,
+        { _listener(ProfilePicture(false, null, _url)) }) {
         protected override fun parseNetworkResponse(response: NetworkResponse): Response<ProfilePicture> {
             val contentType = response.headers?.getOrDefault("Content-type", null)
-            val profilePicture = if(contentType == "image/svg+xml"){
+            val profilePicture = if (contentType == "image/svg+xml") {
                 ProfilePicture(true, response.data.toString(Charsets.UTF_8), this._url)
-            }
-            else{
-                ProfilePicture(false, Base64.encode(response.data, Base64.DEFAULT).toString(Charsets.UTF_8), this._url)
+            } else {
+                ProfilePicture(
+                    false,
+                    Base64.encode(response.data, Base64.DEFAULT).toString(Charsets.UTF_8),
+                    this._url
+                )
             }
             return Response.success(profilePicture, null)
         }
 
         protected override fun deliverResponse(response: ProfilePicture) = this._listener(response)
 
-        public override fun deliverError(error: VolleyError){
+        public override fun deliverError(error: VolleyError) {
             val status = error.networkResponse?.statusCode ?: 0
-            val location = if(status / 100 == 3) error.networkResponse.headers?.get("Location") else null
-            if(location != null){
+            val location =
+                if (status / 100 == 3) error.networkResponse.headers?.get("Location") else null
+            if (location != null) {
                 val request = ProfilePictureRequest(location, this._queue, this._listener)
                 this._queue.add(request)
-            }
-            else{
+            } else {
                 super.deliverError(error)
             }
         }
@@ -61,12 +71,11 @@ class ProfilePicture(private var _isSvg: Boolean, private var _data: String?, pu
      *
      * @param imageView The image view to apply the profile picture to.
      */
-    public fun applyToImageView(imageView: ImageView){
-        if(this._data == null){
+    public fun applyToImageView(imageView: ImageView) {
+        if (this._data == null) {
             imageView.setImageResource(R.drawable.user)
-        }
-        else if(this._isSvg){
-            try{
+        } else if (this._isSvg) {
+            try {
                 val drawable = PictureDrawable(SVG.getFromString(this._data).renderToPicture())
                 val bitmap = Bitmap.createBitmap(
                     drawable.intrinsicWidth,
@@ -76,12 +85,10 @@ class ProfilePicture(private var _isSvg: Boolean, private var _data: String?, pu
                 val canvas = Canvas(bitmap)
                 canvas.drawPicture(drawable.picture)
                 imageView.setImageBitmap(bitmap)
-            }
-            catch(_: SVGParseException){
+            } catch (_: SVGParseException) {
                 imageView.setImageResource(R.drawable.user)
             }
-        }
-        else {
+        } else {
             val decodedData = Base64.decode(this._data, Base64.DEFAULT)
             imageView.setImageBitmap(
                 BitmapFactory.decodeByteArray(decodedData, 0, decodedData.size)
@@ -95,7 +102,7 @@ class ProfilePicture(private var _isSvg: Boolean, private var _data: String?, pu
      * @param context   A Context to use for making a request.
      * @param callback  The callback to be run when the download is finished and the profile picture is updated. If there was a network error, this callback is never called.
      */
-    public fun update(context: Context, callback: () -> Unit){
+    public fun update(context: Context, callback: () -> Unit) {
         val queue: RequestQueue = Volley.newRequestQueue(context)
         val request = ProfilePicture.ProfilePictureRequest(this.url, queue, {
             this._data = it._data ?: return@ProfilePictureRequest
@@ -131,7 +138,7 @@ class ProfilePicture(private var _isSvg: Boolean, private var _data: String?, pu
 private fun profilePictureFromJson(jsonString: String): ProfilePicture {
     val json = JSONObject(jsonString)
     val isSvg = json.getBoolean(IS_SVG)
-    val data = if(json.has(DATA)) json.getString(DATA) else null
+    val data = if (json.has(DATA)) json.getString(DATA) else null
     val url = json.getString(URL)
     return ProfilePicture(isSvg, data, url)
 }
@@ -144,7 +151,10 @@ private fun profilePictureFromJson(jsonString: String): ProfilePicture {
  *
  * @return Returns a reference to the same Editor object, so you can chain put calls together.
  */
-fun SharedPreferences.Editor.putProfilePicture(key: String, value: ProfilePicture?): SharedPreferences.Editor {
+fun SharedPreferences.Editor.putProfilePicture(
+    key: String,
+    value: ProfilePicture?
+): SharedPreferences.Editor {
     this.putString(key, value?.toString())
     return this
 }
@@ -161,10 +171,9 @@ fun SharedPreferences.Editor.putProfilePicture(key: String, value: ProfilePictur
  */
 fun SharedPreferences.getProfilePicture(key: String, defValue: ProfilePicture?): ProfilePicture? {
     val jsonString = this.getString(key, null) ?: return defValue
-    try{
+    try {
         return profilePictureFromJson(jsonString)
-    }
-    catch(e: JSONException){
+    } catch (e: JSONException) {
         throw ClassCastException(e.message)
     }
 }
@@ -191,10 +200,9 @@ fun Intent.putExtra(name: String, value: ProfilePicture): Intent {
  */
 fun Intent.getProfilePictureExtra(name: String): ProfilePicture? {
     val jsonString = this.getStringExtra(name) ?: return null
-    return try{
+    return try {
         profilePictureFromJson(jsonString)
-    }
-    catch(_: JSONException){
+    } catch (_: JSONException) {
         null
     }
 }

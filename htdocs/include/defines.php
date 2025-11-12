@@ -2,7 +2,9 @@
 require_once($_SERVER['DOCUMENT_ROOT'] . '/include/setup.php');
 
 //Version and app name
-define('VERSION', '7.2.0');
+$json = file_get_contents('https://raw.githubusercontent.com/GustavLindberg99/MapCollector/refs/heads/master/package.json');
+$data = json_decode($json, true);
+define('VERSION', $data['version']);
 define('APPNAME', 'Map Collector');
 define('STYLEDAPPNAME', '<span>Map</span><span>Collector</span>');
 define('COPYRIGHTSTART', 2019);

@@ -390,7 +390,7 @@ function createPlaceInformationBox(): HTMLDivElement {
  * @return An HTML element containing the form.
  */
 function createGameVariantForm(name: string, id: string, options: Array<string>, defaultOption: number = 0, disableIfNotLoggedIn: boolean = false): HTMLElement {
-    const disable = disableIfNotLoggedIn && document.querySelector("meta[name=user-id]") === null;
+    const disable = disableIfNotLoggedIn && document.querySelector("meta[name=userId]") === null;
     const container = document.createElement("div");
 
     const title = document.createElement("h4");
@@ -469,9 +469,9 @@ async function createGameVariantBox(): Promise<HTMLElement> {
  * @return The opponent to play a multiplayer game with, or null if it was closed without selecting a user.
  */
 async function showMultiplayerDialog(place: Place): Promise<Opponent | null> {
-    const opponentFromGetParams = new URLSearchParams(location.search).get("opponent");
     return await new Promise<Opponent | null>(async (resolvePromise) => {
         const enableSearchForm = async () => {
+            const opponentFromGetParams = new URLSearchParams(location.search).get("opponent");    //Must be defined inside the function for the dialog activity in the app to have access to it
             //Use a click event here instead of a submit event so that if the form is empty, we can prevent the submit event to avoid wasting bandwidth fetching a list of users that won't be displayed anyway
             document.querySelector("#searchUserForm")!!.addEventListener("click", (event) => {
                 const contactList = document.getElementById("contactList")!!;
@@ -500,6 +500,7 @@ async function showMultiplayerDialog(place: Place): Promise<Opponent | null> {
             loadingView.close();
         };
 
+        const opponentFromGetParams = new URLSearchParams(location.search).get("opponent");
         const dialog = xdialog.open({
             title: i18next.t("Two-player game in {{arg}}", {arg: place.name}),
             body: `
@@ -514,10 +515,14 @@ async function showMultiplayerDialog(place: Place): Promise<Opponent | null> {
                 <link rel="stylesheet" type="text/css" href="static/css/loading-view.css"/>
                 <link rel="stylesheet" type="text/css" href="static/css/usercard.css"/>
                 <link rel="stylesheet" type="text/css" href="static/css/general/main.css"/>
+                ${document.querySelector<HTMLMetaElement>("meta[name=userId]")?.outerHTML ?? ""}
+                ${document.querySelector<HTMLMetaElement>("meta[name=userName]")?.outerHTML ?? ""}
+                ${document.querySelector<HTMLMetaElement>("meta[name=profilePicture]")?.outerHTML ?? ""}
                 <script type="module">
-                    import LoadingView from "./static/js/utils/loading-view.js";
+                    import LoadingView from "./static/js/loading-view.js";
                     import {initializeSearchForm} from "./static/js/contacts/search.js";
-                    const opponentFromGetParams = ${JSON.stringify(opponentFromGetParams)};
+                    import {initTranslations} from "./static/js/translations/init.js";
+                    initTranslations();
                     window.addEventListener("load", ${enableSearchForm});
                 </script>
             `,

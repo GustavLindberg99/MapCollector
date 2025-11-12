@@ -36,6 +36,21 @@ function insertMetaTags(?string $description, array $keywords = []): void {
 }
 
 /**
+ * Inserts meta tags that can be used by Javascript to get info about the logged in user.
+ */
+function insertUserInfoMetaTag(): void {
+    $loggedInUser = LoggedInUser::userFromCookies();
+    if($loggedInUser !== null){
+        ?>
+        <meta name="userId" content="<?= $loggedInUser->id() ?>"/>
+        <meta name="userName" content="<?= $loggedInUser->name() ?>"/>
+        <meta name="profilePicture" content="<?= $loggedInUser->profilePicture() ?>"/>
+        <script type="text/javascript" src="https://unpkg.com/peerjs/dist/peerjs.min.js"></script>
+        <?php
+    }
+}
+
+/**
  * Prints the cookie banner if the user hasn't accepted cookies yet.
  */
 function insertCookieBannerIfNeeded(): void {
@@ -190,8 +205,8 @@ function insertFooter(): void {
     <footer>
         <div>
             <h3><?= htmlspecialchars(APPNAME) ?></h3>
-            <p>Version <?= VERSION ?></p>
-            <p>Copyright &copy; <?= COPYRIGHTSTART ?>-<?= date('Y') ?> Gustav Lindberg</p>
+            <p>Version <?= htmlspecialchars(VERSION) ?></p>
+            <p>Copyright &copy; <?= htmlspecialchars(COPYRIGHTSTART) ?>-<?= htmlspecialchars(date('Y')) ?> Gustav Lindberg</p>
             <p><a href="https://github.com/GustavLindberg99/MapCollector/blob/master/LICENSE" rel="license"><?= QObject::htr('Terms of Use') ?></a> • <a href="https://github.com/GustavLindberg99/MapCollector/blob/master/PRIVACY"><?= QObject::htr('Privacy Policy') ?></a> • <a href="https://github.com/GustavLindberg99/MapCollector/issues"><?= QObject::htr('Contact Us') ?></a></p>
             <p><?= sprintf(QObject::htr('Icons made by %3$s and %4$s from %1$s are licensed under %2$s. Some of the icons have been modified.'), '<a href="https://www.iconfinder.com/" rel="external">www.iconfinder.com</a>', '<a href="http://creativecommons.org/licenses/by/3.0/" rel="external">CC 3.0 BY</a>', '<a href="https://www.iconfinder.com/paomedia" rel="external">Paomedia</a>, <a href="https://www.iconfinder.com/webalys" rel="external">Webalys</a>, <a href="https://www.iconfinder.com/Chanut-is" rel="external">Chanut is Industries</a>, <a href="https://www.iconfinder.com/iconfinder" rel="external">Iconfinder</a>, <a href="https://www.iconfinder.com/kmgdesignid" rel="external">Kmg Design</a>, <a href="https://www.iconfinder.com/iconsets/ionicons" rel="external">Ionicons</a>, <a href="https://www.iconfinder.com/Mr-hopnguyen" rel="external">Hopnguyen Mr</a>, <a href="https://www.iconfinder.com/webhostingmedia" rel="external">David Cross</a>, <a href="https://www.iconfinder.com/pocike" rel="external">Alpár-Etele Méder</a>, <a href="https://www.iconfinder.com/iconsets/circle-icons-1" rel="external">Nick Roach</a>, <a href="https://www.iconfinder.com/fluent-designsystem" rel="external">Microsoft</a>, <a href="https://www.iconfinder.com/webkul" rel="external">Webkul Software</a>, <a href="https://www.iconfinder.com/iconsets/ios-7-icons" rel="external">Visual Pharm</a>, <a href="https://www.iconfinder.com/goodware" rel="external">goodware std.</a>, <a href="https://www.iconfinder.com/font-awesome" rel="external">Font Awesome</a>, <a href="https://www.iconfinder.com/graphiqa" rel="external">Graphiqa Studio</a>, <a href="https://www.iconfinder.com/kucingklawu" rel="external">Kucingklawu Std.</a>, <a href="https://www.iconfinder.com/bendavis" rel="external">Creaticca Ltd</a>, <a href="https://www.iconfinder.com/iconsets/google-material-design-3-0" rel="external">Google</a>', '<a href="https://www.iconfinder.com/olivetty" rel="external">Smashicons</a>') ?></p>
             <p><?= sprintf(QObject::htr('%1$s and %2$s are licensed under the %3$s.'), '<a href="https://peerjs.com/" rel="external">PeerJS</a>, <a href="https://apvarun.github.io/toastify-js/" rel="external">ToastifyJS</a>, <a href="https://alexbol99.github.io/flatten-js/index.html" rel="external">Flatten-js</a>, <a href="https://lodash.com/" rel="external">Lodash</a>', '<a href="https://atomiks.github.io/tippyjs/" rel="external">Tippy.js</a>', '<a href="https://tldrlegal.com/license/mit-license" rel="external">MIT License</a>') ?> <?= sprintf(QObject::htr('%1$s is licensed under the %2$s.'), '<a href="https://xxjapp.github.io/xdialog/" rel="external">Xdialog</a>', '<a href="https://www.apache.org/licenses/LICENSE-2.0" rel="external">Apache License 2.0</a>') ?></p>

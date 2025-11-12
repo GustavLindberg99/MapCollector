@@ -18,8 +18,8 @@ $loggedInUser = LoggedInUser::userFromCookies();
     <title><?= APPNAME . ' - ' . QObject::htr('A fun game to explore public transportation systems from around the world') ?></title>
 
     <!-- Peer.js (library for communicating with the opponent in multiplayer games) and a non-standard meta tag to be able to access the user ID from Javascript. -->
+    <?php insertUserInfoMetaTag(); ?>
     <?php if($loggedInUser !== null){ ?>
-        <meta name="user-id" content="<?= $loggedInUser->id() ?>"/>
         <script type="text/javascript" src="https://unpkg.com/peerjs/dist/peerjs.min.js"></script>
     <?php } ?>
 

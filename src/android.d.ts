@@ -1,3 +1,5 @@
+import ToolbarButton from "./game/toolbar-button-app.js";
+
 interface WebAppInterface {
     lang(): string;
     showToast(text: string): void;
@@ -12,7 +14,14 @@ interface WebAppInterface {
 
 export declare global {
     interface Window {
-        ToolbarButton: unknown;
+        ToolbarButton: typeof ToolbarButton;
         readonly Android: WebAppInterface | undefined;
+        Toastify: typeof Toastify;
+        xdialog: typeof xdialog & {
+            onok: (() => void) | null,
+            oncancel: (() => void) | null,
+            ondelete: (() => void) | null,
+            onactivityresult: ((data: string) => void) | null
+        };
     }
 }

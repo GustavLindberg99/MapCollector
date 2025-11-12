@@ -112,7 +112,7 @@ export const swedishTranslations = {
     "<a href=\"{{arg}}\">Create a free account</a> to play a two-player game.": "<a href=\"{{arg}}\">Skapa ett gratis konto</a> för att spela ett tvåspelarspel.",
     "Two-player game in {{arg}}": "Tvåspelarspel i {{arg}}",
     "An error occurred when preparing for a two-player game. Check your internet connection and try again.": "Ett fel uppstod vid förberedelserna för ett tvåspelarspel. Kontrollera din internetuanslutning och försök igen.",
-    "Could not connect with {{arg}}. If you know them, contact them and make sure that they have this page opened and that they're logged in. If this error persists, make sure both you and the other user refresh the page.": "Kunde inte ansluta med {{arg}}. Om du känner dem, kontakta deom och se till att de har den här sidan öppen och att de är inloggade. Om felet kvarstår, se till att ni båda uppdaterar sidan.",
+    "Could not connect with {{arg}}. If you know them, contact them and make sure that they have this page opened and that they're logged in. If this error persists, make sure both you and the other user refresh the page.": "Kunde inte ansluta med {{arg}}. Om du känner dem, kontakta dem och se till att de har den här sidan öppen och att de är inloggade. Om felet kvarstår, se till att ni båda uppdaterar sidan.",
     "{{arg}} didn't respond.": "{{arg}} svarade inte.",
     "{{arg}} declined your invitation.": "{{arg}} tackade nej till din inbjudan.",
     "The game was ended by {{arg}}.": "{{arg}} avslutade spelet.",
