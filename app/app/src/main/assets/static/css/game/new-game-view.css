@@ -124,6 +124,7 @@
 
 .clickToStartLegend span {
     white-space: nowrap;
+    display: inline-block;
 }
 
 @media(max-width:800px) and (max-height:500px) {    /*Low and narrow windows*/
