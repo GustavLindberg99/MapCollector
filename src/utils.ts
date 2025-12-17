@@ -194,8 +194,6 @@ export function imgToBase64(image: HTMLImageElement): string {
  */
 export function makeSvgPanZoomMobileFriendly(panZoom: SvgPanZoom.Instance, element: SVGSVGElement): void {
     let oldPinchDistance: number | null = null;
-    let oldScaleOnMobile: number | null = null;
-    let previousZoomRatio: number = 1;
 
     element.addEventListener("touchmove", (event: TouchEvent) => {
         if(event.touches.length === 2){
@@ -213,8 +211,6 @@ export function makeSvgPanZoomMobileFriendly(panZoom: SvgPanZoom.Instance, eleme
     });
     element.addEventListener("touchend", () => {
         oldPinchDistance = null;
-        oldScaleOnMobile = null;
-        previousZoomRatio = 1;
     });
 
     element.addEventListener("touchstart", (event: TouchEvent) => {

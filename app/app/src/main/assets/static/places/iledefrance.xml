@@ -615,9 +615,6 @@
     <trainLine name="P" color="#f3ac14">
       <stationRef name="Meaux" mul="2"/><stationRef name="Trilport" ml="2.1" mu="0.7"/><label/><stationRef name="Isles Armentières Congis" mul="2"/><stationRef name="Lizy-sur-Ourcq" mul="2"/><stationRef name="Crouy-sur-Ourcq" mul="2"/><label/><stationRef name="Mareuil-sur-Ourcq" mul="2"/><stationRef name="La Ferté Milon" mul="2"/>
     </trainLine>
-    <trainLine name="P" color="#f3ac14">
-      <stationRef name="Esbly" mdr="1"/><label/><stationRef name="Montry Condé"/><stationRef name="Couilly Saint-Germain Quincy"/><stationRef name="Villiers Montbarbin"/><label/><stationRef name="Crécy-la-Chapelle"/>
-    </trainLine>
 
     <trainLine name="R" color="#df98c3">
       <stationRef name="Gare de Lyon" mdr="1"/><label offset="1"/><point x="2310" y="1830"/><label offset="-9"/><label offset="19"/><point station="Villeneuve Saint-Georges"/><label/><point station="Le Mée-sur-Seine"/><label/><stationRef name="Melun"/><label offset="-1"/><stationRef name="Bois-le-Roi"/><stationRef name="Fontainebleau-Avon"/><stationRef name="Thomery"/><label offset="1"/><stationRef name="Moret Veneux les Sablons"/><stationRef name="Montigny-sur-Loing"/><label/><stationRef name="Bourron Marlotte Grez"/><stationRef name="Nemours Saint-Pierre"/><stationRef name="Bagneaux-sur-Loing"/><label/><stationRef name="Souppes Château-Landon"/><stationRef name="Dordives"/><stationRef name="Ferrières-Fontenay"/><label/><stationRef name="Montargis"/>
@@ -654,6 +651,9 @@
     </trainLine>
     <trainLine name="T13" color="#8a5f20">
       <stationRef name="Saint-Germain-en-Laye"/><autoStation name="Camp des Loges" a="l"/><stationRef name="Lisière Pereire"/><autoStation name="Fourqueux - Bel Air" a="l"/><label/><stationRef name="Mareil-Marly"/><autoStation name="L'Étang - Les Sablons" a="l"/><stationRef name="Saint-Nom-la-Bretèche Forêt de Marly"/><autoStation name="Noisy-le-Roi" a="l"/><stationRef name="Bailly"/><label/><autoStation name="Allée Royale"/><stationRef name="Les Portes de Saint-Cyr"/><stationRef name="Saint-Cyr" mu="5"/>
+    </trainLine>
+    <trainLine name="T14" color="#00B297">
+      <stationRef name="Esbly" mdr="1"/><label/><stationRef name="Montry Condé"/><stationRef name="Couilly Saint-Germain Quincy"/><stationRef name="Villiers Montbarbin"/><label/><stationRef name="Crécy-la-Chapelle"/>
     </trainLine>
 
     <walkingLine>
