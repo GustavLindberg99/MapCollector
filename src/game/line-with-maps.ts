@@ -37,6 +37,7 @@ export default abstract class LineWithMaps extends Line {
      * @param forceOwnMap   If this parameter is true, the map of this line itself will always be available on this line. Useful for bus lines that only stop at bus stops in order to be able to guarantee that all maps are available somewhere.
      */
     initializeAvailableMaps(hiddenMap: LineWithMaps, forceOwnMap: boolean): void {
+        this.availableMaps = [];    //Make sure that maps from previous games aren't kept
         const probabilities =
               //Hidden  //Not hidden
             [[0,        0.005],     //Unrelated line of a different type (train or bus line)

@@ -11,6 +11,7 @@ export function initTranslations(): void {
 
     i18next.init({
         lng: window.Android?.lang() ?? document.documentElement.lang,
+        interpolation: {escapeValue: false},    //Don't escape HTML (that's textContent's job, not i18next's)
         resources: {
             en: {
                 translation: {

@@ -4,8 +4,9 @@
     <station name="Battistini" x="10" y="200" a="l"/>
     <station name="Flaminio" x="500" y="200"/>
     <station name="Termini" x="700" y="400" a="l" w="1" h="1"/>
-    <station name="San Giovanni" x="850" y="550" a="l" w="1" h="1"/>
+    <station name="&#10;San Giovanni" x="850" y="550" a="l" w="1" h="1"/>
     <station name="Anagnina" x="1450" y="1150" a="l"/>
+    <station name="Porta &#10;Metronia" x="650" y="550" a="b"/>
 
     <station name="Cristoforo Colombo" x="600" y="1620"/>
     <station name="Laurentina" x="750" y="1070"/>
@@ -13,7 +14,7 @@
     <station name="Basilica San Paulo" x="600" y="780"/>
     <station name="Piramide" x="600" y="640"/>
     <station name="Porta San Paulo" x="580" y="640" a="l"/>
-    <station name="Colosseo" x="600" y="500"/>
+    <station name="Colosseo" x="600" y="500" w="1" h="1"/>
     <station name="Bologna" x="850" y="250" a="l"/>
     <station name="Rebibbia" x="1340" y="250"/>
     <station name="Jonio" x="850" y="-30"/>
@@ -37,7 +38,7 @@
       <stationRef name="Battistini"/><autoStation name="Cornelia" a="t"/><label/><autoStation name="Baldo &#10;degli &#10;Ubaldi" a="b"/><autoStation name="Valle Aurelia" a="t"/><autoStation name="Cipro" a="b"/><autoStation name="Ottaviano &#10;S. Pietro" a="t"/><autoStation name="Lepanto" a="b"/><stationRef name="Flaminio"/><label/><autoStation name="Spagna"/><autoStation name="Barberini" a="l"/><autoStation name="Repubblica" a="l"/><stationRef name="Termini"/><autoStation name="Vittorio Emanuele"/><label/><autoStation name="Manzoni" a="l"/><stationRef name="San Giovanni"/><autoStation name="Re di Roma" a="l"/><autoStation name="Ponte Lungo" a="l"/><label/><autoStation name="Furio Camillo" a="l"/><autoStation name="Colli Albani" a="l"/><autoStation name="Arco di Travertino" a="l"/><autoStation name="Porta Furba-Quadraro" a="l"/><autoStation name="Numidio Quadrato" a="l"/><autoStation name="Lucio Sestio" a="l"/><autoStation name="Giulio Agricola" a="l"/><label/><autoStation name="Subaugusta" a="l"/><autoStation name="Cincecittà" a="l"/><stationRef name="Anagnina"/>
     </trainLine>
     <trainLine name="B" color="#0071BA">
-      <stationRef name="Laurentina"/><autoStation name="Eur Fermi"/><label/><autoStation name="Eur Palasport"/><stationRef name="Eur Magliana"/><autoStation name="Marconi"/><stationRef name="Basilica San Paulo"/><label offset="-1"/><autoStation name="Garbatella"/><stationRef name="Piramide"/><autoStation name="Circo Massimo"/><label/><stationRef name="Colosseo"/><autoStation name="Cavour" a="l"/><stationRef name="Termini"/><autoStation name="Castro Pretorio"/><label/><autoStation name="Policlinico"/><stationRef name="Bologna"/>
+      <stationRef name="Laurentina"/><autoStation name="Eur Fermi"/><label/><autoStation name="Eur Palasport"/><stationRef name="Eur Magliana"/><autoStation name="Marconi"/><stationRef name="Basilica San Paulo"/><label offset="-1"/><autoStation name="Garbatella"/><stationRef name="Piramide"/><autoStation name="Circo Massimo" a="l"/><label/><stationRef name="Colosseo"/><autoStation name="Cavour" a="l"/><stationRef name="Termini"/><autoStation name="Castro Pretorio"/><label/><autoStation name="Policlinico"/><stationRef name="Bologna"/>
       <branch>
         <autoStation name="Tiburtina" a="b"/><autoStation name="Quintiliani" a="t"/><label/><autoStation name="Monti &#10;Tiburtini" a="b"/><autoStation name="Pietralata" a="t"/><autoStation name="Santa Maria &#10;del Soccorso" a="b"/><autoStation name="Ponte &#10;Mammolo" a="t"/><stationRef name="Rebibbia"/>
       </branch>
@@ -46,7 +47,7 @@
       </branch>
     </trainLine>
     <trainLine name="C" color="#008751">
-      <stationRef name="San Giovanni"/><autoStation name="Lodi" a="t"/><label/><autoStation name="Pigneto" a="b"/><autoStation name="Malatesta" a="t"/><autoStation name="Teano" a="b"/><autoStation name="Gardenie" a="t"/><autoStation name="Mirti" a="b"/><autoStation name="Parco di &#10;Centocelle" a="t"/><stationRef name="Alessandrino"/><stationRef name="Torre Spaccata"/><stationRef name="Torre Maura"/><label offset="-2"/><stationRef name="Giardinetti"/><autoStation name="Torrenova" a="t"/><autoStation name="Torre Angela" a="b"/><autoStation name="Torre Gaia" a="t"/><autoStation name="Grotte &#10;Celoni" a="b"/><autoStation name="Due Leoni/&#10;Fontana &#10;Candida" a="t"/><autoStation name="Borghensiana" a="b"/><autoStation name="Bolognetta" a="t"/><label/><autoStation name="Finocchio" a="b"/><autoStation name="Graniti" a="t"/><stationRef name="Monte Comptatri/Pantano"/>
+      <stationRef name="Colosseo"/><stationRef name="Porta Metronia"/><label/><stationRef name="San Giovanni"/><autoStation name="Lodi" a="t"/><label/><autoStation name="Pigneto" a="b"/><autoStation name="Malatesta" a="t"/><autoStation name="Teano" a="b"/><autoStation name="Gardenie" a="t"/><autoStation name="Mirti" a="b"/><autoStation name="Parco di &#10;Centocelle" a="t"/><stationRef name="Alessandrino"/><stationRef name="Torre Spaccata"/><stationRef name="Torre Maura"/><label offset="-2"/><stationRef name="Giardinetti"/><autoStation name="Torrenova" a="t"/><autoStation name="Torre Angela" a="b"/><autoStation name="Torre Gaia" a="t"/><autoStation name="Grotte &#10;Celoni" a="b"/><autoStation name="Due Leoni/&#10;Fontana &#10;Candida" a="t"/><autoStation name="Borghensiana" a="b"/><autoStation name="Bolognetta" a="t"/><label/><autoStation name="Finocchio" a="b"/><autoStation name="Graniti" a="t"/><stationRef name="Monte Comptatri/Pantano"/>
     </trainLine>
 
     <trainLine color="#26BFF0">
