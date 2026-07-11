@@ -106,6 +106,8 @@ class Place{
             return i18next.t("Italy");
         case "portugal.svg":
             return i18next.t("Portugal");
+        case "spain.svg":
+            return i18next.t("Spain");
         case "sweden.svg":
             return i18next.t("Sweden");
         case "united_kingdom.svg":

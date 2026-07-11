@@ -12,18 +12,25 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.text.HtmlCompat
-import com.android.volley.Request
-import com.android.volley.RequestQueue
-import com.android.volley.toolbox.StringRequest
-import com.android.volley.toolbox.Volley
+import com.github.gustavlindberg99.androidsuspendutils.setOnClickListenerAsync
+import io.ktor.client.HttpClient
+import io.ktor.client.call.body
+import io.ktor.client.engine.android.Android
+import io.ktor.client.request.get
+import io.ktor.client.request.header
+import io.ktor.client.request.post
+import io.ktor.client.request.setBody
 import org.json.JSONException
 import org.json.JSONObject
+import tk.mapcollector.ProfilePicture.Companion.profilePicture
+import tk.mapcollector.ProfilePicture.Companion.putExtra
 import java.util.Locale
 import java.util.regex.Pattern
 
 class LogInActivity : AppCompatActivity() {
     private val _logInButton: Button by lazy { this.findViewById(R.id.logInButton) }
     private var _errorView: TextView? = null
+    private val _client = HttpClient(Android) { expectSuccess = true }
 
     protected override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,7 +44,7 @@ class LogInActivity : AppCompatActivity() {
         val email = this.findViewById<EditText>(R.id.logInEmail)
         val password = this.findViewById<EditText>(R.id.logInPassword)
 
-        _logInButton.setOnClickListener {
+        this._logInButton.setOnClickListenerAsync {
             this.logIn(email.text.toString(), password.text.toString())
         }
 
@@ -59,35 +66,36 @@ class LogInActivity : AppCompatActivity() {
      * @param email     The email address to log in with.
      * @param password  The (unhashed) password to log in with.
      */
-    private fun logIn(email: String, password: String) {
+    private suspend fun logIn(email: String, password: String) {
         val emailRegex =
             Pattern.compile("^[a-z0-9._%+-]+@[a-z0-9._-]+\\.[a-z]{2,}$", Pattern.CASE_INSENSITIVE)
         if (!emailRegex.matcher(email).find()) {
             this.showError(this.getString(R.string.invalidEmail))
             return
-        } else if (password.isEmpty()) {
+        }
+        else if (password.isEmpty()) {
             this.showError(this.getString(R.string.passwordMissing))
             return
         }
 
-        _logInButton.isEnabled = false
+        this._logInButton.isEnabled = false
 
         var language = Locale.getDefault().language.substring(0, 2)
         if (language !in arrayOf("en", "fr", "sv")) {
             language = "en"
         }
 
-        val queue: RequestQueue = Volley.newRequestQueue(this)
-        val request = object : StringRequest(
-            Request.Method.POST,
-            "https://mapcollector.eu5.org/$language/ajax/applogin.php",
-            { this.processResponse(it) },
-            { this.showError(this.getString(R.string.noInternet)) }
-        ) {
-            override fun getParams() = mapOf("email" to email, "password" to password)
-            override fun getHeaders() = mapOf("Content-Type" to "application/x-www-form-urlencoded")
+        try {
+            val response =
+                this._client.post("https://mapcollector.eu5.org/$language/ajax/applogin.php") {
+                    setBody("email=$email&password=$password")
+                    header("Content-Type", "application/x-www-form-urlencoded")
+                }
+            this.processResponse(response.body())
         }
-        queue.add(request)
+        catch (_: Exception) {
+            this.showError(this.getString(R.string.noInternet))
+        }
     }
 
     /**
@@ -95,7 +103,7 @@ class LogInActivity : AppCompatActivity() {
      *
      * @param response  The response body that the server sent.
      */
-    private fun processResponse(response: String) {
+    private suspend fun processResponse(response: String) {
         try {
             val data = JSONObject(response)
             if (data.getString("status") != "success") {
@@ -110,26 +118,25 @@ class LogInActivity : AppCompatActivity() {
             val profilePictureUrl =
                 "https://mapcollector.eu5.org/users/profilepicture.php?uid=$userId"
 
-            val queue: RequestQueue = Volley.newRequestQueue(this)
-            val request = ProfilePicture.ProfilePictureRequest(
-                profilePictureUrl,
-                queue,
-                { profilePicture: ProfilePicture ->
-                    Toast.makeText(this, R.string.loginSucceeded, Toast.LENGTH_SHORT).show()
+            val response = this._client.get(profilePictureUrl)
+            val profilePicture = response.profilePicture(profilePictureUrl)
 
-                    val intent = Intent()
-                    intent.putExtra(Preferences.Preference.EMAIL, email)
-                    intent.putExtra(Preferences.Preference.HASHED_PASSWORD, hashedPassword)
-                    intent.putExtra(Preferences.Preference.USER_ID, userId)
-                    intent.putExtra(Preferences.Preference.USER_NAME, userName)
-                    intent.putExtra(Preferences.Preference.PROFILE_PICTURE, profilePicture)
-                    this.setResult(RESULT_OK, intent)
+            val intent = Intent()
+            intent.putExtra(Preferences.Preference.EMAIL, email)
+            intent.putExtra(Preferences.Preference.HASHED_PASSWORD, hashedPassword)
+            intent.putExtra(Preferences.Preference.USER_ID, userId)
+            intent.putExtra(Preferences.Preference.USER_NAME, userName)
+            intent.putExtra(Preferences.Preference.PROFILE_PICTURE, profilePicture)
+            this.setResult(RESULT_OK, intent)
 
-                    this.finish()
-                })
-            queue.add(request)
-        } catch (e: JSONException) {
+            Toast.makeText(this, R.string.loginSucceeded, Toast.LENGTH_SHORT).show()
+            this.finish()
+        }
+        catch (e: JSONException) {
             this.showError(String.format(this.getString(R.string.error), e.message))
+        }
+        catch (_: Exception) {
+            this.showError(this.getString(R.string.noInternet))
         }
     }
 
@@ -144,11 +151,11 @@ class LogInActivity : AppCompatActivity() {
             errorView.setTextColor(Color.RED)
             errorView.movementMethod = LinkMovementMethod.getInstance()
             errorView.setLinkTextColor(Color.BLUE)
-            findViewById<LinearLayout>(R.id.loginLayout).addView(errorView)
+            this.findViewById<LinearLayout>(R.id.loginLayout).addView(errorView)
             this._errorView = errorView
         }
         errorView.text = Html.fromHtml(errorMessage, HtmlCompat.FROM_HTML_MODE_LEGACY)
-        _logInButton.isEnabled = true
-        findViewById<EditText>(R.id.logInPassword).setText(String())
+        this._logInButton.isEnabled = true
+        this.findViewById<EditText>(R.id.logInPassword).setText(String())
     }
 }

@@ -4,6 +4,8 @@ import android.content.Context
 import android.webkit.WebView
 import android.widget.ImageButton
 import org.apache.http.client.utils.URIBuilder
+import tk.mapcollector.ProfilePicture.Companion.getProfilePicture
+import tk.mapcollector.ProfilePicture.Companion.putProfilePicture
 import java.net.CookieHandler
 import java.net.CookieManager
 import java.net.HttpCookie
@@ -68,7 +70,7 @@ class Preferences(private val _context: Context) {
     }
 
     /**
-     * Loads the homepage with the GET parameters set so that the user is logged in, and sets the Volley cookies to the logged in cookies.
+     * Loads the homepage with the GET parameters set so that the user is logged in, and sets the cookies to the logged in cookies.
      *
      * @param activity  The main activity. Used for disabling the buttons.
      * @param webView   The web view to load the homepage in.
@@ -98,7 +100,7 @@ class Preferences(private val _context: Context) {
         activity.setToolbarButtonDisabled(pauseButton, true)
         activity.setToolbarButtonDisabled(fastForwardButton, true)
 
-        //Set Volley cookies (only works for requests made with Kotlin, not with Javascript)
+        //Set cookies (only works for requests made with Kotlin, not with Javascript)
         val cookieManager = CookieManager()
         val uri = URI("https://mapcollector.eu5.org/")
         val email = this.email()

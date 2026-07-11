@@ -4,7 +4,6 @@ import android.content.Intent
 import android.graphics.ColorMatrix
 import android.graphics.ColorMatrixColorFilter
 import android.graphics.drawable.Drawable
-import android.net.Uri
 import android.os.Bundle
 import android.webkit.WebView
 import android.widget.ImageButton
@@ -12,13 +11,18 @@ import androidx.activity.OnBackPressedCallback
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-import com.android.volley.Request
-import com.android.volley.RequestQueue
-import com.android.volley.toolbox.JsonObjectRequest
-import com.android.volley.toolbox.Volley
 import java.util.Timer
 import kotlin.concurrent.timer
 import androidx.core.net.toUri
+import androidx.lifecycle.lifecycleScope
+import com.github.gustavlindberg99.androidsuspendutils.launch
+import com.github.gustavlindberg99.androidsuspendutils.setOnClickListenerAsync
+import io.ktor.client.HttpClient
+import io.ktor.client.call.body
+import io.ktor.client.engine.android.Android
+import io.ktor.client.request.get
+import org.json.JSONObject
+import tk.mapcollector.ProfilePicture.Companion.getProfilePictureExtra
 
 class MainActivity : AppCompatActivity() {
     private val _webView: WebView by lazy { this.findViewById(R.id.webView) }
@@ -31,29 +35,29 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         this.setContentView(R.layout.activity_main)
 
-        //Initialize the action bar
+        // Initialize the action bar
         val actionBar = this.supportActionBar!!
         actionBar.setCustomView(R.layout.action_bar)
         actionBar.setDisplayShowCustomEnabled(true)
         actionBar.elevation = 0.0f
 
-        //Initialize the buttons (needs to come before initializing the web view because when the web view gets loaded the buttons will be disabled)
+        // Initialize the buttons (needs to come before initializing the web view because when the web view gets loaded the buttons will be disabled)
         val newGameButton: ImageButton = this.initializeToolbarButton(R.id.newGameButton)
         val pauseButton: ImageButton = this.initializeToolbarButton(R.id.pauseButton)
         val fastForwardButton: ImageButton = this.initializeToolbarButton(R.id.fastForwardButton)
         val helpButton: ImageButton = this.initializeToolbarButton(R.id.helpButton)
         val aboutButton: ImageButton = this.initializeToolbarButton(R.id.aboutButton)
 
-        //Initialize the web view
-        this._webView.setWebViewClient(AssetWebViewClient(this, this._webView))
+        // Initialize the web view
+        this._webView.webViewClient = AssetWebViewClient(this, this._webView)
         val preferences = Preferences(this)
         preferences.loadLoggedInPage(this, this._webView)
 
-        //Create the interface to call Kotlin functions from Javascript
+        // Create the interface to call Kotlin functions from Javascript
         val webAppInterface = WebAppInterface(this, this._webView)
         this._webView.addJavascriptInterface(webAppInterface, "Android")
 
-        //Initialize the button callbacks
+        // Initialize the button callbacks
         newGameButton.setOnClickListener {
             this._webView.evaluateJavascript("window.ToolbarButton.NewGameButton.onclick?.()", null)
         }
@@ -105,25 +109,36 @@ class MainActivity : AppCompatActivity() {
             )
         }
 
-        //Initialize the my account button
+        // Initialize the "my account" button
         val profilePicture = preferences.getProfilePicture()
         profilePicture?.applyToImageView(this._myAccountButton)
         val logInLauncher = this.registerForActivityResult(
             ActivityResultContracts.StartActivityForResult(),
             { this.logInOrOut(it.data) })
-        this._myAccountButton.setOnClickListener { this.openAccountActivity(logInLauncher) }
+        this._myAccountButton.setOnClickListenerAsync { this.openAccountActivity(logInLauncher) }
     }
 
     protected override fun onResume() {
         super.onResume()
 
-        //Update the profile picture
+        // Update the profile picture
         val preferences = Preferences(this)
         val profilePicture = preferences.getProfilePicture()
-        profilePicture?.update(this, {
-            preferences.setProfilePicture(profilePicture)
-            profilePicture.applyToImageView(this._myAccountButton)
-        })
+        if (profilePicture != null) {
+            println("Hello World: updating")
+            this.lifecycleScope.launch {
+                try {
+                    profilePicture.update()
+                    preferences.setProfilePicture(profilePicture)
+                    profilePicture.applyToImageView(this._myAccountButton)
+                    println("Hello World: Success")
+                }
+                catch (_: Exception) {
+                    println("Hello World: Error")
+                    // Do nothing, the profile picture can be updated later
+                }
+            }
+        }
     }
 
     /**
@@ -142,7 +157,8 @@ class MainActivity : AppCompatActivity() {
             grayDrawable.colorFilter = ColorMatrixColorFilter(matrix)
             button.setImageDrawable(grayDrawable)
             button.alpha = 0.6f
-        } else {
+        }
+        else {
             button.setImageDrawable(drawable)
             button.alpha = 1.0f
         }
@@ -152,7 +168,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     /**
-     * Sets whether or not the pause button is pressed.
+     * Sets whether the pause button is pressed.
      *
      * @param pressed   True if it should be pressed, false otherwise.
      */
@@ -184,46 +200,44 @@ class MainActivity : AppCompatActivity() {
     }
 
     /**
-     * Opens the my account activity if the user is logged in, and the log in activity otherwise.
+     * Opens the "my account" activity if the user is logged in, and the log in activity otherwise.
      *
      * @param logInLauncher The launcher to send the results to.
      */
-    private fun openAccountActivity(logInLauncher: ActivityResultLauncher<Intent>) {
+    private suspend fun openAccountActivity(logInLauncher: ActivityResultLauncher<Intent>) {
         val preferences = Preferences(this)
         val isLoggedIn = preferences.isLoggedIn()
         if (isLoggedIn) {
             val intent = Intent(this, ProfileActivity::class.java)
-            val queue: RequestQueue = Volley.newRequestQueue(this)
+            val client = HttpClient(Android) { expectSuccess = true }
 
-            val request = JsonObjectRequest(
-                Request.Method.GET,
-                "https://mapcollector.eu5.org/ajax/get-statistics.php",
-                null,
-                {
-                    val userName =
-                        it.optString(ProfileActivity.USER_NAME, this.getString(R.string.myAccount))
-                    intent.putExtra(ProfileActivity.USER_NAME, userName)
-                    for (name in arrayOf(
-                        ProfileActivity.Statistics.SCORE,
-                        ProfileActivity.Statistics.NUMBER_OF_MAPS,
-                        ProfileActivity.Statistics.WINNING_RATE,
-                        ProfileActivity.Statistics.EASY_CHALLENGES,
-                        ProfileActivity.Statistics.MEDIUM_CHALLENGES,
-                        ProfileActivity.Statistics.DIFFICULT_CHALLENGES
-                    )) {
-                        val value = it.optInt(name, -1)
-                        if (value != -1) {
-                            intent.putExtra(name, value)
-                        }
+            try {
+                val response = client.get("https://mapcollector.eu5.org/ajax/get-statistics.php")
+                val json = JSONObject(response.body<String>())
+                val userName =
+                    json.optString(ProfileActivity.USER_NAME, this.getString(R.string.myAccount))
+                intent.putExtra(ProfileActivity.USER_NAME, userName)
+                for (name in arrayOf(
+                    ProfileActivity.Statistics.SCORE,
+                    ProfileActivity.Statistics.NUMBER_OF_MAPS,
+                    ProfileActivity.Statistics.WINNING_RATE,
+                    ProfileActivity.Statistics.EASY_CHALLENGES,
+                    ProfileActivity.Statistics.MEDIUM_CHALLENGES,
+                    ProfileActivity.Statistics.DIFFICULT_CHALLENGES
+                )) {
+                    val value = json.optInt(name, -1)
+                    if (value != -1) {
+                        intent.putExtra(name, value)
                     }
-                    logInLauncher.launch(intent)
-                },
-                //If there's an error, just launch it without extras, the activity will take care of reporting the error. We need to launch it anyway otherwise it's not possible to log out.
-                { logInLauncher.launch(intent) }
-            )
-
-            queue.add(request)
-        } else {
+                }
+                logInLauncher.launch(intent)
+            }
+            catch (_: Exception) {
+                // If there's an error, just launch it without extras, the activity will take care of reporting the error. We need to launch it anyway otherwise it's not possible to log out.
+                logInLauncher.launch(intent)
+            }
+        }
+        else {
             val intent = Intent(this, LogInActivity::class.java)
             logInLauncher.launch(intent)
         }
@@ -241,7 +255,8 @@ class MainActivity : AppCompatActivity() {
             preferences.logOut()
             preferences.loadLoggedInPage(this, this._webView)
             this._myAccountButton.setImageResource(R.drawable.user)
-        } else {
+        }
+        else {
             val email = intent?.getStringExtra(Preferences.Preference.EMAIL)
             val hashedPassword = intent?.getStringExtra(Preferences.Preference.HASHED_PASSWORD)
             val userId = intent?.getIntExtra(Preferences.Preference.USER_ID, 0) ?: 0
@@ -249,7 +264,7 @@ class MainActivity : AppCompatActivity() {
             val profilePicture =
                 intent?.getProfilePictureExtra(Preferences.Preference.PROFILE_PICTURE)
 
-            //They can be null if the user is already logged in and just viewed their profile, in which case do nothing
+            // They can be null if the user is already logged in and just viewed their profile, in which case do nothing
             if (email != null && hashedPassword != null && userId != 0 && userName != null && profilePicture != null) {
                 val preferences = Preferences(this)
                 preferences.logIn(email, hashedPassword, userId, userName, profilePicture)

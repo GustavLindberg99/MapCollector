@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<place>
+  <stations>
+    <station name="Andalucía Tech" x="100" y="-30" a="l"/>
+    <station name="Barbarela" x="420" y="-30" a="t"/>
+    <station name="La Unión" x="450" y="0" a="b"/>
+    <station name="Palacio de los Deportes" x="300" y="200"/>
+    <station name="El Perchel" x="500" y="0" a="t"/>
+    <station name="La Isla" x="420" y="80"/>
+    <station name="Guadalmedina" x="550" y="0" a="b"/>
+    <station name="Atarazanas" x="600" y="0"/>
+
+    <station name="Málaga Centro Alameda" x="550" y="40"/>
+    <station name="Málaga &#10;María Zambrano" x="500" y="40" a="b"/>
+    <station name="Victoria &#10;Kent" x="380" y="40" a="t"/>
+    <station name="Álora" x="-370" y="40" a="l"/>
+    <station name="Fuengirola" x="-320" y="740" a="l"/>
+  </stations>
+  <lines>
+    <trainLine name="L1" color="#E2001A">
+      <stationRef name="Andalucía Tech" mu="1"/><autoStation name="Paraninfo" a="b" mu="1"/><autoStation name="El &#10;Cónsul" a="t" mu="1"/><autoStation name="Clínico" a="b" mu="1"/><autoStation name="Universidad" a="t" mu="1"/><autoStation name="Ciudad de &#10;la Justicia" a="b" mu="1"/><autoStation name="Portada &#10;Alta" a="t" mu="1"/><label/><autoStation name="Carranque" a="b" mu="1"/><stationRef name="Barbarela" mu="1"/><stationRef name="La Unión" mu="1"/><stationRef name="El Perchel" mu="1"/><stationRef name="Guadalmedina" mu="1"/><stationRef name="Atarazanas" mu="1"/>
+    </trainLine>
+    <trainLine name="L2" color="#0072BA">
+      <stationRef name="Palacio de los Deportes"/><autoStation name="Puerta Blanca"/><autoStation name="La Luz - La Paz"/><label/><autoStation name="El Torcal"/><autoStation name="Princesa - Huelin"/><stationRef name="La Isla"/><stationRef name="El Perchel"/><stationRef name="Guadalmedina"/>
+    </trainLine>
+    <trainLine name="C1" color="#61AFEA">
+      <stationRef name="Málaga Centro Alameda"/><stationRef name="Málaga María Zambrano"/><stationRef name="Victoria Kent"/><autoStation name="Guadalhorce" a="l"/><autoStation name="Aeropuerto" a="l"/><label/><autoStation name="Plaza Mayor" a="l"/><autoStation name="Los Álamos" a="l"/><autoStation name="La Colina" a="l"/><autoStation name="Torremolinos" a="l"/><autoStation name="Montemar Alto" a="l"/><autoStation name="El Pinillo" a="l"/><autoStation name="Benalmádena - Arroyo de la Miel" a="l"/><autoStation name="Torremuelle" a="l"/><autoStation name="Carvajal" a="l"/><label/><autoStation name="Torreblanca" a="l"/><autoStation name="Los Boliches" a="l"/><stationRef name="Fuengirola"/>
+    </trainLine>
+    <trainLine name="C2" color="#06923C">
+      <stationRef name="Málaga Centro Alameda" mu="1"/><stationRef name="Málaga María Zambrano" mu="1"/><stationRef name="Victoria Kent" mu="1"/><autoStation name="Los Prados" a="t" mu="1"/><autoStation name="Campanillas" a="b" mu="1"/><label/><autoStation name="Cártama" a="t" mu="1"/><autoStation name="Aljaima" a="b" mu="1"/><autoStation name="Pizarra" a="t" mu="1"/><stationRef name="Álora" mu="1"/>
+    </trainLine>
+
+    <walkingLine>
+      <stationRef name="El Perchel"/>
+      <stationRef name="Málaga María Zambrano" mu="1"/>
+    </walkingLine>
+  </lines>
+  <background>
+    <zone name="4" color="1" points="l t, l b, r b, r t"/>
+    <zone name="3" color="2" points="-260 t, -260 b, r b, r t"/>
+    <zone name="2" color="1" points="-50 t, -50 b, r b, r t"/>
+    <zone name="1" color="2" points="30 t, 30 -80, 250 140, 250 b, r b, r t"/>
+    <zone name="0" color="1" points="90 t, 90 -30, 120 0, 370 0, 400 20, 400 50, 290 160, 290 b, r b, r t"/>
+    <river points="575 t, 575 b"/>
+    <sea points="l b, r b, r 50, 500 50, -550 1100, l 1100"/>
+  </background>
+</place>

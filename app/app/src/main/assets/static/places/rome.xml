@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<place>
-  <stations similarLines="color">
+<place similarLines="color">
+  <stations>
     <station name="Battistini" x="10" y="200" a="l"/>
     <station name="Flaminio" x="500" y="200"/>
     <station name="Termini" x="700" y="400" a="l" w="1" h="1"/>

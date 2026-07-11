@@ -1,7 +1,7 @@
 {
   "name": "mapcollector",
-  "version": "7.2.4",
-  "androidVersion": 26,
+  "version": "7.3.0",
+  "androidVersion": 27,
   "description": "A fun game to explore public transportation systems from around the world",
   "author": "Gustav Lindberg",
   "scripts": {

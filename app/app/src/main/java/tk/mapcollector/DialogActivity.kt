@@ -2,9 +2,7 @@ package tk.mapcollector
 
 import android.app.AlertDialog
 import android.content.Context
-import android.content.DialogInterface
 import android.content.Intent
-import android.content.res.Resources
 import android.graphics.BitmapFactory
 import android.graphics.Color
 import android.graphics.drawable.BitmapDrawable
@@ -19,6 +17,7 @@ import android.widget.TextView
 import androidx.activity.result.ActivityResultLauncher
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.text.HtmlCompat
+import androidx.core.util.TypedValueCompat.dpToPx
 
 class DialogActivity : AppCompatActivity() {
     companion object {
@@ -90,7 +89,12 @@ class DialogActivity : AppCompatActivity() {
                     value.data,
                     context.resources.displayMetrics
                 )
-                textView.setPadding(padding, dpToPx(8.0), padding, 0)
+                textView.setPadding(
+                    padding,
+                    dpToPx(8f, context.resources.displayMetrics).toInt(),
+                    padding,
+                    0
+                )
             }
             textView.movementMethod = LinkMovementMethod.getInstance()
 
@@ -153,7 +157,7 @@ class DialogActivity : AppCompatActivity() {
             "<!DOCTYPE html><html><head><meta charset=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width\"/>$dependencies</head><body><section role=\"application\">$body</section></body></html>"
 
         val webView: WebView = this.findViewById(R.id.dialogWebView)
-        webView.setWebViewClient(AssetWebViewClient(this, webView))
+        webView.webViewClient = AssetWebViewClient(this, webView)
         webView.loadDataWithBaseURL(
             "https://appassets.androidplatform.net/assets/index-app.html",
             htmlCode,
@@ -171,15 +175,4 @@ class DialogActivity : AppCompatActivity() {
             }
         }, "Android")
     }
-}
-
-/**
- * Converts a value in dp to a value in pixels.
- *
- * @param dp    The value in dp.
- *
- * @return The value in pixels.
- */
-private fun dpToPx(dp: Double): Int {
-    return (dp * Resources.getSystem().displayMetrics.density + 0.5).toInt()
 }

@@ -7,15 +7,15 @@ plugins {
 
 android {
     namespace 'tk.mapcollector'
-    compileSdk = 36
+    compileSdk = 37
 
     defaultConfig {
-        def inputFile = new File("../package.json")
+        def inputFile = rootProject.file("../package.json")
         def packageJson = new JsonSlurper().parseText(inputFile.text)
 
         applicationId "tk.mapcollector"
         minSdk 26
-        targetSdk 36
+        targetSdk 37
         versionCode packageJson.androidVersion
         versionName packageJson.version
 
@@ -31,14 +31,14 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
     packagingOptions {
         resources.excludes.add("META-INF/*")
     }
-    kotlinOptions {
-        jvmTarget = '1.8'
+    kotlin {
+        jvmToolchain(11)
     }
 
     // Makes sure that BuildConfig is available, otherwise there will be very strange errors,
@@ -56,10 +56,13 @@ dependencies {
     implementation libs.commons.text
     implementation libs.activity.ktx
     implementation libs.androidx.constraintlayout
-    implementation libs.volley
     implementation libs.androidsvg.aar
     implementation libs.activity.ktx
     implementation libs.httpclient
+    implementation libs.ktor.client.core
+    implementation libs.ktor.client.android
+    implementation libs.kotlinx.coroutines
+    implementation libs.androidsuspendutils
 }
 
 tasks.register('jslibs', Copy) {
@@ -68,7 +71,7 @@ tasks.register('jslibs', Copy) {
     delete libsFolder
     project.mkdir libsFolder
 
-    def lodashFile = new File("app/" + libsFolder + "/+esm")
+    def lodashFile = file("${libsFolder}/+esm")
     new URL("https://cdn.jsdelivr.net/npm/lodash@4.17.21/+esm").withInputStream { i -> lodashFile.withOutputStream { it << i } }
 
     from "../../node_modules/@flatten-js/core/dist/main.mjs"
@@ -90,6 +93,6 @@ gradle.projectsEvaluated {
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_1_8
-    targetCompatibility = JavaVersion.VERSION_1_8
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
 }

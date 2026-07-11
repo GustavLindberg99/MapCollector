@@ -43,6 +43,7 @@ async function main(): Promise<void> {
         new Place(i18next.t("Los Angeles"), "united_states.svg", "losangeles.xml", 34, -118, Place.Level.Easy, "https://www.metro.net/", 150, 15, [
             new Place(i18next.t("Los Angeles Region"), "united_states.svg", "losangeles.xml:region", 34, -118, Place.Level.Medium, "https://www.metro.net/", 180, 50)
         ]),
+        new Place(i18next.t("Malaga"), "spain.svg", "malaga.xml", 37, -3, Place.Level.Easy, "https://metromalaga.es/", 60, 30),
         new Place(i18next.t("Massachusetts"), "united_states.svg", "massachusetts.xml", 42, -68, Place.Level.Medium, "https://www.mbta.com/", 165, 75),
         new Place(i18next.t("New York"), "united_states.svg", "newyork.xml", 41, -72, Place.Level.Difficult, "http://www.mta.info/", 255, 25),
         new Place(i18next.t("Normandy"), "france.svg", "normandie.xml", 49, 0, Place.Level.Medium, "https://www.ter.sncf.com/normandie", 240, 50),
