@@ -47,6 +47,7 @@ async function main(): Promise<void> {
         new Place(i18next.t("Massachusetts"), "united_states.svg", "massachusetts.xml", 42, -68, Place.Level.Medium, "https://www.mbta.com/", 165, 75),
         new Place(i18next.t("New York"), "united_states.svg", "newyork.xml", 41, -72, Place.Level.Difficult, "http://www.mta.info/", 255, 25),
         new Place(i18next.t("Normandy"), "france.svg", "normandie.xml", 49, 0, Place.Level.Medium, "https://www.ter.sncf.com/normandie", 240, 50),
+        new Place(i18next.t("Phoenix"), "united_states.svg", "phoenix.xml", 33, -112, Place.Level.Easy, "https://www.valleymetro.org/", 100, 15),
         new Place(i18next.t("Provence Alpes Côte d'Azur"), "france.svg", "paca.xml", 43, 7, Place.Level.Medium, "https://www.ter.sncf.com/sud-provence-alpes-cote-d-azur", 225, 20),
         new Place(i18next.t("Rome"), "italy.svg", "rome.xml", 42, 13, Place.Level.Easy, "https://www.atac.roma.it/", 120, 15),
         new Place(i18next.t("Skåne"), "sweden.svg", "skane.xml", 55, 13.5, Place.Level.Medium, "https://www.skanetrafiken.se/", 150, 75),

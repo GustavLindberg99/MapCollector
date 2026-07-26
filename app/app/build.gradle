@@ -83,7 +83,25 @@ tasks.register('jslibs', Copy) {
     into libsFolder
 }
 
+tasks.register('buildTypescript', Exec) {
+    // Navigate to the root folder (where package.json is)
+    def rootDir = file("../..")
+    workingDir rootDir
+
+    // Handle both Windows and Unix systems for npm
+    if (System.getProperty('os.name').toLowerCase(Locale.ROOT).contains('windows')) {
+        commandLine 'cmd', '/c', 'npm', 'run', 'build'
+    } else {
+        commandLine 'npm', 'run', 'build'
+    }
+
+    // Enable incremental builds: only run if source files changed
+    inputs.dir("${rootDir}/src")
+    outputs.dir("src/main/assets/static/js")
+}
+
 gradle.projectsEvaluated {
+    preBuild.dependsOn buildTypescript
     mergeDebugAssets.dependsOn jslibs
     mergeReleaseAssets.dependsOn jslibs
     tasks.findByName("lintVitalAnalyzeDebug")?.dependsOn jslibs

@@ -190,7 +190,11 @@ export default class PlaceParser{
         const riverNodes = this.#xmlDocument.querySelectorAll(this.#extraQuery("place > background > river"));
         for(let riverNode of riverNodes){
             const points = parsePointString(riverNode.getAttribute("points")!!);
-            rivers.push(multilineFromPoints(points));
+            const multiline = multilineFromPoints(points);
+            if(multiline === null){
+                throw new PlaceParseException(`Rivers must have two or more points, got ${JSON.stringify(points)}`);
+            }
+            rivers.push(multiline);
         }
 
         return rivers;

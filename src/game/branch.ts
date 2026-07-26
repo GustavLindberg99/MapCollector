@@ -4,6 +4,7 @@ import {multilineFromPoints} from "../utils.js";
 
 import Station from "./station.js";
 import Zone from "./zone.js";
+import PlaceParseException from "./place-parse-exception.js";
 
 class Branch{
     #vertices: Array<Branch.Vertex | Branch.OneWayLoop> = [];
@@ -294,6 +295,9 @@ class Branch{
 
         const currentOneWayLoop = this.#vertices[currentIndex] as Branch.OneWayLoop;    //this.#vertices[currentIndex] is always a one way loop by definition of currentIndex.
         const currentVertex = direction === -1 ? currentOneWayLoop.leftbound : currentOneWayLoop.rightbound;
+        if(previousVertex.point.equalTo(currentVertex.point) || currentVertex.point.equalTo(nextVertex.point)){
+            throw new PlaceParseException(`Adjacent vertices (${previousVertex.point.x}, ${previousVertex.point.y}), (${currentVertex.point.x}, ${currentVertex.point.y}) and (${nextVertex.point.x}, ${nextVertex.point.y}) cannot be equal.`);
+        }
         const vector1 = new Vector(previousVertex.point, currentVertex.point).normalize();
         const vector2 = new Vector(currentVertex.point, nextVertex.point).normalize();
         const radiansResult = vector1.add(vector2).slope;
@@ -363,7 +367,7 @@ class Branch{
         if(lastVertex instanceof Branch.OneWayLoop){    //If the line ends with a one way vertex, close the loop
             result.at(-1)!!.push(lastVertex.leftbound.point);
         }
-        return result.map(it => multilineFromPoints(it));
+        return result.map(it => multilineFromPoints(it)).filter(it => it !== null);
     }
 }
 

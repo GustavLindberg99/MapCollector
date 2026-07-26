@@ -158,7 +158,8 @@ export const frenchTranslations = {
     "Stockholm": "Stockholm",
     "Västergötland": "Västergötland",
     "Washington DC": "Washington DC",
-    "United Kingdom": "Grande-Bretagne"
+    "United Kingdom": "Grande-Bretagne",
+    "Phoenix": "Phoenix"
 } as const;
 
 export const frenchSingularTranslations = {

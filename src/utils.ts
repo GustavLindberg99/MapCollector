@@ -5,11 +5,11 @@ import {Multiline, Point, Segment} from "https://unpkg.com/@flatten-js/core@1.4.
  *
  * @param points    The points to use as vertices for the multiline.
  *
- * @return A multiline with only segments.
+ * @return A multiline with only segments, or null if there are fewer than two points.
  */
-export function multilineFromPoints(points: ReadonlyArray<Point>): Multiline {
+export function multilineFromPoints(points: ReadonlyArray<Point>): Multiline | null {
     if(points.length < 2){
-        throw new TypeError("Can't create a multiline from fewer than two points");
+        return null;
     }
 
     const segments: Array<Segment> = [];

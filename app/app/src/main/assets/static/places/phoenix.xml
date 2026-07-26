@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<place>
+  <stations>
+    <station name="Metro Parkway" x="0" y="-1260" a="l"/>
+    <station name="Roosevelt/Central Ave" x="0" y="-140" a="l"/>
+    <station name="Van Buren/Central Ave" x="50" y="-90"/>
+    <station name="Washington/Central Ave" x="50" y="-50"/>
+    <station name="Van Buren/1st Ave" x="0" y="-70" a="l"/>
+    <station name="Downtown Phoenix Hub" x="0" y="0" a="l"/>
+    <station name="Lincoln/&#10;Central Ave" x="0" y="70"/>
+    <station name="Lincoln/1st Ave" x="-30" y="30" a="l"/>
+    <station name="Buckeye/Central Ave" x="-30" y="100" a="l"/>
+    <station name="Baseline/Central Ave" x="-30" y="450" a="l"/>
+
+    <station name="3rd St/&#10;Washington" x="70" y="0" a="t"/>
+    <station name="12th St/&#10;Washington" x="140" y="0" a="t"/>
+    <station name="24th St/&#10;Washington" x="210" y="0" a="t"/>
+    <station name="3rd St/&#10;Jefferson" x="30" y="30" a="b"/>
+    <station name="12th St/&#10;Jefferson" x="100" y="30" a="b"/>
+    <station name="24th St/&#10;Jefferson" x="170" y="30" a="b"/>
+    <station name="38th St/&#10;Washington" x="240" y="30" a="b"/>
+    <station name="44th St/&#10;Washington" x="310" y="30" a="t"/>
+    <station name="3rd St/Mill Ave" x="590" y="30"/>
+    <station name="Dorsey/&#10;Apache Blvd" x="800" y="240" a="b"/>
+    <station name="Gilbert Rd/Main St" x="1500" y="240"/>
+
+    <station name="East Economy" x="310" y="100"/>
+    <station name="Rental Car Center" x="150" y="260"/>
+
+    <station name="Marina Heights/Rio Salado Pkwy" x="640" y="-70"/>
+    <station name="Hayden Ferry/Rio Salado Pkwy" x="590" y="-20"/>
+    <station name="Tempe Beach Park/Rio Salado Pkwy" x="560" y="10"/>
+    <station name="3rd St/Ash Ave" x="560" y="50" a="l"/>
+    <station name="5th St/Ash Ave" x="560" y="80" a="l"/>
+    <station name="University Dr/Ash Ave" x="560" y="110" a="l"/>
+    <station name="6th St/&#10;Mill Ave" x="590" y="80"/>
+    <station name="9th St/Mill Ave" x="590" y="140" a="l"/>
+    <station name="Paseo del Saber/Apache Blvd" x="690" y="240" a="l"/>
+  </stations>
+  <lines>
+    <trainLine name="A" color="#1D8DCD">
+      <stationRef name="Downtown Phoenix Hub" mr="1"/>
+      <oneWay>
+        <stationRef name="3rd St/Washington"/>
+        <stationRef name="3rd St/Jefferson" mr="1"/>
+      </oneWay>
+      <oneWay>
+        <stationRef name="12th St/Washington"/>
+        <stationRef name="12th St/Jefferson"/>
+      </oneWay>
+      <oneWay>
+        <stationRef name="24th St/Washington"/>
+        <stationRef name="24th St/Jefferson"/>
+      </oneWay>
+      <stationRef name="38th St/Washington"/><label/><stationRef name="44th St/Washington"/><autoStation name="50th St/&#10;Washington" a="b"/><autoStation name="Priest Dr/&#10;Washington" a="t"/><autoStation name="Center&#10; Pkwy/&#10;Washington" a="t"/><stationRef name="3rd St/Mill Ave" mr="1"/><autoStation name="Veterans Way/College Ave" mr="1"/><label/><autoStation name="University Dr/Rural" mr="1"/><stationRef name="Dorsey/Apache Blvd" mr="1"/><autoStation name="McClintock/&#10;Apache Blvd" a="t"/><autoStation name="Smith-Martin/&#10;Apache Blvd" a="b"/><autoStation name="Price-101 Fwy/&#10;Apache Blvd" a="t"/><autoStation name="Sycamore/&#10;Main St" a="b"/><autoStation name="Alma School/&#10;Main St" a="t"/><autoStation name="Country Club/&#10;Main St" a="b"/><autoStation name="Center/&#10;Main St" a="t"/><label/><autoStation name="Mesa Dr/&#10;Main St" a="b"/><autoStation name="Stapley/&#10;Main St" a="t"/><stationRef name="Gilbert Rd/Main St"/>
+    </trainLine>
+    <trainLine name="B" color="#F68C1E">
+      <stationRef name="Metro Parkway"/><autoStation name="Mountain View/25th Ave" a="l"/><autoStation name="25th Ave/Dunlap" a="l"/><label/><autoStation name="19th Ave/Dunlap" a="l"/><autoStation name="Northern/19th Ave" a="l"/><autoStation name="Glendale/19th Ave" a="l"/><autoStation name="Montebello/19th Ave" a="l"/><autoStation name="19th Ave/Camelback" a="l"/><autoStation name="7th Ave/Camelback" a="l"/><autoStation name="Central Ave/Camelback" a="l"/><autoStation name="Campbell/Central Ave" a="l"/><autoStation name="Indian School/Central Ave" a="l"/><autoStation name="Osborn/Central Ave" a="l"/><autoStation name="Thomas/Central Ave" a="l"/><autoStation name="Encanto/Central Ave" a="l"/><label/><autoStation name="McDowell/Central Ave" a="l"/><stationRef name="Roosevelt/Central Ave" a="l"/>
+      <oneWay>
+        <stationRef name="Van Buren/Central Ave"/>
+        <stationRef name="Van Buren/1st Ave"/>
+      </oneWay>
+      <oneWay>
+        <stationRef name="Washington/Central Ave"/>
+        <point x="0" y="-25"/>
+      </oneWay>
+      <stationRef name="Downtown Phoenix Hub"/>
+      <oneWay>
+        <stationRef name="Lincoln/Central Ave"/>
+        <stationRef name="Lincoln/1st Ave"/>
+      </oneWay>
+      <stationRef name="Buckeye/Central Ave"/><label/><autoStation name="Pioneer/Central Ave" a="l"/><autoStation name="Broadway/Central Ave" a="l"/><autoStation name="Roeser/Central Ave" a="l"/><autoStation name="Southern/Central Ave" a="l"/><stationRef name="Baseline/Central Ave"/>
+    </trainLine>
+    <trainLine name="S" color="#A9CC4E">
+      <stationRef name="Marina Heights/Rio Salado Pkwy"/><label/><stationRef name="Hayden Ferry/Rio Salado Pkwy"/>
+      <oneWay>
+        <stationRef name="3rd St/Mill Ave" mu="1"/>
+        <stationRef name="Tempe Beach Park/Rio Salado Pkwy"/>
+      </oneWay>
+      <oneWay>
+        <point x="590" y="50"/>
+        <stationRef name="3rd St/Ash Ave"/>
+      </oneWay>
+      <oneWay>
+        <point x="590" y="60"/>
+        <stationRef name="5th St/Ash Ave"/>
+      </oneWay>
+      <oneWay>
+        <stationRef name="6th St/Mill Ave"/>
+        <stationRef name="University Dr/Ash Ave"/>
+      </oneWay>
+      <stationRef name="9th St/Mill Ave"/><autoStation name="11th St/Mill Ave" a="l"/><label/><autoStation name="College Ave/Apache Blvd" a="l"/><stationRef name="Paseo del Saber/Apache Blvd"/><autoStation name="Rural/&#10;Apache Blvd" a="t"/><stationRef name="Dorsey/Apache Blvd"/>
+    </trainLine>
+    <trainLine name="✈︎" color="#333740">
+      <stationRef name="44th St/Washington" md="1"/><label/><stationRef name="East Economy"/><autoStation name="Terminal 4"/><autoStation name="Terminal 3"/><autoStation name="24th St"/><stationRef name="Rental Car Center"/>
+    </trainLine>
+  </lines>
+  <background>
+    <river points="l 150, 0 150, 150 300, 260 300, 760 -200, r -200"/>
+  </background>
+</place>
