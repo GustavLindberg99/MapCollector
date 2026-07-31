@@ -33,7 +33,7 @@ class AssetWebViewClient(private val _context: Context, private val _webView: We
             .build()
         val url = request.url.toString()
         val isLibrary =
-            url.startsWith("https://unpkg.com/") || url.startsWith("https://cdn.jsdelivr.net/")
+            url.startsWith("https://unpkg.com/") || url.startsWith("https://cdn.jsdelivr.net/") || url.startsWith("https://colorjs.io/")
         val response = assetLoader.shouldInterceptRequest(
             if (isLibrary) Uri.parse(
                 "https://appassets.androidplatform.net/assets/libs/" + FilenameUtils.getName(

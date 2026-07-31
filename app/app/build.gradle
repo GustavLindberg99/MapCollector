@@ -80,6 +80,7 @@ tasks.register('jslibs', Copy) {
     from "../../node_modules/peerjs/dist/peerjs.min.js"
     from "../../node_modules/svg-pan-zoom/dist/svg-pan-zoom.min.js"
     from "../../node_modules/tippy.js/dist/tippy-bundle.umd.min.js"
+    from "../../node_modules/colorjs.io/dist/color.min.js"
     into libsFolder
 }
 
