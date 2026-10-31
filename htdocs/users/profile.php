@@ -122,11 +122,11 @@ $statistics = $user->statistics();
 <head>
     <?php
         insertMetaTags(
-            sprintf(QObject::tr('%s\'s Map Collector profile'), htmlspecialchars($user->name())),
-            [QObject::tr('profile'), QObject::tr('statistics'), htmlspecialchars($user->name())]
+            sprintf(translator()->trans('%s\'s Map Collector profile'), htmlspecialchars($user->name())),
+            [translator()->trans('profile'), translator()->trans('statistics'), htmlspecialchars($user->name())]
         );
     ?>
-    <title>Map Collector - <?= $user->equals($loggedInUser) ? QObject::tr('Your Account') : sprintf(QObject::tr('User %s'), htmlspecialchars($user->name())) ?></title>
+    <title>Map Collector - <?= $user->equals($loggedInUser) ? translator()->trans('Your Account') : sprintf(translator()->trans('User %s'), htmlspecialchars($user->name())) ?></title>
 
     <script type="module" src="<?= STATIC_DOMAIN ?>/js/forms/main.js" async crossorigin></script>
     <link rel="stylesheet" type="text/css" href="<?= STATIC_DOMAIN ?>/css/forms.css"/>
@@ -138,26 +138,26 @@ $statistics = $user->statistics();
     <?php insertHeader(); ?>
     <section>
         <?php if($user->equals($loggedInUser) && isset($_POST['resetStatistics'])){ ?>
-            <p class="formToolTip correct"><?= QObject::tr('Your statistics have been reset.') ?></p>
+            <p class="formToolTip correct"><?= translator()->trans('Your statistics have been reset.') ?></p>
         <?php } ?>
         <?php if(isset($_POST['changeUserName'])){ ?>
             <?php if($changeNameFailed){ ?>
-                <p class="formToolTip incorrect"><?= QObject::htr('Your user name could not be changed because you did not fill out the form correctly.') . ' ' . sprintf(QObject::tr('If you think this is a bug, please <a href="%s">contact us</a>.'), 'https://github.com/GustavLindberg99/MapCollector/issues') ?></p>
+                <p class="formToolTip incorrect"><?= translator()->trans('Your user name could not be changed because you did not fill out the form correctly.') . ' ' . sprintf(translator()->trans('If you think this is a bug, please <a href="%s">contact us</a>.'), 'https://github.com/GustavLindberg99/MapCollector/issues') ?></p>
             <?php } else { ?>
-                <p class="formToolTip correct"><?= QObject::tr('Your user name has been changed.') ?></p>
+                <p class="formToolTip correct"><?= translator()->trans('Your user name has been changed.') ?></p>
             <?php } ?>
         <?php } ?>
         <?php if(isset($_POST['changeProfilePicture'])){ ?>
-            <p class="formToolTip correct"><?= QObject::tr('Your profile picture has been changed.') ?></p>
+            <p class="formToolTip correct"><?= translator()->trans('Your profile picture has been changed.') ?></p>
         <?php } ?>
         <?php if(isset($_POST['changeWhoCanSeeStatistics'])){ ?>
-            <p class="formToolTip correct"><?= QObject::tr('Who can see your statistics has been changed.') ?></p>
+            <p class="formToolTip correct"><?= translator()->trans('Who can see your statistics has been changed.') ?></p>
         <?php } ?>
         <?php if(isset($_POST['changeEmailOrPassword'])){ ?>
             <?php if($changeEmailOrPasswordFailed){ ?>
-                <p class="formToolTip incorrect"><?= QObject::htr('Your account details could not be changed because you did not fill out the form correctly.') . ' ' . sprintf(QObject::tr('If you think this is a bug, please <a href="%s">contact us</a>.'), 'https://github.com/GustavLindberg99/MapCollector/issues') ?></p>
+                <p class="formToolTip incorrect"><?= translator()->trans('Your account details could not be changed because you did not fill out the form correctly.') . ' ' . sprintf(translator()->trans('If you think this is a bug, please <a href="%s">contact us</a>.'), 'https://github.com/GustavLindberg99/MapCollector/issues') ?></p>
             <?php } else { ?>
-                <p class="formToolTip correct"><?= QObject::tr('Your account details have been changed.') ?></p>
+                <p class="formToolTip correct"><?= translator()->trans('Your account details have been changed.') ?></p>
             <?php } ?>
         <?php } ?>
 
@@ -165,14 +165,14 @@ $statistics = $user->statistics();
         <h1 id="username" <?= $changeNameFailed ? 'style="display:none"' : '' ?>>
             <span><?= htmlspecialchars($user->name()) ?></span>
             <?php if($user instanceof EditableUser){ ?>
-                <img id="changeUserNameButton" role="button" src="<?= STATIC_DOMAIN ?>/images/edit.svg" class="inline" title="<?= QObject::htr('Edit') ?>" alt="<?= QObject::htr('Change user name') ?>"/>
+                <img id="changeUserNameButton" role="button" src="<?= STATIC_DOMAIN ?>/images/edit.svg" class="inline" title="<?= translator()->trans('Edit') ?>" alt="<?= translator()->trans('Change user name') ?>"/>
             <?php } ?>
             <?php if($loggedInUser !== null && !$user->equals($loggedInUser)){ ?>
                 <form method="post" action="">
                     <?php if(in_array($user->id(), $loggedInUser->contactIds())){ ?>
-                        <input type="submit" name="removeFromContacts" value="<?= QObject::htr('Remove from contacts') ?>"/>
+                        <input type="submit" name="removeFromContacts" value="<?= translator()->trans('Remove from contacts') ?>"/>
                     <?php } else{ ?>
-                        <input type="submit" name="addToContacts" value="<?= QObject::htr('Add to contacts') ?>"/>
+                        <input type="submit" name="addToContacts" value="<?= translator()->trans('Add to contacts') ?>"/>
                     <?php } ?>
                 </form>
             <?php } ?>
@@ -180,21 +180,21 @@ $statistics = $user->statistics();
         <?php if($user instanceof EditableUser){ ?>
             <form id="changeUserNameForm" method="post" action="" <?= $changeNameFailed ? '' : 'style="display:none"' ?>>
                 <input type="text" name="userName" value="<?= htmlspecialchars($user->name()) ?>" required/>
-                <input type="submit" name="changeUserName" value="<?= QObject::htr('OK') ?>"/>
-                <input type="reset" value="<?= QObject::htr('Cancel') ?>"/>
-                <span class="formToolTip"><?= sprintf(QObject::htr('Please enter between %d and %n characters.', null, 255), 1) ?></span>
+                <input type="submit" name="changeUserName" value="<?= translator()->trans('OK') ?>"/>
+                <input type="reset" value="<?= translator()->trans('Cancel') ?>"/>
+                <span class="formToolTip"><?= translator()->trans('Please enter between {min} and # characters.', ['count' => 255, 'min' => 1]) ?></span>
             </form>
         <?php } ?>
         <div id="profile">
             <!-- Profile picture -->
             <div id="profilePicture">
-                <img src="/users/profilepicture.php?uid=<?= $user->id() ?>" alt="<?= QObject::htr('Profile picture') ?>" width="128" height="128"/><br/>
+                <img src="/users/profilepicture.php?uid=<?= $user->id() ?>" alt="<?= translator()->trans('Profile picture') ?>" width="128" height="128"/><br/>
                 <?php if($user instanceof EditableUser){ ?>
-                    <button id="changeProfilePictureButton"><?= QObject::htr('Change profile picture') ?></button>
+                    <button id="changeProfilePictureButton"><?= translator()->trans('Change profile picture') ?></button>
                     <form id="changeProfilePictureForm" method="post" action="" style="display:none">
                         <?php foreach([
                             ProfilePicture::Map => 'Map',
-                            ProfilePicture::Gravatar => 'Gravatar <a href="https://gravatar.com/profile/avatars">' . QObject::htr("Change") . '</a>'
+                            ProfilePicture::Gravatar => 'Gravatar <a href="https://gravatar.com/profile/avatars">' . translator()->trans("Change") . '</a>'
                         ] as $profilePictureType => $profilePictureName){ ?>
                             <p>
                                 <label>
@@ -205,8 +205,8 @@ $statistics = $user->statistics();
                             </p>
                         <?php } ?>
                         <p>
-                            <input type="submit" name="changeProfilePicture" value="<?= QObject::htr('OK') ?>"/>
-                            <input type="reset" value="<?= QObject::htr('Cancel') ?>"/>
+                            <input type="submit" name="changeProfilePicture" value="<?= translator()->trans('OK') ?>"/>
+                            <input type="reset" value="<?= translator()->trans('Cancel') ?>"/>
                         </p>
                     </form>
                 <?php } ?>
@@ -215,36 +215,36 @@ $statistics = $user->statistics();
             <div>
                 <!-- Statistics -->
                 <?php if($user->profileVisibleTo($loggedInUser)){ ?>
-                    <h2><?= QObject::htr('Statistics') ?></h2>
+                    <h2><?= translator()->trans('Statistics') ?></h2>
                     <?php if($user instanceof EditableUser){ ?>
                         <form method="post" action="">
                             <label>
-                                <?= QObject::htr('Who can see your statistics') ?>:
+                                <?= translator()->trans('Who can see your statistics') ?>:
                                 <select name="whoCanSeeStatistics">
                                     <?php foreach([
-                                        UserGroup::Me => QObject::htr('Only me'),
-                                        UserGroup::Contacts => QObject::htr('Me and my contacts'),
-                                        UserGroup::Everybody => QObject::htr('Everybody')
+                                        UserGroup::Me => translator()->trans('Only me'),
+                                        UserGroup::Contacts => translator()->trans('Me and my contacts'),
+                                        UserGroup::Everybody => translator()->trans('Everybody')
                                     ] as $userGroup => $userGroupName){ ?>
                                         <option <?= $user->whoCanSeeStatistics() == $userGroup ? "selected" : "" ?> value="<?= $userGroup ?>"><?= $userGroupName ?></option>
                                     <?php } ?>
                                 </select>
                             </label>
-                            <input type="submit" name="changeWhoCanSeeStatistics" value="<?= QObject::htr('OK') ?>"/>
+                            <input type="submit" name="changeWhoCanSeeStatistics" value="<?= translator()->trans('OK') ?>"/>
                         </form>
                     <?php } ?>
-                    <p><?= QObject::htr('Score') . ': ' . $statistics->score() ?></p>
-                    <p><?= QObject::htr('Number of collected maps') . ': ' . $statistics->numberOfMaps() ?></p>
-                    <p><?= QObject::htr('Winning rate') . ': ' . intval(100 * $statistics->winningRate()) ?>%</p>
+                    <p><?= translator()->trans('Score') . ': ' . $statistics->score() ?></p>
+                    <p><?= translator()->trans('Number of collected maps') . ': ' . $statistics->numberOfMaps() ?></p>
+                    <p><?= translator()->trans('Winning rate') . ': ' . intval(100 * $statistics->winningRate()) ?>%</p>
                     <p>
                         <?php
-                        echo QObject::htr('Completed challenges:');
+                        echo translator()->trans('Completed challenges:');
                         if($statistics->numberOfCompletedChallenges(Level::All) > 0){
                             foreach([Level::Easy, Level::Medium, Level::Difficult] as $level){
                                 if($statistics->numberOfCompletedChallenges($level) > 0){
                                     ?>
-                                    <span title="<?= sprintf(QObject::htr('%n %s challenges completed', null, $statistics->numberOfCompletedChallenges($level)), levelToString($level, true)) ?>">
-                                        <img src="<?= STATIC_DOMAIN ?>/images/<?= levelToString($level, false) ?>badge.svg" class="inline" alt="<?= levelToString($level, true) . ' ' . QObject::htr('challenge') ?>"/>
+                                    <span title="<?= translator()->trans('# {level} challenges completed', ['count' => $statistics->numberOfCompletedChallenges($level), 'level' => levelToString($level, true)]) ?>">
+                                        <img src="<?= STATIC_DOMAIN ?>/images/<?= levelToString($level, false) ?>badge.svg" class="inline" alt="<?= levelToString($level, true) . ' ' . translator()->trans('challenge') ?>"/>
                                         <?= $statistics->numberOfCompletedChallenges($level) ?>
                                     </span>
                                     <?php
@@ -252,81 +252,81 @@ $statistics = $user->statistics();
                             }
                         }
                         else{
-                            echo ' ' . QObject::htr('none');
+                            echo ' ' . translator()->trans('none');
                         }
                         ?>
-                        (<a href="<?= localizedUrl('/users/challenges.php?uid=' . $user->id()) ?>"><?= QObject::htr('View details') ?></a>)
+                        (<a href="<?= localizedUrl('/users/challenges.php?uid=' . $user->id()) ?>"><?= translator()->trans('View details') ?></a>)
                     </p>
                 <?php } ?>
 
                 <!-- Account info -->
                 <?php if($user instanceof EditableUser){ ?>
-                    <h2><?= QObject::htr('Account') ?></h2>
+                    <h2><?= translator()->trans('Account') ?></h2>
                     <p id="email">
-                        <?= QObject::htr('Email address:') ?>
+                        <?= translator()->trans('Email address:') ?>
                         <span><?= htmlspecialchars($user->email()) ?></span>
                     </p>
                     <div id="accountButtons">
-                        <button id="changeEmailOrPasswordButton"><?= QObject::htr('Change email or password') ?></button>
+                        <button id="changeEmailOrPasswordButton"><?= translator()->trans('Change email or password') ?></button>
                         <?php if($user->equals($loggedInUser)){ ?>
                             <form method="get" action="<?= localizedUrl("/users/delete.php") ?>" style="display:inline">
-                                <input type="submit" value="<?= QObject::htr('Delete account') ?>"/>
+                                <input type="submit" value="<?= translator()->trans('Delete account') ?>"/>
                             </form>
                         <?php } ?>
                         <form method="post" action="" style="display:inline">
-                            <input type="submit" name="resetStatistics" value="<?= QObject::htr('Reset statistics') ?>"/>
+                            <input type="submit" name="resetStatistics" value="<?= translator()->trans('Reset statistics') ?>"/>
                         </form>
                     </div>
                     <form id="changeEmailOrPasswordForm" method="post" action="" <?= $changeEmailOrPasswordFailed ? '' : 'style="display:none"' ?>>
                         <label>
-                            <?= QObject::htr('Email') ?>:
+                            <?= translator()->trans('Email') ?>:
                             <input type="email" name="email" value="<?= htmlspecialchars($newEmail) ?>" required/>
-                            <span class="formToolTip"><?= QObject::htr('Please enter a valid e-mail address.') ?></span>
+                            <span class="formToolTip"><?= translator()->trans('Please enter a valid e-mail address.') ?></span>
                         </label><br/>
                         <label>
-                            <?= QObject::htr('Confirm email') ?>:
+                            <?= translator()->trans('Confirm email') ?>:
                             <input type="email" name="confirmEmail" value="<?= htmlspecialchars($newConfirmEmail) ?>" required/>
-                            <span class="formToolTip"><?= QObject::htr('The e-mail addresses don\'t match') ?></span>
+                            <span class="formToolTip"><?= translator()->trans('The e-mail addresses don\'t match') ?></span>
                             <?php if($emailAlreadyRegistered){ ?>
-                                <span id="alreadyInUse" class="formToolTip incorrect"><?= QObject::htr('This e-mail address is already in use.') ?> <a href="<?= localizedUrl('/users/login.php') ?>"><?= QObject::htr('Click here to log in.') ?></a></span>
+                                <span id="alreadyInUse" class="formToolTip incorrect"><?= translator()->trans('This e-mail address is already in use.') ?> <a href="<?= localizedUrl('/users/login.php') ?>"><?= translator()->trans('Click here to log in.') ?></a></span>
                             <?php } ?>
                         </label><br/>
                         <label>
-                            <?= QObject::htr('New password') ?>:
+                            <?= translator()->trans('New password') ?>:
                             <input type="password" name="password" autocomplete="new-password"/>
-                            <span class="formToolTip<?= $passwordIsInvalid ? ' incorrect' : '' ?>"><?= sprintf(QObject::htr('Please enter between %d and %n characters.', null, 255), 3) ?></span>
+                            <span class="formToolTip<?= $passwordIsInvalid ? ' incorrect' : '' ?>"><?= translator()->trans('Please enter between {min} and # characters.', ['count' => 255, 'min' => 3]) ?></span>
                         </label><br/>
                         <label>
-                            <?= QObject::htr('Confirm password') ?>:
+                            <?= translator()->trans('Confirm password') ?>:
                             <input type="password" name="confirmPassword" autocomplete="new-password"/>
-                            <span class="formToolTip<?= $passwordsDontMatch ? ' incorrect' : '' ?>"><?= QObject::htr('The passwords don\'t match.') ?></span>
+                            <span class="formToolTip<?= $passwordsDontMatch ? ' incorrect' : '' ?>"><?= translator()->trans('The passwords don\'t match.') ?></span>
                         </label><br/>
                         <label>
-                            <?= QObject::htr('Your current password') ?>:
+                            <?= translator()->trans('Your current password') ?>:
                             <input type="password" name="currentPassword" required/>
                             <?php if($passwordIsWrong){ ?>
-                                <span class="formToolTip incorrect"><?= sprintf(QObject::tr('This password is incorrect. If you forgot your password, you can reset it by <a href="%s">contacting us</a>.'), 'mailto:95423695+GustavLindberg99@users.noreply.github.com') ?></span>
+                                <span class="formToolTip incorrect"><?= sprintf(translator()->trans('This password is incorrect. If you forgot your password, you can reset it by <a href="%s">contacting us</a>.'), 'mailto:95423695+GustavLindberg99@users.noreply.github.com') ?></span>
                             <?php } ?>
                         </label><br/>
-                        <input type="submit" name="changeEmailOrPassword" value="<?= QObject::htr('OK') ?>"/>
-                        <input type="reset" value="<?= QObject::htr('Cancel') ?>"/>
+                        <input type="submit" name="changeEmailOrPassword" value="<?= translator()->trans('OK') ?>"/>
+                        <input type="reset" value="<?= translator()->trans('Cancel') ?>"/>
                     </form>
                 <?php } ?>
 
                 <!-- Admin -->
                 <?php if($loggedInUser !== null && $loggedInUser->hasAdminRights()){ ?>
-                    <h2><?= QObject::htr('Admin') ?></h2>
+                    <h2><?= translator()->trans('Admin') ?></h2>
                     <p>
                         <?php if(IS_LOCALHOST){ ?>
                             <a href="http://localhost/phpmyadmin/">PhpMyAdmin</a><br/>
                         <?php } else{ ?>
-                            <a href="/ftp/"><?= QObject::htr('File Manager') ?></a><br/>
+                            <a href="/ftp/"><?= translator()->trans('File Manager') ?></a><br/>
                             <a href="/pma/">PhpMyAdmin</a><br/>
-                            <a href="https://newserv.freewha.com/"><?= QObject::htr('Control Panel') ?></a><br/>
+                            <a href="https://newserv.freewha.com/"><?= translator()->trans('Control Panel') ?></a><br/>
                             <a href="https://search.google.com/search-console/?resource_id=https%3A%2F%2F<?= htmlspecialchars(urlencode($_SERVER['HTTP_HOST'])) ?>">Google Search Console</a><br/>
                             <a href="https://www.bing.com/webmaster/home/dashboard?url=https%3A%2F%2F<?= htmlspecialchars(urlencode($_SERVER['HTTP_HOST'])) ?>">Bing Webmaster Tools</a><br/>
                             <a href="https://play.google.com/console/u/0/developers/6270415371439825281/app/4972047901472652455/app-dashboard">Google Play Console</a><br/>
-                            <a href="https://www.google.com/recaptcha/admin#site/343332115?setup"><?= QObject::htr('Captcha settings') ?></a>
+                            <a href="https://www.google.com/recaptcha/admin#site/343332115?setup"><?= translator()->trans('Captcha settings') ?></a>
                         <?php } ?>
                     </p>
                 <?php } ?>

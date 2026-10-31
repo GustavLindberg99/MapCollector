@@ -46,12 +46,12 @@ if($formSubmitted){
 <head>
     <?php
         insertMetaTags(
-            QObject::tr('Log in to Map Collector'),
-            [QObject::tr('log in')]
+            translator()->trans('Log in to Map Collector'),
+            [translator()->trans('log in')]
         );
     ?>
 
-    <title><?= APPNAME . ' - ' . QObject::htr('Log in') ?></title>
+    <title><?= APPNAME . ' - ' . translator()->trans('Log in') ?></title>
 
     <script type="module" src="<?= STATIC_DOMAIN ?>/js/forms/main.js" async crossorigin></script>
     <link rel="stylesheet" type="text/css" href="<?= STATIC_DOMAIN ?>/css/forms.css"/>
@@ -62,34 +62,34 @@ if($formSubmitted){
 <body>
     <?php insertHeader(); ?>
     <section>
-        <h1>Map Collector - <?= QObject::htr('Log in') ?></h1>
+        <h1>Map Collector - <?= translator()->trans('Log in') ?></h1>
         <form method="post" action="">
             <?php if($formSubmitted){ ?>
-                <p class="formToolTip incorrect"><?= QObject::htr('You could not be logged in because you did not fill out the form correctly.') . ' ' . sprintf(QObject::tr('If you think this is a bug, please <a href="%s">contact us</a>.'), 'https://github.com/GustavLindberg99/MapCollector/issues') ?></p>
+                <p class="formToolTip incorrect"><?= translator()->trans('You could not be logged in because you did not fill out the form correctly.') . ' ' . sprintf(translator()->trans('If you think this is a bug, please <a href="%s">contact us</a>.'), 'https://github.com/GustavLindberg99/MapCollector/issues') ?></p>
             <?php } ?>
             <label>
-                <?= QObject::htr('Email') ?>:
+                <?= translator()->trans('Email') ?>:
                 <input type="email" name="email" value="<?= htmlspecialchars($email) ?>" required/>
-                <span class="formToolTip"><?= QObject::htr('Please enter a valid e-mail address.') ?></span>
+                <span class="formToolTip"><?= translator()->trans('Please enter a valid e-mail address.') ?></span>
                 <?php if($emailNotRegistered){ ?>
-                    <span id="alreadyInUse" class="formToolTip incorrect"><?= QObject::htr('This e-mail address is not registered.') ?> <a href="<?= localizedUrl('/users/signup.php') ?>"><?= QObject::htr('Click here to create an account.') ?></a> <?= QObject::htr('If you just created your account, please wait a few minutes and try again.') ?></span>
+                    <span id="alreadyInUse" class="formToolTip incorrect"><?= translator()->trans('This e-mail address is not registered.') ?> <a href="<?= localizedUrl('/users/signup.php') ?>"><?= translator()->trans('Click here to create an account.') ?></a> <?= translator()->trans('If you just created your account, please wait a few minutes and try again.') ?></span>
                 <?php } ?>
             </label><br/>
             <label>
-                <?= QObject::htr('Password') ?>:
+                <?= translator()->trans('Password') ?>:
                 <input type="password" name="password" required/>
-                <span class="formToolTip"><?= QObject::htr('Please enter your password.') ?></span>
+                <span class="formToolTip"><?= translator()->trans('Please enter your password.') ?></span>
                 <?php if($passwordIsWrong){ ?>
-                    <span id="wrongPassword" class="formToolTip incorrect"><?= sprintf(QObject::tr('This password is incorrect. If you forgot your password, you can reset it by <a href="%s">contacting us</a>.'), 'mailto:95423695+GustavLindberg99@users.noreply.github.com') ?></span>
+                    <span id="wrongPassword" class="formToolTip incorrect"><?= sprintf(translator()->trans('This password is incorrect. If you forgot your password, you can reset it by <a href="%s">contacting us</a>.'), 'mailto:95423695+GustavLindberg99@users.noreply.github.com') ?></span>
                 <?php } ?>
             </label><br/>
             <label>
                 <input type="checkbox" name="stayLoggedIn" <?= $stayLoggedIn ? "checked" : "" ?>/>
-                <?= QObject::htr('Stay logged in') ?>
+                <?= translator()->trans('Stay logged in') ?>
             </label><br/>
-            <input type="submit" value="<?= QObject::htr('Log in') ?>"/>
+            <input type="submit" value="<?= translator()->trans('Log in') ?>"/>
         </form>
-        <p><a href="/users/signup.php"><?= QObject::htr('Create a free account') ?></a></p>
+        <p><a href="/users/signup.php"><?= translator()->trans('Create a free account') ?></a></p>
     </section>
     <?php insertFooter(); ?>
 </body>

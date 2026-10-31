@@ -1,0 +1,11 @@
+{
+    "# {level} challenges completed": "{count, plural, =0 {# {level} challenges completed} one {# {level} challenge completed} other {# {level} challenges completed}}",
+    "Collect at least # maps in total": "{count, plural, =0 {Collect at least # maps in total} one {Collect at least # map in total} other {Collect at least # maps in total}}",
+    "Win # games in a row": "{count, plural, =0 {Win # games in a row} one {Win # game in a row} other {Win # games in a row}}",
+    "Win # difficult games in a row": "{count, plural, =0 {Win # difficult games in a row} one {Win # difficult game in a row} other {Win # difficult games in a row}}",
+    "Play Map Collector # days in a row": "{count, plural, =0 {Play Map Collector # days in a row} one {Play Map Collector # day in a row} other {Play Map Collector # days in a row}}",
+    "Collect all maps and have at least # seconds left": "{count, plural, =0 {Collect all maps and have at least # seconds left} one {Collect all maps and have at least # second left} other {Collect all maps and have at least # seconds left}}",
+    "You have completed this challenge # times!": "{count, plural, =0 {You have completed this challenge # times!} one {You have completed this challenge # time!} other {You have completed this challenge # times!}}",
+    "{name} has completed this challenge # times.": "{count, plural, =0 {{name} has completed this challenge # times.} one {{name} has completed this challenge # time.} other {{name} has completed this challenge # times.}}",
+    "Please enter between {min} and # characters.": "{count, plural, =0 {Please enter between {min} and # characters.} one {Please enter between {min} and # character.} other {Please enter between {min} and # characters.}}"
+}

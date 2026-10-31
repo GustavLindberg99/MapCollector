@@ -17,6 +17,14 @@
 /app/.kotlin
 /backup.sql
 /htdocs/google*.html
-/htdocs/secret/
-/node_modules
 /package-lock.json
+/htdocs/composer.lock
+
+# Should contain captcha-key.txt, database-username.txt and database-password.txt
+/htdocs/secret/
+
+# To install this, run `cd htdocs && composer install`
+/htdocs/vendor/
+
+# To install this, run `npm install` from the root folder
+/node_modules

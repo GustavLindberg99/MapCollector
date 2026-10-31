@@ -32,7 +32,7 @@ if(isset($_POST['delete'])){
 <html lang="<?= LANGUAGE ?>">
 <head>
     <?php insertMetaTags('', []); ?>
-    <title>Map Collector - <?= QObject::htr('Delete account') ?></title>
+    <title>Map Collector - <?= translator()->trans('Delete account') ?></title>
 
     <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=<?= LANGUAGE ?>" async defer></script>
 
@@ -45,26 +45,26 @@ if(isset($_POST['delete'])){
 <body>
     <?php insertHeader(); ?>
     <article>
-        <h1><?= QObject::htr('Delete account') ?></h1>
+        <h1><?= translator()->trans('Delete account') ?></h1>
         <?php if($deleted) { ?>
-            <p><?= QObject::htr('Your account has been successfully deleted.') ?></p>
-            <p><a href="<?= localizedUrl('/') ?>"><?= QObject::htr('Back to the homepage') ?></a></p>
+            <p><?= translator()->trans('Your account has been successfully deleted.') ?></p>
+            <p><a href="<?= localizedUrl('/') ?>"><?= translator()->trans('Back to the homepage') ?></a></p>
         <?php } else{ ?>
-            <p><?= QObject::htr('Do you really want to delete your account?') ?></p>
-            <p><?= QObject::htr('If you delete your account, all information about your account will be permanently deleted, and it will not be possible to recover any information related to your account.') ?></p>
+            <p><?= translator()->trans('Do you really want to delete your account?') ?></p>
+            <p><?= translator()->trans('If you delete your account, all information about your account will be permanently deleted, and it will not be possible to recover any information related to your account.') ?></p>
             <form method="post" action="">
                 <label>
-                    <?= QObject::htr('Password') ?>:
+                    <?= translator()->trans('Password') ?>:
                     <input type="password" name="password" required/>
                     <?php if($passwordIsWrong){ ?>
-                        <span class="formToolTip incorrect"><?= sprintf(QObject::tr('This password is incorrect. If you forgot your password, you can reset it by <a href="%s">contacting us</a>.'), 'mailto:95423695+GustavLindberg99@users.noreply.github.com') ?></span>
+                        <span class="formToolTip incorrect"><?= sprintf(translator()->trans('This password is incorrect. If you forgot your password, you can reset it by <a href="%s">contacting us</a>.'), 'mailto:95423695+GustavLindberg99@users.noreply.github.com') ?></span>
                     <?php } ?>
                 </label><br/>
                 <?php if($captchaFailed){ ?>
-                    <p class="formToolTip incorrect"><?= QObject::htr('Please confirm that you are not a robot.') ?></p>
+                    <p class="formToolTip incorrect"><?= translator()->trans('Please confirm that you are not a robot.') ?></p>
                 <?php } ?>
                 <div class="g-recaptcha" data-sitekey="<?= SITEKEY ?>"></div>
-                <input type="submit" name="delete" value="<?= QObject::htr('Delete account (WARNING: this can not be undone)') ?>"/>
+                <input type="submit" name="delete" value="<?= translator()->trans('Delete account (WARNING: this can not be undone)') ?>"/>
             </form>
         <?php } ?>
     </article>

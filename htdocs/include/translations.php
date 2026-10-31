@@ -1,15 +1,22 @@
 <?php
 require_once($_SERVER['DOCUMENT_ROOT'] . '/include/setup.php');
 
-require_once($_SERVER['DOCUMENT_ROOT'] . '/include/qtranslator/qtranslator.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php');
 
 if(!defined('NO_LOGIN')){
     require_once($_SERVER['DOCUMENT_ROOT'] . '/include/user/database.php');
     require_once($_SERVER['DOCUMENT_ROOT'] . '/include/user/user.php');
 }
 
-//Returns the equivalent of $page (or the current page if $page is null) in a different language
-function pageInLanguage(string $language, ?string $page = null): string{
+/**
+ * Returns the equivalent of $page (or the current page if $page is null) in a different language.
+ *
+ * @param $language The language of the page to link to.
+ * @param $page     The url to localize (for example `/foo.php`).
+ *
+ * @return The localized url (for example `/fr/foo.php`).
+ */
+function pageInLanguage(string $language, ?string $page = null): string {
     $page = ($page === null) ? $_SERVER['REQUEST_URI'] : $page;
     if(!preg_match('/^(en|fr|sv)?$/', $language)){
         throw new Exception("Language not supported: $language");
@@ -25,8 +32,14 @@ function pageInLanguage(string $language, ?string $page = null): string{
     );
 }
 
-//Returns $url with the appropriate /en, /fr or /sv in front of it depending on the current URL
-function localizedUrl(string $url): string{
+/**
+ * Returns $url with the appropriate /en, /fr or /sv in front of it depending on the current URL.
+ *
+ * @param $url  The plain url (for example `/foo.php`).
+ *
+ * @return The localized url (for example `/fr/foo.php` if the page that's currently open is `/fr/bar.php`).
+ */
+function localizedUrl(string $url): string {
     if(preg_match('/^(https?:\/*)?[^\/]*\/en(\/|$|\?)/', $_SERVER['REQUEST_URI'])){
         return pageInLanguage('en', $url);
     }
@@ -62,7 +75,17 @@ if(!defined('LANGUAGE')){
     define('LANGUAGE', 'en');
 }
 
-//Install the translator
-$translator = new QTranslator();
-$translator->load($_SERVER['DOCUMENT_ROOT'] . '/php-translations/mapcollector_php_' . LANGUAGE . '.ts');
-QCoreApplication::installTranslator($translator);
+//Initialize the translator
+$translator = new \Symfony\Component\Translation\Translator(LANGUAGE);
+$translator->addLoader('json', new \Symfony\Component\Translation\Loader\JsonFileLoader());
+$translator->addResource('json', $_SERVER['DOCUMENT_ROOT'] . '/locale/' . LANGUAGE . '.icu.json', LANGUAGE, 'messages+intl-icu');
+
+/**
+ * Gets the translator. Useful so that we don't have to use `global` in every function.
+ *
+ * @return The translator.
+ */
+function translator(): \Symfony\Component\Translation\Translator {
+    global $translator;
+    return $translator;
+}

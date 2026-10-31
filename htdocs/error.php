@@ -7,45 +7,45 @@ require_once($_SERVER['DOCUMENT_ROOT'] . '/include/html.php');
 ini_set('display_errors', 'off');
 
 $errorNames = [
-    400 => QObject::tr('Bad Request'),
-    401 => QObject::tr('Unauthorized'),
-    402 => QObject::tr('Payment Required'),
-    403 => QObject::tr('Forbidden'),
-    404 => QObject::tr('Page Not Found'),
-    405 => QObject::tr('Method Not Allowed'),
-    406 => QObject::tr('Not Acceptable'),
-    407 => QObject::tr('Proxy Authentication Required'),
-    408 => QObject::tr('Request Timeout'),
-    409 => QObject::tr('Conflict'),
-    410 => QObject::tr('Gone'),
-    411 => QObject::tr('Length Required'),
-    412 => QObject::tr('Precondition Failed'),
-    413 => QObject::tr('Payload Too Large'),
-    414 => QObject::tr('URI Too Long'),
-    415 => QObject::tr('Unsupported Media Type'),
-    416 => QObject::tr('Range Not Satisfiable'),
-    417 => QObject::tr('Expectation Failed'),
-    418 => QObject::tr('I\'m a Teapot'),
-    421 => QObject::tr('Misdirected Request'),
-    422 => QObject::tr('Unprocessable Entity'),
-    423 => QObject::tr('Locked'),
-    424 => QObject::tr('Failed Dependency'),
-    426 => QObject::tr('Upgrade Required'),
-    428 => QObject::tr('Precondition Required'),
-    429 => QObject::tr('Too Many Requests'),
-    431 => QObject::tr('Request Header Fields Too Large'),
-    451 => QObject::tr('Unavailable For Legal Reasons'),
-    500 => QObject::tr('Internal Server Error'),
-    501 => QObject::tr('Not Implemented'),
-    502 => QObject::tr('Bad Gateway'),
-    503 => QObject::tr('Service Unavailable'),
-    504 => QObject::tr('Gateway Timeout'),
-    505 => QObject::tr('HTTP Version Not Supported'),
-    506 => QObject::tr('Variant Also Negotiates'),
-    507 => QObject::tr('Insufficient Storage'),
-    508 => QObject::tr('Loop Detected'),
-    510 => QObject::tr('Not Extended'),
-    511 => QObject::tr('Network Authentication Required')
+    400 => translator()->trans('Bad Request'),
+    401 => translator()->trans('Unauthorized'),
+    402 => translator()->trans('Payment Required'),
+    403 => translator()->trans('Forbidden'),
+    404 => translator()->trans('Page Not Found'),
+    405 => translator()->trans('Method Not Allowed'),
+    406 => translator()->trans('Not Acceptable'),
+    407 => translator()->trans('Proxy Authentication Required'),
+    408 => translator()->trans('Request Timeout'),
+    409 => translator()->trans('Conflict'),
+    410 => translator()->trans('Gone'),
+    411 => translator()->trans('Length Required'),
+    412 => translator()->trans('Precondition Failed'),
+    413 => translator()->trans('Payload Too Large'),
+    414 => translator()->trans('URI Too Long'),
+    415 => translator()->trans('Unsupported Media Type'),
+    416 => translator()->trans('Range Not Satisfiable'),
+    417 => translator()->trans('Expectation Failed'),
+    418 => translator()->trans('I\'m a Teapot'),
+    421 => translator()->trans('Misdirected Request'),
+    422 => translator()->trans('Unprocessable Entity'),
+    423 => translator()->trans('Locked'),
+    424 => translator()->trans('Failed Dependency'),
+    426 => translator()->trans('Upgrade Required'),
+    428 => translator()->trans('Precondition Required'),
+    429 => translator()->trans('Too Many Requests'),
+    431 => translator()->trans('Request Header Fields Too Large'),
+    451 => translator()->trans('Unavailable For Legal Reasons'),
+    500 => translator()->trans('Internal Server Error'),
+    501 => translator()->trans('Not Implemented'),
+    502 => translator()->trans('Bad Gateway'),
+    503 => translator()->trans('Service Unavailable'),
+    504 => translator()->trans('Gateway Timeout'),
+    505 => translator()->trans('HTTP Version Not Supported'),
+    506 => translator()->trans('Variant Also Negotiates'),
+    507 => translator()->trans('Insufficient Storage'),
+    508 => translator()->trans('Loop Detected'),
+    510 => translator()->trans('Not Extended'),
+    511 => translator()->trans('Network Authentication Required')
 ];
 
 if(!isset($errorCode) && isset($_GET['e'])){
@@ -68,13 +68,13 @@ if(preg_match('/\/error\.php\?e=[0-9]*$/i', $_SERVER['REQUEST_URI']) && !IS_LOCA
 http_response_code($errorCode);
 
 function showErrorMessage(string $errorMessage, array $thingsToTry = [], ?string $contactUsMessage = null): void {
-    $contactUsMessage = $contactUsMessage ?? QObject::tr('If you think this is a bug, please <a href="%s">contact us</a>.');
+    $contactUsMessage = $contactUsMessage ?? translator()->trans('If you think this is a bug, please <a href="%s">contact us</a>.');
     $showContactLink = $contactUsMessage !== '';
     $contactUsMessage = sprintf($contactUsMessage, 'https://github.com/GustavLindberg99/MapCollector/issues');
     echo '<p>';
     echo $errorMessage;
     if(sizeof($thingsToTry) > 0){
-        echo ' ' . QObject::htr('You can try the following things:');
+        echo ' ' . translator()->trans('You can try the following things:');
     }
     else if($showContactLink){
         echo ' ' . $contactUsMessage;
@@ -131,14 +131,14 @@ if(!defined('LANGUAGE')){
         if(intdiv($errorCode, 100) === 4){
             switch($errorCode){
                 case 401:
-                    showErrorMessage(QObject::htr('Your account does not have the permissions to access this page.'));
+                    showErrorMessage(translator()->trans('Your account does not have the permissions to access this page.'));
                     break;
                 case 403:
                     showErrorMessage(
-                        QObject::htr('You do not have the permissions to access this page, so this is probably not the page you were looking for.'),
+                        translator()->trans('You do not have the permissions to access this page, so this is probably not the page you were looking for.'),
                         [
-                            sprintf(QObject::tr('Go to the <a href="%1$s">home page</a> to play %2$s.'), htmlspecialchars(localizedUrl('/')), htmlspecialchars(APPNAME)),
-                            sprintf(QObject::tr('Go to the <a href="%s">help page</a> to get help.'), htmlspecialchars('https://github.com/GustavLindberg99/MapCollector/blob/master/README.md'))
+                            sprintf(translator()->trans('Go to the <a href="%1$s">home page</a> to play %2$s.'), htmlspecialchars(localizedUrl('/')), htmlspecialchars(APPNAME)),
+                            sprintf(translator()->trans('Go to the <a href="%s">help page</a> to get help.'), htmlspecialchars('https://github.com/GustavLindberg99/MapCollector/blob/master/README.md'))
                         ]
                     );
                     break;
@@ -147,30 +147,30 @@ if(!defined('LANGUAGE')){
                 case 414:
                     $searchFor = urldecode(basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']));
                     showErrorMessage(
-                        QObject::htr('This page could not be found.'),
+                        translator()->trans('This page could not be found.'),
                         [
-                            sprintf(QObject::tr('Go to the <a href="%1$s">home page</a> to play %2$s.'), htmlspecialchars(localizedUrl('/')), htmlspecialchars(APPNAME)),
-                            sprintf(QObject::tr('Go to the <a href="%s">help page</a> to get help.'), htmlspecialchars('https://github.com/GustavLindberg99/MapCollector/blob/master/README.md')),
-                            sprintf(QObject::htr('Search for %s.'), '<a href="' . htmlspecialchars('https://www.google.com/search?q=site%3A' . htmlspecialchars(urlencode($_SERVER['HTTP_HOST'])) . '+' . htmlspecialchars(str_replace(' ', '+', urlencode($searchFor)))) . '">' . htmlspecialchars($searchFor) . '</a>')
+                            sprintf(translator()->trans('Go to the <a href="%1$s">home page</a> to play %2$s.'), htmlspecialchars(localizedUrl('/')), htmlspecialchars(APPNAME)),
+                            sprintf(translator()->trans('Go to the <a href="%s">help page</a> to get help.'), htmlspecialchars('https://github.com/GustavLindberg99/MapCollector/blob/master/README.md')),
+                            sprintf(translator()->trans('Search for %s.'), '<a href="' . htmlspecialchars('https://www.google.com/search?q=site%3A' . htmlspecialchars(urlencode($_SERVER['HTTP_HOST'])) . '+' . htmlspecialchars(str_replace(' ', '+', urlencode($searchFor)))) . '">' . htmlspecialchars($searchFor) . '</a>')
                         ]
                     );
                     break;
                 case 418:
                     showErrorMessage(
-                        QObject::htr('I\'m not a map, I\'m a teapot.'),
+                        translator()->trans('I\'m not a map, I\'m a teapot.'),
                         [
-                            sprintf(QObject::tr('If you want to collect maps instead of teapots, <a href="%s">click here</a>.'), htmlspecialchars(localizedUrl('/'))),
-                            sprintf(QObject::tr('If you\'re fine with collecting teapots, <a href="%s">click here</a>.'), 'https://www.google.com/teapot'),
-                            sprintf(QObject::tr('If you want to know more, <a href="%s">click here</a>.'), 'https://' . LANGUAGE . '.wikipedia.org/wiki/Hyper_Text_Coffee_Pot_Control_Protocol')
+                            sprintf(translator()->trans('If you want to collect maps instead of teapots, <a href="%s">click here</a>.'), htmlspecialchars(localizedUrl('/'))),
+                            sprintf(translator()->trans('If you\'re fine with collecting teapots, <a href="%s">click here</a>.'), 'https://www.google.com/teapot'),
+                            sprintf(translator()->trans('If you want to know more, <a href="%s">click here</a>.'), 'https://' . LANGUAGE . '.wikipedia.org/wiki/Hyper_Text_Coffee_Pot_Control_Protocol')
                         ],
                         ''
                     );
                     break;
                 case 429:
-                    showErrorMessage(QObject::htr('You have sent too many requests. Please try again later.'));
+                    showErrorMessage(translator()->trans('You have sent too many requests. Please try again later.'));
                     break;
                 default:
-                    showErrorMessage(QObject::htr('The request could not be processed correctly.'));
+                    showErrorMessage(translator()->trans('The request could not be processed correctly.'));
                     break;
             }
         }
@@ -178,10 +178,10 @@ if(!defined('LANGUAGE')){
         else{
             switch($errorCode){
                 case 503:
-                    showErrorMessage(QObject::htr('This page is temporarily unavailable due to server problems. We apologize for the inconvenience. Please try again later.'), [], '');
+                    showErrorMessage(translator()->trans('This page is temporarily unavailable due to server problems. We apologize for the inconvenience. Please try again later.'), [], '');
                     break;
                 default:
-                    showErrorMessage(QObject::htr('An unexpected error occurred. We apologize for the inconvenience.'), [], QObject::tr('If this error persists, please <a href="%s">contact us</a>.') . ' ' . QObject::htr('Please include as much information as possible, including what you were doing before you got this error and any information available in the browser\'s developer tools (accessible by pressing the F12 key and going to Console).'));
+                    showErrorMessage(translator()->trans('An unexpected error occurred. We apologize for the inconvenience.'), [], translator()->trans('If this error persists, please <a href="%s">contact us</a>.') . ' ' . translator()->trans('Please include as much information as possible, including what you were doing before you got this error and any information available in the browser\'s developer tools (accessible by pressing the F12 key and going to Console).'));
                     break;
             }
         }

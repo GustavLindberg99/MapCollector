@@ -1,11 +1,12 @@
 {
   "name": "mapcollector",
-  "version": "7.4.1",
+  "version": "7.4.2",
   "androidVersion": 29,
   "description": "A fun game to explore public transportation systems from around the world",
   "author": "Gustav Lindberg",
   "scripts": {
-    "build": "npx tsc -p src && npx uglifyjs-folder app/app/src/main/assets/static/js -o app/app/src/main/assets/static/js -x .js -e"
+    "build": "npx tsc -p src && npx uglifyjs-folder app/app/src/main/assets/static/js -o app/app/src/main/assets/static/js -x .js -e",
+    "php-validate": "python -c \"import os; import subprocess; from pathlib import Path; [subprocess.run(['php', '-l', it]).returncode and exit(1) for it in Path('htdocs').rglob('*.php') if not it.parts[1] == 'vendor']\""
   },
   "dependencies": {
     "@flatten-js/core": "1.6.x",

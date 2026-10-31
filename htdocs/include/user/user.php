@@ -1,9 +1,9 @@
 <?php
 require_once($_SERVER['DOCUMENT_ROOT'] . '/include/setup.php');
 
-require_once($_SERVER['DOCUMENT_ROOT'] . '/include/user/challenges.php');
 require_once($_SERVER['DOCUMENT_ROOT'] . '/include/user/database.php');
 require_once($_SERVER['DOCUMENT_ROOT'] . '/include/exceptions.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/include/user/challenges.php');
 require_once($_SERVER['DOCUMENT_ROOT'] . '/include/user/level.php');
 require_once($_SERVER['DOCUMENT_ROOT'] . '/include/user/statistics.php');
 require_once($_SERVER['DOCUMENT_ROOT'] . '/include/utils.php');

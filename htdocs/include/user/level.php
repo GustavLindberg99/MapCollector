@@ -3,7 +3,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . '/include/setup.php');
 
 require_once($_SERVER['DOCUMENT_ROOT'] . '/include/user/statistics.php');
 
-require_once($_SERVER['DOCUMENT_ROOT'] . '/include/qtranslator/qtranslator.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/include/translations.php');
 
 abstract class Level{
     const Easy = 0x1;
@@ -23,11 +23,11 @@ abstract class Level{
 function levelToString(int $level, bool $translate = false): string {
     switch($level){
     case Level::Easy:
-        return $translate ? QObject::tr('easy') : 'easy';
+        return $translate ? translator()->trans('easy') : 'easy';
     case Level::Medium:
-        return $translate ? QObject::tr('medium') : 'medium';
+        return $translate ? translator()->trans('medium') : 'medium';
     case Level::Difficult:
-        return $translate ? QObject::tr('difficult') : 'difficult';
+        return $translate ? translator()->trans('difficult') : 'difficult';
     }
-    return $translate ? QObject::tr('none') : 'none';
+    return $translate ? translator()->trans('none') : 'none';
 }

@@ -11,11 +11,11 @@ $loggedInUser = LoggedInUser::userFromCookies();
 <html lang='<?= LANGUAGE ?>'>
 <head>
     <?php insertMetaTags(
-        QObject::tr('A fun game to explore public transportation systems from around the world'),
-        [QObject::tr('game'), QObject::tr('train'), QObject::tr('trains'), QObject::tr('public transportation')]
+        translator()->trans('A fun game to explore public transportation systems from around the world'),
+        [translator()->trans('game'), translator()->trans('train'), translator()->trans('trains'), translator()->trans('public transportation')]
     ); ?>
 
-    <title><?= APPNAME . ' - ' . QObject::htr('A fun game to explore public transportation systems from around the world') ?></title>
+    <title><?= APPNAME . ' - ' . translator()->trans('A fun game to explore public transportation systems from around the world') ?></title>
 
     <!-- Peer.js (library for communicating with the opponent in multiplayer games) and a non-standard meta tag to be able to access the user ID from Javascript. -->
     <?php insertUserInfoMetaTag(); ?>
@@ -57,17 +57,17 @@ $loggedInUser = LoggedInUser::userFromCookies();
     <?php insertCookieBannerIfNeeded(); ?>
     <?php insertHeader(); ?>
     <div class="toolbar">
-        <button id="newGameButton" title="<?= QObject::tr('Exit game') ?>" disabled>
-            <img src="<?= STATIC_DOMAIN ?>/images/newbutton.svg" alt="<?= QObject::tr('Exit game') ?>"/>
+        <button id="newGameButton" title="<?= translator()->trans('Exit game') ?>" disabled>
+            <img src="<?= STATIC_DOMAIN ?>/images/newbutton.svg" alt="<?= translator()->trans('Exit game') ?>"/>
         </button>
-        <button id="pauseButton" class="toggleable" title="<?= QObject::tr('Pause') ?>" disabled>
-            <img src="<?= STATIC_DOMAIN ?>/images/pause.svg" alt="<?= QObject::tr('Pause') ?>"/>
+        <button id="pauseButton" class="toggleable" title="<?= translator()->trans('Pause') ?>" disabled>
+            <img src="<?= STATIC_DOMAIN ?>/images/pause.svg" alt="<?= translator()->trans('Pause') ?>"/>
         </button>
-        <button id="fastForwardButton" title="<?= QObject::tr('Fast forward to destination') ?>" disabled>
-            <img src="<?= STATIC_DOMAIN ?>/images/fast-forward.svg" alt="<?= QObject::tr('Fast forward to destination') ?>"/>
+        <button id="fastForwardButton" title="<?= translator()->trans('Fast forward to destination') ?>" disabled>
+            <img src="<?= STATIC_DOMAIN ?>/images/fast-forward.svg" alt="<?= translator()->trans('Fast forward to destination') ?>"/>
         </button>
-        <button id="helpButton" onclick="window.open('https://github.com/GustavLindberg99/MapCollector/blob/master/README.md')" title="<?= QObject::tr('Help') ?>">
-            <img src="<?= STATIC_DOMAIN ?>/images/help.svg" alt="<?= QObject::tr('Help') ?>"/>
+        <button id="helpButton" onclick="window.open('https://github.com/GustavLindberg99/MapCollector/blob/master/README.md')" title="<?= translator()->trans('Help') ?>">
+            <img src="<?= STATIC_DOMAIN ?>/images/help.svg" alt="<?= translator()->trans('Help') ?>"/>
         </button>
     </div>
     <section role="application"></section>

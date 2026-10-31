@@ -22,13 +22,13 @@ catch(PDOException $e){
 <html lang="<?= LANGUAGE ?>">
 <head>
     <?php insertMetaTags(
-        QObject::tr('Map Collector Users'),
-        [QObject::tr('users'), QObject::tr('list'), QObject::tr('contacts')]
+        translator()->trans('Map Collector Users'),
+        [translator()->trans('users'), translator()->trans('list'), translator()->trans('contacts')]
     ); ?>
 
     <?php insertUserInfoMetaTag(); ?>
 
-    <title>Map Collector - <?= QObject::htr('Users') ?></title>
+    <title>Map Collector - <?= translator()->trans('Users') ?></title>
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js" async crossorigin></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" <?= ASYNC_CSS ?>/>
@@ -43,14 +43,14 @@ catch(PDOException $e){
 <body>
 	<?php insertHeader(); ?>
     <section>
-        <h1><?= QObject::htr('Users') ?></h1>
-        <h2><?= QObject::htr('Your Contacts') ?></h2>
+        <h1><?= translator()->trans('Users') ?></h1>
+        <h2><?= translator()->trans('Your Contacts') ?></h2>
         <div id="contactList" class="contactList"></div>
 
-        <h2><?= QObject::htr('Search for Users') ?></h2>
+        <h2><?= translator()->trans('Search for Users') ?></h2>
         <form id="searchUserForm" method="post" action="">
-            <input type="search" name="search" value="<?= htmlspecialchars($searchQuery) ?>" placeholder="<?= QObject::htr("Search a user...") ?>"/>
-            <input type="submit" value="<?= QObject::htr('Search') ?>"/>
+            <input type="search" name="search" value="<?= htmlspecialchars($searchQuery) ?>" placeholder="<?= translator()->trans("Search a user...") ?>"/>
+            <input type="submit" value="<?= translator()->trans('Search') ?>"/>
         </form>
         <div id="searchResults"></div>
     </section>

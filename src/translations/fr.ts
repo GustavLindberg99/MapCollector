@@ -171,7 +171,7 @@ export const frenchSingularTranslations = {
 } as const;
 
 export const frenchPluralTranslations = {
-    "Please enter between {{arg}} and {{count}} characters.": "Veuillez entrer entre {{arg}} et {{count}} caractère.",
+    "Please enter between {{arg}} and {{count}} characters.": "Veuillez entrer entre {{arg}} et {{count}} caractères.",
     "You have {{count}} maps out of {{total}}.": "Vous avez {{count}} maps sur {{total}}.",
     "{{arg}} has {{count}} maps out of {{total}}.": "{{arg}} a {{count}} maps sur {{total}}.",
     "Remaining time: {{count}} seconds": "Temps qu'il vous reste: {{count}} secondes",

@@ -27,7 +27,7 @@ catch(PDOException $e){
 <html lang="<?= LANGUAGE ?>">
 <head>
     <?php insertMetaTags('', []); ?>
-    <title>Map Collector - <?= QObject::htr('Settings') ?></title>
+    <title>Map Collector - <?= translator()->trans('Settings') ?></title>
 
     <link rel="stylesheet" type="text/css" href="<?= STATIC_DOMAIN ?>/css/forms.css"/>
 
@@ -37,12 +37,12 @@ catch(PDOException $e){
 <body>
 	<?php insertHeader(); ?>
     <section>
-        <h1><?= QObject::htr('Settings') ?></h1>
+        <h1><?= translator()->trans('Settings') ?></h1>
         <?php if(isset($_POST['changeSettings'])){ ?>
-            <p class="formToolTip correct"><?= QObject::tr('The changes were saved successfully.') ?></p>
+            <p class="formToolTip correct"><?= translator()->trans('The changes were saved successfully.') ?></p>
         <?php } ?>
         <form method="post" action="">
-            <h2><?= QObject::htr('Preferred language') ?></h2>
+            <h2><?= translator()->trans('Preferred language') ?></h2>
             <label>
                 <input type="radio" name="language" value="en" <?= ($loggedInUser->language() === 'en') ? "checked" : "" ?>/>
                 <img src="<?= STATIC_DOMAIN ?>/images/countries/united_states.svg" class="inline" alt=""/>
@@ -58,18 +58,18 @@ catch(PDOException $e){
                 <img src="<?= STATIC_DOMAIN ?>/images/countries/sweden.svg" class="inline" alt=""/>
                 Svenska
             </label>
-            <h2><?= QObject::htr('Preferred game variant') ?></h2>
+            <h2><?= translator()->trans('Preferred game variant') ?></h2>
             <label>
                 <input type="radio" name="variant" <?= ($loggedInUser->variant() & GameVariant::Money) ? "" : "checked" ?> value="<?= GameVariant::Time ?>">
                 <img src="<?= STATIC_DOMAIN ?>/images/time.svg" class="inline" alt=""/>
-                <?= QObject::htr('Time') ?>
+                <?= translator()->trans('Time') ?>
             </label><br/>
             <label>
                 <input type="radio" name="variant" <?= ($loggedInUser->variant() & GameVariant::Money) ? "checked" : "" ?> value="<?= GameVariant::Money ?>">
                 <img src="<?= STATIC_DOMAIN ?>/images/money.svg" class="inline" alt=""/>
-                <?= QObject::htr('Money') ?>
+                <?= translator()->trans('Money') ?>
             </label>
-            <p><input type="submit" name="changeSettings" value="<?= QObject::htr('Save') ?>"/></p>
+            <p><input type="submit" name="changeSettings" value="<?= translator()->trans('Save') ?>"/></p>
         </form>
     </section>
     <?php insertFooter(); ?>

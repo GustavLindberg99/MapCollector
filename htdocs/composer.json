@@ -1,0 +1,7 @@
+{
+    "require": {
+        "symfony/translation": "^6.4",
+        "symfony/config": "^6.4",
+        "symfony/polyfill-intl-messageformatter": "^1.43"
+    }
+}
