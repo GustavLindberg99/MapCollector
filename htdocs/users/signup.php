@@ -29,7 +29,7 @@ if($formSubmitted && !$captchaFailed && $password === $confirmPassword && !$lice
     try{
         $user = LoggedInUser::createNewUser($email, $name, $password, LANGUAGE);
         $user->createLogInCookies(isset($_POST['stayLoggedIn']));
-        redirect(303, $_GET['returnurl'] ?? '/users/profile.php');
+        redirect(303, safeReturnUrl($_GET['returnurl'] ?? null) ?? '/users/profile.php');
     }
     catch(InvalidEmailException | InvalidNameException $e){
         //Do nothing, Javascript will take care of this

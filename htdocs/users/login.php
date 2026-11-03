@@ -4,6 +4,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . '/include/error-handler.php');
 
 require_once($_SERVER['DOCUMENT_ROOT'] . '/include/html.php');
 require_once($_SERVER['DOCUMENT_ROOT'] . '/include/user/user.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/include/utils.php');
 
 //Show a 503 error directly if the database isn't working
 try{
@@ -24,7 +25,7 @@ if($formSubmitted){
     try{
         $user = new LoggedInUser($email, $password, false);
         $user->createLogInCookies($stayLoggedIn);
-        redirect(303, $_GET['returnurl'] ?? '/users/profile.php');
+        redirect(303, safeReturnUrl($_GET['returnurl'] ?? null) ?? '/users/profile.php');
     }
     catch(InvalidEmailException $e){
         //Do nothing, Javascript will take care of this

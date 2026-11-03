@@ -55,3 +55,17 @@ function cookieOptions(bool $httponly, int $expires = 365 * 24 * 3600): array {
         'httponly' => $httponly
     ];
 }
+
+/**
+ * Makes sure that the return URL is safe to redirect to.
+ *
+ * @param returnUrl The return URL provided by the user.
+ *
+ * @return The return URL itself if it's an expected redirect target within the same domain, and null otherwise.
+ */
+function safeReturnUrl(?string $returnUrl): ?string {
+    if($returnUrl === null || !preg_match('/^\/([^\/]|$)/', $returnUrl) || preg_match('/[^\x20-\x7E]/', $returnUrl)){
+        return null;
+    }
+    return $returnUrl;
+}
