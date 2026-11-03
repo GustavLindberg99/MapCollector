@@ -25,18 +25,18 @@ abstract class UserGroup{
 }
 
 class User{
-    private $_id;
-    private $_hasAdminRights;
-    protected $_email;
-    protected $_password;
-    protected $_profileIsPublic;
-    protected $_language;
-    protected $_statistics;
-    protected $_name;
-    protected $_profilePictureType;
-    protected $_variant;
-    protected $_contacts;
-    protected $_multiplayerId;
+    private int $_id;
+    private bool $_hasAdminRights;
+    protected string $_email;
+    protected string $_password;
+    protected bool $_profileIsPublic;
+    protected string $_language;
+    protected statistics $_statistics;
+    protected string $_name;
+    protected int $_profilePictureType;
+    protected int $_variant;
+    protected array $_contacts;
+    protected ?string $_multiplayerId;
 
     protected const statisticsKeys = [
         "numberOfWonGames",
@@ -63,7 +63,7 @@ class User{
      * @throws InvalidEmailException if the email address is invalid (can only be thrown if $user is a string).
      * @throws UserNotFoundException if the email address isn't in the database.
      */
-    public function __construct($user){
+    public function __construct(User | int | string $user){
         //If $user is a User object, change it to the user ID
         if($user instanceof User){
             $user = $user->id();
@@ -487,7 +487,7 @@ abstract class EditableUser extends User{
      * @throws InvalidEmailException if the email address is invalid (can only be thrown if $user is a string).
      * @throws UserNotFoundException if the email address isn't in the database.
      */
-    protected function __construct($user){
+    protected function __construct(User | int | string $user){
         parent::__construct($user);
     }
 
@@ -624,7 +624,7 @@ class AdminEditableUser extends EditableUser{
      * @throws InvalidEmailException if the email address is invalid (can only be thrown if $user is a string).
      * @throws UserNotFoundException if the email address isn't in the database.
      */
-    public function __construct($user, LoggedInUser $admin){
+    public function __construct(User | int | string $user, LoggedInUser $admin){
         assert($admin->hasAdminRights());
         parent::__construct($user);
     }

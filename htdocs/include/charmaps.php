@@ -2,8 +2,8 @@
 require_once($_SERVER['DOCUMENT_ROOT'] . '/include/setup.php');
 
 class Map{
-    public $color;
-    public $endStations;
+    public string $color;
+    public string $endStations;
 
     public function __construct(string $color, string $endStations){
         $this->color = $color;

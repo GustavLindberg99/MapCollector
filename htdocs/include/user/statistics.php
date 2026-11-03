@@ -5,18 +5,21 @@ require_once($_SERVER['DOCUMENT_ROOT'] . '/include/user/challenges.php');
 require_once($_SERVER['DOCUMENT_ROOT'] . '/include/user/level.php');
 
 class Statistics{
-    private $_numberOfMaps;
-    private $_numberOfWonGames;
-    private $_numberOfLostGames;
-    private $_currentWinningStreak;
-    private $_longestWinningStreak;
-    private $_numberOfWonMultiplayerGames;
-    private $_numberOfWonMultiplayerGamesAgainstHigherScore;
-    private $_remainingTime;
-    private $_remainingMoney;
-    private $_lastPlayed;
-    private $_currentDaysInARow;
-    private $_highestDaysInARow;
+    //Associative arrays with keys "easy", "medium", "difficult" and "all", and values are numbers
+    private array $_numberOfMaps;
+    private array $_numberOfWonGames;
+    private array $_numberOfLostGames;
+    private array $_currentWinningStreak;
+    private array $_longestWinningStreak;
+    private array $_numberOfWonMultiplayerGames;
+    private array $_numberOfWonMultiplayerGamesAgainstHigherScore;
+    private array $_lastPlayed;
+    private array $_currentDaysInARow;
+    private array $_highestDaysInARow;
+
+    //Associative arrays with keys "easy", "medium", "difficult" and "all", and values are arrays of numbers
+    private array $_remainingTime;
+    private array $_remainingMoney;
 
     /**
      * Constructs a Statistics object from the corresponding JSON. If no parameter is passed, constructs an empty Statistics object, i.e. statistics corresponding to a user that has never played before.
@@ -47,7 +50,7 @@ class Statistics{
      *
      * @return An associative array with "easy", "medium", "difficult" and "all" as keys and $defaultValue for all values.
      */
-    private function defaultStatistics($defaultValue): array {
+    private function defaultStatistics(int | array $defaultValue): array {
         return [
             'easy' => $defaultValue,
             'medium' => $defaultValue,
